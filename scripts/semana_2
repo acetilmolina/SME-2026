@@ -19,7 +19,7 @@ execute:
 
 ## Introducción
 
-En esta actividad se trabaja con el proyecto `Curso_Analisis_Veterinario.Rproj` en RStudio. El objetivo es reconocer la estructura de un proyecto, crear las carpetas de trabajo, comprender los objetos básicos de R (vectores y data frames), importar la base de datos maestra y clasificar sus variables según su naturaleza estadística.
+En esta actividad se trabaja con el proyecto `estadistica-2026-2.Rproj` en RStudio. El objetivo es reconocer la estructura de un proyecto, crear las carpetas de trabajo, comprender los objetos básicos de R (vectores y data frames), importar la base de datos maestra y clasificar sus variables según su naturaleza estadística.
 
 Antes de comenzar, se instalan todos los paquetes que se utilizarán a lo largo del curso, de modo que no haya interrupciones más adelante.
 
