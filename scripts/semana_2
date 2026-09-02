@@ -1,0 +1,336 @@
+---
+title: "Organización del proyecto, importación y clasificación de variables"
+subtitle: "Sistematizacion y Metodos Estadisticos"
+author: "Nombre del estudiante"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: false
+    code-tools: true
+    number-sections: true
+    theme: cosmo
+execute:
+  eval: false
+  warning: false
+  message: false
+---
+
+## Introducción
+
+En esta actividad se trabaja con el proyecto `Curso_Analisis_Veterinario.Rproj` en RStudio. El objetivo es reconocer la estructura de un proyecto, crear las carpetas de trabajo, comprender los objetos básicos de R (vectores y data frames), importar la base de datos maestra y clasificar sus variables según su naturaleza estadística.
+
+Antes de comenzar, se instalan todos los paquetes que se utilizarán a lo largo del curso, de modo que no haya interrupciones más adelante.
+
+## Instalación de paquetes
+
+El siguiente bloque revisa qué paquetes ya están instalados y solo instala los que faltan. Cada paquete se irá explicando en el momento en que se utilice.
+
+```{r}
+#| label: instalar-paquetes
+
+paquetes <- c(
+  # Organización, importación y limpieza
+  "here", "readxl", "readr", "dplyr", "tidyr", "stringr", "janitor",
+
+  # Exploración, tablas y gráficos
+  "skimr", "naniar", "ggplot2", "scales", "gtsummary", "gt",
+
+  # Inferencia y presentación de resultados
+  "broom", "rstatix", "pwr", "nortest", "car", "emmeans", "MASS",
+  "performance",
+
+  # Procedimientos especializados
+  "survival", "survminer", "FactoMineR", "factoextra", "cluster", "mice"
+)
+
+# installed.packages() devuelve los paquetes ya disponibles.
+instalados <- rownames(installed.packages())
+
+# setdiff() identifica cuáles faltan.
+faltantes <- setdiff(paquetes, instalados)
+
+if (length(faltantes) == 0) {
+  message("Todos los paquetes del curso ya están instalados.")
+} else {
+  message("Se instalarán los siguientes paquetes: ", paste(faltantes, collapse = ", "))
+  install.packages(faltantes, dependencies = TRUE)
+}
+
+# Comprobación final.
+no_disponibles <- paquetes[!vapply(paquetes, requireNamespace, logical(1), quietly = TRUE)]
+
+if (length(no_disponibles) > 0) {
+  warning("No se pudieron instalar: ", paste(no_disponibles, collapse = ", "))
+} else {
+  message("Instalación completada correctamente.")
+}
+```
+
+## Verificación de R y RStudio
+
+Antes de organizar el proyecto, se comprueba que R y RStudio funcionan correctamente.
+
+```{r}
+#| label: verificacion-basica
+
+# R.version.string muestra la versión de R instalada.
+R.version.string
+
+# R.home() muestra la carpeta donde se encuentra instalado R.
+R.home()
+
+# Una operación sencilla permite comprobar que la consola responde.
+2 + 2
+
+# c() combina valores y crea un vector.
+valores_prueba <- c(10, 12, 15, 18)
+valores_prueba
+
+# mean() calcula la media de los valores del vector.
+mean(valores_prueba)
+```
+
+```{r}
+#| label: session-info
+
+# sessionInfo() muestra la versión de R, el sistema operativo y los paquetes
+# cargados. Esta información es útil cuando aparece un error técnico.
+sessionInfo()
+```
+
+## Preparación del entorno de trabajo
+
+```{r}
+#| label: limpiar-entorno
+
+# rm() elimina los objetos del Environment. Se usa al inicio para evitar que
+# resultados de una sesión anterior alteren la práctica actual.
+rm(list = ls())
+```
+
+```{r}
+#| label: cargar-paquetes
+
+# library() carga un paquete ya instalado. No debe confundirse con
+# install.packages(), que se utiliza una sola vez para instalarlo.
+library(here)     # construye rutas que funcionan en diferentes computadoras
+library(readxl)   # importa archivos de Excel
+library(dplyr)    # permite seleccionar, filtrar y transformar datos
+library(janitor)  # limpia nombres de variables
+library(readr)    # exporta tablas en formato CSV
+```
+
+## Reconocimiento del proyecto
+
+```{r}
+#| label: reconocer-proyecto
+
+# here() devuelve la carpeta principal del proyecto.
+here()
+
+# getwd() muestra el directorio de trabajo actual. Se presenta para
+# comprender el concepto, pero no se utilizará setwd().
+getwd()
+
+# list.files() permite revisar los archivos disponibles.
+list.files(here())
+list.files(here("datos"))
+list.files(here("scripts"))
+```
+
+## Creación de carpetas de trabajo
+
+```{r}
+#| label: crear-carpetas
+
+# dir.create() crea carpetas desde R.
+# recursive = TRUE permite crear varios niveles a la vez.
+# showWarnings = FALSE evita advertencias si la carpeta ya existe.
+dir.create(
+  here("datos", "procesados"),
+  recursive = TRUE,
+  showWarnings = FALSE
+)
+
+dir.create(
+  here("resultados", "tablas"),
+  recursive = TRUE,
+  showWarnings = FALSE
+)
+
+dir.create(
+  here("resultados", "graficos"),
+  recursive = TRUE,
+  showWarnings = FALSE
+)
+```
+
+## Objetos, vectores y data frames
+
+```{r}
+#| label: objetos-basicos
+
+# <- asigna un valor a un objeto que aparecerá en el Environment.
+numero_animales_esperado <- 720
+nombre_estudio <- "Salud y producción de bovinos lecheros"
+
+numero_animales_esperado
+nombre_estudio
+```
+
+```{r}
+#| label: vector-ejemplo
+
+# c() combina valores para formar un vector.
+produccion_ejemplo <- c(18.5, 22.0, 25.3, 19.8, 27.1)
+
+length(produccion_ejemplo)  # número de elementos
+mean(produccion_ejemplo)    # media
+class(produccion_ejemplo)   # tipo de objeto
+```
+
+```{r}
+#| label: data-frame-ejemplo
+
+# data.frame() construye una tabla pequeña: filas = animales y columnas =
+# variables. Sirve para explicar la estructura que tendrá la base completa.
+ejemplo <- data.frame(
+  id = c("BOV01", "BOV02", "BOV03"),
+  raza = c("Holstein", "Jersey", "Brown Swiss"),
+  produccion_l_dia = c(24.5, 18.2, 22.8),
+  mastitis = c("No", "Sí", "No")
+)
+
+ejemplo
+str(ejemplo)
+```
+
+## Importación de la base de datos
+
+```{r}
+#| label: importar-base
+
+# here() construye la ruta a partir de la carpeta principal del proyecto.
+# Esto evita escribir rutas como C:/Users/Nombre/Documentos/...
+ruta_excel <- here("datos", "Base_maestra_bovinos_lecheros.xlsx")
+
+if (!file.exists(ruta_excel)) {
+  stop("No se encontró la base. Abra el archivo .Rproj desde la carpeta principal.")
+}
+
+# excel_sheets() muestra las hojas del Excel antes de importarlo.
+excel_sheets(ruta_excel)
+
+# read_excel() importa una hoja específica y la guarda como data frame.
+datos_originales <- read_excel(
+  path = ruta_excel,
+  sheet = "DATOS_ORIGINALES"
+)
+```
+
+## Exploración general de la base
+
+```{r}
+#| label: exploracion-general
+
+dim(datos_originales)      # número de filas y columnas
+nrow(datos_originales)     # número de registros
+ncol(datos_originales)     # número de variables
+names(datos_originales)    # nombres originales
+head(datos_originales)     # primeros seis registros
+tail(datos_originales)     # últimos seis registros
+glimpse(datos_originales)  # estructura compacta de las variables
+```
+
+```{r}
+#| label: limpiar-nombres
+
+# clean_names() cambia únicamente los nombres de columnas. Por ejemplo,
+# "Fecha evaluación" se convierte en "fecha_evaluacion".
+datos_nombres_limpios <- datos_originales |>
+  clean_names()
+
+names(datos_nombres_limpios)
+```
+
+```{r}
+#| label: identificadores-unicos
+
+# n_distinct() cuenta valores diferentes. Más adelante se investigará por
+# qué existen más filas que identificadores únicos.
+n_distinct(datos_nombres_limpios$id_animal)
+```
+
+## Clasificación de variables
+
+```{r}
+#| label: clasificacion-variables
+
+clasificacion <- tibble::tribble(
+  ~variable, ~clasificacion_estadistica, ~funcion_en_el_estudio,
+  "id_animal", "Identificador", "Control y trazabilidad",
+  "provincia", "Categórica nominal", "Variable explicativa",
+  "raza", "Categórica nominal", "Variable explicativa",
+  "condicion_corporal", "Categórica ordinal", "Variable explicativa",
+  "produccion_leche_l_dia", "Numérica continua", "Posible resultado",
+  "mastitis", "Categórica dicotómica", "Posible resultado",
+  "severidad_mastitis", "Categórica ordinal", "Posible resultado",
+  "numero_episodios_mastitis", "Conteo", "Posible resultado",
+  "dias_hasta_recuperacion", "Tiempo", "Posible resultado",
+  "recuperada", "Evento dicotómico", "Indicador de evento"
+)
+
+clasificacion
+```
+
+```{r}
+#| label: tabla-clasificacion
+#| eval: true
+#| echo: false
+
+# Vista enriquecida de la tabla de clasificación para el documento
+# renderizado (no requiere haber importado la base).
+clasificacion <- tibble::tribble(
+  ~variable, ~clasificacion_estadistica, ~funcion_en_el_estudio,
+  "id_animal", "Identificador", "Control y trazabilidad",
+  "provincia", "Categórica nominal", "Variable explicativa",
+  "raza", "Categórica nominal", "Variable explicativa",
+  "condicion_corporal", "Categórica ordinal", "Variable explicativa",
+  "produccion_leche_l_dia", "Numérica continua", "Posible resultado",
+  "mastitis", "Categórica dicotómica", "Posible resultado",
+  "severidad_mastitis", "Categórica ordinal", "Posible resultado",
+  "numero_episodios_mastitis", "Conteo", "Posible resultado",
+  "dias_hasta_recuperacion", "Tiempo", "Posible resultado",
+  "recuperada", "Evento dicotómico", "Indicador de evento"
+)
+
+knitr::kable(clasificacion)
+```
+
+## Exportación de resultados
+
+```{r}
+#| label: exportar-resultados
+
+# write_csv() exporta una tabla. El archivo puede abrirse después desde el
+# panel Files de RStudio o desde la carpeta resultados/tablas.
+write_csv(
+  clasificacion,
+  here("resultados", "tablas", "clasificacion_variables.csv")
+)
+
+# capture.output() guarda en un archivo de texto lo que normalmente aparece
+# en la consola. Esto permite conservar evidencia de la estructura de la base.
+capture.output(
+  str(datos_nombres_limpios),
+  file = here("resultados", "estructura_base.txt")
+)
+
+message("Actividad completada. Revise los archivos exportados en la carpeta resultados.")
+```
+
+## Resumen
+
+En esta sesión se instalaron los paquetes necesarios para todo el curso, se verificó el funcionamiento de R y RStudio, se organizó la estructura de carpetas del proyecto, se importó la base de datos maestra y se clasificaron sus variables según su naturaleza estadística y su función en el estudio.
