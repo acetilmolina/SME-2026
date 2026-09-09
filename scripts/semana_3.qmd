@@ -1,0 +1,256 @@
+Objetivos:
+
+1. Identificar duplicados, datos perdidos y categorías inconsistentes.
+2. Corregir errores de texto y de escala mediante código.
+3. Conservar intacta la base original.
+4. Generar una base procesada reproducible.
+
+Antes de ejecutar, abrir `Curso_Analisis_Veterinario.Rproj` desde la carpeta principal del proyecto (no abrir este archivo suelto).
+
+```{r}
+#| label: paquetes
+
+rm(list = ls())
+
+library(here)
+library(readxl)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(janitor)
+library(naniar)
+```
+
+```{r}
+#| label: carpetas
+
+# Cada semana guarda sus productos en una carpeta independiente.
+dir.create(here("datos", "procesados"), recursive = TRUE, showWarnings = FALSE)
+dir.create(here("resultados", "semana_03", "tablas"), recursive = TRUE, showWarnings = FALSE)
+dir.create(here("resultados", "semana_03", "graficos"), recursive = TRUE, showWarnings = FALSE)
+```
+
+```{r}
+#| label: importar-datos
+
+ruta_excel <- here("datos", "Base_maestra_bovinos_lecheros.xlsx")
+
+if (!file.exists(ruta_excel)) {
+  stop("No se encontró la base. Abra el archivo .Rproj desde la carpeta principal.")
+}
+
+datos <- read_excel(
+  ruta_excel,
+  sheet = "DATOS_ORIGINALES"
+) |>
+  clean_names()
+
+dim(datos)
+```
+
+# 1. Duplicados
+
+```{r}
+#| label: duplicados
+
+# duplicated() identifica filas repetidas desde la segunda aparición.
+sum(duplicated(datos))
+
+duplicados <- datos |>
+  filter(duplicated(datos) | duplicated(datos, fromLast = TRUE)) |>
+  arrange(id_animal)
+
+duplicados
+
+# distinct() conserva una sola copia de cada fila exactamente repetida.
+datos <- datos |>
+  distinct()
+```
+
+# 2. Espacios y categorías inconsistentes
+
+```{r}
+#| label: categorias
+
+sort(unique(datos$provincia))
+sort(unique(datos$raza))
+sort(unique(datos$sistema_crianza))
+sort(unique(datos$etapa_lactancia))
+sort(unique(datos$vacunacion_completa))
+
+datos <- datos |>
+  mutate(
+    # str_squish() elimina espacios al inicio/final y espacios repetidos.
+    across(where(is.character), str_squish),
+
+    # str_to_title() uniformiza mayúsculas y minúsculas.
+    provincia = str_to_title(provincia),
+    raza = str_to_title(raza),
+    etapa_lactancia = str_to_title(etapa_lactancia),
+    sistema_crianza = str_to_sentence(sistema_crianza),
+
+    # recode() corrige variantes conocidas sin modificar otras categorías.
+    raza = recode(
+      raza,
+      "Brown Swiss" = "Brown Swiss"
+    ),
+    sistema_crianza = recode(
+      sistema_crianza,
+      "Semi intensivo" = "Semi-intensivo"
+    ),
+    tipo_alimentacion = recode(
+      tipo_alimentacion,
+      "Alta energia" = "Alta energía"
+    ),
+    vacunacion_completa = case_when(
+      str_to_upper(vacunacion_completa) %in% c("SI", "SÍ") ~ "Sí",
+      str_to_upper(vacunacion_completa) == "NO" ~ "No",
+      TRUE ~ vacunacion_completa
+    )
+  )
+```
+
+# 3. Valores perdidos
+
+```{r}
+#| label: faltantes
+
+# colSums(is.na()) cuenta valores perdidos por variable.
+faltantes_antes <- tibble(
+  variable = names(datos),
+  n_faltantes = colSums(is.na(datos)),
+  porcentaje = round(100 * n_faltantes / nrow(datos), 1)
+) |>
+  arrange(desc(porcentaje))
+
+faltantes_antes
+
+# vis_miss() muestra la distribución de los valores perdidos.
+grafico_faltantes <- vis_miss(datos, sort_miss = TRUE) +
+  ggplot2::labs(title = "Patrón inicial de datos perdidos")
+
+grafico_faltantes
+
+ggplot2::ggsave(
+  here("resultados", "semana_03", "graficos", "datos_perdidos.png"),
+  grafico_faltantes,
+  width = 11,
+  height = 6,
+  dpi = 300
+)
+```
+
+No se imputan datos en esta semana. La imputación múltiple corresponde a la semana 14. Por ahora se identifica y documenta el problema.
+
+# 4. Errores de escala y rangos plausibles
+
+```{r}
+#| label: escala
+
+datos |>
+  filter(peso_kg < 200 | peso_kg > 900) |>
+  select(id_animal, peso_kg)
+
+datos |>
+  filter(temperatura_c < 30 | temperatura_c > 43) |>
+  select(id_animal, temperatura_c)
+
+datos |>
+  filter(produccion_leche_l_dia > 60) |>
+  select(id_animal, produccion_leche_l_dia)
+
+# Los errores fueron generados por desplazamiento decimal. Se corrigen mediante
+# reglas visibles y justificadas, no editando las celdas manualmente.
+datos <- datos |>
+  mutate(
+    peso_kg = if_else(peso_kg < 200, peso_kg * 10, peso_kg),
+    temperatura_c = if_else(temperatura_c < 30, temperatura_c * 10, temperatura_c),
+    produccion_leche_l_dia = if_else(
+      produccion_leche_l_dia > 60,
+      produccion_leche_l_dia / 10,
+      produccion_leche_l_dia
+    )
+  )
+```
+
+# 5. Tipos de variables
+
+```{r}
+#| label: tipos
+
+datos <- datos |>
+  mutate(
+    fecha_evaluacion = as.Date(fecha_evaluacion),
+    provincia = factor(provincia),
+    raza = factor(raza),
+    etapa_lactancia = factor(
+      etapa_lactancia,
+      levels = c("Temprana", "Media", "Tardía"),
+      ordered = TRUE
+    ),
+    sistema_crianza = factor(sistema_crianza),
+    tipo_alimentacion = factor(tipo_alimentacion),
+    vacunacion_completa = factor(vacunacion_completa, levels = c("No", "Sí")),
+    mastitis = factor(mastitis, levels = c("No", "Sí")),
+    severidad_mastitis = factor(
+      severidad_mastitis,
+      levels = c("Sin mastitis", "Leve", "Moderada", "Grave"),
+      ordered = TRUE
+    ),
+    tratamiento = factor(tratamiento),
+    recuperada = as.integer(recuperada)
+  )
+```
+
+# 6. Comprobaciones finales
+
+```{r}
+#| label: comprobaciones
+
+stopifnot(nrow(datos) == 720)
+stopifnot(n_distinct(datos$id_animal) == 720)
+stopifnot(all(datos$peso_kg >= 200 & datos$peso_kg <= 900, na.rm = TRUE))
+stopifnot(all(datos$temperatura_c >= 30 & datos$temperatura_c <= 43, na.rm = TRUE))
+stopifnot(all(datos$produccion_leche_l_dia <= 60, na.rm = TRUE))
+
+glimpse(datos)
+```
+
+```{r}
+#| label: exportar
+
+# write_csv() guarda las categorías como texto. En las semanas posteriores se
+# volverán a declarar como factores cuando sea necesario.
+write_csv(
+  datos,
+  here("datos", "procesados", "base_bovinos_procesada.csv"),
+  na = ""
+)
+
+write_csv(
+  faltantes_antes,
+  here("resultados", "semana_03", "tablas", "resumen_faltantes.csv")
+)
+
+write_csv(
+  duplicados,
+  here("resultados", "semana_03", "tablas", "registros_duplicados.csv")
+)
+
+registro_limpieza <- tibble::tribble(
+  ~problema, ~procedimiento,
+  "Filas duplicadas", "Se conservaron registros únicos mediante distinct()",
+  "Espacios y mayúsculas", "Se uniformizaron con str_squish() y funciones str_to_*()",
+  "Categorías inconsistentes", "Se corrigieron con recode() y case_when()",
+  "Errores de escala", "Se aplicaron reglas visibles con if_else()",
+  "Datos perdidos", "Se identificaron y documentaron; no se imputaron"
+)
+
+write_csv(
+  registro_limpieza,
+  here("resultados", "semana_03", "tablas", "registro_limpieza.csv")
+)
+
+message("Base procesada creada: datos/procesados/base_bovinos_procesada.csv")
+```
