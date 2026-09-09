@@ -5,7 +5,7 @@ Objetivos:
 3. Conservar intacta la base original.
 4. Generar una base procesada reproducible.
 
-Antes de ejecutar, abrir `Curso_Analisis_Veterinario.Rproj` desde la carpeta principal del proyecto (no abrir este archivo suelto).
+Antes de ejecutar, abrir `estadistica-2026-2.Rproj` desde la carpeta principal del proyecto (no abrir este archivo suelto).
 
 ```{r}
 #| label: paquetes
