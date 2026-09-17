@@ -179,7 +179,7 @@ a medio generar.
 columnas_necesarias <- c(
   "provincia", "raza", "mastitis", "vacunacion_completa",
   "edad_meses", "peso_kg", "produccion_leche_l_dia",
-  "rcc_miles_ml", "numero_partos", "condicion_corporal"
+  "rcc_miles_m_l", "numero_partos", "condicion_corporal"
 )
 
 columnas_faltantes <- setdiff(columnas_necesarias, names(datos))
@@ -596,7 +596,7 @@ skim(
       edad_meses,
       peso_kg,
       produccion_leche_l_dia,
-      rcc_miles_ml
+      rcc_miles_m_l
     )
 )
 ```
