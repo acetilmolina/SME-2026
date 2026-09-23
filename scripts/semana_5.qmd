@@ -1,21 +1,3 @@
----
-title: "Semana 5. Estadística descriptiva II: Visualización"
-subtitle: "Elección de gráficos según el tipo de variable e interpretación de patrones"
-author: "Tu nombre"
-date: today
-format:
-  html:
-    toc: true
-    toc-depth: 3
-    code-fold: show
-    embed-resources: true
-    theme: cosmo
-execute:
-  warning: false
-  message: false
-editor: visual
----
-
 # Semana 5. Estadística descriptiva II: Visualización
 
 ## Introducción
