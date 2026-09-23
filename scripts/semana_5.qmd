@@ -1,0 +1,334 @@
+---
+title: "Semana 5. Estadística descriptiva II: Visualización"
+subtitle: "Elección de gráficos según el tipo de variable e interpretación de patrones"
+author: "Tu nombre"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: show
+    embed-resources: true
+    theme: cosmo
+execute:
+  warning: false
+  message: false
+editor: visual
+---
+
+# Semana 5. Estadística descriptiva II: Visualización
+
+## Introducción
+
+En la Semana 4 se resumieron las variables mediante tablas: frecuencias,
+porcentajes, medias, desviaciones estándar, medianas y rangos intercuartílicos.
+
+Esta semana se trabaja con el mismo tipo de resúmenes, pero **de forma visual**.
+Un gráfico bien elegido comunica en segundos un patrón que en una tabla puede
+tomar varias líneas de lectura — pero un gráfico mal elegido puede ocultar o
+distorsionar ese mismo patrón.
+
+## Objetivos
+
+Los objetivos de esta semana son:
+
+1. Elegir un gráfico de acuerdo con el tipo de variables (categórica, numérica,
+   o una combinación de ambas).
+2. Diferenciar cuatro propósitos distintos de un gráfico: **frecuencia**,
+   **distribución**, **comparación** y **relación**.
+3. Construir gráficos legibles y reproducibles, con títulos, ejes y colores
+   consistentes.
+4. Interpretar el patrón que muestra el gráfico, no solo describir sus colores
+   o su forma.
+
+> **Importante:** un gráfico es una herramienta descriptiva, igual que las
+> tablas de la Semana 4. Mostrar una diferencia visualmente no equivale a
+> demostrar que esa diferencia es estadísticamente significativa; eso se
+> abordará en etapas posteriores del curso.
+
+# 1. Preparación del entorno
+
+Se cargan los paquetes necesarios para importar los datos, transformarlos y
+construir los gráficos.
+
+* `ggplot2` construye los gráficos por capas (datos + geometría + escalas +
+  etiquetas + tema).
+* `scales` provee funciones auxiliares para formatear los ejes (por ejemplo,
+  `percent_format()` para mostrar proporciones como porcentajes).
+
+```{r}
+#| label: cargar-paquetes
+
+library(here)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(scales)
+
+message("Paquetes cargados correctamente.")
+```
+
+# 2. Importación de la base procesada
+
+Se utiliza la misma base procesada en la Semana 3/4:
+`datos/procesados/base_bovinos_procesada.csv`.
+
+Como en semanas anteriores, las variables categóricas que se van a graficar se
+convierten explícitamente a factor. Además, `etapa_lactancia` se define como
+**factor ordenado** (`ordered = TRUE`), porque sus categorías tienen una
+secuencia lógica (Temprana → Media → Tardía) que conviene respetar en los
+gráficos en lugar de dejar que R las ordene alfabéticamente.
+
+```{r}
+#| label: importar-base
+
+datos <- read_csv(
+  here("datos", "procesados", "base_bovinos_procesada.csv"),
+  show_col_types = FALSE
+) |>
+  mutate(
+    mastitis = factor(mastitis, levels = c("No", "Sí")),
+    etapa_lactancia = factor(
+      etapa_lactancia,
+      levels = c("Temprana", "Media", "Tardía"),
+      ordered = TRUE
+    )
+  )
+
+message("Base procesada importada correctamente.")
+```
+
+# 3. Tema gráfico del curso
+
+En lugar de repetir el mismo bloque `theme(...)` en cada gráfico, se define
+**una sola vez** un tema común (`tema_curso`) y se reutiliza en todos los
+gráficos de esta semana. Esto asegura que todos los gráficos del informe
+tengan el mismo estilo (tamaño de letra, ubicación de la leyenda, títulos en
+negrita) y evita errores de copiar y pegar.
+
+```{r}
+#| label: definir-tema
+
+tema_curso <- theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    legend.position = "bottom"
+  )
+
+message("Tema gráfico del curso definido.")
+```
+
+# 4. Elección del gráfico según el tipo de variable
+
+La elección del gráfico depende de **qué tipo de variables** se quieren
+mostrar y **qué se quiere comunicar** con ellas:
+
+| Variables a graficar            | Propósito     | Gráfico recomendado         |
+|----------------------------------|---------------|------------------------------|
+| 1 categórica                     | Frecuencia    | Gráfico de barras            |
+| 1 numérica                       | Distribución  | Histograma                   |
+| 1 categórica + 1 numérica        | Comparación   | Diagrama de cajas (boxplot)  |
+| 2 categóricas                    | Comparación   | Barras de proporciones       |
+| 2 numéricas                      | Relación      | Diagrama de dispersión       |
+
+A continuación se construye un gráfico para cada uno de estos cinco casos,
+usando siempre la misma base de datos y el mismo `tema_curso`.
+
+## 4.1. Una variable categórica: gráfico de barras (frecuencia)
+
+Cuando la variable es categórica, la pregunta habitual es "¿cuántos casos hay
+en cada categoría?". El gráfico de barras muestra exactamente eso: una barra
+por categoría, cuya altura es la frecuencia (el conteo) de esa categoría.
+
+```{r}
+#| label: fig-barras-raza
+#| fig-cap: "Distribución de bovinos según raza"
+
+g1 <- ggplot(datos, aes(x = raza)) +
+  geom_bar(fill = "#0F766E") +
+  labs(
+    title = "Distribución de bovinos según raza",
+    x = "Raza",
+    y = "Número de animales"
+  ) +
+  tema_curso
+
+g1
+```
+
+**Interpretación:** el gráfico no solo dice "hay barras de distinto tamaño";
+hay que señalar cuál es la raza más frecuente, cuál la menos frecuente, y si
+la muestra está razonablemente balanceada entre razas o concentrada en una
+sola. Esa lectura del patrón es la que se espera en el informe, no una
+descripción de los colores de las barras.
+
+## 4.2. Una variable numérica: histograma (distribución)
+
+Cuando la variable es numérica, la pregunta habitual es "¿cómo se distribuyen
+los valores?". El histograma agrupa los valores en intervalos (`binwidth`) y
+muestra cuántas observaciones caen en cada intervalo, permitiendo ver la forma
+de la distribución (simétrica, sesgada, con uno o más picos).
+
+```{r}
+#| label: fig-histograma-produccion
+#| fig-cap: "Distribución de la producción diaria de leche"
+
+g2 <- ggplot(datos, aes(x = produccion_leche_l_dia)) +
+  geom_histogram(binwidth = 2, fill = "#2563EB", color = "white") +
+  labs(
+    title = "Distribución de la producción diaria de leche",
+    x = "Producción (L/día)",
+    y = "Frecuencia"
+  ) +
+  tema_curso
+
+g2
+```
+
+**Interpretación:** conviene describir dónde se concentra la mayoría de los
+datos, si la distribución es aproximadamente simétrica o está sesgada hacia
+algún lado, y si hay valores que se alejan claramente del resto (posibles
+valores atípicos). Esta lectura conecta directamente con la Semana 4, donde
+se decidió entre media/DE y mediana/RIC según la forma de la distribución.
+
+## 4.3. Categórica + numérica: diagrama de cajas (comparación)
+
+Cuando se combina una variable categórica con una numérica, la pregunta
+habitual es "¿la variable numérica se comporta distinto entre grupos?". El
+diagrama de cajas (*boxplot*) resume la distribución numérica (mediana, Q1,
+Q3 y valores atípicos) por separado para cada categoría, facilitando la
+comparación visual entre grupos.
+
+```{r}
+#| label: fig-cajas-mastitis
+#| fig-cap: "Producción de leche según presencia de mastitis"
+
+g3 <- ggplot(datos, aes(x = mastitis, y = produccion_leche_l_dia, fill = mastitis)) +
+  geom_boxplot(alpha = 0.8, na.rm = TRUE) +
+  scale_fill_manual(values = c("No" = "#0F766E", "Sí" = "#DC2626")) +
+  labs(
+    title = "Producción de leche según presencia de mastitis",
+    x = "Mastitis",
+    y = "Producción (L/día)"
+  ) +
+  tema_curso
+
+g3
+```
+
+**Interpretación:** lo relevante es comparar la posición de las cajas (¿el
+grupo con mastitis tiende a producir menos leche?) y su tamaño (¿la
+dispersión es similar entre grupos o uno de ellos es más variable?), además
+de señalar si hay valores atípicos marcados como puntos fuera de los
+bigotes.
+
+## 4.4. Dos variables categóricas: barras de proporciones (comparación)
+
+Cuando se combinan dos variables categóricas, comparar frecuencias absolutas
+puede ser engañoso si los grupos tienen tamaños distintos. Por eso se usa
+`position = "fill"`, que convierte cada barra en una proporción (0 a 100%),
+permitiendo comparar la composición interna de cada grupo sin que el tamaño
+del grupo distorsione la comparación.
+
+```{r}
+#| label: fig-proporcion-mastitis
+#| fig-cap: "Proporción de mastitis según vacunación"
+
+g4 <- ggplot(datos, aes(x = vacunacion_completa, fill = mastitis)) +
+  geom_bar(position = "fill") +
+  scale_y_continuous(labels = percent_format()) +
+  scale_fill_manual(values = c("No" = "#0F766E", "Sí" = "#DC2626")) +
+  labs(
+    title = "Proporción de mastitis según vacunación",
+    x = "Vacunación completa",
+    y = "Proporción",
+    fill = "Mastitis"
+  ) +
+  tema_curso
+
+g4
+```
+
+**Interpretación:** la lectura debe centrarse en si la proporción de animales
+con mastitis (segmento rojo) es visiblemente distinta entre quienes tienen
+vacunación completa y quienes no. Al estar expresado en porcentaje, esta
+comparación es válida aunque el número total de animales vacunados y no
+vacunados sea distinto.
+
+## 4.5. Dos variables numéricas: diagrama de dispersión (relación)
+
+Cuando ambas variables son numéricas, la pregunta habitual es "¿existe una
+relación entre ellas?". El diagrama de dispersión ubica cada animal como un
+punto según sus dos valores numéricos. Se usa `geom_jitter()` en lugar de
+`geom_point()` porque `condicion_corporal` toma pocos valores discretos
+(por ejemplo, 2.5, 3, 3.5); sin *jitter* muchos puntos quedarían exactamente
+superpuestos y no se podría apreciar cuántas observaciones hay en cada
+posición. La línea de tendencia (`geom_smooth(method = "lm")`) resume la
+relación lineal promedio y su banda sombreada representa la incertidumbre de
+esa estimación.
+
+```{r}
+#| label: fig-dispersion
+#| fig-cap: "Condición corporal y producción de leche"
+
+g5 <- ggplot(datos, aes(x = condicion_corporal, y = produccion_leche_l_dia)) +
+  geom_jitter(alpha = 0.35, width = 0.08, color = "#334155", na.rm = TRUE) +
+  geom_smooth(method = "lm", se = TRUE, color = "#DC2626", na.rm = TRUE) +
+  labs(
+    title = "Condición corporal y producción de leche",
+    x = "Condición corporal",
+    y = "Producción (L/día)"
+  ) +
+  tema_curso
+
+g5
+```
+
+**Interpretación:** conviene señalar la dirección de la línea de tendencia
+(¿a mayor condición corporal, mayor o menor producción?), qué tan dispersos
+están los puntos alrededor de esa línea (una nube muy dispersa sugiere una
+relación débil) y si esa dispersión es similar en todo el rango de condición
+corporal.
+
+> Como en la Semana 4, observar un patrón o una tendencia en un gráfico
+> describe una asociación, pero no prueba una relación de causa y efecto.
+
+# 5. Exportación de los gráficos
+
+Los cinco gráficos se guardan como archivos `.png` en `resultados/graficos/`,
+para poder incluirlos directamente en un informe, una presentación o un
+documento aparte, sin depender de volver a ejecutar este `.qmd`.
+
+`dir.create()` se ejecuta antes de guardar para asegurar que la carpeta de
+destino exista, incluso si es la primera vez que se corre este documento en
+un equipo nuevo.
+
+```{r}
+#| label: exportar-graficos
+
+dir.create(here("resultados", "graficos"), recursive = TRUE, showWarnings = FALSE)
+
+ggsave(here("resultados", "graficos", "semana_05_barras_raza.png"), g1, width = 8, height = 5, dpi = 300)
+ggsave(here("resultados", "graficos", "semana_05_histograma_produccion.png"), g2, width = 8, height = 5, dpi = 300)
+ggsave(here("resultados", "graficos", "semana_05_cajas_mastitis.png"), g3, width = 8, height = 5, dpi = 300)
+ggsave(here("resultados", "graficos", "semana_05_proporcion_mastitis.png"), g4, width = 8, height = 5, dpi = 300)
+ggsave(here("resultados", "graficos", "semana_05_dispersion.png"), g5, width = 8, height = 5, dpi = 300)
+
+message("Los 5 gráficos fueron exportados en resultados/graficos.")
+```
+
+# 6. Resumen de la Semana 5
+
+Durante esta semana se construyeron cinco gráficos, cada uno adecuado al tipo
+de variables involucradas:
+
+* Gráfico de barras para una variable categórica (frecuencia por raza).
+* Histograma para una variable numérica (distribución de la producción de leche).
+* Diagrama de cajas para categórica + numérica (producción según mastitis).
+* Barras de proporciones para dos variables categóricas (mastitis según
+  vacunación).
+* Diagrama de dispersión para dos variables numéricas (condición corporal y
+  producción de leche).
+
+Los cinco gráficos comparten un mismo tema visual (`tema_curso`) y fueron
+exportados a `resultados/graficos/` para su uso posterior.
