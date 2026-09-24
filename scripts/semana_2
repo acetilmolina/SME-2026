@@ -1,22 +1,3 @@
----
-title: "Organización del proyecto, importación y clasificación de variables"
-subtitle: "Sistematizacion y Metodos Estadisticos"
-author: "Nombre del estudiante"
-date: today
-format:
-  html:
-    toc: true
-    toc-depth: 3
-    code-fold: false
-    code-tools: true
-    number-sections: true
-    theme: cosmo
-execute:
-  eval: false
-  warning: false
-  message: false
----
-
 ## Introducción
 
 En esta actividad se trabaja con el proyecto `estadistica-2026-2.Rproj` en RStudio. El objetivo es reconocer la estructura de un proyecto, crear las carpetas de trabajo, comprender los objetos básicos de R (vectores y data frames), importar la base de datos maestra y clasificar sus variables según su naturaleza estadística.
