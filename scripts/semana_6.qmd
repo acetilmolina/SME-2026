@@ -26,37 +26,71 @@ Los objetivos de esta semana son:
 > completa — eso se abordará cuando se calculen valores p en semanas
 > posteriores.
 
+## Requisitos previos
+
+Antes de ejecutar este script es necesario:
+
+1. Haber ejecutado antes el script que genera
+   `datos/procesados/base_bovinos_procesada.csv` (Semana 3), ya que este
+   script parte de ese archivo.
+2. Tener instalados los paquetes `here`, `readr`, `dplyr`, `tibble` y `pwr`.
+   Si falta alguno, el primer bloque de código de este documento se detiene
+   con la instrucción exacta para instalarlo — **no** es necesario instalar
+   nada a mano antes de correr el script.
+3. Abrir este archivo dentro del proyecto de RStudio (el archivo `.Rproj`),
+   para que `here()` pueda ubicar las carpetas del proyecto correctamente.
+
 # 1. Preparación del entorno
 
-Se cargan los paquetes necesarios. Además de `here`, `readr` y `dplyr` (ya
-usados en semanas anteriores), esta semana se incorpora:
+Se verifica primero que todos los paquetes necesarios estén instalados. Si
+falta alguno, el script se detiene con un mensaje que indica exactamente qué
+instalar **en la Consola**, en vez de instalarlo automáticamente dentro del
+propio script.
 
-* `pwr`: provee funciones para calcular tamaño muestral y potencia
-  estadística (por ejemplo, `pwr.2p.test()` para comparar dos proporciones).
-* `tibble`: se usa explícitamente para construir tablas de resultados propias
-  (no derivadas directamente de `datos`), como los resúmenes de tamaño
-  muestral e intervalo de confianza.
+> **¿Por qué no poner `install.packages()` directamente en el script?**
+> Si un paquete ya está cargado en la sesión (por ejemplo, porque el script
+> ya se corrió antes), volver a instalarlo obliga a RStudio a **reiniciar la
+> sesión de R** para poder reemplazar el paquete que está en uso. Ese
+> reinicio borra todo lo que estaba cargado — incluido `here` — y hace que el
+> resto del script falle con errores como `no se pudo encontrar la función
+> "here"`. Por eso aquí solo se *verifica* si el paquete está instalado; si
+> falta, instalarlo se hace una sola vez y a mano, desde la Consola, nunca
+> desde un *chunk* del documento.
 
 ```{r}
 #| label: cargar-paquetes
 
-library(here)
-library(readr)
-library(dplyr)
-library(tibble)
-library(pwr)
+# Paquetes que este script necesita para funcionar.
+# here, readr, dplyr y tibble ya se usaron en semanas anteriores.
+# pwr es nuevo esta semana: provee funciones para calcular tamaño muestral y
+# potencia estadística (por ejemplo, pwr.2p.test() para comparar proporciones).
+paquetes_necesarios <- c("here", "readr", "dplyr", "tibble", "pwr")
 
-message("Paquetes cargados correctamente.")
-```
+paquetes_faltantes <- paquetes_necesarios[
+  !sapply(paquetes_necesarios, requireNamespace, quietly = TRUE)
+]
 
-Si `pwr` no está instalado, ejecuta una sola vez en la Consola (no en un
-*chunk* del documento):
+if (length(paquetes_faltantes) > 0) {
+  stop(
+    "Faltan instalar los siguientes paquetes: ",
+    paste(paquetes_faltantes, collapse = ", "), ".\n",
+    "Ejecuta esta línea en la Consola (no en un chunk) y vuelve a intentarlo:\n",
+    "install.packages(c(",
+    paste0('"', paquetes_faltantes, '"', collapse = ", "),
+    "))",
+    call. = FALSE
+  )
+}
 
-```{r}
-#| label: instalar-pwr
-#| eval: false
+suppressPackageStartupMessages({
+  library(here)
+  library(readr)
+  library(dplyr)
+  library(tibble)
+  library(pwr)
+})
 
-install.packages("pwr")
+message("Paquetes verificados y cargados correctamente.")
 ```
 
 # 2. Creación de las carpetas de resultados
@@ -67,25 +101,74 @@ guardarán las tablas y los gráficos de esta semana.
 ```{r}
 #| label: crear-carpetas
 
-dir.create(here("resultados", "semana_06", "tablas"), recursive = TRUE, showWarnings = FALSE)
-dir.create(here("resultados", "semana_06", "graficos"), recursive = TRUE, showWarnings = FALSE)
+dir.create(
+  here("resultados", "semana_06", "tablas"),
+  recursive = TRUE,
+  showWarnings = FALSE
+)
+
+dir.create(
+  here("resultados", "semana_06", "graficos"),
+  recursive = TRUE,
+  showWarnings = FALSE
+)
 
 message("Carpetas de resultados verificadas correctamente.")
 ```
 
 # 3. Importación de la base procesada
 
-Se utiliza la misma base procesada de semanas anteriores.
+Se utiliza la misma base procesada de semanas anteriores. Antes de
+importarla se comprueba que el archivo exista, para no fallar con un error
+críptico si todavía no se ha corrido el script que la genera.
 
 ```{r}
 #| label: importar-base
 
+ruta_base_procesada <- here(
+  "datos",
+  "procesados",
+  "base_bovinos_procesada.csv"
+)
+
+if (!file.exists(ruta_base_procesada)) {
+  stop(
+    "No se encontró el archivo:\n  ", ruta_base_procesada, "\n\n",
+    "Este archivo lo genera el script de la Semana 3. ",
+    "Ejecútalo primero y luego vuelve a correr este script.",
+    call. = FALSE
+  )
+}
+
 datos <- read_csv(
-  here("datos", "procesados", "base_bovinos_procesada.csv"),
+  ruta_base_procesada,
   show_col_types = FALSE
 )
 
-message("Base procesada importada correctamente.")
+message(
+  "Base procesada importada correctamente (",
+  nrow(datos), " registros, ", ncol(datos), " variables)."
+)
+```
+
+También se verifica que las columnas que se usarán esta semana estén
+presentes en la base:
+
+```{r}
+#| label: verificar-columnas
+
+columnas_necesarias <- c("mastitis", "vacunacion_completa")
+columnas_faltantes <- setdiff(columnas_necesarias, names(datos))
+
+if (length(columnas_faltantes) > 0) {
+  stop(
+    "A la base importada le faltan las siguientes columnas: ",
+    paste(columnas_faltantes, collapse = ", "), ".",
+    call. = FALSE
+  )
+}
+
+message("Todas las columnas necesarias están presentes en la base.")
 ```
 
 # 4. Pregunta estadística e hipótesis
@@ -283,7 +366,10 @@ resultado_ic <- tibble(
 
 resultado_ic
 
-write_csv(resultado_ic, here("resultados", "semana_06", "tablas", "ic_mastitis.csv"))
+write_csv(
+  resultado_ic,
+  here("resultados", "semana_06", "tablas", "ic_mastitis.csv")
+)
 
 message("Intervalo de confianza para la proporción de mastitis guardado.")
 ```
@@ -305,12 +391,122 @@ calculados en las secciones anteriores, para facilitar su comparación.
 #| label: resumen-tamano-muestral
 
 resultado_muestra <- tibble(
-  escenario = c("Población infinita", "Población finita", "Comparación por grupo"),
-  n_estimado = c(ceiling(n_infinita), ceiling(n_finita), ceiling(calculo_potencia$n))
+  escenario = c(
+    "Población infinita",
+    "Población finita",
+    "Comparación por grupo"
+  ),
+  n_estimado = c(
+    ceiling(n_infinita),
+    ceiling(n_finita),
+    ceiling(calculo_potencia$n)
+  )
 )
 
 resultado_muestra
 
-write_csv(resultado_muestra, here("resultados", "semana_06", "tablas", "calculo_tamano_muestral.csv"))
+write_csv(
+  resultado_muestra,
+  here("resultados", "semana_06", "tablas", "calculo_tamano_muestral.csv")
+)
 
 message("Resumen de tamaños muestrales guardado.")
+```
+
+# 9. Comprobación de los archivos generados
+
+Se verifica que los tres archivos de resultados de esta semana hayan sido
+creados correctamente.
+
+```{r}
+#| label: comprobar-archivos
+
+archivos_generados <- c(
+  here("resultados", "semana_06", "tablas", "frecuencias_hipotesis.csv"),
+  here("resultados", "semana_06", "tablas", "ic_mastitis.csv"),
+  here("resultados", "semana_06", "tablas", "calculo_tamano_muestral.csv")
+)
+
+estado_archivos <- tibble(
+  archivo = archivos_generados,
+  existe = file.exists(archivos_generados)
+)
+
+estado_archivos
+
+if (any(!estado_archivos$existe)) {
+  warning(
+    "Alguno de los archivos esperados no se generó. Revisa la tabla anterior ",
+    "para identificar cuál falta.",
+    call. = FALSE
+  )
+} else {
+  message("Todos los archivos se generaron correctamente.")
+}
+```
+
+# 10. Resumen de la Semana 6
+
+Durante esta semana se dieron los primeros pasos hacia la inferencia
+estadística. Se realizaron las siguientes actividades:
+
+* Se formuló una pregunta estadística y su par de hipótesis (H0/H1).
+* Se describió de forma exploratoria la relación entre vacunación completa y
+  mastitis.
+* Se calculó el tamaño muestral necesario para estimar una proporción, con y
+  sin corrección por población finita.
+* Se calculó la potencia estadística (y el tamaño muestral asociado) para
+  comparar dos proporciones.
+* Se construyó e interpretó un intervalo de confianza del 95% para la
+  proporción de mastitis en la base.
+* Se exportaron los resultados en archivos independientes.
+
+# 11. Resumen final de resultados
+
+```{r}
+#| label: resumen-final
+
+cat("============================================\n")
+cat(" SEMANA 6: TAMAÑO MUESTRAL, POTENCIA E IC\n")
+cat("============================================\n\n")
+
+cat(
+  "Tamaño muestral (población infinita): ",
+  ceiling(n_infinita), " animales\n",
+  sep = ""
+)
+
+cat(
+  "Tamaño muestral (población finita, N = ", N, "): ",
+  ceiling(n_finita), " animales\n",
+  sep = ""
+)
+
+cat(
+  "Tamaño muestral por grupo (potencia 80%, alfa 5%): ",
+  ceiling(calculo_potencia$n), " animales\n",
+  sep = ""
+)
+
+cat(
+  "Proporción de mastitis estimada: ",
+  round(resultado_ic$proporcion, 3), "\n",
+  sep = ""
+)
+
+cat(
+  "IC95% de la proporción de mastitis: [",
+  round(resultado_ic$ic95_inferior, 3), ", ",
+  round(resultado_ic$ic95_superior, 3), "]\n",
+  sep = ""
+)
+
+cat("\nResultados guardados en:\n")
+
+cat(
+  here("resultados", "semana_06", "tablas"),
+  "\n"
+)
+
+cat("\nProceso ejecutado correctamente.\n")
+```
