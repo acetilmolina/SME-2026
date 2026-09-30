@@ -1,0 +1,336 @@
+---
+title: "Semana 6. Población, muestra, hipótesis, potencia, valor p e IC"
+subtitle: "Formulación de hipótesis, cálculo de tamaño muestral, potencia estadística e intervalos de confianza"
+author: "Tu nombre"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: show
+    embed-resources: true
+    theme: cosmo
+execute:
+  warning: false
+  message: false
+editor: visual
+---
+
+# Semana 6. Población, muestra, hipótesis, potencia, valor p e IC
+
+## Introducción
+
+Hasta la Semana 5 se trabajó exclusivamente de forma **descriptiva**: resumir
+y visualizar los datos disponibles. Esta semana se dan los primeros pasos
+hacia la **inferencia estadística**, es decir, usar una muestra para sacar
+conclusiones sobre una población más amplia.
+
+Para eso se necesitan cuatro ingredientes básicos, que corresponden a los
+cuatro objetivos de esta semana: una pregunta con sus hipótesis, un tamaño de
+muestra adecuado, una noción de qué tan capaz es ese tamaño de muestra para
+detectar una diferencia real (potencia), y una forma de cuantificar la
+incertidumbre de una estimación (el intervalo de confianza).
+
+## Objetivos
+
+Los objetivos de esta semana son:
+
+1. Formular una pregunta estadística y sus hipótesis.
+2. Calcular un tamaño muestral para estimar una proporción.
+3. Explorar la potencia estadística para comparar dos proporciones.
+4. Construir e interpretar intervalos de confianza.
+
+> **Importante:** todos los cálculos de esta semana (tamaño muestral,
+> potencia, intervalo de confianza) son herramientas de **planificación e
+> interpretación**. Por sí solos no constituyen una prueba de hipótesis
+> completa — eso se abordará cuando se calculen valores p en semanas
+> posteriores.
+
+# 1. Preparación del entorno
+
+Se cargan los paquetes necesarios. Además de `here`, `readr` y `dplyr` (ya
+usados en semanas anteriores), esta semana se incorpora:
+
+* `pwr`: provee funciones para calcular tamaño muestral y potencia
+  estadística (por ejemplo, `pwr.2p.test()` para comparar dos proporciones).
+* `tibble`: se usa explícitamente para construir tablas de resultados propias
+  (no derivadas directamente de `datos`), como los resúmenes de tamaño
+  muestral e intervalo de confianza.
+
+```{r}
+#| label: cargar-paquetes
+
+library(here)
+library(readr)
+library(dplyr)
+library(tibble)
+library(pwr)
+
+message("Paquetes cargados correctamente.")
+```
+
+Si `pwr` no está instalado, ejecuta una sola vez en la Consola (no en un
+*chunk* del documento):
+
+```{r}
+#| label: instalar-pwr
+#| eval: false
+
+install.packages("pwr")
+```
+
+# 2. Creación de las carpetas de resultados
+
+Como en semanas anteriores, se crean (si no existen) las carpetas donde se
+guardarán las tablas y los gráficos de esta semana.
+
+```{r}
+#| label: crear-carpetas
+
+dir.create(here("resultados", "semana_06", "tablas"), recursive = TRUE, showWarnings = FALSE)
+dir.create(here("resultados", "semana_06", "graficos"), recursive = TRUE, showWarnings = FALSE)
+
+message("Carpetas de resultados verificadas correctamente.")
+```
+
+# 3. Importación de la base procesada
+
+Se utiliza la misma base procesada de semanas anteriores.
+
+```{r}
+#| label: importar-base
+
+datos <- read_csv(
+  here("datos", "procesados", "base_bovinos_procesada.csv"),
+  show_col_types = FALSE
+)
+
+message("Base procesada importada correctamente.")
+```
+
+# 4. Pregunta estadística e hipótesis
+
+Toda pregunta de investigación cuantitativa se traduce en un par de hipótesis
+estadísticas, mutuamente excluyentes:
+
+* **Pregunta:** ¿la proporción de mastitis es diferente entre animales con y
+  sin vacunación completa?
+* **H0 (hipótesis nula):** la proporción de mastitis es igual en ambos
+  grupos.
+* **H1 (hipótesis alterna):** la proporción de mastitis es diferente entre
+  ambos grupos.
+
+Antes de calcular cualquier prueba formal, conviene describir la relación de
+forma descriptiva —igual que en la Semana 4— cruzando las dos variables
+categóricas involucradas.
+
+```{r}
+#| label: tabla-hipotesis
+
+tabla_hipotesis <- datos |>
+  count(vacunacion_completa, mastitis) |>
+  group_by(vacunacion_completa) |>
+  mutate(proporcion = n / sum(n)) |>
+  ungroup()
+
+tabla_hipotesis
+```
+
+**Interpretación:** esta tabla es puramente descriptiva; permite comparar
+visualmente las proporciones de mastitis entre grupos de vacunación, pero no
+dice si esa diferencia es estadísticamente significativa. Eso requiere una
+prueba de hipótesis formal (fuera del alcance de esta semana) o, como mínimo,
+el intervalo de confianza construido en la Sección 7.
+
+```{r}
+#| label: guardar-tabla-hipotesis
+
+write_csv(
+  tabla_hipotesis,
+  here("resultados", "semana_06", "tablas", "frecuencias_hipotesis.csv")
+)
+
+message("Tabla de frecuencias para la hipótesis guardada.")
+```
+
+# 5. Tamaño muestral para estimar una proporción
+
+Antes de recolectar datos, es necesario estimar **cuántas observaciones se
+necesitan** para estimar una proporción con una precisión determinada. La
+fórmula clásica para una población infinita (o muy grande respecto al tamaño
+de muestra) es:
+
+$$
+n = \frac{z^2 \cdot p (1 - p)}{d^2}
+$$
+
+donde:
+
+* $p$ es la prevalencia esperada del evento (aquí, de mastitis);
+* $d$ es la precisión absoluta deseada (el margen de error máximo aceptado);
+* $z$ es el valor de la distribución normal estándar correspondiente al nivel
+  de confianza (1.96 para 95% de confianza).
+
+```{r}
+#| label: tamano-muestral-infinito
+
+p <- 0.25
+d <- 0.05
+z <- qnorm(0.975)
+
+n_infinita <- z^2 * p * (1 - p) / d^2
+
+cat(
+  "Tamaño muestral (población infinita):",
+  ceiling(n_infinita),
+  "animales\n"
+)
+```
+
+Cuando la población de estudio es pequeña y conocida (por ejemplo, 2 000
+animales en total), ese tamaño se puede ajustar hacia abajo mediante la
+**corrección por población finita**:
+
+$$
+n' = \frac{n}{1 + \dfrac{n - 1}{N}}
+$$
+
+```{r}
+#| label: tamano-muestral-finito
+
+N <- 2000
+n_finita <- n_infinita / (1 + ((n_infinita - 1) / N))
+
+cat(
+  "Tamaño muestral (población finita, N =", N, "):",
+  ceiling(n_finita),
+  "animales\n"
+)
+```
+
+**Interpretación:** la corrección por población finita reduce el tamaño
+muestral necesario porque, al conocerse el tamaño total de la población, no
+tiene sentido exigir una muestra tan grande como la que se necesitaría para
+una población teóricamente infinita.
+
+# 6. Potencia estadística para comparar dos proporciones
+
+La **potencia** de una prueba estadística es la probabilidad de detectar una
+diferencia real cuando esta efectivamente existe (es decir, de rechazar
+correctamente H0 cuando H0 es falsa). Calcular la potencia (o el tamaño
+muestral necesario para una potencia dada) es clave al **planificar** un
+estudio, para no recolectar una muestra insuficiente.
+
+Aquí se plantea: si la proporción real de mastitis fuera 20% en un grupo y
+32% en otro, ¿qué tamaño de muestra por grupo se necesita para detectar esa
+diferencia con 80% de potencia y un nivel de significancia de 5%?
+
+`ES.h()` convierte la diferencia entre dos proporciones en el tamaño de
+efecto *h* de Cohen, que es la métrica que usa `pwr.2p.test()`.
+
+```{r}
+#| label: potencia-dos-proporciones
+
+p1 <- 0.20
+p2 <- 0.32
+
+efecto_h <- ES.h(p1, p2)
+
+calculo_potencia <- pwr.2p.test(
+  h = efecto_h,
+  sig.level = 0.05,
+  power = 0.80,
+  alternative = "two.sided"
+)
+
+calculo_potencia
+```
+
+`calculo_potencia$n` corresponde al tamaño de muestra necesario **por
+grupo** (no el total):
+
+```{r}
+#| label: n-por-grupo
+
+cat(
+  "Tamaño muestral necesario por grupo:",
+  ceiling(calculo_potencia$n),
+  "animales\n"
+)
+```
+
+**Interpretación:** si se recluta menos de ese número de animales por grupo,
+el estudio corre el riesgo de no tener suficiente potencia para detectar una
+diferencia real de esa magnitud (20% vs. 32%), aunque la diferencia exista en
+la población.
+
+# 7. Intervalo de confianza para una proporción
+
+Un **intervalo de confianza (IC)** cuantifica la incertidumbre de una
+estimación puntual. Aquí se estima la proporción de animales con mastitis en
+toda la base de datos, junto con su IC del 95%, usando `prop.test()`.
+
+Se usa `correct = FALSE` para omitir la corrección de continuidad de Yates,
+de modo que el cálculo coincida con la fórmula clásica de Wald/Wilson vista
+en el curso, en lugar de la versión corregida que `prop.test()` aplica por
+defecto.
+
+```{r}
+#| label: ic-proporcion-mastitis
+
+positivos <- sum(datos$mastitis == "Sí", na.rm = TRUE)
+total <- sum(!is.na(datos$mastitis))
+
+ic_mastitis <- prop.test(
+  x = positivos,
+  n = total,
+  correct = FALSE
+)
+
+ic_mastitis
+```
+
+```{r}
+#| label: tabla-ic-proporcion
+
+resultado_ic <- tibble(
+  positivos = positivos,
+  total = total,
+  proporcion = positivos / total,
+  ic95_inferior = ic_mastitis$conf.int[1],
+  ic95_superior = ic_mastitis$conf.int[2]
+)
+
+resultado_ic
+
+write_csv(resultado_ic, here("resultados", "semana_06", "tablas", "ic_mastitis.csv"))
+
+message("Intervalo de confianza para la proporción de mastitis guardado.")
+```
+
+**Interpretación:** el IC95% representa un rango de valores de la proporción
+poblacional que son compatibles con los datos observados y el método
+utilizado. **No** significa que el 95% de los animales tenga mastitis dentro
+de ese rango, ni que exista un 95% de probabilidad de que la proporción real
+esté en ese intervalo — la interpretación correcta es que, si se repitiera el
+estudio muchas veces, aproximadamente el 95% de los intervalos calculados de
+esa forma contendrían a la verdadera proporción poblacional.
+
+# 8. Resumen de los tamaños muestrales calculados
+
+Se consolidan en una sola tabla los tres escenarios de tamaño muestral
+calculados en las secciones anteriores, para facilitar su comparación.
+
+```{r}
+#| label: resumen-tamano-muestral
+
+resultado_muestra <- tibble(
+  escenario = c("Población infinita", "Población finita", "Comparación por grupo"),
+  n_estimado = c(ceiling(n_infinita), ceiling(n_finita), ceiling(calculo_potencia$n))
+)
+
+resultado_muestra
+
+write_csv(resultado_muestra, here("resultados", "semana_06", "tablas", "calculo_tamano_muestral.csv"))
+
+message("Resumen de tamaños muestrales guardado.")
