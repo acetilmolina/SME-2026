@@ -1,0 +1,204 @@
+# Semana 7. Introducción a regresión y pruebas de bondad de ajuste
+
+## Objetivos
+
+1. Comprender qué significa que una distribución se ajuste a un modelo.
+2. Aplicar chi-cuadrado de bondad de ajuste a frecuencias categóricas.
+3. Evaluar una distribución continua mediante gráficos y pruebas.
+4. Reconocer los supuestos que se revisarán antes de una regresión.
+
+# 0. Preparación del entorno
+
+Se cargan los paquetes, se crean las carpetas de resultados de la semana y se
+lee la base procesada.
+
+```{r}
+#| label: setup
+library(here)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(nortest)
+library(car)
+
+dir.create(here("resultados", "semana_07", "tablas"), recursive = TRUE, showWarnings = FALSE)
+dir.create(here("resultados", "semana_07", "graficos"), recursive = TRUE, showWarnings = FALSE)
+
+datos <- read_csv(here("datos", "procesados", "base_bovinos_procesada.csv"), show_col_types = FALSE)
+```
+
+# 1. Chi-cuadrado de bondad de ajuste
+
+Hipótesis de ejemplo:
+
+* **H0:** la distribución racial observada coincide con la distribución
+  esperada de 46% Holstein, 24% Brown Swiss, 14% Jersey y 16% Cruce.
+* **H1:** al menos una proporción es diferente.
+
+```{r}
+#| label: chi-bondad
+orden_razas <- c("Holstein", "Brown Swiss", "Jersey", "Cruce")
+frecuencias_raza <- table(factor(datos$raza, levels = orden_razas))
+proporciones_esperadas <- c(0.46, 0.24, 0.14, 0.16)
+
+prueba_bondad_raza <- chisq.test(
+  x = frecuencias_raza,
+  p = proporciones_esperadas
+)
+
+prueba_bondad_raza
+```
+
+Frecuencias esperadas bajo H0:
+
+```{r}
+#| label: chi-esperadas
+prueba_bondad_raza$expected
+```
+
+Residuos de Pearson (valores grandes en valor absoluto señalan las categorías
+que más se alejan de lo esperado):
+
+```{r}
+#| label: chi-residuos
+prueba_bondad_raza$residuals
+```
+
+# 2. Distribución de una variable continua
+
+```{r}
+#| label: produccion
+produccion <- na.omit(datos$produccion_leche_l_dia)
+```
+
+## 2.1 Evaluación gráfica
+
+```{r}
+#| label: fig-histograma
+#| fig-cap: "Histograma y densidad de la producción de leche."
+g_hist <- ggplot(tibble(produccion), aes(x = produccion)) +
+  geom_histogram(aes(y = after_stat(density)), binwidth = 2, fill = "#0F766E", color = "white") +
+  geom_density(color = "#DC2626", linewidth = 1) +
+  labs(
+    title = "Distribución de la producción de leche",
+    x = "Producción (L/día)",
+    y = "Densidad"
+  ) +
+  theme_minimal()
+
+g_hist
+```
+
+```{r}
+#| label: fig-qq
+#| fig-cap: "Gráfico Q-Q normal de la producción de leche."
+g_qq <- ggplot(tibble(produccion), aes(sample = produccion)) +
+  stat_qq() +
+  stat_qq_line(color = "#DC2626") +
+  labs(title = "Gráfico Q-Q de la producción de leche") +
+  theme_minimal()
+
+g_qq
+```
+
+```{r}
+#| label: guardar-graficos
+ggsave(here("resultados", "semana_07", "graficos", "histograma_produccion.png"), g_hist, width = 8, height = 5, dpi = 300)
+ggsave(here("resultados", "semana_07", "graficos", "qqplot_produccion.png"), g_qq, width = 8, height = 5, dpi = 300)
+```
+
+## 2.2 Pruebas de normalidad
+
+**Shapiro-Wilk** evalúa normalidad. Con muestras grandes puede detectar
+desviaciones pequeñas, por eso debe interpretarse junto con los gráficos.
+
+```{r}
+#| label: shapiro
+prueba_shapiro <- shapiro.test(produccion)
+prueba_shapiro
+```
+
+**Kolmogorov-Smirnov** compara una distribución empírica con una distribución
+teórica. Estandarizamos la variable para compararla con N(0,1).
+
+```{r}
+#| label: ks
+produccion_estandarizada <- as.numeric(scale(produccion))
+prueba_ks <- ks.test(produccion_estandarizada, "pnorm")
+prueba_ks
+```
+
+**Lilliefors** es una adaptación de K-S para cuando la media y la DE se
+estiman de la muestra.
+
+```{r}
+#| label: lilliefors
+prueba_lilliefors <- lillie.test(produccion)
+prueba_lilliefors
+```
+
+# 3. Supuesto de homogeneidad de varianzas
+
+```{r}
+#| label: levene
+datos_modelo <- datos |>
+  filter(!is.na(produccion_leche_l_dia), !is.na(tipo_alimentacion))
+
+prueba_levene <- leveneTest(
+  produccion_leche_l_dia ~ factor(tipo_alimentacion),
+  data = datos_modelo
+)
+prueba_levene
+```
+
+## 3.1 Resumen de resultados
+
+Reunimos los resultados principales en una tabla que también se guarda en la
+carpeta de la semana.
+
+```{r}
+#| label: tbl-resultados
+#| tbl-cap: "Resumen de las pruebas de bondad de ajuste y supuestos."
+resultados_pruebas <- tibble::tibble(
+  prueba = c(
+    "Chi-cuadrado de bondad de ajuste",
+    "Shapiro-Wilk",
+    "Kolmogorov-Smirnov",
+    "Lilliefors",
+    "Levene"
+  ),
+  estadistico = c(
+    unname(prueba_bondad_raza$statistic),
+    unname(prueba_shapiro$statistic),
+    unname(prueba_ks$statistic),
+    unname(prueba_lilliefors$statistic),
+    unname(prueba_levene[1, "F value"])
+  ),
+  valor_p = c(
+    prueba_bondad_raza$p.value,
+    prueba_shapiro$p.value,
+    prueba_ks$p.value,
+    prueba_lilliefors$p.value,
+    unname(prueba_levene[1, "Pr(>F)"])
+  )
+)
+
+readr::write_csv(
+  resultados_pruebas,
+  here("resultados", "semana_07", "tablas", "resultados_pruebas.csv")
+)
+
+knitr::kable(resultados_pruebas, digits = 4)
+```
+
+# 4. Introducción conceptual a regresión
+
+En una regresión se relaciona una variable de resultado con una o más
+variables explicativas. Aquí solo observamos la forma general; el ajuste y la
+interpretación se desarrollarán en la semana 9.
+
+```{r}
+#| label: formula
+formula_ejemplo <- produccion_leche_l_dia ~ condicion_corporal
+formula_ejemplo
+```
