@@ -1,17 +1,3 @@
----
-title: "Examen parcial - Semana 8 - Grupo 03"
-subtitle: "Parasitismo gastrointestinal en alpacas"
-author: "Integrantes del grupo"
-format:
-  html:
-    toc: true
-    code-fold: show
-    embed-resources: true
-execute:
-  warning: false
-  message: false
----
-
 # Propósito
 
 **Todo el código está preparado para ejecutarse.**
