@@ -1,0 +1,259 @@
+# Propósito
+
+**Todo el código está preparado para ejecutarse.**
+El grupo debe concentrarse en **leer, interpretar y explicar** los resultados.
+
+# 0. Preparación
+
+```{r}
+rm(list = ls())
+
+library(here)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(scales)
+library(nortest)
+library(car)
+library(pwr)
+
+datos <- read_csv(
+  here("datos","parcial_semana_08","grupo_02","base_grupo_02_obesidad_canina.csv"),
+  show_col_types = FALSE
+)
+```
+
+# 1. Comprensión del estudio
+
+Completen en texto:
+
+- Población objetivo:
+- Población accesible:
+- Unidad de análisis:
+- Variable principal:
+- Variable explicativa:
+- H0:
+- H1:
+
+# 2. Revisión de la base
+
+```{r}
+cat("Registros:", nrow(datos), "\n")
+cat("Variables:", ncol(datos), "\n")
+glimpse(datos)
+
+faltantes <- tibble(
+  variable = names(datos),
+  n_faltantes = colSums(is.na(datos)),
+  porcentaje = round(100 * n_faltantes / nrow(datos), 1)
+) |>
+  arrange(desc(porcentaje))
+
+faltantes
+
+cat("Duplicados exactos:", sum(duplicated(datos)), "\n")
+
+duplicados <- datos |>
+  filter(duplicated(datos) | duplicated(datos, fromLast = TRUE))
+
+duplicados
+```
+
+**Interpreten:** ¿qué problemas de calidad aparecen? ¿Qué harían antes de modificar la base?
+
+# 3. Estadística descriptiva
+
+```{r}
+tabla_categorica <- datos |>
+  count(tamano_raza, name = "frecuencia") |>
+  mutate(porcentaje = round(100 * frecuencia / sum(frecuencia), 1))
+
+tabla_categorica
+
+resumen_numerico <- datos |>
+  summarise(
+    n = sum(!is.na(peso_kg)),
+    media = mean(peso_kg, na.rm = TRUE),
+    de = sd(peso_kg, na.rm = TRUE),
+    mediana = median(peso_kg, na.rm = TRUE),
+    q1 = quantile(peso_kg, 0.25, na.rm = TRUE),
+    q3 = quantile(peso_kg, 0.75, na.rm = TRUE),
+    ric = IQR(peso_kg, na.rm = TRUE),
+    minimo = min(peso_kg, na.rm = TRUE),
+    maximo = max(peso_kg, na.rm = TRUE)
+  )
+
+resumen_numerico
+```
+
+**Interpreten:** ¿qué categoría predomina? ¿Media/DE o mediana/RIC describe mejor `peso_kg`?
+
+# 4. Visualización
+
+```{r}
+g_barras <- ggplot(datos, aes(x = factor(tamano_raza))) +
+  geom_bar() +
+  labs(title = "Distribución de tamano_raza", x = "tamano_raza", y = "Frecuencia") +
+  theme_minimal()
+
+g_hist <- ggplot(datos, aes(x = peso_kg)) +
+  geom_histogram(bins = 20, na.rm = TRUE) +
+  labs(title = "Distribución de peso_kg", x = "peso_kg", y = "Frecuencia") +
+  theme_minimal()
+
+g_box <- ggplot(datos, aes(x = factor(nivel_actividad), y = peso_kg)) +
+  geom_boxplot(na.rm = TRUE) +
+  labs(title = "peso_kg según nivel_actividad", x = "nivel_actividad", y = "peso_kg") +
+  theme_minimal()
+
+g_barras
+g_hist
+g_box
+```
+
+**Interpreten:** expliquen los patrones. No describan solamente la apariencia del gráfico.
+
+# 5. Relación principal
+
+```{r}
+tabla_relacion <- datos |>
+  count(esterilizado, obesidad) |>
+  group_by(esterilizado) |>
+  mutate(proporcion = n / sum(n)) |>
+  ungroup()
+
+tabla_relacion
+```
+
+**Interpreten:** describan lo observado sin afirmar causalidad ni significancia estadística.
+
+# 6. Tamaño muestral
+
+```{r}
+p <- 0.3
+d <- 0.06
+z <- qnorm(0.975)
+N <- 1200
+
+n_infinita <- z^2 * p * (1 - p) / d^2
+n_finita <- n_infinita / (1 + ((n_infinita - 1) / N))
+
+resultado_muestra <- tibble(
+  escenario = c("Población grande", "Población finita"),
+  n_estimado = c(ceiling(n_infinita), ceiling(n_finita))
+)
+
+resultado_muestra
+
+```
+
+**Interpreten:** ¿qué representa el n obtenido? ¿Es total o por grupo? ¿Qué parámetros hacen aumentar el tamaño muestral?
+
+# 7. Chi-cuadrado de bondad de ajuste
+
+```{r}
+orden <- c("Pequeño", "Mediano", "Grande", "Gigante")
+proporciones_esperadas <- c(0.3, 0.35, 0.25, 0.1)
+
+frecuencias_observadas <- table(
+  factor(datos$tamano_raza, levels = orden)
+)
+
+prueba_chi <- chisq.test(
+  x = frecuencias_observadas,
+  p = proporciones_esperadas
+)
+
+prueba_chi
+prueba_chi$expected
+prueba_chi$residuals
+```
+
+**Interpreten:** H0, H1, valor p, frecuencias esperadas y residuos.
+
+# 8. Evaluación de distribución
+
+```{r}
+variable_continua <- na.omit(datos$peso_kg)
+
+g_densidad <- ggplot(tibble(valor = variable_continua), aes(x = valor)) +
+  geom_histogram(aes(y = after_stat(density)), bins = 20, color = "white") +
+  geom_density(linewidth = 1) +
+  labs(title = "Histograma y densidad de peso_kg", x = "peso_kg", y = "Densidad") +
+  theme_minimal()
+
+g_qq <- ggplot(tibble(valor = variable_continua), aes(sample = valor)) +
+  stat_qq() +
+  stat_qq_line() +
+  labs(title = "Q-Q de peso_kg") +
+  theme_minimal()
+
+g_densidad
+g_qq
+
+prueba_shapiro <- shapiro.test(variable_continua)
+variable_estandarizada <- as.numeric(scale(variable_continua))
+prueba_ks <- ks.test(variable_estandarizada, "pnorm")
+prueba_lilliefors <- lillie.test(variable_continua)
+
+prueba_shapiro
+prueba_ks
+prueba_lilliefors
+```
+
+**Interpreten de forma integrada:** ¿qué muestran los gráficos y qué dicen las pruebas? No respondan solo “normal/no normal”.
+
+# 9. Posibles valores atípicos
+
+```{r}
+q1 <- quantile(variable_continua, 0.25)
+q3 <- quantile(variable_continua, 0.75)
+ric <- IQR(variable_continua)
+
+li <- q1 - 1.5 * ric
+ls <- q3 + 1.5 * ric
+
+atipicos <- datos |>
+  filter(!is.na(peso_kg), peso_kg < li | peso_kg > ls)
+
+cat("Límite inferior:", li, "\n")
+cat("Límite superior:", ls, "\n")
+cat("Posibles atípicos:", nrow(atipicos), "\n")
+atipicos
+```
+
+**Interpreten:** ¿los eliminarían automáticamente? ¿Qué revisarían primero?
+
+# 10. Homogeneidad de varianzas
+
+```{r}
+datos_levene <- datos |>
+  filter(!is.na(peso_kg), !is.na(nivel_actividad))
+
+prueba_levene <- leveneTest(
+  peso_kg ~ factor(nivel_actividad),
+  data = datos_levene
+)
+
+prueba_levene
+```
+
+**Interpreten:** H0, H1, valor p y consecuencia para análisis posteriores.
+
+# 11. Conclusiones
+
+Redacten entre 5 y 8 conclusiones propias integrando:
+
+- muestra;
+- descriptivos;
+- gráficos;
+- tamaño muestral;
+- bondad de ajuste;
+- distribución;
+- atípicos;
+- homogeneidad de varianzas.
+
+# 12. Exposición
+
+La exposición debe centrarse en **qué significan los resultados**, no en explicar las líneas de código.
