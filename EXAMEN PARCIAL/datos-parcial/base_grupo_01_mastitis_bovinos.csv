@@ -1,0 +1,323 @@
+﻿id_bovino,provincia,raza,edad_meses,numero_partos,vacunacion_completa,tipo_alimentacion,produccion_leche_l_dia,condicion_corporal,mastitis,rcc_miles_ml
+BOV0001,Ica,Brown Swiss,74,2,Sí,Mixta,25.8,3.3,Sí,319
+BOV0002,Nazca,Cruce,68,3,Sí,Concentrado,23.1,2.6,No,265
+BOV0003,Pisco,Holstein,50,2,Sí,Mixta,30.4,3.0,No,70
+BOV0004,Nazca,Holstein,24,0,Sí,Concentrado,27.4,3.1,No,173
+BOV0005,Ica,Holstein,39,0,Sí,Concentrado,23.4,3.6,No,82
+BOV0006,Pisco,Cruce,59,3,Sí,Concentrado,20.2,3.0,Sí,1137
+BOV0007,Ica,Cruce,72,3,No,Mixta,24.5,4.0,Sí,240
+BOV0008,Nazca,Jersey,43,2,No,Mixta,55.0,2.1,Sí,143
+BOV0009,Ica,Holstein,69,2,Sí,Concentrado,25.7,3.1,No,219
+BOV0010,Ica,Holstein,24,0,Sí,Forraje,31.5,4.0,No,60
+BOV0011,Ica,Jersey,35,0,No,Concentrado,24.2,3.4,No,359
+BOV0012,Ica,Cruce,53,1,No,Mixta,27.6,2.9,Sí,324
+BOV0013,Chincha,Cruce,51,0,Sí,Mixta,20.9,2.8,No,227
+BOV0014,Nazca,Holstein,44,0,Sí,Forraje,22.5,3.1,Sí,690
+BOV0015,Ica,Holstein,70,3,No,Forraje,25.6,3.4,Sí,
+BOV0016,Chincha,Jersey,58,0,Sí,Mixta,28.1,3.2,No,136
+BOV0017,Pisco,Brown Swiss,66,2,Sí,Concentrado,24.9,3.3,No,207
+BOV0018,Nazca,Holstein,48,2,Sí,Forraje,28.4,3.8,No,124
+BOV0019,Pisco,Holstein,87,5,Sí,Mixta,32.2,3.2,No,67
+BOV0020,Chincha,Brown Swiss,25,0,No,Mixta,21.0,2.7,Sí,346
+BOV0021,Ica,Jersey,52,0,Sí,Concentrado,29.6,3.9,No,121
+BOV0022,Pisco,Jersey,57,2,No,Concentrado,25.9,3.0,No,103
+BOV0023,Pisco,Brown Swiss,48,1,Sí,Mixta,23.8,3.4,No,73
+BOV0024,Chincha,Holstein,80,3,No,Mixta,27.7,3.6,No,490
+BOV0025,Ica,Holstein,50,1,No,Forraje,28.7,3.2,No,
+BOV0026,Nazca,Cruce,52,2,No,Mixta,22.5,3.2,No,260
+BOV0027,Nazca,Brown Swiss,76,2,Sí,,21.7,3.3,No,140
+BOV0028,Ica,Holstein,62,3,Sí,Mixta,26.6,3.4,No,
+BOV0029,Ica,Holstein,69,3,No,Mixta,26.9,3.0,Sí,258
+BOV0030,Ica,Holstein,37,1,Sí,Mixta,27.5,2.4,No,274
+BOV0031,Nazca,Brown Swiss,66,2,Sí,Mixta,33.7,3.6,No,213
+BOV0032,Pisco,Brown Swiss,56,2,No,Forraje,20.9,3.4,No,128
+BOV0033,Nazca,Brown Swiss,77,2,No,Concentrado,24.0,2.5,No,169
+BOV0034,Nazca,Cruce,58,1,No,Mixta,17.9,3.2,No,67
+BOV0035,Nazca,Holstein,55,3,Sí,Mixta,24.9,3.6,No,692
+BOV0036,Nazca,Holstein,66,2,Sí,Concentrado,23.6,2.5,Sí,365
+BOV0037,Nazca,Brown Swiss,67,3,No,Concentrado,25.2,4.0,No,279
+BOV0038,Ica,Holstein,44,0,Sí,Concentrado,30.6,3.2,No,155
+BOV0039,Chincha,Brown Swiss,65,2,Sí,Mixta,25.9,2.0,Sí,159
+BOV0040,Chincha,Holstein,42,1,No,Concentrado,33.6,3.0,No,487
+BOV0041,Nazca,Holstein,75,4,Sí,Mixta,25.1,3.0,No,260
+BOV0042,Ica,Holstein,58,2,Sí,Forraje,24.3,2.4,No,105
+BOV0043,Pisco,Holstein,68,3,Sí,Concentrado,20.5,3.8,No,66
+BOV0044,Ica,Holstein,60,1,No,Mixta,21.4,2.8,No,105
+BOV0045,Pisco,Holstein,37,0,No,,29.0,2.9,No,191
+BOV0046,Chincha,Holstein,69,3,Sí,Concentrado,31.4,2.5,No,261
+BOV0047,Nazca,Brown Swiss,83,3,Sí,Mixta,16.5,2.5,Sí,684
+BOV0048,Pisco,Jersey,94,4,Sí,Mixta,26.3,3.0,No,313
+BOV0049,Ica,Brown Swiss,70,1,Sí,Concentrado,26.1,3.5,Sí,
+BOV0050,Pisco,Holstein,43,2,Sí,Forraje,22.3,3.3,Sí,241
+BOV0051,Chincha,Jersey,90,4,Sí,Forraje,14.5,2.3,Sí,503
+BOV0052,Chincha,Holstein,43,2,Sí,Mixta,25.9,3.0,Sí,617
+BOV0053,Ica,Holstein,44,2,Sí,Mixta,22.7,3.5,No,359
+BOV0054,Chincha,Holstein,44,1,No,Mixta,21.8,3.0,No,106
+BOV0055,Chincha,Jersey,49,3,Sí,Mixta,22.3,2.7,Sí,283
+BOV0056,Ica,Cruce,73,4,Sí,Mixta,17.5,3.1,No,287
+BOV0057,Chincha,Jersey,57,3,Sí,Mixta,22.1,2.9,No,205
+BOV0058,Pisco,Holstein,27,0,Sí,Mixta,26.2,3.3,No,81
+BOV0059,Nazca,Cruce,69,3,No,Forraje,17.5,3.1,Sí,275
+BOV0060,Ica,Brown Swiss,56,1,No,Mixta,20.1,3.9,Sí,1107
+BOV0061,Ica,Holstein,51,2,Sí,Mixta,29.4,2.8,No,222
+BOV0062,Ica,Cruce,71,1,Sí,Concentrado,17.0,3.0,No,543
+BOV0063,Ica,Brown Swiss,72,2,Sí,Mixta,28.6,2.7,No,159
+BOV0064,Nazca,Cruce,82,4,Sí,Concentrado,24.0,3.1,No,104
+BOV0065,Nazca,Holstein,67,2,Sí,Concentrado,30.6,3.2,No,323
+BOV0066,Nazca,Cruce,56,1,Sí,Forraje,20.0,2.5,No,108
+BOV0067,Ica,Holstein,53,1,Sí,Mixta,22.8,2.9,Sí,589
+BOV0068,Ica,Holstein,52,1,No,Mixta,30.0,2.0,Sí,231
+BOV0069,Chincha,Holstein,56,1,Sí,Mixta,31.0,2.8,No,61
+BOV0070,Ica,Holstein,37,0,Sí,Forraje,23.3,3.2,No,157
+BOV0071,Chincha,Jersey,70,3,Sí,Mixta,21.8,3.6,Sí,494
+BOV0072,Nazca,Holstein,80,3,No,Mixta,25.2,3.3,Sí,324
+BOV0073,Nazca,Holstein,93,4,Sí,Forraje,21.0,2.9,No,199
+BOV0074,Ica,Holstein,68,3,Sí,Forraje,32.2,3.3,Sí,134
+BOV0075,Pisco,Brown Swiss,51,2,Sí,Mixta,24.5,3.2,No,100
+BOV0076,Pisco,Holstein,60,1,Sí,Concentrado,30.2,3.4,No,233
+BOV0077,Chincha,Holstein,66,4,Sí,Forraje,27.2,3.5,No,208
+BOV0078,Nazca,Holstein,32,0,Sí,Concentrado,29.9,2.5,No,173
+BOV0079,Ica,Jersey,49,2,No,Forraje,26.2,2.7,No,156
+BOV0080,Pisco,Holstein,45,0,Sí,Forraje,21.8,3.2,No,60
+BOV0081,Chincha,Holstein,51,2,No,Concentrado,28.1,2.5,Sí,412
+BOV0082,Nazca,Cruce,70,2,Sí,Mixta,17.0,2.9,Sí,280
+BOV0083,Ica,Holstein,74,5,No,Mixta,24.7,2.3,No,141
+BOV0084,Ica,Brown Swiss,82,2,No,Mixta,30.6,2.4,No,270
+BOV0085,Pisco,Jersey,38,0,Sí,Forraje,18.5,3.0,No,61
+BOV0086,Ica,Brown Swiss,51,1,Sí,Mixta,29.2,3.2,No,238
+BOV0087,Nazca,Jersey,73,4,Sí,Forraje,22.6,3.0,Sí,445
+BOV0088,Pisco,Holstein,64,1,Sí,,32.3,2.9,No,140
+BOV0089,Ica,Holstein,86,4,No,Forraje,25.5,4.1,Sí,399
+BOV0090,Ica,Holstein,62,2,Sí,Mixta,23.7,3.3,No,283
+BOV0091,Pisco,Brown Swiss,55,2,Sí,Concentrado,24.8,2.6,Sí,101
+BOV0092,Ica,Jersey,72,2,Sí,Mixta,23.1,3.2,No,158
+BOV0093,Chincha,Jersey,58,2,Sí,Concentrado,25.0,3.2,No,88
+BOV0094,Pisco,Holstein,76,3,Sí,Concentrado,30.7,2.5,No,177
+BOV0095,Chincha,Jersey,71,2,Sí,Concentrado,20.8,3.6,Sí,356
+BOV0096,Pisco,Brown Swiss,53,1,Sí,Mixta,19.6,3.6,Sí,2200
+BOV0097,Ica,Cruce,49,2,No,Forraje,23.8,3.3,No,212
+BOV0098,Pisco,Holstein,71,2,Sí,Mixta,20.8,3.2,Sí,607
+BOV0099,Nazca,Holstein,43,1,Sí,Forraje,23.4,3.6,No,56
+BOV0100,Ica,Cruce,76,2,No,Forraje,18.0,4.0,Sí,957
+BOV0101,Nazca,Holstein,53,1,No,Mixta,35.2,3.9,No,204
+BOV0102,Ica,Cruce,57,2,No,Concentrado,24.7,3.2,No,140
+BOV0103,Pisco,Cruce,79,5,No,Mixta,25.5,2.5,No,58
+BOV0104,Ica,Holstein,54,2,Sí,Concentrado,30.0,2.6,No,285
+BOV0105,Pisco,Brown Swiss,63,2,Sí,Mixta,15.1,2.1,Sí,355
+BOV0106,Chincha,Holstein,67,3,No,Mixta,21.4,3.2,Sí,367
+BOV0107,Ica,Brown Swiss,48,3,Sí,,24.1,2.8,No,121
+BOV0108,Ica,Brown Swiss,48,1,Sí,Forraje,22.6,2.7,Sí,500
+BOV0109,Ica,Holstein,52,2,No,Mixta,22.4,3.7,Sí,534
+BOV0110,Chincha,Brown Swiss,99,6,No,Forraje,27.0,2.5,Sí,237
+BOV0111,Nazca,Holstein,42,0,No,Forraje,25.1,3.3,No,358
+BOV0112,Chincha,Jersey,62,3,Sí,Mixta,17.7,3.2,Sí,556
+BOV0113,Pisco,Jersey,56,3,Sí,Mixta,26.2,3.3,No,155
+BOV0114,Ica,Jersey,78,3,Sí,Mixta,,2.8,Sí,187
+BOV0115,Nazca,Holstein,63,2,Sí,Concentrado,22.1,3.2,No,171
+BOV0116,Chincha,Holstein,64,1,No,Concentrado,30.3,3.1,No,195
+BOV0117,Nazca,Brown Swiss,75,2,Sí,Mixta,26.4,3.3,Sí,305
+BOV0118,Ica,Brown Swiss,43,1,No,Concentrado,21.8,3.3,Sí,231
+BOV0119,Chincha,Jersey,49,2,Sí,Forraje,21.5,2.4,No,1518
+BOV0120,Chincha,Holstein,27,0,Sí,Mixta,32.7,4.0,No,219
+BOV0121,Pisco,Brown Swiss,54,2,No,Mixta,23.5,3.8,No,856
+BOV0122,Ica,Holstein,56,3,Sí,Mixta,24.0,3.2,No,189
+BOV0123,Chincha,Cruce,56,2,Sí,Concentrado,23.3,3.3,No,319
+BOV0124,Nazca,Brown Swiss,51,2,Sí,Mixta,33.1,3.5,No,34
+BOV0125,Chincha,Holstein,50,1,No,Concentrado,26.1,2.8,No,128
+BOV0126,Ica,Holstein,67,0,Sí,Mixta,26.2,3.6,Sí,423
+BOV0127,Pisco,Holstein,55,2,Sí,Concentrado,30.3,3.3,No,92
+BOV0128,Ica,Cruce,52,1,No,Concentrado,30.4,3.5,Sí,336
+BOV0129,Nazca,Jersey,57,2,Sí,Mixta,20.6,3.4,No,88
+BOV0130,Ica,Cruce,37,0,Sí,Forraje,23.3,3.6,No,281
+BOV0131,Chincha,Holstein,54,2,Sí,Concentrado,16.4,2.3,No,120
+BOV0132,Pisco,Holstein,42,0,No,Mixta,24.6,3.4,No,47
+BOV0133,Ica,Jersey,27,0,Sí,Forraje,23.3,3.4,Sí,408
+BOV0134,Nazca,Jersey,59,1,Sí,Mixta,29.2,3.1,No,131
+BOV0135,Nazca,Holstein,85,4,Sí,Mixta,30.8,2.6,No,296
+BOV0136,Chincha,Holstein,47,1,Sí,Mixta,28.6,2.6,Sí,442
+BOV0137,Pisco,Holstein,86,3,Sí,Mixta,37.4,2.6,No,396
+BOV0138,Pisco,Holstein,46,2,Sí,Mixta,30.6,2.5,No,150
+BOV0139,Nazca,Brown Swiss,92,4,Sí,Forraje,23.0,3.2,Sí,536
+BOV0140,Ica,Cruce,71,3,Sí,Mixta,28.7,3.0,No,89
+BOV0141,Nazca,Holstein,60,2,Sí,Forraje,29.6,2.3,Sí,465
+BOV0142,Pisco,Holstein,58,1,Sí,Concentrado,29.4,2.5,Sí,221
+BOV0143,Chincha,Brown Swiss,86,3,Sí,Mixta,16.8,3.3,Sí,335
+BOV0144,Pisco,Holstein,78,2,Sí,Forraje,31.4,3.1,Sí,80
+BOV0145,Ica,Holstein,44,1,Sí,Mixta,24.9,3.4,No,109
+BOV0146,Nazca,Jersey,77,2,Sí,Mixta,23.0,2.6,No,312
+BOV0147,Nazca,Brown Swiss,58,2,Sí,Forraje,22.7,2.5,No,186
+BOV0148,Ica,Holstein,95,3,Sí,Mixta,23.6,2.7,No,255
+BOV0149,Pisco,Brown Swiss,56,2,Sí,Concentrado,29.3,2.7,Sí,1767
+BOV0150,Pisco,Brown Swiss,47,2,No,Mixta,30.8,2.2,No,193
+BOV0151,Chincha,Brown Swiss,45,0,Sí,Concentrado,21.2,3.4,Sí,228
+BOV0152,Pisco,Brown Swiss,24,0,Sí,Concentrado,24.8,3.5,No,221
+BOV0153,Chincha,Holstein,70,2,Sí,Concentrado,22.5,3.1,No,194
+BOV0154,Chincha,Jersey,50,1,No,Forraje,19.8,2.6,Sí,1112
+BOV0155,Ica,Holstein,50,3,No,Mixta,34.5,3.5,Sí,462
+BOV0156,Ica,Jersey,68,3,No,Mixta,22.9,2.7,Sí,251
+BOV0157,Ica,Holstein,63,2,Sí,Mixta,29.4,3.0,No,183
+BOV0158,Ica,Jersey,59,3,Sí,Mixta,21.9,3.7,No,326
+BOV0159,Nazca,Brown Swiss,62,1,No,Mixta,15.7,2.7,Sí,335
+BOV0160,Pisco,Holstein,77,3,No,Forraje,28.3,3.6,No,308
+BOV0161,Nazca,Holstein,54,2,Sí,Forraje,28.0,3.2,Sí,780
+BOV0162,Chincha,Brown Swiss,74,3,Sí,Mixta,26.1,3.1,Sí,1514
+BOV0163,Pisco,Holstein,103,5,Sí,Mixta,17.4,2.8,Sí,156
+BOV0164,Ica,Jersey,67,2,Sí,Mixta,19.0,3.3,Sí,1048
+BOV0165,Chincha,Holstein,50,0,Sí,Mixta,26.5,3.2,No,336
+BOV0166,Ica,Holstein,67,2,Sí,Forraje,29.0,3.2,No,309
+BOV0167,Pisco,Holstein,64,3,No,Forraje,17.1,2.6,No,299
+BOV0168,Pisco,Cruce,61,3,No,Mixta,25.0,2.7,Sí,551
+BOV0169,Chincha,Holstein,38,2,Sí,Forraje,22.7,3.4,No,163
+BOV0170,Ica,Brown Swiss,58,3,Sí,Forraje,28.6,2.7,No,577
+BOV0171,Ica,Brown Swiss,43,2,Sí,Forraje,17.2,2.9,No,62
+BOV0172,Nazca,Cruce,63,3,Sí,Forraje,29.5,2.5,No,152
+BOV0173,Nazca,Jersey,73,1,Sí,Mixta,27.8,3.0,No,150
+BOV0174,Ica,Brown Swiss,73,3,Sí,Concentrado,27.9,2.7,No,62
+BOV0175,Ica,Holstein,85,4,Sí,Forraje,24.5,3.6,Sí,424
+BOV0176,Nazca,Cruce,49,1,Sí,Concentrado,28.5,3.3,No,103
+BOV0177,Pisco,Brown Swiss,64,3,Sí,Forraje,23.9,3.0,No,73
+BOV0178,Ica,Brown Swiss,48,2,Sí,Forraje,25.5,3.0,No,333
+BOV0179,Chincha,Jersey,38,3,No,Mixta,18.3,3.7,Sí,239
+BOV0180,Ica,Jersey,71,3,Sí,Mixta,,3.6,Sí,638
+BOV0181,Chincha,Cruce,62,2,Sí,Concentrado,29.0,3.6,No,168
+BOV0182,Pisco,Cruce,78,3,Sí,Mixta,27.5,3.7,No,304
+BOV0183,Ica,Brown Swiss,79,2,Sí,Mixta,23.2,3.4,No,398
+BOV0184,Pisco,Jersey,64,2,Sí,Mixta,19.0,2.7,No,115
+BOV0185,Chincha,Brown Swiss,55,3,No,Forraje,26.7,1.8,No,178
+BOV0186,Pisco,Brown Swiss,84,5,Sí,,16.9,2.8,No,344
+BOV0187,Nazca,Brown Swiss,24,0,Sí,Forraje,24.7,3.7,No,206
+BOV0188,Pisco,Holstein,74,3,Sí,Mixta,20.0,3.0,Sí,258
+BOV0189,Chincha,Brown Swiss,71,1,No,Mixta,29.2,3.1,Sí,1035
+BOV0190,Chincha,Brown Swiss,64,2,Sí,Forraje,19.3,2.8,Sí,635
+BOV0191,Nazca,Jersey,28,1,Sí,Forraje,16.7,3.2,No,89
+BOV0192,Ica,Holstein,28,1,Sí,Mixta,26.7,2.7,No,237
+BOV0193,Ica,Holstein,24,1,Sí,Mixta,25.5,3.1,No,84
+BOV0194,Nazca,Brown Swiss,72,3,Sí,Mixta,21.1,2.8,No,55
+BOV0195,Nazca,Cruce,65,4,Sí,Mixta,23.1,2.7,No,268
+BOV0196,Pisco,Jersey,44,1,No,Forraje,27.2,2.6,No,147
+BOV0197,Ica,Holstein,41,1,Sí,Concentrado,21.3,3.9,Sí,765
+BOV0198,Nazca,Holstein,46,1,Sí,Mixta,28.0,3.0,No,449
+BOV0199,Ica,Brown Swiss,65,3,Sí,Mixta,19.2,2.9,Sí,330
+BOV0200,Ica,Holstein,57,2,Sí,Forraje,18.9,3.3,Sí,1157
+BOV0201,Ica,Brown Swiss,56,3,Sí,Forraje,27.9,2.5,No,156
+BOV0202,Ica,Holstein,60,2,Sí,Mixta,27.3,3.4,Sí,124
+BOV0203,Pisco,Brown Swiss,28,0,No,Forraje,17.1,4.1,No,521
+BOV0204,Chincha,Holstein,41,0,Sí,Mixta,25.5,3.0,No,99
+BOV0205,Pisco,Holstein,49,1,Sí,Mixta,30.2,3.5,No,245
+BOV0206,Pisco,Holstein,66,2,Sí,Concentrado,24.8,2.9,Sí,398
+BOV0207,Pisco,Brown Swiss,84,5,No,Forraje,29.0,2.5,No,209
+BOV0208,Chincha,Holstein,57,2,No,Forraje,21.8,3.4,No,118
+BOV0209,Ica,Holstein,70,3,No,Mixta,28.5,2.7,Sí,658
+BOV0210,Chincha,Cruce,52,0,Sí,Mixta,23.8,3.6,No,119
+BOV0211,Pisco,Jersey,63,1,Sí,Mixta,20.8,3.1,No,
+BOV0212,Chincha,Jersey,46,1,No,Forraje,24.0,3.3,No,416
+BOV0213,Pisco,Holstein,52,0,Sí,Forraje,30.9,3.2,No,87
+BOV0214,Ica,Brown Swiss,50,2,No,Concentrado,16.4,3.4,No,213
+BOV0215,Ica,Holstein,56,2,No,Mixta,30.5,3.3,No,72
+BOV0216,Pisco,Holstein,62,2,Sí,Forraje,23.9,3.2,No,53
+BOV0217,Chincha,Holstein,62,3,Sí,Mixta,24.9,3.0,Sí,416
+BOV0218,Chincha,Cruce,81,2,No,Concentrado,21.4,3.3,Sí,199
+BOV0219,Chincha,Holstein,81,4,Sí,Forraje,25.5,3.2,Sí,418
+BOV0220,Ica,Jersey,45,1,Sí,Concentrado,28.9,2.9,No,29
+BOV0221,Nazca,Jersey,88,3,Sí,Mixta,23.9,3.1,No,211
+BOV0222,Chincha,Cruce,67,1,Sí,Mixta,22.5,2.3,No,68
+BOV0223,Ica,Holstein,67,2,Sí,Mixta,23.6,3.5,Sí,485
+BOV0224,Chincha,Brown Swiss,50,1,No,Concentrado,26.8,3.8,No,120
+BOV0225,Pisco,Holstein,45,1,No,Mixta,25.8,3.4,Sí,596
+BOV0226,Nazca,Holstein,59,2,No,Mixta,18.1,3.6,Sí,167
+BOV0227,Pisco,Holstein,33,0,No,Forraje,22.2,2.8,No,80
+BOV0228,Ica,Brown Swiss,50,2,Sí,Concentrado,,3.2,Sí,361
+BOV0229,Ica,Holstein,49,3,Sí,Mixta,25.8,2.8,No,244
+BOV0230,Chincha,Holstein,77,2,Sí,Mixta,22.3,3.5,No,167
+BOV0231,Chincha,Holstein,66,3,Sí,Mixta,29.9,2.7,No,180
+BOV0232,Ica,Brown Swiss,43,1,Sí,Mixta,24.2,2.6,No,220
+BOV0233,Chincha,Jersey,68,2,Sí,Mixta,28.0,3.0,No,149
+BOV0234,Ica,Cruce,70,3,Sí,Concentrado,22.3,3.1,Sí,269
+BOV0235,Ica,Jersey,99,4,Sí,Concentrado,30.4,2.6,Sí,383
+BOV0236,Chincha,Cruce,53,4,Sí,Mixta,22.5,3.3,No,107
+BOV0237,Ica,Holstein,48,0,No,Concentrado,31.3,2.8,No,108
+BOV0238,Chincha,Holstein,61,3,Sí,Mixta,27.8,3.0,No,111
+BOV0239,Ica,Cruce,51,1,Sí,Forraje,18.3,2.2,Sí,60
+BOV0240,Chincha,Jersey,65,2,Sí,Concentrado,26.2,2.9,No,126
+BOV0241,Ica,Brown Swiss,67,0,No,Forraje,22.3,2.4,No,140
+BOV0242,Nazca,Cruce,60,2,Sí,Mixta,26.7,3.0,No,243
+BOV0243,Chincha,Holstein,86,3,No,Forraje,24.4,2.7,Sí,506
+BOV0244,Chincha,Brown Swiss,39,1,No,Forraje,28.8,3.7,No,119
+BOV0245,Ica,Holstein,45,1,Sí,Mixta,34.8,2.7,No,227
+BOV0246,Chincha,Brown Swiss,37,1,No,Mixta,28.7,3.4,No,161
+BOV0247,Chincha,Holstein,120,4,Sí,Mixta,31.0,3.5,No,97
+BOV0248,Chincha,Cruce,100,3,Sí,Mixta,30.4,2.7,Sí,152
+BOV0249,Pisco,Brown Swiss,51,2,Sí,Mixta,20.7,3.9,No,89
+BOV0250,Pisco,Brown Swiss,36,0,Sí,Forraje,31.4,3.2,No,128
+BOV0251,Pisco,Jersey,79,3,Sí,Concentrado,31.0,4.1,No,59
+BOV0252,Ica,Holstein,65,2,No,Forraje,29.1,2.8,No,207
+BOV0253,Ica,Brown Swiss,44,3,Sí,Forraje,24.5,3.3,No,140
+BOV0254,Pisco,Holstein,49,1,Sí,Forraje,23.3,3.3,No,75
+BOV0255,Chincha,Jersey,54,2,No,Forraje,29.0,3.0,No,45
+BOV0256,Ica,Brown Swiss,31,1,Sí,Forraje,24.5,2.8,Sí,64
+BOV0257,Ica,Holstein,64,2,Sí,Forraje,27.6,2.9,No,132
+BOV0258,Nazca,Brown Swiss,41,1,Sí,Forraje,26.0,3.1,No,289
+BOV0259,Chincha,Holstein,78,3,No,Mixta,13.9,2.5,Sí,497
+BOV0260,Nazca,Brown Swiss,43,2,Sí,Forraje,,3.2,No,86
+BOV0261,Ica,Holstein,68,4,No,Mixta,32.9,3.4,No,92
+BOV0262,Ica,Brown Swiss,42,1,No,Mixta,21.9,3.1,No,216
+BOV0263,Nazca,Holstein,31,0,Sí,Mixta,27.1,2.6,No,325
+BOV0264,Ica,Cruce,70,1,No,Concentrado,24.5,3.2,No,425
+BOV0265,Ica,Holstein,62,3,No,Forraje,26.5,2.7,No,134
+BOV0266,Ica,Holstein,48,1,No,Forraje,20.0,3.0,No,77
+BOV0267,Ica,Cruce,57,3,Sí,Mixta,19.8,2.4,Sí,611
+BOV0268,Pisco,Cruce,53,2,Sí,Mixta,19.2,2.6,Sí,271
+BOV0269,Nazca,Brown Swiss,24,1,Sí,Forraje,22.2,3.0,No,305
+BOV0270,Ica,Cruce,53,1,Sí,Forraje,18.4,2.8,Sí,450
+BOV0271,Ica,Holstein,81,3,Sí,Concentrado,26.0,2.6,No,251
+BOV0272,Nazca,Brown Swiss,49,2,Sí,Mixta,22.1,2.5,Sí,940
+BOV0273,Nazca,Holstein,65,3,Sí,Mixta,24.7,2.5,Sí,582
+BOV0274,Ica,Brown Swiss,45,2,No,Concentrado,30.3,4.2,No,91
+BOV0275,Chincha,Holstein,57,3,Sí,Mixta,25.1,2.9,No,164
+BOV0276,Pisco,Cruce,41,1,Sí,Forraje,21.9,3.2,No,323
+BOV0277,Nazca,Holstein,43,1,No,Concentrado,27.3,3.3,No,78
+BOV0278,Ica,Brown Swiss,56,1,Sí,Mixta,27.1,3.4,No,68
+BOV0279,Nazca,Holstein,24,0,Sí,Forraje,26.9,3.0,No,137
+BOV0280,Ica,Cruce,74,3,No,Forraje,26.5,3.0,No,271
+BOV0281,Chincha,Jersey,59,2,Sí,Forraje,23.4,3.6,No,55
+BOV0282,Ica,Holstein,100,4,No,Concentrado,28.1,3.1,Sí,2293
+BOV0283,Ica,Jersey,90,5,No,Mixta,25.9,3.0,Sí,108
+BOV0284,Pisco,Brown Swiss,76,4,No,Mixta,22.6,3.9,Sí,166
+BOV0285,Ica,Jersey,63,3,No,Mixta,24.1,3.0,Sí,634
+BOV0286,Nazca,Brown Swiss,62,2,Sí,Mixta,22.8,3.3,No,56
+BOV0287,Pisco,Holstein,24,0,No,Mixta,24.2,3.2,Sí,812
+BOV0288,Ica,Holstein,72,3,Sí,Mixta,24.5,3.3,Sí,150
+BOV0289,Chincha,Holstein,86,3,Sí,Mixta,24.6,4.2,No,155
+BOV0290,Pisco,Jersey,53,2,Sí,Concentrado,18.1,3.4,No,179
+BOV0291,Pisco,Holstein,57,2,Sí,Concentrado,25.0,3.5,Sí,292
+BOV0292,Ica,Holstein,48,2,Sí,Concentrado,30.5,3.4,No,249
+BOV0293,Ica,Holstein,68,4,No,Forraje,28.4,4.0,No,122
+BOV0294,Nazca,Holstein,65,2,Sí,Mixta,,3.0,No,174
+BOV0295,Nazca,Holstein,47,0,Sí,Mixta,28.5,3.1,No,345
+BOV0296,Chincha,Cruce,58,0,Sí,Mixta,20.7,3.2,Sí,315
+BOV0297,Ica,Holstein,63,2,Sí,Mixta,20.6,2.9,Sí,154
+BOV0298,Chincha,Holstein,59,2,Sí,Mixta,27.7,2.6,No,72
+BOV0299,Chincha,Holstein,53,1,No,Mixta,24.5,2.7,No,317
+BOV0300,Chincha,Holstein,56,2,Sí,Mixta,25.1,2.8,Sí,947
+BOV0301,Nazca,Holstein,58,4,Sí,Mixta,27.2,2.2,No,480
+BOV0302,Chincha,Holstein,92,5,No,Forraje,24.1,3.2,No,356
+BOV0303,Nazca,Jersey,84,4,Sí,Concentrado,24.1,3.4,No,124
+BOV0304,Nazca,Brown Swiss,54,3,Sí,Mixta,26.9,2.4,No,75
+BOV0305,Ica,Holstein,112,6,Sí,Mixta,29.6,3.5,No,51
+BOV0306,Nazca,Holstein,59,1,Sí,Forraje,29.9,3.8,No,65
+BOV0307,Pisco,Cruce,30,0,Sí,Concentrado,15.0,3.1,Sí,379
+BOV0308,Chincha,Holstein,47,1,Sí,Concentrado,29.3,3.2,No,115
+BOV0309,Chincha,Holstein,43,1,No,Mixta,24.0,3.2,No,103
+BOV0310,Nazca,Holstein,24,0,Sí,Forraje,28.9,2.9,No,384
+BOV0311,Ica,Holstein,58,3,Sí,Mixta,21.6,2.7,No,108
+BOV0312,Pisco,Holstein,83,3,Sí,Concentrado,40.9,2.6,No,167
+BOV0313,Ica,Brown Swiss,90,3,No,Mixta,29.2,3.1,No,61
+BOV0314,Pisco,Cruce,65,3,Sí,Forraje,22.0,3.8,No,169
+BOV0315,Nazca,Brown Swiss,57,2,Sí,Mixta,25.3,2.7,No,129
+BOV0316,Nazca,Cruce,81,5,Sí,Mixta,30.0,3.2,No,205
+BOV0317,Pisco,Brown Swiss,67,2,Sí,Forraje,24.9,3.6,No,303
+BOV0318,Pisco,Holstein,69,2,Sí,Concentrado,33.3,3.3,No,68
+BOV0319,Pisco,Brown Swiss,56,2,Sí,Mixta,20.2,2.9,No,106
+BOV0320,Ica,Jersey,53,2,Sí,Mixta,27.7,3.3,No,70
+BOV0059,Nazca,Cruce,69,3,No,Forraje,17.5,3.1,Sí,275
+BOV0117,Nazca,Brown Swiss,75,2,Sí,Mixta,26.4,3.3,Sí,305

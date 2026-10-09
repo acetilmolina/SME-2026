@@ -1,0 +1,343 @@
+﻿id_ave,galpon,edad_dias,linea_genetica,ventilacion,densidad_aves_m2,temperatura_galpon_c,amoniaco_ppm,vacunacion_completa,signos_respiratorios,peso_g,mortalidad_7d
+AVE0001,Galpón C,25,Ross 308,Baja,15.2,25.7,18.1,No,No,1652,0
+AVE0002,Galpón D,30,Cobb 500,Moderada,10.0,25.6,12.0,Sí,No,2150,1
+AVE0003,Galpón D,44,Ross 308,Baja,14.2,25.7,19.7,No,No,2507,0
+AVE0004,Galpón B,21,Ross 308,Moderada,12.8,22.6,22.6,Sí,No,1560,0
+AVE0005,Galpón C,40,Cobb 500,Moderada,9.6,24.3,14.1,Sí,No,2114,1
+AVE0006,Galpón A,35,Cobb 500,Moderada,12.7,23.4,20.5,Sí,No,1907,4
+AVE0007,Galpón C,35,Otra,Moderada,12.6,27.9,26.8,Sí,No,1789,2
+AVE0008,Galpón C,24,Ross 308,Alta,13.8,23.3,5.9,Sí,No,1451,3
+AVE0009,Galpón C,27,Cobb 500,Moderada,13.9,24.3,18.2,Sí,No,2019,2
+AVE0010,Galpón A,35,Ross 308,Baja,13.8,26.6,20.8,Sí,No,1960,0
+AVE0011,Galpón A,30,Otra,Moderada,14.4,22.3,12.0,Sí,No,1789,3
+AVE0012,Galpón B,21,Cobb 500,Alta,9.1,26.4,14.4,Sí,No,1386,2
+AVE0013,Galpón C,34,Ross 308,Baja,16.4,30.0,23.6,Sí,No,1788,1
+AVE0014,Galpón A,28,Hubbard,Baja,14.1,27.3,26.8,Sí,No,1811,1
+AVE0015,Galpón D,36,Ross 308,Moderada,8.3,25.0,8.8,No,No,1731,3
+AVE0016,Galpón B,28,Cobb 500,Moderada,12.2,26.6,25.0,Sí,No,1626,2
+AVE0017,Galpón A,31,Ross 308,Moderada,15.5,23.6,16.2,Sí,No,1679,0
+AVE0018,Galpón A,32,Cobb 500,Alta,10.8,24.7,21.0,Sí,No,1681,0
+AVE0019,Galpón C,29,Cobb 500,Baja,16.0,28.0,23.1,Sí,No,1754,1
+AVE0020,Galpón C,35,Cobb 500,Alta,10.0,26.8,18.7,Sí,No,1921,2
+AVE0021,Galpón B,31,Cobb 500,Moderada,11.8,28.5,10.9,Sí,No,1496,0
+AVE0022,Galpón D,34,Cobb 500,Alta,13.7,26.8,,Sí,No,1959,0
+AVE0023,Galpón B,37,Ross 308,Baja,12.0,28.7,18.0,Sí,No,1590,1
+AVE0024,Galpón A,23,Cobb 500,Baja,14.8,25.4,27.1,Sí,No,1469,0
+AVE0025,Galpón D,37,Cobb 500,Moderada,16.0,24.5,6.5,Sí,No,1952,1
+AVE0026,Galpón B,36,Ross 308,Moderada,15.9,24.5,19.1,Sí,No,1782,4
+AVE0027,Galpón C,38,Cobb 500,Moderada,13.2,24.9,16.6,Sí,No,1905,4
+AVE0028,Galpón D,29,Cobb 500,Alta,12.5,27.0,11.5,Sí,No,1811,1
+AVE0029,Galpón B,32,Cobb 500,Moderada,9.1,27.5,7.4,Sí,No,1984,2
+AVE0030,Galpón C,36,Cobb 500,Moderada,11.6,26.5,18.5,No,No,1929,2
+AVE0031,Galpón C,31,Hubbard,Moderada,9.9,28.3,22.5,Sí,No,2079,0
+AVE0032,Galpón A,28,Ross 308,Alta,12.8,26.9,10.0,Sí,No,,2
+AVE0033,Galpón D,45,Hubbard,Moderada,12.1,26.7,18.1,Sí,No,2291,2
+AVE0034,Galpón D,25,Ross 308,Baja,15.0,28.6,20.8,Sí,No,1075,0
+AVE0035,Galpón B,34,Cobb 500,Alta,11.4,27.0,11.1,No,No,2279,1
+AVE0036,Galpón D,18,Ross 308,Baja,15.0,28.5,44.0,Sí,No,1621,1
+AVE0037,Galpón B,27,Otra,Moderada,9.8,23.0,12.4,Sí,No,1604,1
+AVE0038,Galpón B,35,Cobb 500,Moderada,11.2,22.0,13.1,Sí,No,2108,3
+AVE0039,Galpón D,35,Ross 308,Baja,13.8,28.9,15.4,Sí,No,2060,1
+AVE0040,Galpón D,30,Cobb 500,Alta,13.8,24.4,5.2,No,No,1314,1
+AVE0041,Galpón C,31,Hubbard,Moderada,14.9,25.2,19.8,No,No,1962,1
+AVE0042,Galpón C,36,Ross 308,Baja,12.8,28.9,6.8,Sí,Sí,2215,2
+AVE0043,Galpón B,18,Ross 308,Moderada,14.2,25.6,13.2,Sí,No,1464,0
+AVE0044,Galpón D,33,Hubbard,Moderada,12.4,26.2,13.8,Sí,No,1629,2
+AVE0045,Galpón B,40,Cobb 500,Moderada,14.7,24.9,16.1,Sí,No,2211,2
+AVE0046,Galpón C,33,Hubbard,Alta,16.9,27.6,14.6,Sí,No,1647,3
+AVE0047,Galpón A,30,Cobb 500,Moderada,11.4,24.1,9.1,Sí,Sí,2123,1
+AVE0048,Galpón C,28,Cobb 500,Moderada,10.2,22.5,9.9,Sí,No,1935,2
+AVE0049,Galpón A,31,Ross 308,Baja,15.5,26.8,27.6,Sí,No,1904,2
+AVE0050,Galpón C,33,Cobb 500,Moderada,14.2,25.0,22.7,Sí,No,1802,0
+AVE0051,Galpón C,30,Ross 308,Baja,15.3,25.7,20.0,No,No,1779,0
+AVE0052,Galpón D,19,Hubbard,Moderada,12.5,26.8,13.5,Sí,No,1545,1
+AVE0053,Galpón B,30,Cobb 500,Baja,14.3,26.7,33.5,Sí,Sí,1783,5
+AVE0054,Galpón B,37,Cobb 500,Alta,13.7,27.5,18.4,Sí,No,2102,2
+AVE0055,Galpón C,41,Ross 308,Moderada,8.0,30.8,,Sí,No,2239,0
+AVE0056,Galpón C,18,Ross 308,Alta,13.0,23.9,12.6,Sí,No,1031,2
+AVE0057,Galpón C,43,Otra,Moderada,16.1,27.9,26.2,Sí,No,2220,0
+AVE0058,Galpón B,39,Otra,Alta,9.1,27.8,24.3,Sí,No,2254,1
+AVE0059,Galpón B,24,Ross 308,Moderada,13.6,27.9,16.0,Sí,No,1238,1
+AVE0060,Galpón B,26,Ross 308,Alta,17.2,27.5,2.0,Sí,No,1391,3
+AVE0061,Galpón C,41,Ross 308,Alta,7.4,26.4,12.1,Sí,No,1929,1
+AVE0062,Galpón C,34,Hubbard,Moderada,9.6,22.5,23.9,Sí,No,1914,4
+AVE0063,Galpón A,35,Cobb 500,Moderada,10.5,22.8,11.4,Sí,No,1900,3
+AVE0064,Galpón D,25,Ross 308,Moderada,12.3,24.6,28.3,Sí,No,1822,0
+AVE0065,Galpón C,37,Cobb 500,Alta,9.5,24.5,10.3,No,Sí,1867,3
+AVE0066,Galpón D,32,Cobb 500,Moderada,13.1,22.8,12.3,Sí,No,1892,0
+AVE0067,Galpón B,26,Cobb 500,Baja,11.5,28.4,19.0,Sí,No,1907,4
+AVE0068,Galpón B,37,Cobb 500,Baja,13.1,26.7,21.8,Sí,No,2156,4
+AVE0069,Galpón B,32,Ross 308,Baja,17.2,27.3,24.0,Sí,Sí,2077,4
+AVE0070,Galpón C,23,Ross 308,Moderada,13.3,27.2,13.8,Sí,No,1369,2
+AVE0071,Galpón A,35,Otra,Moderada,13.2,25.0,19.2,No,No,1971,3
+AVE0072,Galpón C,43,Cobb 500,Moderada,10.9,25.7,18.3,Sí,No,2316,3
+AVE0073,Galpón A,32,Ross 308,Alta,13.6,25.3,16.8,No,Sí,1834,5
+AVE0074,Galpón A,26,Hubbard,Baja,14.4,26.1,27.3,No,Sí,1832,5
+AVE0075,Galpón B,33,Cobb 500,Moderada,10.8,20.6,5.7,Sí,Sí,1900,4
+AVE0076,Galpón C,33,Cobb 500,Alta,13.5,28.4,18.8,Sí,No,2138,4
+AVE0077,Galpón C,34,Otra,Moderada,10.5,26.3,4.5,Sí,No,1906,0
+AVE0078,Galpón A,31,Ross 308,Moderada,9.3,26.6,21.8,Sí,No,1818,2
+AVE0079,Galpón C,31,Cobb 500,Moderada,9.3,23.2,14.8,Sí,No,1999,2
+AVE0080,Galpón C,25,Cobb 500,Moderada,9.0,26.2,24.3,Sí,No,1560,1
+AVE0081,Galpón C,31,Cobb 500,Baja,13.1,25.4,17.1,Sí,No,1649,0
+AVE0082,Galpón A,28,Cobb 500,Baja,15.5,23.6,18.7,Sí,Sí,1692,5
+AVE0083,Galpón D,31,Cobb 500,Baja,12.5,26.9,23.6,Sí,No,1937,3
+AVE0084,Galpón B,45,Hubbard,Moderada,12.7,26.1,13.4,Sí,No,2271,0
+AVE0085,Galpón B,33,Cobb 500,Baja,16.2,26.3,26.7,No,Sí,2000,4
+AVE0086,Galpón A,35,Cobb 500,Moderada,11.9,23.9,20.0,Sí,No,2011,2
+AVE0087,Galpón B,31,Ross 308,Alta,13.1,24.5,12.3,Sí,No,1781,1
+AVE0088,Galpón B,34,Otra,Moderada,12.4,26.3,13.4,No,Sí,2080,2
+AVE0089,Galpón D,34,Cobb 500,Moderada,12.0,26.3,17.1,Sí,No,1935,2
+AVE0090,Galpón D,42,Cobb 500,Moderada,9.3,25.8,18.4,No,No,1947,3
+AVE0091,Galpón C,38,Otra,Moderada,11.7,24.9,17.6,Sí,Sí,2288,4
+AVE0092,Galpón C,43,Ross 308,Moderada,18.0,26.2,16.7,Sí,No,2177,0
+AVE0093,Galpón B,25,Hubbard,,11.1,26.0,16.0,No,Sí,1450,2
+AVE0094,Galpón C,37,Ross 308,Moderada,13.6,22.8,10.6,Sí,No,1993,1
+AVE0095,Galpón B,29,Cobb 500,Baja,12.1,25.3,21.8,Sí,No,1653,0
+AVE0096,Galpón B,21,Hubbard,Baja,14.3,27.7,25.6,Sí,Sí,1526,3
+AVE0097,Galpón A,33,Cobb 500,Moderada,13.2,27.5,10.7,Sí,No,1958,1
+AVE0098,Galpón A,27,Ross 308,Alta,14.4,28.8,13.0,No,No,1864,1
+AVE0099,Galpón C,30,Cobb 500,Alta,13.7,24.5,23.5,Sí,No,1253,1
+AVE0100,Galpón A,26,Cobb 500,Baja,14.9,25.3,5.8,Sí,No,2076,1
+AVE0101,Galpón B,40,Cobb 500,Alta,12.6,24.2,21.2,No,No,1971,2
+AVE0102,Galpón D,33,Otra,Moderada,10.1,28.4,23.0,Sí,No,2099,2
+AVE0103,Galpón A,45,Hubbard,Moderada,14.0,24.0,12.3,No,Sí,2105,5
+AVE0104,Galpón A,32,Cobb 500,Alta,12.0,24.9,2.0,Sí,No,1733,0
+AVE0105,Galpón D,25,Ross 308,Moderada,13.9,26.0,23.9,Sí,No,1530,0
+AVE0106,Galpón D,36,Ross 308,Baja,13.3,24.8,20.4,Sí,No,1809,2
+AVE0107,Galpón D,42,Cobb 500,Moderada,13.6,23.3,11.5,Sí,No,2115,0
+AVE0108,Galpón A,36,Hubbard,Baja,10.6,27.2,13.2,Sí,No,1913,1
+AVE0109,Galpón D,30,Ross 308,Baja,14.0,27.6,17.4,Sí,No,2020,3
+AVE0110,Galpón C,35,Ross 308,Moderada,12.8,23.7,18.6,Sí,No,2086,2
+AVE0111,Galpón C,40,Cobb 500,Alta,12.3,27.2,10.3,Sí,No,2274,2
+AVE0112,Galpón C,22,Cobb 500,Moderada,11.3,27.6,17.1,Sí,No,1405,1
+AVE0113,Galpón B,36,Cobb 500,Alta,12.9,22.4,18.5,No,No,1642,1
+AVE0114,Galpón C,25,Cobb 500,Moderada,11.1,25.7,11.6,Sí,No,1843,1
+AVE0115,Galpón B,30,Ross 308,Moderada,13.5,25.8,15.9,No,No,1827,0
+AVE0116,Galpón A,34,Ross 308,Baja,17.0,26.8,35.0,Sí,No,1909,1
+AVE0117,Galpón A,28,Cobb 500,Alta,9.9,23.6,10.9,Sí,No,1855,1
+AVE0118,Galpón A,42,Ross 308,Alta,12.1,26.1,2.0,Sí,No,2474,2
+AVE0119,Galpón B,36,Ross 308,Moderada,14.2,27.2,13.2,Sí,No,1894,0
+AVE0120,Galpón A,35,Hubbard,Moderada,13.8,24.7,17.2,Sí,No,1818,2
+AVE0121,Galpón B,28,Cobb 500,Alta,16.1,26.7,17.4,Sí,No,1798,1
+AVE0122,Galpón B,30,Cobb 500,Moderada,13.3,28.9,21.3,Sí,No,1898,5
+AVE0123,Galpón A,32,Cobb 500,Baja,12.2,24.0,21.4,Sí,No,1614,4
+AVE0124,Galpón B,31,Cobb 500,Alta,13.4,22.9,16.8,Sí,No,1866,3
+AVE0125,Galpón C,32,Cobb 500,Baja,17.0,27.5,8.3,Sí,No,1795,4
+AVE0126,Galpón D,35,Cobb 500,Moderada,14.2,24.8,9.9,Sí,No,1852,0
+AVE0127,Galpón A,35,Cobb 500,Baja,14.9,24.9,22.7,No,No,1861,0
+AVE0128,Galpón A,34,Hubbard,Moderada,14.9,28.9,,Sí,No,1505,3
+AVE0129,Galpón B,31,Cobb 500,Alta,11.7,24.7,9.6,No,Sí,1991,3
+AVE0130,Galpón D,36,Hubbard,Moderada,13.8,28.2,7.1,Sí,No,2209,3
+AVE0131,Galpón C,34,Ross 308,Alta,14.8,24.7,24.1,Sí,No,1646,1
+AVE0132,Galpón D,37,Otra,Moderada,11.7,23.2,13.7,Sí,No,2022,1
+AVE0133,Galpón A,30,Cobb 500,Baja,18.0,26.3,23.5,Sí,Sí,1628,4
+AVE0134,Galpón C,26,Cobb 500,Alta,14.6,27.1,17.8,Sí,No,1517,2
+AVE0135,Galpón C,32,Hubbard,Alta,11.3,22.7,12.1,No,No,1799,1
+AVE0136,Galpón B,18,Ross 308,Moderada,14.9,24.6,26.6,No,Sí,900,2
+AVE0137,Galpón A,27,Cobb 500,Baja,14.8,23.8,23.1,Sí,Sí,1647,5
+AVE0138,Galpón D,32,Ross 308,Alta,11.4,24.8,14.9,Sí,No,1821,2
+AVE0139,Galpón C,24,Ross 308,Moderada,9.4,26.1,9.7,No,No,1446,2
+AVE0140,Galpón D,29,Cobb 500,Moderada,10.7,24.3,18.4,Sí,No,,0
+AVE0141,Galpón A,24,Cobb 500,Moderada,10.4,25.9,14.4,Sí,No,1774,2
+AVE0142,Galpón D,36,Ross 308,Baja,15.2,25.5,29.4,Sí,No,1818,3
+AVE0143,Galpón A,28,Ross 308,,10.4,26.7,12.2,Sí,No,1694,1
+AVE0144,Galpón B,30,Cobb 500,Moderada,10.1,24.8,10.3,Sí,No,1890,1
+AVE0145,Galpón A,30,Hubbard,Alta,14.1,24.3,21.8,Sí,No,1870,3
+AVE0146,Galpón D,31,Ross 308,Baja,15.8,25.3,32.2,Sí,Sí,1681,6
+AVE0147,Galpón A,36,Cobb 500,Moderada,8.5,26.3,24.6,Sí,No,1960,0
+AVE0148,Galpón A,29,Otra,Baja,15.3,23.6,28.7,No,Sí,1879,5
+AVE0149,Galpón C,36,Ross 308,Baja,13.1,25.9,28.8,Sí,No,2113,0
+AVE0150,Galpón C,30,Otra,Alta,13.3,24.1,11.7,No,No,1756,1
+AVE0151,Galpón A,21,Cobb 500,Alta,15.9,26.3,15.6,No,Sí,1527,5
+AVE0152,Galpón D,30,Ross 308,Alta,13.3,23.7,20.2,Sí,No,2119,0
+AVE0153,Galpón A,39,Ross 308,Moderada,11.3,22.3,16.8,Sí,No,,3
+AVE0154,Galpón A,34,Ross 308,Baja,13.2,23.5,24.8,Sí,Sí,2103,3
+AVE0155,Galpón D,33,Cobb 500,Alta,9.1,28.8,10.7,Sí,No,1670,1
+AVE0156,Galpón B,28,Ross 308,Alta,9.4,30.7,25.3,Sí,Sí,1662,2
+AVE0157,Galpón A,37,Otra,Baja,17.5,25.4,16.7,Sí,No,2064,1
+AVE0158,Galpón D,25,Ross 308,Baja,15.4,28.9,21.1,Sí,No,1688,1
+AVE0159,Galpón C,21,Ross 308,Baja,14.2,27.5,28.6,Sí,Sí,1448,7
+AVE0160,Galpón C,31,Otra,Moderada,13.3,25.6,26.4,Sí,No,1659,2
+AVE0161,Galpón D,28,Cobb 500,Baja,13.1,22.6,21.4,Sí,No,1641,1
+AVE0162,Galpón A,28,Ross 308,Alta,12.2,29.3,2.7,Sí,No,1354,6
+AVE0163,Galpón C,33,Cobb 500,Alta,10.9,27.7,12.0,Sí,No,1686,2
+AVE0164,Galpón D,27,Cobb 500,Moderada,14.7,21.4,15.9,Sí,No,1631,1
+AVE0165,Galpón A,38,Ross 308,Alta,12.4,28.6,8.7,Sí,No,2232,1
+AVE0166,Galpón A,44,Ross 308,Alta,15.9,24.2,11.5,Sí,Sí,2236,3
+AVE0167,Galpón C,35,Cobb 500,Moderada,12.8,24.3,,Sí,No,1989,1
+AVE0168,Galpón D,36,Cobb 500,Alta,14.4,26.2,12.3,Sí,No,1692,2
+AVE0169,Galpón C,32,Hubbard,Baja,11.2,26.4,27.1,Sí,Sí,1692,1
+AVE0170,Galpón A,30,Hubbard,Moderada,13.2,22.8,21.0,Sí,No,1583,2
+AVE0171,Galpón B,41,Cobb 500,Moderada,11.1,19.8,16.1,Sí,No,1973,2
+AVE0172,Galpón B,28,Ross 308,Moderada,13.3,25.3,19.8,No,No,1542,3
+AVE0173,Galpón B,34,Ross 308,Baja,12.8,25.3,18.1,No,No,1586,0
+AVE0174,Galpón D,39,Hubbard,Moderada,17.1,22.0,13.8,No,No,1786,2
+AVE0175,Galpón D,23,Ross 308,Moderada,8.2,25.6,17.8,Sí,No,1400,4
+AVE0176,Galpón B,28,Cobb 500,Moderada,9.5,24.4,18.2,Sí,No,1773,1
+AVE0177,Galpón C,33,Cobb 500,,12.7,31.4,14.5,Sí,No,2105,1
+AVE0178,Galpón A,29,Ross 308,Moderada,11.1,26.7,19.0,Sí,No,1569,1
+AVE0179,Galpón A,29,Cobb 500,Baja,12.8,24.6,22.6,Sí,No,1737,2
+AVE0180,Galpón D,38,Ross 308,Alta,13.7,27.0,10.7,Sí,No,1934,1
+AVE0181,Galpón B,41,Ross 308,Alta,12.3,23.4,2.0,Sí,No,1859,2
+AVE0182,Galpón C,31,Cobb 500,Alta,11.2,27.0,14.5,No,No,2118,1
+AVE0183,Galpón A,25,Ross 308,,12.8,24.6,9.2,Sí,No,1699,1
+AVE0184,Galpón A,32,Ross 308,Baja,13.4,26.5,23.1,Sí,No,1777,0
+AVE0185,Galpón B,23,Ross 308,Alta,15.1,24.8,10.2,Sí,No,1364,1
+AVE0186,Galpón B,31,Cobb 500,Alta,12.3,23.3,12.4,No,No,1777,3
+AVE0187,Galpón A,36,Hubbard,Baja,12.2,28.8,24.9,Sí,No,,0
+AVE0188,Galpón A,31,Ross 308,Moderada,10.9,24.9,14.8,Sí,No,2235,1
+AVE0189,Galpón C,39,Ross 308,Baja,11.2,24.4,28.1,Sí,No,2073,4
+AVE0190,Galpón C,22,Ross 308,Alta,9.8,26.1,13.6,Sí,No,1644,2
+AVE0191,Galpón D,35,Cobb 500,Moderada,14.1,26.6,17.0,Sí,No,2016,1
+AVE0192,Galpón C,18,Otra,Baja,13.9,28.6,25.5,Sí,No,1204,1
+AVE0193,Galpón B,35,Ross 308,Moderada,11.9,21.9,11.9,No,No,1702,2
+AVE0194,Galpón C,27,Ross 308,,13.6,28.1,24.6,Sí,No,1605,2
+AVE0195,Galpón C,33,Ross 308,Moderada,8.6,27.6,20.1,Sí,No,1835,3
+AVE0196,Galpón A,26,Cobb 500,Moderada,16.6,24.2,26.8,No,No,1579,0
+AVE0197,Galpón A,42,Ross 308,Alta,13.9,22.5,25.7,No,No,2158,2
+AVE0198,Galpón A,34,Ross 308,Moderada,11.0,23.7,28.3,Sí,No,2003,0
+AVE0199,Galpón C,30,Hubbard,Alta,14.4,24.8,26.0,Sí,No,2119,3
+AVE0200,Galpón A,40,Ross 308,Baja,11.6,27.2,34.8,No,Sí,2314,0
+AVE0201,Galpón A,36,Cobb 500,Moderada,13.7,27.6,20.5,Sí,No,2112,0
+AVE0202,Galpón B,27,Ross 308,Moderada,11.5,22.3,6.1,Sí,No,1396,1
+AVE0203,Galpón D,22,Cobb 500,Moderada,12.3,24.1,19.3,No,No,1722,1
+AVE0204,Galpón D,30,Ross 308,Baja,14.1,26.2,22.9,Sí,Sí,1480,3
+AVE0205,Galpón D,29,Ross 308,Moderada,13.8,29.9,8.1,No,No,1724,0
+AVE0206,Galpón C,37,Hubbard,Moderada,14.9,26.3,15.6,No,No,1844,1
+AVE0207,Galpón A,24,Ross 308,Moderada,11.0,29.6,9.2,Sí,No,1699,2
+AVE0208,Galpón C,25,Ross 308,Alta,12.1,24.9,,Sí,No,1557,0
+AVE0209,Galpón B,30,Cobb 500,Baja,13.8,28.9,14.8,Sí,No,1565,1
+AVE0210,Galpón C,36,Cobb 500,Moderada,12.3,27.8,21.5,Sí,No,2157,1
+AVE0211,Galpón D,22,Ross 308,Baja,17.0,26.7,26.6,Sí,No,,1
+AVE0212,Galpón D,38,Hubbard,Moderada,17.1,27.1,11.3,Sí,No,2117,2
+AVE0213,Galpón C,30,Ross 308,Moderada,15.8,28.5,17.4,Sí,No,1814,1
+AVE0214,Galpón A,23,Cobb 500,Baja,15.0,27.7,22.9,Sí,No,1874,4
+AVE0215,Galpón C,36,Ross 308,Moderada,15.6,24.1,15.4,Sí,No,2158,0
+AVE0216,Galpón D,31,Hubbard,Baja,13.0,24.1,33.0,Sí,No,1645,2
+AVE0217,Galpón C,35,Cobb 500,Baja,15.2,26.3,20.5,Sí,No,1676,3
+AVE0218,Galpón A,28,Otra,Moderada,8.2,26.3,13.4,Sí,No,1692,1
+AVE0219,Galpón A,39,Ross 308,Alta,12.7,25.4,14.2,Sí,No,2047,1
+AVE0220,Galpón A,31,Ross 308,Moderada,12.4,25.6,21.1,Sí,No,1871,2
+AVE0221,Galpón A,39,Ross 308,Alta,12.7,27.2,13.8,No,No,2024,1
+AVE0222,Galpón B,34,Ross 308,Baja,11.4,29.7,23.9,Sí,No,1989,1
+AVE0223,Galpón C,31,Cobb 500,Baja,15.4,26.3,14.8,Sí,No,1554,1
+AVE0224,Galpón C,31,Cobb 500,Moderada,12.4,23.7,8.6,Sí,No,1592,2
+AVE0225,Galpón A,30,Cobb 500,Baja,15.2,27.3,31.2,No,No,1932,1
+AVE0226,Galpón B,37,Ross 308,Moderada,10.4,22.8,21.7,Sí,No,2137,5
+AVE0227,Galpón B,38,Otra,Moderada,11.3,27.0,17.7,Sí,No,2087,2
+AVE0228,Galpón D,28,Cobb 500,Moderada,15.2,26.4,14.0,Sí,No,1619,1
+AVE0229,Galpón A,42,Hubbard,Moderada,10.5,25.6,14.7,No,No,2324,2
+AVE0230,Galpón B,31,Cobb 500,Moderada,9.9,27.1,18.6,No,No,2033,1
+AVE0231,Galpón A,37,Cobb 500,Moderada,13.5,26.7,17.4,Sí,No,2241,1
+AVE0232,Galpón B,45,Hubbard,Moderada,16.5,22.8,20.3,Sí,No,2151,1
+AVE0233,Galpón D,41,Ross 308,Alta,12.2,26.9,8.9,Sí,No,2015,1
+AVE0234,Galpón C,35,Ross 308,Moderada,15.2,22.6,20.4,Sí,No,1805,2
+AVE0235,Galpón D,29,Cobb 500,Moderada,13.6,26.4,18.0,Sí,No,1622,1
+AVE0236,Galpón A,35,Cobb 500,Moderada,14.0,27.1,9.7,Sí,No,1982,1
+AVE0237,Galpón D,38,Ross 308,Baja,13.8,23.6,19.8,Sí,Sí,2162,4
+AVE0238,Galpón B,35,Cobb 500,Alta,12.0,24.8,14.2,Sí,Sí,1951,1
+AVE0239,Galpón C,30,Hubbard,,12.9,24.3,5.7,No,No,1748,2
+AVE0240,Galpón D,40,Hubbard,Moderada,13.0,23.3,23.3,Sí,No,1940,2
+AVE0241,Galpón B,26,Hubbard,Baja,15.5,26.7,28.7,Sí,No,1479,3
+AVE0242,Galpón A,45,Ross 308,Moderada,9.6,24.9,14.2,Sí,No,2372,3
+AVE0243,Galpón D,42,Ross 308,Alta,7.5,23.9,17.4,Sí,No,2025,3
+AVE0244,Galpón C,23,Hubbard,Alta,12.2,25.9,11.0,No,No,1432,0
+AVE0245,Galpón C,25,Otra,Alta,12.9,24.6,12.0,No,No,1402,2
+AVE0246,Galpón D,29,Cobb 500,Baja,15.7,26.3,19.9,Sí,No,1276,2
+AVE0247,Galpón C,26,Ross 308,Moderada,12.5,24.7,17.0,Sí,No,1573,0
+AVE0248,Galpón C,28,Ross 308,Moderada,13.8,24.5,7.6,Sí,No,1745,3
+AVE0249,Galpón A,33,Cobb 500,Baja,16.1,25.2,22.0,No,No,1838,2
+AVE0250,Galpón A,37,Cobb 500,Alta,11.9,27.3,14.0,Sí,Sí,1914,6
+AVE0251,Galpón A,25,Hubbard,Alta,11.0,25.4,16.0,Sí,No,1777,0
+AVE0252,Galpón D,31,Cobb 500,Baja,14.4,26.5,24.6,Sí,No,2042,2
+AVE0253,Galpón B,35,Cobb 500,Alta,13.7,23.0,7.5,Sí,No,1829,0
+AVE0254,Galpón D,36,Cobb 500,Baja,13.2,26.2,14.6,Sí,Sí,1596,6
+AVE0255,Galpón D,30,Ross 308,Alta,9.5,26.6,2.0,Sí,No,1820,3
+AVE0256,Galpón A,29,Cobb 500,Moderada,15.4,24.8,4.2,Sí,No,1894,3
+AVE0257,Galpón B,30,Ross 308,Alta,12.7,26.3,9.2,Sí,No,1381,1
+AVE0258,Galpón C,36,Otra,Moderada,12.8,23.0,21.2,Sí,No,1879,1
+AVE0259,Galpón C,28,Otra,Moderada,13.3,26.9,8.8,Sí,No,2122,2
+AVE0260,Galpón B,27,Cobb 500,Moderada,12.9,25.2,17.3,Sí,No,1697,3
+AVE0261,Galpón B,25,Hubbard,Baja,18.0,25.8,18.9,Sí,Sí,1671,2
+AVE0262,Galpón D,29,Cobb 500,Moderada,8.3,23.3,26.1,Sí,No,1736,2
+AVE0263,Galpón C,30,Ross 308,Baja,14.1,23.9,15.2,Sí,No,1740,2
+AVE0264,Galpón D,45,Ross 308,Moderada,12.3,29.0,18.8,Sí,No,2203,1
+AVE0265,Galpón A,33,Ross 308,Alta,13.1,25.2,8.8,Sí,No,1921,0
+AVE0266,Galpón A,29,Cobb 500,Alta,12.7,27.7,7.8,Sí,Sí,1668,5
+AVE0267,Galpón B,40,Ross 308,Alta,13.5,25.5,4.1,No,No,2159,2
+AVE0268,Galpón D,32,Hubbard,Moderada,15.1,24.8,10.7,Sí,No,1692,1
+AVE0269,Galpón C,33,Otra,Moderada,9.4,27.3,17.6,Sí,No,1946,0
+AVE0270,Galpón D,23,Ross 308,Alta,13.3,27.6,18.2,Sí,No,1520,3
+AVE0271,Galpón C,26,Ross 308,Moderada,11.3,24.0,24.2,Sí,No,1756,0
+AVE0272,Galpón A,34,Ross 308,Alta,8.5,21.4,19.6,Sí,No,1651,2
+AVE0273,Galpón A,38,Ross 308,Baja,11.5,26.9,21.3,Sí,No,1867,2
+AVE0274,Galpón C,24,Ross 308,Moderada,12.0,26.2,11.0,Sí,No,1211,1
+AVE0275,Galpón D,39,Ross 308,Moderada,11.1,22.7,23.2,Sí,No,1942,3
+AVE0276,Galpón C,31,Ross 308,Alta,16.1,27.1,19.8,Sí,No,2036,1
+AVE0277,Galpón C,45,Hubbard,Alta,17.3,24.5,2.0,Sí,No,2276,3
+AVE0278,Galpón C,22,Ross 308,Baja,11.5,26.1,21.7,No,No,1568,2
+AVE0279,Galpón B,28,Cobb 500,Baja,11.4,25.7,35.0,Sí,No,1898,4
+AVE0280,Galpón B,36,Cobb 500,Moderada,14.1,24.7,15.7,Sí,No,1905,1
+AVE0281,Galpón B,32,Ross 308,Moderada,13.2,26.2,7.1,Sí,No,2284,1
+AVE0282,Galpón A,26,Cobb 500,Alta,12.1,28.0,9.4,Sí,No,1896,2
+AVE0283,Galpón C,22,Hubbard,Moderada,11.8,27.6,21.5,No,No,1559,3
+AVE0284,Galpón B,32,Ross 308,Baja,14.4,22.1,16.6,Sí,No,1822,5
+AVE0285,Galpón A,27,Ross 308,Moderada,10.9,29.3,26.2,Sí,No,1677,1
+AVE0286,Galpón D,36,Cobb 500,Moderada,12.8,23.1,9.7,Sí,Sí,2109,5
+AVE0287,Galpón A,26,Ross 308,Baja,10.1,28.0,28.4,Sí,No,1464,3
+AVE0288,Galpón C,36,Hubbard,Alta,14.1,25.1,7.5,Sí,No,1910,2
+AVE0289,Galpón A,28,Ross 308,Baja,17.1,23.7,19.7,Sí,No,1868,0
+AVE0290,Galpón A,38,Ross 308,Alta,9.7,27.3,15.6,Sí,No,2074,1
+AVE0291,Galpón B,29,Ross 308,Alta,10.7,24.5,17.5,Sí,No,1714,2
+AVE0292,Galpón A,27,Ross 308,Alta,9.9,24.9,12.6,Sí,No,1761,0
+AVE0293,Galpón A,27,Hubbard,Baja,14.7,27.9,23.0,Sí,No,1833,3
+AVE0294,Galpón C,29,Ross 308,Moderada,14.4,26.5,24.4,No,Sí,1646,3
+AVE0295,Galpón A,27,Ross 308,Baja,12.2,25.9,42.0,Sí,No,1837,0
+AVE0296,Galpón B,25,Ross 308,Baja,14.4,20.2,21.3,Sí,No,1869,2
+AVE0297,Galpón D,25,Cobb 500,Baja,15.3,29.7,12.8,No,No,1284,2
+AVE0298,Galpón A,31,Cobb 500,Moderada,12.6,23.6,19.0,Sí,Sí,1863,5
+AVE0299,Galpón C,36,Cobb 500,Baja,14.3,26.0,14.7,Sí,No,2206,1
+AVE0300,Galpón C,41,Cobb 500,Moderada,11.8,25.5,10.6,No,No,2324,0
+AVE0301,Galpón B,24,Ross 308,Baja,13.0,28.5,31.4,Sí,No,2075,7
+AVE0302,Galpón A,29,Ross 308,Baja,15.7,26.7,24.1,Sí,Sí,1933,5
+AVE0303,Galpón D,28,Cobb 500,Baja,13.9,28.1,27.3,Sí,Sí,1844,2
+AVE0304,Galpón B,39,Ross 308,Baja,9.7,27.6,26.1,Sí,No,2310,2
+AVE0305,Galpón D,22,Ross 308,Baja,16.1,26.7,20.3,No,No,1537,0
+AVE0306,Galpón B,36,Ross 308,Moderada,17.1,22.2,14.0,Sí,Sí,1885,4
+AVE0307,Galpón C,39,Hubbard,Baja,11.6,27.7,30.2,Sí,Sí,2335,5
+AVE0308,Galpón C,36,Hubbard,Baja,14.4,26.9,28.4,No,No,1666,3
+AVE0309,Galpón C,18,Cobb 500,Alta,11.1,24.4,10.4,Sí,No,1505,0
+AVE0310,Galpón D,39,Ross 308,Baja,18.0,23.5,23.9,Sí,No,2218,0
+AVE0311,Galpón A,31,Ross 308,Alta,12.5,22.7,6.8,Sí,No,1804,0
+AVE0312,Galpón C,39,Cobb 500,Moderada,9.6,22.5,26.2,Sí,Sí,2179,4
+AVE0313,Galpón A,36,Ross 308,Moderada,15.4,25.5,16.6,No,No,2025,0
+AVE0314,Galpón B,33,Cobb 500,Alta,14.4,27.3,23.0,Sí,No,1684,1
+AVE0315,Galpón C,21,Hubbard,Moderada,12.4,25.3,23.3,Sí,No,1519,2
+AVE0316,Galpón D,37,Ross 308,Alta,11.0,25.8,12.8,Sí,No,1852,2
+AVE0317,Galpón C,29,Ross 308,Moderada,12.3,23.8,18.4,Sí,No,1591,3
+AVE0318,Galpón D,26,Ross 308,Moderada,12.4,23.9,25.6,No,No,1898,0
+AVE0319,Galpón A,20,Ross 308,Baja,16.5,25.2,29.5,Sí,No,1105,2
+AVE0320,Galpón C,39,Ross 308,Baja,16.9,26.3,17.3,Sí,No,,4
+AVE0321,Galpón C,21,Cobb 500,Baja,11.4,26.0,25.7,Sí,Sí,1443,2
+AVE0322,Galpón A,21,Cobb 500,Alta,11.2,25.8,,Sí,No,1724,1
+AVE0323,Galpón D,36,Cobb 500,Moderada,13.1,23.0,19.8,Sí,No,2291,0
+AVE0324,Galpón C,18,Cobb 500,Baja,17.5,28.5,17.5,Sí,No,1379,2
+AVE0325,Galpón A,32,Cobb 500,Baja,8.6,28.8,31.7,Sí,No,1855,2
+AVE0326,Galpón D,32,Ross 308,Alta,7.0,26.0,2.0,Sí,No,1985,3
+AVE0327,Galpón D,37,Otra,Baja,12.9,23.3,13.2,Sí,No,1948,2
+AVE0328,Galpón C,39,Cobb 500,Moderada,12.4,24.3,10.0,Sí,No,2069,1
+AVE0329,Galpón B,37,Ross 308,Baja,13.3,21.6,27.2,Sí,No,1935,1
+AVE0330,Galpón B,24,Cobb 500,Moderada,9.6,30.0,9.9,No,No,1582,3
+AVE0331,Galpón D,38,Hubbard,Alta,10.1,26.5,6.5,Sí,No,1979,1
+AVE0332,Galpón D,37,Cobb 500,Baja,16.3,26.2,17.5,Sí,No,2156,2
+AVE0333,Galpón B,37,Cobb 500,Baja,11.0,24.1,22.2,No,No,1976,0
+AVE0334,Galpón A,37,Hubbard,Moderada,11.0,27.7,20.7,No,No,2064,0
+AVE0335,Galpón B,37,Cobb 500,Moderada,14.6,26.2,21.6,Sí,No,2138,1
+AVE0336,Galpón C,27,Cobb 500,Moderada,14.0,27.7,20.3,No,No,1686,1
+AVE0337,Galpón B,20,Ross 308,Baja,14.3,27.0,24.7,No,No,1719,1
+AVE0338,Galpón C,33,Cobb 500,Moderada,14.4,28.2,23.7,Sí,Sí,2116,4
+AVE0339,Galpón C,31,Hubbard,Alta,13.6,27.3,19.4,Sí,No,1767,0
+AVE0340,Galpón D,34,Cobb 500,Alta,13.9,26.8,23.6,Sí,No,1802,1
+AVE0276,Galpón C,31,Ross 308,Alta,16.1,27.1,19.8,Sí,No,2036,1
+AVE0059,Galpón B,24,Ross 308,Moderada,13.6,27.9,16.0,Sí,No,1238,1

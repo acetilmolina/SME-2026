@@ -1,0 +1,273 @@
+﻿id_equino,centro,sexo,edad_anios,raza,nivel_actividad,tipo_alimentacion,horas_trabajo_semana,condicion_corporal_9,peso_kg,frecuencia_cardiaca_reposo,cojera,riesgo_metabolico
+EQU0001,Centro C,Hembra,13.6,Peruano de Paso,Moderada,Forraje,3.8,5.0,494.8,45,No,No
+EQU0002,Centro D,Hembra,14.4,Peruano de Paso,Alta,Forraje,10.0,5.3,550.8,36,Sí,No
+EQU0003,Centro C,Hembra,16.0,Peruano de Paso,Moderada,Forraje,7.8,5.1,469.9,34,No,No
+EQU0004,Centro B,Hembra,13.5,Cuarto de Milla,Alta,Forraje,6.2,6.9,574.3,43,No,No
+EQU0005,Centro B,Hembra,14.3,Peruano de Paso,Moderada,Concentrado,4.0,6.6,503.5,38,No,No
+EQU0006,Centro D,Hembra,8.4,Mestizo,Baja,Forraje,9.8,6.9,591.5,29,No,No
+EQU0007,Centro B,Hembra,3.7,Peruano de Paso,Moderada,Mixto,3.4,,466.0,36,No,No
+EQU0008,Centro B,Hembra,6.1,Criollo,Moderada,Concentrado,5.6,5.5,513.6,36,No,No
+EQU0009,Centro C,Macho,11.2,Criollo,Moderada,Mixto,1.1,5.3,555.8,32,No,No
+EQU0010,Centro A,Hembra,12.5,Peruano de Paso,Baja,Concentrado,7.9,6.2,522.2,33,No,No
+EQU0011,Centro D,Hembra,10.3,Mestizo,Alta,Concentrado,11.1,5.6,583.4,49,No,No
+EQU0012,Centro C,Hembra,8.4,Mestizo,Baja,Forraje,6.8,4.6,519.0,28,No,No
+EQU0013,Centro A,Hembra,7.7,Peruano de Paso,Alta,Mixto,7.1,4.9,532.3,32,No,No
+EQU0014,Centro C,Hembra,12.1,Peruano de Paso,Moderada,Mixto,5.6,4.6,509.7,39,No,No
+EQU0015,Centro D,Hembra,12.4,Cuarto de Milla,Alta,Mixto,8.0,6.8,582.1,34,No,No
+EQU0016,Centro A,Hembra,7.4,Mestizo,Baja,Mixto,4.4,6.2,539.3,24,No,No
+EQU0017,Centro A,Hembra,10.4,Peruano de Paso,Baja,Mixto,6.9,5.9,500.5,41,No,No
+EQU0018,Centro C,Hembra,2.0,Criollo,Moderada,Forraje,6.0,6.4,614.1,33,Sí,No
+EQU0019,Centro C,Macho,2.0,Criollo,Moderada,Mixto,5.3,5.9,568.7,38,No,No
+EQU0020,Centro D,Macho,4.2,Cuarto de Milla,Baja,Mixto,1.6,5.5,493.6,37,No,No
+EQU0021,Centro C,Hembra,12.9,Peruano de Paso,Alta,Concentrado,7.0,6.5,572.5,43,No,No
+EQU0022,Centro B,Hembra,13.4,Cuarto de Milla,Moderada,Concentrado,4.9,5.4,535.3,39,No,No
+EQU0023,Centro C,Hembra,2.0,Criollo,Alta,Mixto,7.2,5.6,526.9,39,No,No
+EQU0024,Centro B,Hembra,9.5,Peruano de Paso,Alta,Mixto,10.2,6.2,542.9,39,No,No
+EQU0025,Centro C,Hembra,8.5,Cuarto de Milla,Moderada,Forraje,5.0,4.1,470.5,33,Sí,No
+EQU0026,Centro D,Hembra,8.8,Cuarto de Milla,Baja,Mixto,6.5,4.2,490.2,38,No,No
+EQU0027,Centro A,Macho,5.4,Cuarto de Milla,Alta,Forraje,11.6,5.3,522.2,34,No,No
+EQU0028,Centro A,Hembra,10.8,Peruano de Paso,Alta,Mixto,8.4,5.4,482.2,39,No,No
+EQU0029,Centro C,Macho,7.5,Cuarto de Milla,Moderada,Forraje,4.4,4.1,472.0,39,Sí,No
+EQU0030,Centro B,Hembra,5.1,Cuarto de Milla,Moderada,Concentrado,4.7,7.0,579.1,28,No,Sí
+EQU0031,Centro C,Hembra,3.3,Criollo,Baja,Mixto,5.7,6.8,563.2,37,No,No
+EQU0032,Centro D,Macho,3.4,Cuarto de Milla,Moderada,Mixto,2.6,3.9,503.7,34,No,No
+EQU0033,Centro A,Macho,2.0,Criollo,Moderada,Mixto,4.9,4.6,551.3,37,No,No
+EQU0034,Centro A,Hembra,5.8,Criollo,Moderada,Forraje,0.8,4.2,419.7,32,Sí,No
+EQU0035,Centro B,Hembra,8.9,Mestizo,Alta,Forraje,7.5,3.9,479.6,37,No,No
+EQU0036,Centro D,Hembra,8.9,Mestizo,Moderada,Concentrado,3.5,2.7,355.8,38,No,Sí
+EQU0037,Centro A,Hembra,6.7,Peruano de Paso,Alta,Forraje,9.7,5.9,540.4,26,Sí,No
+EQU0038,Centro D,Macho,14.1,Mestizo,Baja,Concentrado,2.8,4.6,512.1,45,No,No
+EQU0039,Centro D,Hembra,3.8,Peruano de Paso,Moderada,Mixto,8.4,6.0,526.0,41,No,No
+EQU0040,Centro A,Hembra,12.3,Peruano de Paso,Moderada,Forraje,4.9,4.0,439.4,32,No,No
+EQU0041,Centro C,Hembra,5.2,Peruano de Paso,Alta,Concentrado,11.2,3.1,397.0,37,Sí,No
+EQU0042,Centro A,Hembra,9.5,Mestizo,Moderada,Mixto,4.9,5.9,463.4,33,No,No
+EQU0043,Centro B,Hembra,15.8,Peruano de Paso,Moderada,Mixto,6.3,5.0,505.2,40,No,No
+EQU0044,Centro A,Hembra,11.5,Mestizo,Moderada,Forraje,13.0,5.5,,42,No,No
+EQU0045,Centro D,Hembra,13.4,Peruano de Paso,Baja,Concentrado,6.8,5.7,478.1,33,Sí,No
+EQU0046,Centro B,Macho,11.9,Peruano de Paso,Baja,Forraje,1.8,3.9,468.3,41,No,No
+EQU0047,Centro C,Macho,10.5,Peruano de Paso,Moderada,Forraje,1.6,5.5,515.6,24,Sí,No
+EQU0048,Centro D,Hembra,9.0,Peruano de Paso,Alta,Mixto,9.2,5.7,477.2,40,No,No
+EQU0049,Centro A,Hembra,13.2,Peruano de Paso,Baja,Forraje,2.9,7.1,515.6,31,No,Sí
+EQU0050,Centro A,Macho,7.8,Cuarto de Milla,Alta,Forraje,6.8,5.3,582.3,35,Sí,No
+EQU0051,Centro C,Hembra,11.8,Peruano de Paso,Alta,Mixto,9.0,6.6,566.1,36,No,No
+EQU0052,Centro D,Macho,5.4,Peruano de Paso,Alta,Forraje,9.4,5.7,544.4,38,No,No
+EQU0053,Centro D,Hembra,2.0,Criollo,Baja,Mixto,4.2,6.7,502.6,41,No,No
+EQU0054,Centro C,Hembra,7.2,Criollo,Alta,Concentrado,7.4,5.1,541.9,38,No,No
+EQU0055,Centro A,Macho,12.1,Peruano de Paso,Alta,Forraje,10.9,6.2,558.4,32,No,No
+EQU0056,Centro B,Hembra,6.4,Peruano de Paso,Alta,Concentrado,5.2,7.3,582.9,34,No,Sí
+EQU0057,Centro B,Macho,4.5,Criollo,Alta,Forraje,11.4,,484.5,39,No,No
+EQU0058,Centro B,Macho,2.0,Peruano de Paso,Baja,Mixto,11.1,6.7,539.8,38,No,No
+EQU0059,Centro D,Macho,5.8,Criollo,Baja,Concentrado,5.9,5.7,564.5,34,No,No
+EQU0060,Centro A,Macho,6.6,Mestizo,Moderada,Forraje,6.5,4.8,469.3,37,No,No
+EQU0061,Centro B,Macho,10.9,Criollo,Baja,Forraje,5.0,6.7,568.0,40,No,No
+EQU0062,Centro C,Hembra,16.1,Cuarto de Milla,Moderada,Mixto,8.2,5.3,690.0,43,No,No
+EQU0063,Centro D,Macho,4.2,Mestizo,Moderada,Forraje,4.4,5.9,515.0,30,No,No
+EQU0064,Centro D,Macho,9.7,Peruano de Paso,Baja,Mixto,5.1,5.4,,35,No,No
+EQU0065,Centro B,Macho,13.6,Mestizo,Baja,Mixto,8.8,5.2,516.0,42,No,No
+EQU0066,Centro D,Hembra,15.6,Criollo,Alta,Mixto,4.7,4.9,442.5,34,No,No
+EQU0067,Centro C,Hembra,2.3,Cuarto de Milla,Baja,Concentrado,3.9,6.2,512.9,42,No,No
+EQU0068,Centro B,Macho,12.6,Peruano de Paso,,Concentrado,7.6,5.4,569.7,26,No,No
+EQU0069,Centro A,Macho,12.7,Peruano de Paso,Alta,Forraje,8.1,5.7,528.5,37,No,No
+EQU0070,Centro C,Hembra,10.9,Cuarto de Milla,Moderada,Mixto,8.1,5.8,480.2,35,No,No
+EQU0071,Centro C,Macho,11.3,Criollo,Moderada,Mixto,5.3,4.7,516.0,41,No,No
+EQU0072,Centro D,Macho,11.5,Peruano de Paso,Baja,Concentrado,9.1,4.1,472.1,33,No,No
+EQU0073,Centro D,Macho,5.4,Cuarto de Milla,Alta,Mixto,8.6,6.0,474.8,44,No,No
+EQU0074,Centro A,Hembra,7.2,Peruano de Paso,Moderada,Mixto,5.5,3.9,485.3,33,No,No
+EQU0075,Centro B,Macho,4.3,Mestizo,Baja,Forraje,3.5,5.9,461.2,36,No,No
+EQU0076,Centro C,Hembra,11.6,Mestizo,Moderada,Mixto,3.1,5.4,509.5,33,No,No
+EQU0077,Centro B,Macho,2.0,Cuarto de Milla,Moderada,Forraje,7.8,6.5,562.6,29,No,No
+EQU0078,Centro C,Hembra,8.3,Peruano de Paso,Baja,Mixto,4.3,5.5,528.2,34,Sí,No
+EQU0079,Centro C,Hembra,10.7,Cuarto de Milla,Alta,Forraje,7.2,5.7,532.4,47,No,No
+EQU0080,Centro B,Macho,8.0,Peruano de Paso,Baja,Mixto,4.4,6.3,577.2,38,Sí,No
+EQU0081,Centro C,Macho,2.0,Criollo,Moderada,Forraje,10.2,5.1,432.2,42,Sí,No
+EQU0082,Centro A,Hembra,5.0,Cuarto de Milla,Baja,Mixto,3.1,4.6,468.8,38,No,No
+EQU0083,Centro D,Macho,7.6,Criollo,Moderada,Concentrado,3.2,4.9,483.9,39,Sí,No
+EQU0084,Centro B,Macho,7.6,Criollo,Moderada,Mixto,5.6,6.0,532.6,38,No,No
+EQU0085,Centro C,Hembra,9.4,Criollo,Alta,Mixto,14.7,5.1,435.7,41,No,No
+EQU0086,Centro C,Macho,10.1,Peruano de Paso,Baja,Forraje,5.9,7.2,592.4,39,No,Sí
+EQU0087,Centro C,Macho,12.5,Mestizo,Moderada,Mixto,3.5,4.3,411.2,34,No,No
+EQU0088,Centro A,Macho,6.1,Cuarto de Milla,Alta,Mixto,6.2,4.6,453.4,44,Sí,No
+EQU0089,Centro B,Macho,7.1,Peruano de Paso,Baja,Forraje,7.4,5.5,579.9,32,No,No
+EQU0090,Centro C,Macho,6.2,Peruano de Paso,Alta,Mixto,5.5,7.0,594.9,38,No,Sí
+EQU0091,Centro C,Hembra,5.8,Criollo,Baja,Forraje,4.4,5.2,484.1,37,Sí,No
+EQU0092,Centro C,Hembra,9.5,Criollo,Moderada,Forraje,1.9,5.0,569.1,35,No,No
+EQU0093,Centro B,Macho,5.9,Peruano de Paso,Baja,Forraje,5.9,5.5,530.3,33,No,No
+EQU0094,Centro A,Macho,16.3,Mestizo,Baja,Concentrado,5.3,4.6,476.1,32,No,No
+EQU0095,Centro A,Macho,7.1,Mestizo,Alta,Forraje,5.0,5.7,531.2,44,No,No
+EQU0096,Centro A,Macho,9.8,Mestizo,Moderada,Forraje,3.5,5.6,520.1,37,No,No
+EQU0097,Centro B,Macho,8.6,Cuarto de Milla,Moderada,Mixto,2.5,3.2,415.9,44,No,No
+EQU0098,Centro A,Macho,11.1,Mestizo,Moderada,Forraje,3.2,6.3,536.0,32,Sí,No
+EQU0099,Centro A,Hembra,11.1,Criollo,Baja,Concentrado,7.9,5.7,524.3,30,No,No
+EQU0100,Centro B,Macho,5.9,Peruano de Paso,Moderada,Concentrado,4.1,7.2,542.5,38,No,Sí
+EQU0101,Centro B,Macho,7.2,Cuarto de Milla,Baja,Concentrado,3.3,6.0,600.9,40,Sí,No
+EQU0102,Centro C,Hembra,9.4,Mestizo,Alta,Forraje,5.3,6.1,531.1,36,No,No
+EQU0103,Centro D,Hembra,14.0,Criollo,Alta,Forraje,9.0,4.8,520.2,37,No,No
+EQU0104,Centro C,Macho,7.5,Criollo,Baja,Mixto,5.2,5.9,579.1,35,Sí,No
+EQU0105,Centro B,Hembra,9.1,Criollo,Moderada,Forraje,8.5,6.4,515.9,29,No,No
+EQU0106,Centro A,Hembra,2.0,Mestizo,Moderada,Mixto,5.6,4.8,465.7,40,No,No
+EQU0107,Centro C,Hembra,16.5,Mestizo,Baja,Mixto,9.3,5.6,522.9,37,No,No
+EQU0108,Centro A,Hembra,17.0,Mestizo,Moderada,Mixto,7.1,4.1,443.0,28,No,No
+EQU0109,Centro D,Hembra,13.2,Mestizo,Baja,Mixto,10.5,6.0,521.6,24,Sí,No
+EQU0110,Centro A,Hembra,7.0,Criollo,Moderada,Forraje,8.1,3.9,463.7,33,No,No
+EQU0111,Centro A,Hembra,4.6,Peruano de Paso,Baja,Mixto,5.8,5.0,448.3,40,No,No
+EQU0112,Centro D,Hembra,13.4,Peruano de Paso,Baja,Forraje,3.2,5.5,488.5,35,No,No
+EQU0113,Centro D,Hembra,9.7,Cuarto de Milla,Moderada,Mixto,3.4,3.4,479.6,35,No,No
+EQU0114,Centro B,Hembra,9.1,Cuarto de Milla,Moderada,Mixto,6.6,6.5,554.7,33,Sí,No
+EQU0115,Centro C,Macho,6.1,Peruano de Paso,Baja,Mixto,9.0,6.1,607.7,41,No,No
+EQU0116,Centro C,Macho,11.6,Peruano de Paso,Moderada,Mixto,6.8,3.2,381.9,36,No,No
+EQU0117,Centro B,Hembra,2.0,Peruano de Paso,Moderada,Concentrado,2.2,4.8,526.0,35,No,No
+EQU0118,Centro D,Hembra,5.8,Peruano de Paso,Moderada,Forraje,7.1,6.0,487.9,39,No,No
+EQU0119,Centro C,Macho,2.8,Criollo,Alta,Mixto,8.1,6.6,560.6,36,No,No
+EQU0120,Centro A,Hembra,11.8,Peruano de Paso,Baja,Mixto,4.0,5.4,,36,No,No
+EQU0121,Centro B,Macho,9.6,Mestizo,Moderada,Forraje,5.9,5.3,533.0,36,No,No
+EQU0122,Centro D,Macho,19.9,Peruano de Paso,Moderada,Mixto,8.1,4.1,455.7,36,No,No
+EQU0123,Centro B,Hembra,7.7,Peruano de Paso,Baja,Mixto,6.7,6.6,604.5,37,No,No
+EQU0124,Centro B,Hembra,6.6,Cuarto de Milla,Moderada,Forraje,5.6,5.7,544.2,33,No,No
+EQU0125,Centro D,Hembra,15.0,Mestizo,Moderada,Concentrado,6.1,4.7,465.7,39,No,No
+EQU0126,Centro D,Macho,9.0,Peruano de Paso,Moderada,Mixto,6.3,4.9,474.1,36,No,No
+EQU0127,Centro A,Hembra,12.2,Mestizo,Alta,Forraje,7.0,6.0,487.3,42,No,No
+EQU0128,Centro B,Hembra,14.2,Peruano de Paso,Baja,Forraje,8.8,6.1,525.6,33,No,No
+EQU0129,Centro C,Macho,11.5,Criollo,Moderada,Mixto,6.8,4.7,484.8,43,No,No
+EQU0130,Centro C,Hembra,12.7,Criollo,Baja,Mixto,2.7,5.7,495.0,36,No,No
+EQU0131,Centro B,Hembra,7.2,Mestizo,Moderada,Forraje,5.8,4.8,458.6,36,No,No
+EQU0132,Centro C,Hembra,7.2,Mestizo,Alta,Mixto,7.1,5.1,559.4,45,No,No
+EQU0133,Centro C,Macho,11.1,Mestizo,Moderada,Concentrado,4.8,5.6,521.8,35,No,No
+EQU0134,Centro B,Hembra,13.1,Peruano de Paso,Alta,Concentrado,6.0,4.6,515.2,33,No,No
+EQU0135,Centro A,Hembra,12.7,Peruano de Paso,Moderada,Forraje,5.6,5.1,482.9,35,Sí,No
+EQU0136,Centro C,Hembra,14.1,Cuarto de Milla,Baja,Mixto,3.0,5.5,554.8,37,No,No
+EQU0137,Centro D,Hembra,13.8,Criollo,Moderada,Mixto,4.7,4.8,466.7,33,Sí,No
+EQU0138,Centro B,Macho,11.4,Peruano de Paso,Alta,Concentrado,9.3,5.9,528.4,29,No,No
+EQU0139,Centro B,Hembra,5.4,Cuarto de Milla,Alta,Concentrado,9.5,6.3,504.4,35,No,No
+EQU0140,Centro B,Hembra,4.6,Cuarto de Milla,Baja,Concentrado,4.7,3.7,472.2,38,No,No
+EQU0141,Centro A,Macho,2.0,Peruano de Paso,Moderada,Concentrado,5.6,5.0,486.2,35,Sí,No
+EQU0142,Centro C,Macho,6.3,Criollo,Alta,Forraje,11.6,6.3,582.2,39,No,No
+EQU0143,Centro C,Macho,7.6,Criollo,Baja,Forraje,6.3,4.9,464.6,43,No,No
+EQU0144,Centro D,Hembra,11.9,Peruano de Paso,Moderada,Mixto,8.3,5.0,466.2,50,No,No
+EQU0145,Centro D,Hembra,10.1,Mestizo,Alta,Forraje,11.1,3.8,477.3,36,No,No
+EQU0146,Centro B,Hembra,8.7,Peruano de Paso,Moderada,Mixto,10.8,4.6,500.7,41,No,No
+EQU0147,Centro C,Macho,4.9,Mestizo,Moderada,Mixto,5.3,5.7,527.6,39,No,No
+EQU0148,Centro C,Macho,11.6,Peruano de Paso,Moderada,Forraje,4.9,2.0,420.5,40,No,Sí
+EQU0149,Centro D,Hembra,5.2,Cuarto de Milla,Moderada,Forraje,7.6,5.0,556.2,37,No,No
+EQU0150,Centro C,Hembra,17.1,Criollo,Moderada,Forraje,3.0,4.1,452.7,40,Sí,No
+EQU0151,Centro B,Hembra,6.0,Peruano de Paso,Alta,Forraje,8.9,5.1,438.8,43,No,No
+EQU0152,Centro C,Hembra,4.7,Mestizo,Baja,Mixto,5.2,4.6,487.4,39,No,No
+EQU0153,Centro A,Hembra,9.5,Mestizo,Baja,Mixto,4.3,5.8,584.1,37,Sí,No
+EQU0154,Centro B,Macho,9.3,Criollo,Moderada,Mixto,4.2,4.0,410.6,43,No,No
+EQU0155,Centro D,Hembra,4.0,Criollo,Moderada,Mixto,6.5,4.2,469.3,36,No,No
+EQU0156,Centro C,Macho,8.5,Cuarto de Milla,Moderada,Forraje,2.1,5.6,480.7,35,No,No
+EQU0157,Centro D,Hembra,8.4,Peruano de Paso,Moderada,Mixto,4.0,5.1,505.6,40,No,No
+EQU0158,Centro A,Macho,13.1,Criollo,Alta,Concentrado,10.5,4.9,446.6,32,No,No
+EQU0159,Centro D,Hembra,11.6,Mestizo,Moderada,Mixto,9.4,6.1,498.8,43,No,No
+EQU0160,Centro A,Macho,9.0,Cuarto de Milla,Moderada,Concentrado,5.9,5.4,475.1,30,No,No
+EQU0161,Centro C,Macho,16.2,Cuarto de Milla,Alta,Concentrado,11.7,6.5,505.8,39,Sí,No
+EQU0162,Centro C,Macho,8.2,Criollo,Moderada,Concentrado,3.7,6.1,592.6,35,Sí,No
+EQU0163,Centro C,Hembra,15.1,Mestizo,Baja,Forraje,2.1,7.3,518.3,37,No,Sí
+EQU0164,Centro C,Hembra,2.0,Peruano de Paso,Alta,Forraje,7.2,3.3,445.4,43,No,No
+EQU0165,Centro C,Hembra,2.0,Peruano de Paso,Moderada,Mixto,6.6,5.2,441.5,38,Sí,No
+EQU0166,Centro B,Macho,7.4,Criollo,Moderada,Mixto,7.0,6.9,582.2,41,No,No
+EQU0167,Centro B,Hembra,5.9,Cuarto de Milla,Moderada,Forraje,6.2,4.2,555.4,39,Sí,No
+EQU0168,Centro D,Hembra,5.3,Cuarto de Milla,Alta,Forraje,6.8,6.0,447.4,35,No,No
+EQU0169,Centro C,Macho,10.3,Cuarto de Milla,Moderada,Concentrado,6.1,5.9,548.3,32,No,No
+EQU0170,Centro A,Macho,8.3,Peruano de Paso,Alta,Mixto,10.9,5.3,573.6,47,No,No
+EQU0171,Centro B,Macho,11.0,Criollo,Alta,Forraje,8.8,6.2,494.3,42,No,No
+EQU0172,Centro D,Hembra,7.5,Mestizo,Baja,Forraje,0.6,4.6,421.1,38,Sí,No
+EQU0173,Centro B,Hembra,4.0,Mestizo,Moderada,Mixto,4.9,4.2,436.9,40,No,No
+EQU0174,Centro C,Hembra,6.4,Criollo,Baja,Mixto,4.6,4.2,475.9,29,Sí,No
+EQU0175,Centro B,Hembra,14.4,Criollo,Moderada,Forraje,3.5,5.7,502.6,30,No,No
+EQU0176,Centro B,Hembra,4.1,Peruano de Paso,Alta,Forraje,8.0,5.2,515.2,34,No,No
+EQU0177,Centro B,Hembra,2.5,Mestizo,Baja,Mixto,4.3,6.0,547.4,37,No,No
+EQU0178,Centro D,Hembra,13.7,Peruano de Paso,Alta,Mixto,15.0,3.5,430.4,41,Sí,No
+EQU0179,Centro B,Hembra,8.1,Criollo,Moderada,Forraje,6.0,6.5,612.4,33,No,No
+EQU0180,Centro C,Macho,9.3,Cuarto de Milla,Moderada,Mixto,2.7,6.7,548.2,44,No,No
+EQU0181,Centro D,Macho,7.9,Criollo,Alta,Mixto,4.0,7.0,614.0,32,No,Sí
+EQU0182,Centro C,Hembra,8.7,Criollo,Moderada,Mixto,3.3,5.6,554.8,30,No,No
+EQU0183,Centro C,Macho,7.4,Criollo,Baja,Mixto,2.9,2.9,447.7,30,No,Sí
+EQU0184,Centro D,Macho,8.3,Peruano de Paso,Moderada,Mixto,4.5,3.1,459.2,37,No,No
+EQU0185,Centro B,Macho,5.2,Peruano de Paso,Moderada,Mixto,3.5,5.4,568.1,33,No,No
+EQU0186,Centro C,Macho,2.0,Mestizo,Moderada,Mixto,4.8,4.3,483.0,28,No,No
+EQU0187,Centro A,Hembra,9.8,Peruano de Paso,Moderada,Mixto,2.8,5.8,517.5,34,Sí,No
+EQU0188,Centro D,Hembra,10.7,Criollo,Alta,Mixto,9.6,4.9,506.3,42,Sí,No
+EQU0189,Centro D,Hembra,17.8,Cuarto de Milla,Alta,Concentrado,11.1,4.2,419.6,38,No,No
+EQU0190,Centro D,Hembra,14.8,Criollo,Baja,Forraje,3.1,5.9,481.3,43,No,No
+EQU0191,Centro D,Macho,4.6,Criollo,Moderada,Forraje,7.6,5.7,526.8,45,Sí,No
+EQU0192,Centro B,Hembra,11.2,Mestizo,,Mixto,7.7,5.7,568.1,33,No,No
+EQU0193,Centro C,Macho,11.4,Mestizo,Moderada,Mixto,5.8,6.5,477.5,30,No,No
+EQU0194,Centro C,Macho,11.8,Peruano de Paso,Moderada,Concentrado,9.8,5.4,564.7,41,No,No
+EQU0195,Centro D,Hembra,9.0,Peruano de Paso,,Mixto,6.9,5.8,550.2,32,No,No
+EQU0196,Centro D,Hembra,11.3,Peruano de Paso,Alta,Concentrado,8.6,6.5,563.6,46,No,No
+EQU0197,Centro A,Macho,10.1,Mestizo,Moderada,Concentrado,6.0,5.6,481.5,38,Sí,No
+EQU0198,Centro A,Macho,7.4,Peruano de Paso,Baja,Forraje,2.9,5.7,493.3,36,No,No
+EQU0199,Centro A,Macho,7.3,Mestizo,Alta,Mixto,1.0,4.3,418.1,33,No,No
+EQU0200,Centro A,Hembra,8.7,Criollo,Moderada,Mixto,5.3,5.1,531.2,38,No,No
+EQU0201,Centro A,Hembra,8.1,Mestizo,Alta,Mixto,5.2,5.5,476.5,28,No,No
+EQU0202,Centro C,Macho,10.9,Mestizo,Moderada,Mixto,0.0,5.8,484.8,46,No,No
+EQU0203,Centro D,Macho,15.2,Mestizo,Baja,Concentrado,9.2,6.2,505.7,32,No,No
+EQU0204,Centro C,Macho,5.0,Criollo,Baja,Mixto,5.9,4.6,449.8,42,No,No
+EQU0205,Centro D,Macho,7.5,Peruano de Paso,Moderada,Mixto,4.9,5.3,544.3,38,No,No
+EQU0206,Centro C,Hembra,3.4,Peruano de Paso,Baja,Forraje,1.2,5.8,535.5,33,No,No
+EQU0207,Centro B,Hembra,14.8,Peruano de Paso,Alta,Concentrado,6.8,5.2,531.7,36,No,No
+EQU0208,Centro A,Macho,12.6,Peruano de Paso,Alta,Mixto,8.7,6.4,513.6,31,No,No
+EQU0209,Centro B,Macho,9.7,Peruano de Paso,Alta,Mixto,3.8,6.9,518.1,35,No,No
+EQU0210,Centro D,Hembra,6.1,Mestizo,Alta,Forraje,5.5,4.8,484.2,38,Sí,No
+EQU0211,Centro C,Hembra,5.8,Cuarto de Milla,Alta,Mixto,7.8,6.5,571.9,39,No,No
+EQU0212,Centro A,Hembra,13.7,Peruano de Paso,Baja,Mixto,9.4,7.3,647.7,31,No,Sí
+EQU0213,Centro D,Macho,2.0,Cuarto de Milla,Moderada,Mixto,3.6,5.3,456.8,37,No,No
+EQU0214,Centro D,Hembra,11.8,Mestizo,Baja,Forraje,4.1,6.7,524.1,35,No,No
+EQU0215,Centro A,Macho,11.8,Peruano de Paso,,Mixto,3.1,5.3,544.8,43,No,No
+EQU0216,Centro C,Hembra,11.7,Mestizo,Moderada,Mixto,3.5,4.3,502.4,38,No,No
+EQU0217,Centro D,Macho,14.6,Mestizo,Moderada,Mixto,4.1,5.5,461.1,41,No,No
+EQU0218,Centro C,Macho,5.6,Mestizo,Moderada,Mixto,5.7,4.5,508.5,37,No,No
+EQU0219,Centro B,Hembra,7.2,Peruano de Paso,Alta,Forraje,5.6,,465.0,42,No,No
+EQU0220,Centro C,Macho,11.5,Criollo,Alta,Concentrado,7.9,5.2,497.8,36,No,No
+EQU0221,Centro A,Hembra,2.0,Criollo,Alta,Mixto,10.1,4.8,476.0,30,No,No
+EQU0222,Centro C,Hembra,12.1,Mestizo,Moderada,Forraje,4.4,5.7,490.8,37,Sí,No
+EQU0223,Centro A,Hembra,6.7,Criollo,Moderada,Mixto,9.5,5.2,544.5,34,No,No
+EQU0224,Centro D,Macho,11.1,Criollo,Moderada,Mixto,4.4,5.2,492.5,40,No,No
+EQU0225,Centro D,Macho,4.4,Criollo,Moderada,Forraje,8.3,5.2,481.5,48,No,No
+EQU0226,Centro C,Macho,15.8,Criollo,Moderada,Forraje,0.8,5.4,,34,No,No
+EQU0227,Centro B,Macho,8.7,Criollo,Moderada,Concentrado,5.7,5.5,471.9,38,No,No
+EQU0228,Centro D,Hembra,2.0,Criollo,Alta,Mixto,6.8,6.5,547.9,40,No,No
+EQU0229,Centro D,Hembra,3.7,Criollo,Moderada,Mixto,3.8,4.3,487.0,39,No,No
+EQU0230,Centro B,Macho,11.1,Mestizo,Moderada,Concentrado,7.5,3.2,438.2,34,No,No
+EQU0231,Centro B,Hembra,17.9,Cuarto de Milla,Moderada,Mixto,8.2,5.5,489.7,31,No,No
+EQU0232,Centro C,Hembra,6.2,Peruano de Paso,Baja,Concentrado,4.1,5.9,572.1,30,No,No
+EQU0233,Centro C,Macho,6.3,Criollo,Moderada,Mixto,8.8,5.5,486.8,38,No,No
+EQU0234,Centro C,Macho,6.1,Peruano de Paso,Moderada,Mixto,0.6,6.2,502.8,39,No,No
+EQU0235,Centro A,Hembra,6.1,Cuarto de Milla,Moderada,Mixto,9.9,4.3,444.7,39,Sí,No
+EQU0236,Centro A,Macho,14.5,Peruano de Paso,Moderada,Mixto,1.4,5.6,498.7,31,No,No
+EQU0237,Centro B,Macho,5.4,Peruano de Paso,Alta,Forraje,11.3,4.2,464.4,45,No,No
+EQU0238,Centro B,Hembra,2.0,Peruano de Paso,Baja,Mixto,2.5,5.6,,36,No,No
+EQU0239,Centro C,Hembra,13.9,Mestizo,Alta,Concentrado,8.1,6.0,571.4,40,No,No
+EQU0240,Centro D,Macho,5.6,Mestizo,Moderada,Concentrado,7.4,5.8,523.4,34,No,No
+EQU0241,Centro C,Macho,6.5,Peruano de Paso,Moderada,Forraje,7.8,5.0,486.1,33,No,No
+EQU0242,Centro A,Macho,2.0,Peruano de Paso,Alta,Concentrado,9.0,,496.4,30,No,Sí
+EQU0243,Centro C,Hembra,6.2,Criollo,Moderada,Forraje,9.7,4.0,472.8,35,Sí,No
+EQU0244,Centro C,Hembra,9.7,Criollo,Alta,Mixto,11.0,6.5,565.0,27,No,No
+EQU0245,Centro B,Hembra,5.0,Criollo,Alta,Forraje,7.0,7.5,511.7,36,No,Sí
+EQU0246,Centro D,Macho,11.3,Cuarto de Milla,Baja,Mixto,5.0,5.9,508.1,33,No,No
+EQU0247,Centro C,Hembra,13.0,Mestizo,Moderada,Mixto,1.5,5.4,460.4,43,No,No
+EQU0248,Centro B,Hembra,16.0,Cuarto de Milla,Moderada,Mixto,4.0,5.1,467.2,39,No,No
+EQU0249,Centro B,Macho,6.4,Criollo,Alta,Forraje,6.4,5.9,556.1,33,No,No
+EQU0250,Centro C,Hembra,7.4,Cuarto de Milla,Baja,Forraje,10.7,,565.7,35,No,No
+EQU0251,Centro B,Macho,12.8,Mestizo,Baja,Forraje,8.5,6.0,487.3,41,No,No
+EQU0252,Centro D,Hembra,9.7,Peruano de Paso,Moderada,Mixto,8.3,6.3,583.9,35,No,No
+EQU0253,Centro C,Hembra,10.8,Criollo,Baja,Forraje,4.2,5.6,547.7,33,No,No
+EQU0254,Centro D,Macho,16.0,Mestizo,Moderada,Forraje,7.4,5.8,515.3,29,No,No
+EQU0255,Centro D,Macho,2.0,Cuarto de Milla,Alta,Forraje,10.6,4.8,482.0,46,No,No
+EQU0256,Centro D,Hembra,11.3,Cuarto de Milla,Moderada,Mixto,3.3,4.6,500.3,40,No,No
+EQU0257,Centro D,Hembra,10.6,Peruano de Paso,Alta,Mixto,11.6,4.4,408.6,43,No,No
+EQU0258,Centro A,Macho,2.0,Peruano de Paso,Baja,Concentrado,6.2,7.5,610.8,31,No,Sí
+EQU0259,Centro D,Hembra,10.4,Cuarto de Milla,Moderada,Mixto,6.3,5.0,473.3,37,No,No
+EQU0260,Centro B,Hembra,10.5,Peruano de Paso,Moderada,Concentrado,7.5,4.8,448.3,31,Sí,No
+EQU0261,Centro A,Hembra,10.3,Peruano de Paso,Moderada,Mixto,9.7,3.5,411.4,25,No,No
+EQU0262,Centro C,Hembra,10.5,Mestizo,Moderada,Mixto,6.8,5.4,446.4,34,No,No
+EQU0263,Centro D,Macho,9.2,Criollo,Moderada,Forraje,4.2,4.5,526.0,40,Sí,No
+EQU0264,Centro D,Macho,5.9,Criollo,Baja,Mixto,8.7,6.1,531.7,35,No,No
+EQU0265,Centro B,Hembra,16.7,Peruano de Paso,Alta,Concentrado,14.1,3.7,520.3,36,No,No
+EQU0266,Centro C,Macho,9.8,Peruano de Paso,Baja,Concentrado,7.9,3.8,516.9,35,Sí,No
+EQU0267,Centro D,Macho,8.0,Criollo,,Mixto,6.8,5.9,501.9,39,No,No
+EQU0268,Centro C,Macho,9.7,Criollo,Baja,Mixto,5.7,6.9,583.4,30,Sí,No
+EQU0269,Centro A,Hembra,11.0,Criollo,Moderada,Concentrado,7.1,5.2,545.3,30,Sí,No
+EQU0270,Centro C,Hembra,9.5,Peruano de Paso,Baja,Forraje,8.8,4.2,498.9,33,Sí,No
+EQU0232,Centro C,Hembra,6.2,Peruano de Paso,Baja,Concentrado,4.1,5.9,572.1,30,No,No
+EQU0258,Centro A,Macho,2.0,Peruano de Paso,Baja,Concentrado,6.2,7.5,610.8,31,No,Sí
