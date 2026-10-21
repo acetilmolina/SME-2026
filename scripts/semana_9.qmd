@@ -1,0 +1,194 @@
+# Semana 9. Estadística inferencial I
+
+## Objetivos
+
+1.  Seleccionar una prueba de comparación según la pregunta.
+2.  Interpretar diferencia de medias, IC95% y valor p.
+3.  Evaluar relaciones entre variables numéricas.
+4.  Ajustar e interpretar una regresión lineal simple.
+
+# 0. Preparación del entorno
+
+Se cargan los paquetes, se crean las carpetas de resultados de la semana y se lee la base procesada, convirtiendo a factor las variables categóricas que se usarán como grupos.
+
+```{r}
+#| label: setup
+library(here)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(broom)
+library(emmeans)
+
+dir.create(here("resultados", "semana_09", "tablas"), recursive = TRUE, showWarnings = FALSE)
+dir.create(here("resultados", "semana_09", "graficos"), recursive = TRUE, showWarnings = FALSE)
+
+datos <- read_csv(here("datos", "procesados", "base_bovinos_procesada.csv"), show_col_types = FALSE) |>
+  mutate(
+    mastitis = factor(mastitis, levels = c("No", "Sí")),
+    tipo_alimentacion = factor(tipo_alimentacion),
+    etapa_lactancia = factor(etapa_lactancia, levels = c("Temprana", "Media", "Tardía"))
+  )
+```
+
+# 1. Prueba t: dos grupos independientes
+
+**Pregunta:** ¿la producción promedio es diferente entre animales con y sin mastitis?
+
+```{r}
+#| label: prueba-t
+prueba_t <- t.test(
+  produccion_leche_l_dia ~ mastitis,
+  data = datos,
+  var.equal = FALSE
+)
+
+prueba_t
+```
+
+```{r}
+#| label: tbl-prueba-t
+#| tbl-cap: "Resultado de la prueba t de Welch."
+knitr::kable(tidy(prueba_t, conf.int = TRUE), digits = 4)
+```
+
+> La estimación debe interpretarse junto con su IC95%, no únicamente con el valor p.
+
+# 2. ANOVA de una vía
+
+**Pregunta:** ¿la producción promedio difiere según el tipo de alimentación?
+
+```{r}
+#| label: anova-1
+modelo_anova_1 <- aov(
+  produccion_leche_l_dia ~ tipo_alimentacion,
+  data = datos
+)
+
+summary(modelo_anova_1)
+```
+
+Si el ANOVA global identifica diferencias, `emmeans` permite comparaciones posteriores ajustadas (Tukey) entre cada par de grupos.
+
+```{r}
+#| label: emmeans-alimentacion
+comparaciones_alimentacion <- emmeans(modelo_anova_1, pairwise ~ tipo_alimentacion, adjust = "tukey")
+comparaciones_alimentacion
+```
+
+# 3. ANOVA de dos vías
+
+Evaluamos alimentación, etapa de lactancia y su interacción.
+
+```{r}
+#| label: anova-2
+modelo_anova_2 <- aov(
+  produccion_leche_l_dia ~ tipo_alimentacion * etapa_lactancia,
+  data = datos
+)
+
+summary(modelo_anova_2)
+```
+
+> Una interacción significativa indicaría que el efecto de la alimentación no es igual en todas las etapas de lactancia.
+
+# 4. Correlación de Pearson
+
+```{r}
+#| label: correlacion
+datos_cor <- datos |>
+  select(condicion_corporal, produccion_leche_l_dia) |>
+  tidyr::drop_na()
+
+correlacion <- cor.test(
+  datos_cor$condicion_corporal,
+  datos_cor$produccion_leche_l_dia,
+  method = "pearson"
+)
+
+correlacion
+```
+
+```{r}
+#| label: tbl-correlacion
+#| tbl-cap: "Correlación de Pearson entre condición corporal y producción."
+knitr::kable(tidy(correlacion, conf.int = TRUE), digits = 4)
+```
+
+# 5. Regresión lineal simple
+
+```{r}
+#| label: modelo-lineal
+modelo_lineal_simple <- lm(
+  produccion_leche_l_dia ~ condicion_corporal,
+  data = datos
+)
+
+summary(modelo_lineal_simple)
+confint(modelo_lineal_simple)
+```
+
+```{r}
+#| label: tbl-modelo-lineal
+#| tbl-cap: "Coeficientes de la regresión lineal simple con IC95%."
+tabla_modelo_lineal <- tidy(
+  modelo_lineal_simple,
+  conf.int = TRUE
+)
+
+knitr::kable(tabla_modelo_lineal, digits = 4)
+```
+
+## 5.1 Diagnóstico básico de residuos
+
+```{r}
+#| label: fig-diagnostico
+#| fig-cap: "Gráficos de diagnóstico del modelo lineal simple."
+#| fig-width: 9
+#| fig-height: 7
+par(mfrow = c(2, 2))
+plot(modelo_lineal_simple)
+par(mfrow = c(1, 1))
+```
+
+`png()` abre un dispositivo gráfico dirigido a un archivo y `dev.off()` lo cierra y completa la exportación. Se usa porque `plot(lm)` produce gráficos de R base, que no se pueden guardar con `ggsave()`.
+
+```{r}
+#| label: guardar-diagnostico
+#| results: hide
+png(
+  here("resultados", "semana_09", "graficos", "diagnostico_modelo_lineal.png"),
+  width = 1800,
+  height = 1400,
+  res = 180
+)
+par(mfrow = c(2, 2))
+plot(modelo_lineal_simple)
+dev.off()
+par(mfrow = c(1, 1))
+```
+
+# 6. Exportación de tablas
+
+```{r}
+#| label: exportar-tablas
+write_csv(
+  tabla_modelo_lineal,
+  here("resultados", "semana_09", "tablas", "regresion_lineal_simple.csv")
+)
+
+write_csv(
+  tidy(prueba_t, conf.int = TRUE),
+  here("resultados", "semana_09", "tablas", "prueba_t.csv")
+)
+
+write_csv(
+  tidy(modelo_anova_1),
+  here("resultados", "semana_09", "tablas", "anova_una_via.csv")
+)
+
+write_csv(
+  tidy(modelo_anova_2),
+  here("resultados", "semana_09", "tablas", "anova_dos_vias.csv")
+)
+```
