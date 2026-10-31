@@ -1,0 +1,262 @@
+## Objetivos
+
+1. Relacionar el tipo de resultado con el modelo correspondiente.
+2. Interpretar OR, razones de tasas e intervalos de confianza.
+3. Diferenciar asociación categórica, ordinal y de conteo.
+
+## Preparación
+
+```{r}
+#| label: paquetes
+
+library(here)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(broom)
+library(performance)
+library(knitr)
+
+dir.create(here("resultados", "semana_10", "tablas"), recursive = TRUE, showWarnings = FALSE)
+dir.create(here("resultados", "semana_10", "graficos"), recursive = TRUE, showWarnings = FALSE)
+```
+
+```{r}
+#| label: datos
+
+datos <- read_csv(here("datos", "procesados", "base_bovinos_procesada.csv"), show_col_types = FALSE) |>
+  mutate(
+    mastitis = factor(mastitis, levels = c("No", "Sí")),
+    vacunacion_completa = factor(vacunacion_completa, levels = c("Sí", "No")),
+    raza = factor(raza),
+    tipo_alimentacion = factor(tipo_alimentacion),
+    severidad_mastitis = factor(
+      severidad_mastitis,
+      levels = c("Sin mastitis", "Leve", "Moderada", "Grave"),
+      ordered = TRUE
+    )
+  )
+
+glimpse(datos)
+```
+
+## Chi-cuadrado de asociación
+
+```{r}
+#| label: tabla-contingencia
+
+tabla_vacuna_mastitis <- table(datos$vacunacion_completa, datos$mastitis)
+tabla_vacuna_mastitis
+```
+
+```{r}
+#| label: chi-cuadrado
+
+prueba_chi <- chisq.test(tabla_vacuna_mastitis)
+prueba_chi
+```
+
+Frecuencias esperadas bajo la hipótesis de independencia:
+
+```{r}
+#| label: esperadas
+
+round(prueba_chi$expected, 2)
+```
+
+Si alguna frecuencia esperada fuera menor que 5, se utilizaría la prueba exacta de Fisher.
+
+```{r}
+#| label: fisher
+
+if (any(prueba_chi$expected < 5)) {
+  fisher.test(tabla_vacuna_mastitis)
+} else {
+  cat("Todas las frecuencias esperadas son >= 5: no se requiere la prueba de Fisher.\n")
+}
+```
+
+## Regresión logística binaria
+
+Resultado dicotómico: mastitis Sí/No.
+
+```{r}
+#| label: modelo-logistico
+
+modelo_logistico <- glm(
+  mastitis ~ numero_partos + vacunacion_completa + condicion_corporal + tipo_alimentacion,
+  data = datos,
+  family = binomial
+)
+
+summary(modelo_logistico)
+```
+
+`exponentiate = TRUE` transforma los coeficientes logarítmicos en *odds ratios* (OR).
+
+```{r}
+#| label: tabla-logistica
+
+tabla_logistica <- tidy(
+  modelo_logistico,
+  exponentiate = TRUE,
+  conf.int = TRUE
+)
+
+kable(tabla_logistica, digits = 3, caption = "Regresión logística binaria (OR e IC 95 %)")
+```
+
+## Regresión logística ordinal
+
+Se analizan únicamente animales con mastitis. El orden es: Leve < Moderada < Grave.
+
+```{r}
+#| label: datos-ordinal
+
+datos_ordinal <- datos |>
+  filter(mastitis == "Sí") |>
+  mutate(
+    severidad_mastitis = factor(
+      severidad_mastitis,
+      levels = c("Leve", "Moderada", "Grave"),
+      ordered = TRUE
+    )
+  ) |>
+  drop_na(severidad_mastitis, numero_partos, vacunacion_completa)
+
+table(datos_ordinal$severidad_mastitis)
+```
+
+```{r}
+#| label: modelo-ordinal
+
+modelo_ordinal <- MASS::polr(
+  severidad_mastitis ~ numero_partos + vacunacion_completa,
+  data = datos_ordinal,
+  Hess = TRUE
+)
+
+summary(modelo_ordinal)
+```
+
+```{r}
+#| label: tabla-ordinal
+
+tabla_ordinal <- tidy(
+  modelo_ordinal,
+  exponentiate = TRUE,
+  conf.int = TRUE
+)
+
+kable(tabla_ordinal, digits = 3, caption = "Regresión logística ordinal (OR acumulados e IC 95 %)")
+```
+
+## Regresión de Poisson
+
+Resultado de conteo: número de episodios de mastitis.
+
+```{r}
+#| label: modelo-poisson
+
+modelo_poisson <- glm(
+  numero_episodios_mastitis ~ numero_partos + vacunacion_completa + raza,
+  data = datos,
+  family = poisson(link = "log")
+)
+
+summary(modelo_poisson)
+```
+
+```{r}
+#| label: tabla-poisson
+
+tabla_poisson <- tidy(
+  modelo_poisson,
+  exponentiate = TRUE,
+  conf.int = TRUE
+)
+
+kable(tabla_poisson, digits = 3, caption = "Regresión de Poisson (razones de tasas e IC 95 %)")
+```
+
+La sobredispersión ocurre cuando la variabilidad observada es mayor que la esperada por el modelo de Poisson.
+
+```{r}
+#| label: sobredispersion
+
+check_overdispersion(modelo_poisson)
+```
+
+## Correlaciones no paramétricas
+
+### Spearman
+
+Relación monotónica entre condición corporal y producción de leche.
+
+```{r}
+#| label: spearman
+
+cor_spearman <- cor.test(
+  datos$condicion_corporal,
+  datos$produccion_leche_l_dia,
+  method = "spearman",
+  exact = FALSE
+)
+
+cor_spearman
+```
+
+### Kendall
+
+Relación entre severidad ordinal y temperatura en casos de mastitis.
+
+```{r}
+#| label: kendall
+
+datos_kendall <- datos_ordinal |>
+  mutate(severidad_num = as.numeric(severidad_mastitis)) |>
+  drop_na(temperatura_c)
+
+cor_kendall <- cor.test(
+  datos_kendall$severidad_num,
+  datos_kendall$temperatura_c,
+  method = "kendall",
+  exact = FALSE
+)
+
+cor_kendall
+```
+
+```{r}
+#| label: resumen-correlaciones
+
+resumen_correlaciones <- tibble(
+  metodo = c("Spearman", "Kendall"),
+  estimador = c(unname(cor_spearman$estimate), unname(cor_kendall$estimate)),
+  valor_p = c(cor_spearman$p.value, cor_kendall$p.value)
+)
+
+kable(resumen_correlaciones, digits = 4, caption = "Resumen de correlaciones no paramétricas")
+```
+
+## Exportación de resultados
+
+```{r}
+#| label: exportar
+
+write_csv(tabla_logistica, here("resultados", "semana_10", "tablas", "regresion_logistica_binaria.csv"))
+write_csv(tabla_ordinal, here("resultados", "semana_10", "tablas", "regresion_logistica_ordinal.csv"))
+write_csv(tabla_poisson, here("resultados", "semana_10", "tablas", "regresion_poisson.csv"))
+
+write_csv(
+  as.data.frame.matrix(tabla_vacuna_mastitis) |>
+    tibble::rownames_to_column("vacunacion_completa"),
+  here("resultados", "semana_10", "tablas", "tabla_vacunacion_mastitis.csv")
+)
+
+write_csv(
+  resumen_correlaciones,
+  here("resultados", "semana_10", "tablas", "correlaciones_no_parametricas.csv")
+)
+```
+
