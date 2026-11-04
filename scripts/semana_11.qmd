@@ -1,0 +1,190 @@
+## Objetivos
+
+1. Diferenciar tiempo de seguimiento y estado del evento.
+2. Comprender la censura.
+3. Comparar curvas mediante Log-Rank.
+4. Interpretar un Hazard Ratio.
+
+## Preparación
+
+```{r}
+#| label: paquetes
+library(here)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(survival)
+library(survminer)
+library(broom)
+```
+
+```{r}
+#| label: carpetas
+dir.create(here("resultados", "semana_11", "tablas"), recursive = TRUE, showWarnings = FALSE)
+dir.create(here("resultados", "semana_11", "graficos"), recursive = TRUE, showWarnings = FALSE)
+```
+
+```{r}
+#| label: datos
+datos <- read_csv(
+  here("datos", "procesados", "base_bovinos_procesada.csv"),
+  show_col_types = FALSE
+)
+```
+
+Solo los animales con mastitis tienen seguimiento hasta la recuperación.
+
+```{r}
+#| label: datos-supervivencia
+datos_supervivencia <- datos |>
+  filter(mastitis == "Sí") |>
+  mutate(
+    tratamiento = factor(tratamiento),
+    severidad_mastitis = factor(
+      severidad_mastitis,
+      levels = c("Leve", "Moderada", "Grave"),
+      ordered = TRUE
+    )
+  ) |>
+  drop_na(dias_hasta_recuperacion, recuperada, tratamiento)
+```
+
+- `recuperada = 1` indica que ocurrió el evento.
+- `recuperada = 0` indica censura al terminar el seguimiento.
+
+```{r}
+#| label: tabla-evento
+table(datos_supervivencia$recuperada)
+```
+
+```{r}
+#| label: objeto-surv
+objeto_surv <- with(
+  datos_supervivencia,
+  Surv(time = dias_hasta_recuperacion, event = recuperada)
+)
+```
+
+## Kaplan-Meier global
+
+```{r}
+#| label: km-global
+km_global <- survfit(objeto_surv ~ 1, data = datos_supervivencia)
+summary(km_global)
+```
+
+## Kaplan-Meier según tratamiento
+
+```{r}
+#| label: km-tratamiento
+km_tratamiento <- survfit(
+  objeto_surv ~ tratamiento,
+  data = datos_supervivencia
+)
+
+grafico_km <- ggsurvplot(
+  km_tratamiento,
+  data = datos_supervivencia,
+  conf.int = TRUE,
+  risk.table = TRUE,
+  pval = TRUE,
+  xlab = "Días de seguimiento",
+  ylab = "Probabilidad de continuar sin recuperación",
+  legend.title = "Tratamiento",
+  ggtheme = theme_minimal()
+)
+```
+
+```{r}
+#| label: fig-km
+#| fig-cap: "Curvas de Kaplan-Meier según tratamiento, con tabla de riesgo."
+#| fig-width: 9
+#| fig-height: 7.5
+# print() dibuja el objeto completo, incluyendo la tabla de riesgo.
+print(grafico_km)
+```
+
+```{r}
+#| label: guardar-km
+#| include: false
+png(
+  here("resultados", "semana_11", "graficos", "kaplan_meier_con_tabla_riesgo.png"),
+  width = 2000,
+  height = 1700,
+  res = 180
+)
+print(grafico_km)
+invisible(dev.off())
+```
+
+## Prueba Log-Rank
+
+```{r}
+#| label: logrank
+prueba_logrank <- survdiff(
+  objeto_surv ~ tratamiento,
+  data = datos_supervivencia
+)
+
+prueba_logrank
+```
+
+## Regresión de Cox
+
+```{r}
+#| label: cox
+modelo_cox <- coxph(
+  objeto_surv ~ tratamiento + severidad_mastitis + numero_partos,
+  data = datos_supervivencia
+)
+
+summary(modelo_cox)
+```
+
+Hazard Ratios (coeficientes exponenciados) con intervalos de confianza al 95 %:
+
+```{r}
+#| label: tbl-cox
+#| tbl-cap: "Modelo de Cox: Hazard Ratios e IC 95 %."
+tabla_cox <- tidy(
+  modelo_cox,
+  exponentiate = TRUE,
+  conf.int = TRUE
+)
+
+tabla_cox |>
+  mutate(across(where(is.numeric), \(x) round(x, 3)))
+```
+
+### Supuesto de riesgos proporcionales
+
+```{r}
+#| label: supuesto-ph
+prueba_ph <- cox.zph(modelo_cox)
+prueba_ph
+```
+
+```{r}
+#| label: fig-schoenfeld
+#| fig-cap: "Residuos de Schoenfeld escalados por covariable."
+#| fig-width: 9
+#| fig-height: 6
+ggcoxzph(prueba_ph)
+```
+
+## Exportación de resultados
+
+```{r}
+#| label: exportar
+write_csv(tabla_cox, here("resultados", "semana_11", "tablas", "modelo_cox.csv"))
+
+capture.output(
+  prueba_logrank,
+  file = here("resultados", "semana_11", "prueba_logrank.txt")
+)
+
+capture.output(
+  prueba_ph,
+  file = here("resultados", "semana_11", "supuesto_riesgos_proporcionales.txt")
+)
+```
