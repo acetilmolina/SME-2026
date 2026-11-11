@@ -40,8 +40,8 @@ incluir identificadores ni variables posteriores al resultado sin justificar.
 datos_imputacion <- datos |>
   select(
     mastitis, numero_partos, vacunacion_completa, condicion_corporal,
-    tipo_alimentacion, produccion_leche_l_dia, hemoglobina_g_dl,
-    leucocitos_10_9_l, proteinas_totales_g_dl, rcc_miles_ml
+    tipo_alimentacion, produccion_leche_l_dia, hemoglobina_g_d_l,
+    leucocitos_10_9_l, proteinas_totales_g_d_l, rcc_miles_m_l
   ) |>
   mutate(
     mastitis = factor(mastitis, levels = c("No", "Sí")),
