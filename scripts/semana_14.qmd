@@ -1,0 +1,209 @@
+## Objetivos
+
+1. Describir cantidad y patrón de datos perdidos.
+2. Comprender por qué eliminar o reemplazar por la media puede sesgar.
+3. Ejecutar imputación múltiple con mice.
+4. Ajustar y combinar un modelo utilizando múltiples bases imputadas.
+
+## Preparación
+
+```{r}
+#| label: paquetes
+library(here)
+library(readr)
+library(dplyr)
+library(naniar)
+library(mice)
+library(broom)
+```
+
+```{r}
+#| label: carpetas
+dir.create(here("resultados", "semana_14", "tablas"), recursive = TRUE, showWarnings = FALSE)
+dir.create(here("resultados", "semana_14", "graficos"), recursive = TRUE, showWarnings = FALSE)
+dir.create(here("datos", "procesados"), recursive = TRUE, showWarnings = FALSE)
+```
+
+```{r}
+#| label: datos
+datos <- read_csv(
+  here("datos", "procesados", "base_bovinos_procesada.csv"),
+  show_col_types = FALSE
+)
+```
+
+Seleccionamos las variables necesarias para una pregunta concreta. No se deben
+incluir identificadores ni variables posteriores al resultado sin justificar.
+
+```{r}
+#| label: datos-imputacion
+datos_imputacion <- datos |>
+  select(
+    mastitis, numero_partos, vacunacion_completa, condicion_corporal,
+    tipo_alimentacion, produccion_leche_l_dia, hemoglobina_g_dl,
+    leucocitos_10_9_l, proteinas_totales_g_dl, rcc_miles_ml
+  ) |>
+  mutate(
+    mastitis = factor(mastitis, levels = c("No", "Sí")),
+    vacunacion_completa = factor(vacunacion_completa, levels = c("Sí", "No")),
+    tipo_alimentacion = factor(tipo_alimentacion)
+  )
+```
+
+## Diagnóstico de datos perdidos
+
+```{r}
+#| label: tbl-faltantes
+#| tbl-cap: "Cantidad y porcentaje de datos faltantes por variable."
+resumen_faltantes <- tibble(
+  variable = names(datos_imputacion),
+  n_faltantes = colSums(is.na(datos_imputacion)),
+  porcentaje = round(100 * n_faltantes / nrow(datos_imputacion), 1)
+) |>
+  arrange(desc(porcentaje))
+
+resumen_faltantes
+```
+
+```{r}
+#| label: fig-md-pattern
+#| fig-cap: "Patrones de datos faltantes según mice::md.pattern()."
+#| fig-width: 9
+#| fig-height: 6
+md.pattern(datos_imputacion, rotate.names = TRUE)
+```
+
+```{r}
+#| label: fig-faltantes
+#| fig-cap: "Patrón de datos perdidos antes de la imputación."
+#| fig-width: 10
+#| fig-height: 6
+g_faltantes <- vis_miss(datos_imputacion, sort_miss = TRUE) +
+  ggplot2::labs(title = "Patrón de datos perdidos antes de la imputación")
+
+g_faltantes
+```
+
+```{r}
+#| label: guardar-faltantes
+#| include: false
+ggplot2::ggsave(
+  here("resultados", "semana_14", "graficos", "patron_faltantes.png"),
+  g_faltantes,
+  width = 10,
+  height = 6,
+  dpi = 300
+)
+```
+
+## Configuración de mice
+
+`m = 5` genera cinco bases plausibles y `maxit = 10` indica diez iteraciones.
+mice selecciona métodos iniciales según el tipo de variable:
+
+- `pmm` para numéricas;
+- `logreg` para dicotómicas;
+- `polyreg` para categóricas nominales.
+
+```{r}
+#| label: mice
+set.seed(2026)
+
+imputacion <- mice(
+  datos_imputacion,
+  m = 5,
+  maxit = 10,
+  seed = 2026,
+  printFlag = FALSE
+)
+```
+
+```{r}
+#| label: metodos
+imputacion$method
+imputacion$predictorMatrix
+```
+
+`plot()` permite revisar la estabilidad de las cadenas entre iteraciones.
+
+```{r}
+#| label: fig-convergencia
+#| fig-cap: "Medias y desviaciones estándar de los valores imputados por iteración (una línea por cadena)."
+#| fig-width: 9
+#| fig-height: 8
+print(plot(imputacion))
+```
+
+```{r}
+#| label: guardar-convergencia
+#| include: false
+png(
+  here("resultados", "semana_14", "graficos", "convergencia_imputacion.png"),
+  width = 1800,
+  height = 1300,
+  res = 180
+)
+print(plot(imputacion))
+invisible(dev.off())
+```
+
+## Base imputada para exploración
+
+`complete(imputacion, 1)` obtiene la primera de las cinco bases.
+
+::: {.callout-warning}
+Para inferencia no se debe elegir una sola base imputada: los modelos deben
+ajustarse en cada base y combinarse mediante `pool()`.
+:::
+
+```{r}
+#| label: base-imputada
+base_imputada_1 <- complete(imputacion, action = 1)
+
+colSums(is.na(base_imputada_1))
+```
+
+```{r}
+#| label: guardar-base
+write_csv(
+  base_imputada_1,
+  here("datos", "procesados", "base_bovinos_imputada_ejemplo.csv")
+)
+```
+
+## Modelo en cada base y combinación de resultados
+
+```{r}
+#| label: modelos-imputados
+modelos_imputados <- with(
+  imputacion,
+  glm(
+    mastitis ~ numero_partos + vacunacion_completa + condicion_corporal + tipo_alimentacion,
+    family = binomial
+  )
+)
+
+modelo_combinado <- pool(modelos_imputados)
+```
+
+```{r}
+#| label: tbl-combinada
+#| tbl-cap: "Modelo logístico combinado con las reglas de Rubin: Odds Ratios e IC 95 %."
+tabla_combinada <- summary(
+  modelo_combinado,
+  conf.int = TRUE,
+  exponentiate = TRUE
+) |>
+  as_tibble()
+
+tabla_combinada |>
+  mutate(across(where(is.numeric), \(x) round(x, 3)))
+```
+
+## Exportación de resultados
+
+```{r}
+#| label: exportar
+write_csv(resumen_faltantes, here("resultados", "semana_14", "tablas", "resumen_faltantes.csv"))
+write_csv(tabla_combinada, here("resultados", "semana_14", "tablas", "modelo_imputado_combinado.csv"))
+```
