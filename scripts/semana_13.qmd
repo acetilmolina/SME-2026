@@ -41,8 +41,8 @@ con casos completos y se informa cuántos registros quedan.
 variables_pca <- datos |>
   select(
     peso_kg, condicion_corporal, produccion_leche_l_dia, temperatura_c,
-    frecuencia_cardiaca_lpm, hemoglobina_g_dl, leucocitos_10_9_l,
-    proteinas_totales_g_dl, rcc_miles_ml
+    frecuencia_cardiaca_lpm, hemoglobina_g_d_l, leucocitos_10_9_l,
+    proteinas_totales_g_d_l, rcc_miles_m_l
   ) |>
   drop_na()
 
