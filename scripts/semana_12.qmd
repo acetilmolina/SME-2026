@@ -1,0 +1,208 @@
+## Objetivos
+
+1. Diferenciar análisis univariado y modelo multivariado.
+2. Seleccionar variables con criterio estadístico y sustantivo.
+3. Evaluar colinealidad y ajuste.
+4. Elaborar una tabla de resultados publicable.
+
+## Preparación
+
+```{r}
+#| label: paquetes
+library(here)
+library(readr)
+library(dplyr)
+library(broom)
+library(gtsummary)
+library(car)
+library(performance)
+```
+
+```{r}
+#| label: carpetas
+dir.create(here("resultados", "semana_12", "tablas"), recursive = TRUE, showWarnings = FALSE)
+dir.create(here("resultados", "semana_12", "graficos"), recursive = TRUE, showWarnings = FALSE)
+```
+
+```{r}
+#| label: datos
+datos <- read_csv(
+  here("datos", "procesados", "base_bovinos_procesada.csv"),
+  show_col_types = FALSE
+) |>
+  mutate(
+    mastitis = factor(mastitis, levels = c("No", "Sí")),
+    vacunacion_completa = factor(vacunacion_completa, levels = c("Sí", "No")),
+    raza = factor(raza),
+    etapa_lactancia = factor(etapa_lactancia),
+    sistema_crianza = factor(sistema_crianza),
+    tipo_alimentacion = factor(tipo_alimentacion)
+  )
+```
+
+Se utilizarán los mismos registros completos para poder comparar los modelos.
+
+```{r}
+#| label: datos-modelo
+datos_modelo <- datos |>
+  select(
+    mastitis, numero_partos, vacunacion_completa, condicion_corporal,
+    etapa_lactancia, sistema_crianza, tipo_alimentacion
+  ) |>
+  tidyr::drop_na()
+
+nrow(datos_modelo)
+```
+
+## Análisis univariado
+
+```{r}
+#| label: funcion-univariado
+predictores <- c(
+  "numero_partos",
+  "vacunacion_completa",
+  "condicion_corporal",
+  "etapa_lactancia",
+  "sistema_crianza",
+  "tipo_alimentacion"
+)
+
+ajustar_univariado <- function(variable) {
+  formula_modelo <- reformulate(variable, response = "mastitis")
+
+  modelo <- glm(
+    formula_modelo,
+    data = datos_modelo,
+    family = binomial
+  )
+
+  tidy(modelo, exponentiate = TRUE, conf.int = TRUE) |>
+    filter(term != "(Intercept)") |>
+    mutate(variable_evaluada = variable, .before = 1)
+}
+```
+
+```{r}
+#| label: tbl-univariado
+#| tbl-cap: "Regresiones logísticas univariadas: Odds Ratios e IC 95 %."
+tabla_univariada <- bind_rows(lapply(predictores, ajustar_univariado))
+
+tabla_univariada |>
+  mutate(across(where(is.numeric), \(x) round(x, 3)))
+```
+
+::: {.callout-note}
+No se deben seleccionar variables únicamente porque p < 0.05. También se
+consideran la pregunta de investigación, la plausibilidad biológica, la
+confusión y la precisión de las estimaciones.
+:::
+
+## Modelo multivariado
+
+```{r}
+#| label: modelo-multivariado
+modelo_multivariado <- glm(
+  mastitis ~ numero_partos + vacunacion_completa + condicion_corporal +
+    etapa_lactancia + sistema_crianza,
+  data = datos_modelo,
+  family = binomial
+)
+
+summary(modelo_multivariado)
+```
+
+```{r}
+#| label: tbl-multivariado
+#| tbl-cap: "Modelo logístico multivariado: Odds Ratios ajustados e IC 95 %."
+tabla_multivariada <- tidy(
+  modelo_multivariado,
+  exponentiate = TRUE,
+  conf.int = TRUE
+)
+
+tabla_multivariada |>
+  mutate(across(where(is.numeric), \(x) round(x, 3)))
+```
+
+## Diagnóstico del modelo
+
+### Colinealidad
+
+VIF evalúa colinealidad. Para factores con varios niveles se reporta GVIF.
+
+```{r}
+#| label: vif
+vif(modelo_multivariado)
+```
+
+```{r}
+#| label: colinealidad
+check_collinearity(modelo_multivariado)
+```
+
+### Bondad de ajuste
+
+La sobredispersión no se puede evaluar en un modelo logístico con respuesta
+binaria individual (Bernoulli): cada animal tiene 0 o 1, así que la varianza
+queda determinada por la probabilidad. Por eso `check_overdispersion()` no se
+aplica aquí y, en su lugar, se evalúa el ajuste del modelo.
+
+La prueba de Hosmer-Lemeshow agrupa a los animales según su probabilidad
+predicha y compara los casos observados con los esperados. Un p alto indica
+que no hay evidencia de mal ajuste.
+
+```{r}
+#| label: hosmer-lemeshow
+prueba_hosmer <- performance_hosmer(modelo_multivariado, n_bins = 10)
+prueba_hosmer
+```
+
+Los residuos agrupados (*binned residuals*) deberían quedar, en su mayoría
+(alrededor del 95 %), dentro de los límites de error esperados.
+
+```{r}
+#| label: residuos-agrupados
+residuos_agrupados <- binned_residuals(modelo_multivariado)
+residuos_agrupados
+```
+
+## Tabla para reporte
+
+```{r}
+#| label: tbl-publicable
+#| tbl-cap: "Factores asociados a mastitis: modelo logístico multivariado."
+tabla_publicable <- tbl_regression(
+  modelo_multivariado,
+  exponentiate = TRUE,
+  label = list(
+    numero_partos ~ "Número de partos",
+    vacunacion_completa ~ "Vacunación completa",
+    condicion_corporal ~ "Condición corporal",
+    etapa_lactancia ~ "Etapa de lactancia",
+    sistema_crianza ~ "Sistema de crianza"
+  )
+) |>
+  bold_labels()
+
+tabla_publicable
+```
+
+## Exportación de resultados
+
+```{r}
+#| label: exportar
+write_csv(tabla_univariada, here("resultados", "semana_12", "tablas", "analisis_univariado.csv"))
+write_csv(tabla_multivariada, here("resultados", "semana_12", "tablas", "modelo_multivariado.csv"))
+write_csv(as_tibble(tabla_publicable), here("resultados", "semana_12", "tablas", "tabla_publicable.csv"))
+
+capture.output(
+  vif(modelo_multivariado),
+  file = here("resultados", "semana_12", "diagnostico_colinealidad.txt")
+)
+
+capture.output(
+  prueba_hosmer,
+  residuos_agrupados,
+  file = here("resultados", "semana_12", "diagnostico_ajuste.txt")
+)
+```
