@@ -1,27 +1,3 @@
----
-title: "Examen final · Grupo 10"
-subtitle: "Hemoncosis en cabras lecheras de la costa norte"
-author: "Integrantes: (escriban aquí sus nombres)"
-lang: es
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    toc-title: "Contenido"
-    number-sections: true
-    embed-resources: true
-    df-print: kable
-execute:
-  warning: false
-  message: false
----
-
-# Bienvenidos {.unnumbered}
-
-Este documento es su examen final. **Todo el código ya está listo**: ustedes
-no tienen que programar. Su trabajo es ejecutar el documento, entender cada
-resultado y explicarlo en su exposición de la Semana 15.
-
 ## Su caso
 
 *Haemonchus contortus* es un nematodo hematófago que causa anemia, pérdida de condición corporal y caída de la producción de leche en caprinos; la resistencia a antihelmínticos complica su control. En cabras lecheras de tres regiones de la costa norte se registró el sistema de crianza, la etapa de lactancia, el uso de desparasitación estratégica, la edad, el número de partos, la condición corporal, la producción de leche, el diagnóstico de hemoncosis clínica (FAMACHA ≥ 4) y, en los casos, la severidad, el antihelmíntico usado y los días hasta la recuperación del FAMACHA.
