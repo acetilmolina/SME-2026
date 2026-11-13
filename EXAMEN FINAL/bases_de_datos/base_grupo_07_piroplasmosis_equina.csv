@@ -1,0 +1,296 @@
+﻿"id_equino","region","tipo_alimentacion","sexo","control_garrapatas_regular","edad_anios","traslados_ultimo_anio","perimetro_toracico_cm","peso_vivo_kg","hematocrito_pct","bilirrubina_mg_dl","temperatura_c","frecuencia_cardiaca_lpm","proteinas_totales_g_dl","piroplasmosis","severidad_clinica","garrapatas_observadas","tratamiento","dias_hasta_normalizar_hematocrito","hematocrito_normal"
+"EQU0198","La Libertad","Alfalfa","Macho","Sí",15,4,164,379,42.2,0.9,37.3,36,7.8,"No","Negativo",3,,,
+"EQU0093","La Libertad","Alfalfa","Macho","Sí",14,0,188,475,38.1,1.5,38.3,40,6.5,"No","Negativo",1,,,
+"EQU0245","Lima","Alfalfa","Macho","Sí",4,2,182,459,27.6,1.33,38.4,38,7.5,"No","Negativo",1,,,
+"EQU0142","La  Libertad  ","Heno + concentrado","Hembra","Sí",7,2,181,423,27.2,2.06,38.6,46,8,"Sí","Leve",7,"Imidocarb 2 dosis",3,1
+"EQU0207","Lima","Heno + concentrado","Macho","No",13,0,175,398,27.2,2.38,38.3,41,6.4,"Sí","Leve",3,"Imidocarb 1 dosis",27,1
+"EQU0049","Lima","Pasto","Hembra","Sí",10,1,162,,41.7,1.76,37.3,39,6.2,"No","Negativo",2,,,
+"EQU0011","Piura","Alfalfa","Macho","No",15,2,183,437,,2.03,38.4,41,7.9,"Sí","Leve",7,"Imidocarb 1 dosis",23,1
+"EQU0081","La Libertad","Alfalfa","Macho","Sí",6,3,186,420,30.8,2.56,38.6,46,7.2,"Sí","Leve",1,"Imidocarb 2 dosis",11,1
+"EQU0249","Lambayeque","Heno + concentrado","Hembra","Sí",,3,194,502,40.1,1.95,38,25,,"No","Negativo",4,,,
+"EQU0252","Lambayeque","Pasto","Hembra","No",4,4,175,437,32.7,1.33,38.1,35,,"No","Negativo",10,,,
+"EQU0151","La Libertad","Alfalfa","Hembra","Sí",12,1,173,416,41.6,1.16,37.5,,5.6,"No","Negativo",2,,,
+"EQU0253","Piura","Heno + concentrado","Macho","Sí",3,4,,408,38.7,1.67,38.5,34,7.1,"No","Negativo",3,,,
+"EQU0138","Lambayeque","Pasto","Hembra","No",10,3,192,465,42.9,,37.9,30,6.6,"No","Negativo",10,,,
+"EQU0282","Lambayeque","Heno + concentrado","Macho","No",7,1,186,534,42.7,1.61,37,36,6.2,"No","Negativo",0,,,
+"EQU0258","Piura","Alfalfa","Macho","No",11,2,166,382,39.5,1.59,37.1,38,7,"No","Negativo",5,,,
+"EQU0219","Lima","Pasto","Hembra","No",11,0,181,408,37.1,1.71,37.8,42,6.6,"No","Negativo",0,,,
+"EQU0079","Lima","Pasto","Hembra","No",10,2,184,453,29.8,2.4,38,36,7,"Sí","Grave",0,"Imidocarb 1 dosis",30,0
+"EQU0040","Piura","Alfalfa","Hembra","Sí",8,2,173,444,37.9,1.83,37.9,43,8.6,"No","Negativo",2,,,
+"EQU0200","Lambayeque","Alfalfa","Macho","Sí",8,3,185,475,35.6,1.32,38.2,36,7.6,"Sí","Leve",19,"Imidocarb 1 dosis",21,1
+"EQU0268","Lambayeque","Pasto","Macho","Sí",8,2,167,371,32.6,1.77,37.4,45,6.2,"Sí","Grave",2,"Imidocarb 2 dosis",20,1
+"EQU0220","Piura","Pasto","Hembra","Sí",18,5,174,405,37.9,1.99,37.6,41,5.9,"No","Negativo",5,,,
+"EQU0215","La Libertad","Heno + concentrado","Macho","No",,3,182,465,31.2,2.79,38.4,45,6,"Sí","Moderada",1,"Imidocarb 1 dosis",19,1
+"EQU0125","La Libertad","Alfalfa","Hembra","No",10,2,172,423,34.5,1.29,39.2,45,6.9,"Sí","Leve",1,"Imidocarb 2 dosis",19,1
+"EQU0004","Lima","Alfalfa","Hembra","Sí",14,0,186,462,40.1,1.78,37.7,39,6.6,"No","Negativo",2,,,
+"EQU0177","La Libertad","Alfalfa","Macho","No",5,5,,434,29,2.65,38.4,52,6.6,"Sí","Grave",7,"Imidocarb 2 dosis",30,0
+"EQU0178","Lambayeque","Heno + concentrado","Macho","No",10,3,188,497,34,2.54,38.2,41,5.9,"Sí","Grave",1,"Imidocarb 1 dosis",28,1
+"EQU0159","La Libertad","Pasto","Hembra","No",11,4,177,376,39.9,2.7,38.2,40,6.5,"Sí","Leve",5,"Imidocarb 2 dosis",3,1
+"EQU0064","La Libertad","Heno + concentrado","Hembra","No",2,2,177,397,31.2,2.39,39.3,37,7,"Sí","Moderada",5,"Imidocarb 1 dosis",12,1
+"EQU0117","Lima","Pasto","Macho"," Sí",12,1,175,419,37.9,2.18,38.1,37,6.4,"Sí","Leve",0,"Imidocarb 2 dosis",4,1
+"EQU0084","Lambayeque","Pasto","Macho","Sí",10,1,166,330,28.1,2.69,38.9,42,6.3,"Sí","Moderada",3,"Imidocarb 2 dosis",7,1
+"EQU0126","Lambayeque","Heno + concentrado","Macho","No",,1,159,,40.2,1.78,37.6,33,7.3,"No","Negativo",7,,,
+"EQU0129","Lima","Alfalfa","Hembra","Sí",5,5,183,383,22.5,2.32,39.1,43,7.7,"Sí","Moderada",4,"Imidocarb 1 dosis",23,0
+"EQU0167","Piura","Pasto","Macho","Sí",8,2,183,453,44.5,1.69,,36,6.4,"No","Negativo",4,,,
+"EQU0050","Lima","Heno + concentrado","Macho","No",7,2,172,426,41.3,,37.9,48,7.3,"No","Negativo",5,,,
+"EQU0287","Lambayeque","Pasto","Hembra","No",5,0,173,410,36.5,1.34,37.7,34,6.1,"No","Negativo",0,,,
+"EQU0134","Lambayeque","Heno + concentrado","Macho","No",2,1,182,473,45.3,1.45,37.9,42,7.4,"No","Negativo",1,,,
+"EQU0265","Lambayeque","Pasto","Hembra","Sí",10,1,183,443,27.5,1.75,38.3,50,8.2,"Sí","Moderada",3,"Imidocarb 1 dosis",26,1
+"EQU0118","Piura","Pasto","Macho","Sí",12,1,,346,35.9,2.9,37.5,40,7.9,"Sí","Leve",10,"Imidocarb 2 dosis",14,1
+"EQU0119","Piura","Heno + concentrado","Macho","No",4,2,182,48,40.2,0.69,37.5,36,5,"No","Negativo",0,,,
+"EQU0048","Lima","Pasto","Hembra","Sí",5,3,172,400,37.2,1.24,36.8,35,7.7,"No","Negativo",5,,,
+"EQU0057","Piura","Heno + concentrado","Macho","No",5,1,184,520,35.4,2.22,37.7,36,6.8,"No","Negativo",1,,,
+"EQU0222","Lambayeque","Alfalfa","Macho","Sí",10,2,176,422,37.2,2.33,37.8,31,6.5,"No","Negativo",14,,,
+"EQU0262","Lima","Alfalfa","Macho","No",9,1,177,,22.2,2.56,38.1,42,8,"Sí","Moderada",2,"Imidocarb 2 dosis",30,0
+"EQU0029","La Libertad","Alfalfa","Hembra","Sí",8,2,175,428,30,1.69,38.1,35,7.9,"No","Negativo",0,,,
+"EQU0274","Piura","Heno + concentrado","Hembra","No",15,4,160,,34.1,1.68,38,47,7.8,"Sí","Leve",4,"Imidocarb 2 dosis",2,1
+"EQU0159","La Libertad","Pasto","Hembra","No",11,4,177,376,39.9,2.7,38.2,40,6.5,"Sí","Leve",5,"Imidocarb 2 dosis",3,1
+"EQU0116","Lima","Alfalfa","Macho","No",9,1,177,411,34,2.06,37.8,41,7.4,"No","Negativo",3,,,
+"EQU0232","Lima","Heno + concentrado","Macho","No",6,4,,,39.7,0.77,37.4,40,7.1,"No","Negativo",5,,,
+"EQU0013","La Libertad","Heno + concentrado","Macho","No",14,1,182,467,42.6,2.18,36.8,38,6.9,"No","Negativo",5,,,
+"EQU0046","Lima","Alfalfa","Hembra","No",11,1,187,489,38.7,1.51,37.7,38,5,"No","Negativo",3,,,
+"EQU0082","Piura","Heno + concentrado","Macho","Sí",10,6,162,373,27,2.29,39.2,42,6.8,"Sí","Grave",16,"Imidocarb 2 dosis",21,1
+"EQU0112","Lima","Heno + concentrado","Macho","No",2,3,167,401,38.3,2.08,37.1,42,7.3,"Sí","Leve",17,"Imidocarb 1 dosis",4,1
+"EQU0181","La Libertad","Heno + concentrado","Hembra","Sí",14,3,182,,34.5,2.7,38,33,7,"Sí","Moderada",1,"Imidocarb 1 dosis",2,0
+"EQU0284","Lambayeque","Alfalfa","Macho","Sí",12,3,168,443,44.5,0.51,38,23,6.3,"No","Negativo",0,,,
+"EQU0150","Piura","Heno + concentrado","Macho","No",13,2,188,511,45,2.41,37.4,40,6.2,"No","Negativo",4,,,
+"EQU0128","La Libertad","Pasto","Hembra","Sí",11,2,173,356,30.6,2.79,38.2,42,6.7,"Sí","Leve",4,"Imidocarb 2 dosis",5,1
+"EQU0237","La Libertad","Alfalfa","Hembra","Sí",8,3,199,485,34.1,1.89,37.9,35,7.4,"No","Negativo",2,,,
+"EQU0027","Lima","Pasto","Hembra","No",6,5,183,406,31.6,2.1,38.2,39,6.9,"Sí","Grave",11,"Imidocarb 1 dosis",2,1
+"EQU0164","Lambayeque","Heno + concentrado","Macho","si",4,2,181,,42.2,1.19,37.5,38,6,"No","Negativo",1,,,
+"EQU0290","Lima","Pasto","Hembra","Sí",5,2,189,482,35.3,1.74,38.2,40,6.5,"No","Negativo",2,,,
+"EQU0188","Lambayeque","Heno + concentrado","Hembra","No",13,3,179,,35.1,2.01,,43,6.9,"No","Negativo",5,,,
+"EQU0218","Piura","Alfalfa","Hembra","SI",9,2,180,471,36.7,1.34,37,41,6.7,"No","Negativo",0,,,
+"EQU0168","La Libertad","Pasto","Macho","No",9,1,170,362,31.3,2.89,38.6,50,7,"Sí","Moderada",2,"Imidocarb 1 dosis",25,1
+"EQU0188","Lambayeque","Heno + concentrado","Hembra","No",13,3,179,,35.1,2.01,,43,6.9,"No","Negativo",5,,,
+"EQU0205","Lambayeque","Pasto","Hembra","No",,2,182,451,39.2,0.91,38.5,32,6.1,"No","Negativo",3,,,
+"EQU0183","Piura"," Pasto ","Macho","Sí",8,1,188,420,25.7,2.71,38.4,50,6.7,"Sí","Leve",4,"Imidocarb 1 dosis",10,1
+"EQU0078","Lima","Pasto","Hembra","Sí",7,0,184,462,,1.62,37.8,40,6.5,"No","Negativo",11,,,
+"EQU0108","Piura","Alfalfa","Macho","Sí",9,4,173,412,38.4,1.42,37.4,25,6.9,"No","Negativo",3,,,
+"EQU0250","Lima","Pasto","Macho","No",2,0,169,425,37.8,1.17,,43,7.5,"No","Negativo",9,,,
+"EQU0144","Lambayeque","Heno + concentrado","Macho","No",17,5,196,527,35.8,1.66,37.8,26,5.7,"No","Negativo",5,,,
+"EQU0019","Lambayeque","Heno + concentrado","Macho","Sí",9,3,166,427,44.1,1.08,37,38,6.6,"No","Negativo",0,,,
+"EQU0272","Lambayeque","Alfalfa","Macho","No",,1,157,347,33.7,2.5,37.8,35,7.4,"No","Negativo",2,,,
+"EQU0203","Lambayeque","Pasto","Macho","Sí",8,1,175,376,30.6,1.75,38,50,8.2,"Sí","Leve",9,"Imidocarb 2 dosis",2,1
+"EQU0169","Lima","Pasto","Hembra","No",15,,161,353,36.5,1.39,38,44,6.1,"No","Negativo",3,,,
+"EQU0160","Piura","alfalfa","Hembra","No",6,3,172,455,30.3,2.14,38,43,6.6,"Sí","Moderada",4,"Imidocarb 1 dosis",11,1
+"EQU0054","La Libertad","Pasto","Hembra","No",7,,175,361,41.9,1.34,38.3,34,6.8,"No","Negativo",2,,,
+"EQU0089","LA LIBERTAD","Alfalfa","Hembra","Sí",7,0,178,470,36.1,0.81,37.7,39,5.9,"No","Negativo",3,,,
+"EQU0225","Piura","Pasto","Macho","No",5,5,168,343,34,2.88,38.7,45,6.7,"Sí","Grave",31,"Imidocarb 2 dosis",30,0
+"EQU0031","Lima","Alfalfa","Hembra","Sí",12,1,180,426,27.4,2.24,38.4,42,6.2,"Sí","Leve",0,"Imidocarb 2 dosis",4,0
+"EQU0267","Lambayeque","Pasto","Hembra","Sí",7,2,182,416,37.6,2.23,,37,6.8,"Sí","Leve",4,"Imidocarb 2 dosis",9,1
+"EQU0155","Piura","Alfalfa","Hembra","Sí",11,3,170,379,34.1,2.4,37.7,43,6.4,"No","Negativo",1,,,
+"EQU0227","Lambayeque","Pasto","Macho","No",11,3,186,492,40.9,1.3,37.4,28,8,"No","Negativo",5,,,
+"EQU0256","Lambayeque","Heno + concentrado","Hembra","Sí",2,2,180,427,45.1,1.27,38,,6.1,"No","Negativo",6,,,
+"EQU0073","Lima","Pasto","Hembra","No",5,0,179,442,30.8,2.07,37.1,43,8.1,"No","Negativo",9,,,
+"EQU0246","piura","Heno + concentrado","Macho","No",5,2,180,441,37.6,2.37,37.1,36,6.9,"No","Negativo",9,,,
+"EQU0024","La Libertad","Pasto","Hembra","No",6,4,176,391,31.7,,38,47,8,"Sí","Leve",1,"Imidocarb 1 dosis",30,1
+"EQU0083","La Libertad","Alfalfa","Hembra","No",5,2,172,402,38.9,2.52,38,47,6.8,"No","Negativo",1,,,
+"EQU0007","Lima","Heno + concentrado","Macho","No",9,3,167,424,39,1.59,37.8,38,6.9,"No","Negativo",0,,,
+"EQU0216","Lambayeque","Heno + concentrado","Macho","No",6,0,183,415,29.6,0.95,37.8,48,7.5,"Sí","Moderada",0,"Imidocarb 2 dosis",30,0
+"EQU0257","Lambayeque","Alfalfa","Hembra","Sí",10,0,175,387,39.9,1.52,37.6,33,6.6,"No","Negativo",0,,,
+"EQU0021","Piura","Alfalfa","Macho","Sí",5,2,157,399,37.7,1.94,37.8,47,7,"No","Negativo",6,,,
+"EQU0012","La Libertad","Pasto","Macho","Sí",15,2,183,,40.4,2.11,37.3,46,6.2,"No","Negativo",0,,,
+"EQU0083","La Libertad","Alfalfa","Hembra","No",5,2,172,402,38.9,2.52,38,47,6.8,"No","Negativo",1,,,
+"EQU0055","Lambayeque","Pasto","Hembra",,2,2,191,505,37,2.4,,43,7.2,"Sí","Leve",2,"Imidocarb 1 dosis",14,1
+"EQU0092","Piura","Alfalfa","Hembra","No",6,1,171,397,40,0.88,37.2,31,6.5,"No","Negativo",2,,,
+"EQU0123","Lambayeque","Alfalfa","Macho","Sí",7,0,180,450,40.6,2.19,,41,7.2,"No","Negativo",5,,,
+"EQU0239","La Libertad","Alfalfa","Macho","Sí",10,4,177,402,34.5,1.75,37.8,39,7.9,"No","Negativo",4,,,
+"EQU0193","Lambayeque","Alfalfa","Macho","No",6,1,165,384,33.6,2.39,37.4,47,6,"Sí","Leve",3,"Imidocarb 1 dosis",18,1
+"EQU0070","Lambayeque","Pasto","Hembra","Sí",7,2,179,400,42.7,1.04,37.6,42,7.4,"No","Negativo",1,,,
+"EQU0223","Piura","Heno + concentrado","Hembra","Sí",6,4,177,443,40.5,1.17,38,36,7.3,"No","Negativo",10,,,
+"EQU0172","lambayeque","Alfalfa","Macho","Sí",13,1,190,467,37.7,1.15,38.7,45,6,"No","Negativo",0,,,
+"EQU0139","La Libertad","Pasto","Macho","No",3,0,169,417,34.6,1.98,37,43,6.4,"Sí","Leve",9,"Imidocarb 2 dosis",3,0
+"EQU0184","Lambayeque","Heno + concentrado","Hembra","Sí",4,,191,508,43.2,1.22,37.6,37,7.3,"No","Negativo",0,,,
+"EQU0018","Lima","Heno + concentrado","Hembra","Sí",11,0,162,392,43,1.74,37.4,34,6.2,"No","Negativo",0,,,
+"EQU0235","Lambayeque","Heno + concentrado","Macho","No",8,3,168,424,32.7,3.47,38.1,37,6.8,"Sí","Leve",3,"Imidocarb 1 dosis",18,1
+"EQU0221","Lambayeque","Heno + concentrado","Hembra","Sí",7,4,,425,32,1.37,37.4,38,7.3,"No","Negativo",2,,,
+"EQU0043","Lima","Pasto","Hembra","No",12,0,172,375,36.7,2.72,39.1,43,6.4,"Sí","Leve",51,"Imidocarb 1 dosis",11,1
+"EQU0010","Piura","Heno + concentrado","Hembra","Sí",8,3,179,473,34.8,2.13,37.6,39,5.8,"No","Negativo",2,,,
+"EQU0133","La Libertad","Alfalfa","Macho","Sí",7,0,178,437,36.3,1.79,37.8,36,6.8,"No","Negativo",0,,,
+"EQU0180","La Libertad","Alfalfa","Hembra","Sí",9,1,170,400,40.1,0.87,37.4,41,,"No","Negativo",6,,,
+"EQU0279","Piura","Pasto","Macho","No",9,,,462,30.3,2.29,38.2,42,,"Sí","Leve",13,"Imidocarb 1 dosis",28,1
+"EQU0149","Piura","Alfalfa","Hembra","No",13,3,180,469,41.8,2.04,37.1,38,7.6,"No","Negativo",5,,,
+"EQU0269","Lambayeque","Pasto","Macho","No",5,6,172,404,37.3,1.82,38,47,6.7,"No","Negativo",17,,,
+"EQU0278","La Libertad","Alfalfa","Macho","Sí",6,1,184,452,39.7,2.13,37.7,40,7.4,"No","Negativo",2,,,
+"EQU0271","Lambayeque","Alfalfa","Hembra","Sí",4,3,182,478,32.9,1.33,37,37,6.6,"No","Negativo",6,,,
+"EQU0130","La Libertad","Alfalfa","Macho","No",8,3,186,499,37.5,1.71,37.6,41,7.7,"No","Negativo",7,,,
+"EQU0156","Lambayeque","Pasto","Hembra","Sí",8,6,177,386,45.7,1.17,37.9,35,7.1,"No","Negativo",2,,,
+"EQU0163","La Libertad","Alfalfa","Macho","Sí",6,2,167,364,28.3,2.08,38.4,47,6.7,"Sí","Grave",0,"Imidocarb 1 dosis",17,1
+"EQU0264","Piura","Alfalfa","Hembra","No",14,2,185,455,37.8,1.98,,52,8,"Sí","Moderada",26,"Imidocarb 2 dosis",13,1
+"EQU0077","La Libertad","Pasto","Macho","Sí",19,1,177,459,40,1.35,37.2,43,7.6,"No","Negativo",2,,,
+"EQU0036","La Libertad","Alfalfa","Macho","No",7,2,177,443,37.6,1.52,37.6,35,6.9,"No","Negativo",3,,,
+"EQU0147","Lima","Alfalfa","Macho","Sí",12,1,176,461,35.4,,37.8,46,7.2,"Sí","Moderada",5,"Imidocarb 1 dosis",6,1
+"EQU0234","Lambayeque","Heno + concentrado","Macho","No",10,2,185,544,33.4,2.76,37.3,31,6.5,"No","Negativo",0,,,
+"EQU0243","La Libertad","Pasto","Hembra","No",4,2,177,416,37.4,1.52,38.1,36,6.4,"No","Negativo",0,,,
+"EQU0240","la libertad","Pasto","Macho","Sí",7,0,176,403,31.2,2.7,38.7,48,6.9,"Sí","Moderada",3,"Imidocarb 1 dosis",22,0
+"EQU0186","Lima","Alfalfa","Hembra","No ",9,1,170,358,45.2,0.9,37.7,37,,"No","Negativo",1,,,
+"EQU0204","La Libertad","Alfalfa","Hembra","Sí",12,1,181,383,40.8,0.78,37.7,40,7.2,"No","Negativo",3,,,
+"EQU0072","LAMBAYEQUE","Heno + concentrado","Hembra","Sí",9,3,185,498,30.8,2.13,38.2,39,7.3,"Sí","Moderada",8,"Imidocarb 2 dosis",4,1
+"EQU0230","Piura","Heno + concentrado","Hembra","Sí",2,5,175,452,36,1.49,37.7,42,6.9,"No","Negativo",1,,,
+"EQU0241","Lambayeque","Pasto","Hembra","No",5,4,175,391,24.4,3.09,38.4,43,7.4,"Sí","Grave",9,"Imidocarb 1 dosis",8,1
+"EQU0140","Piura","Pasto","Macho","Sí",6,2,184,472,43.4,1.23,37.6,32,,"No","Negativo",4,,,
+"EQU0280","Lambayeque","Alfalfa","Macho","Sí",10,1,178,444,48,1.95,38,42,6.4,"No","Negativo",0,,,
+"EQU0001","La Libertad","Pasto","Hembra","No",14,1,176,452,31,2.68,38.2,36,6,"Sí","Moderada",0,"Imidocarb 1 dosis",9,1
+"EQU0255","Lambayeque","Alfalfa","Macho","No",15,2,177,445,26.6,2.01,38.3,40,,"Sí","Moderada",9,"Imidocarb 2 dosis",24,1
+"EQU0211","La Libertad","Pasto","Macho","Sí",10,1,170,384,38,,37.6,41,,"No","Negativo",3,,,
+"EQU0229","Lima","Heno + concentrado","Macho","Sí",8,2,187,476,37.5,1.36,37.8,35,7.1,"No","Negativo",1,,,
+"EQU0201","Lambayeque","Alfalfa","Hembra","Sí",3,2,188,422,33.1,1.21,37.1,,6.8,"No","Negativo",1,,,
+"EQU0098","Lambayeque","Heno + concentrado","Hembra","No",7,0,180,434,34.8,2.04,38.1,45,7.3,"Sí","Leve",2,"Imidocarb 2 dosis",4,1
+"EQU0106","Lambayeque","Pasto","Hembra","No",11,3,186,492,35.2,2.29,38.1,41,7.9,"Sí","Moderada",0,"Imidocarb 2 dosis",30,0
+"EQU0143","Lima","Pasto","Macho","No",15,0,176,440,39.8,1.8,37.3,25,6.8,"No","Negativo",4,,,
+"EQU0152","La  Libertad  ","Heno + concentrado","Macho","No",9,2,187,522,39.2,1.8,37.9,43,6.7,"No","Negativo",0,,,
+"EQU0165","La Libertad","Heno + concentrado","Hembra","No",9,4,186,445,42.9,0.78,37.3,33,7.5,"No","Negativo",5,,,
+"EQU0189","Lambayeque","Alfalfa","Macho","Sí",19,4,193,526,38.2,1.65,38.1,44,6.1,"No","Negativo",3,,,
+"EQU0157","Lambayeque","Alfalfa","Macho","No",11,0,198,499,39.9,,37.8,48,6,"Sí","Leve",3,"Imidocarb 2 dosis",11,1
+"EQU0173","La Libertad","Heno + concentrado","Macho","Sí",6,4,173,428,37.6,2.03,,37,6.3,"No","Negativo",0,,,
+"EQU0148","Lima","Alfalfa","Hembra","Sí",13,2,,382,44.4,1.3,37.8,28,6,"No","Negativo",0,,,
+"EQU0190","La Libertad","Heno + concentrado","Macho","No",4,3,184,482,33.7,1.99,38.7,37,8,"No","Negativo",2,,,
+"EQU0085","Lambayeque","Pasto","Macho","No",18,,171,393,32.5,1.94,38,49,7.3,"Sí","Moderada",5,"Imidocarb 1 dosis",30,0
+"EQU0094","Lambayeque","Pasto","Macho","Sí",9,3,181,469,35.5,2.06,37.4,34,7.2,"No","Negativo",6,,,
+"EQU0102","Lima","Heno + concentrado","Hembra","No",9,1,169,343,34.5,2.14,37.8,40,7.5,"No","Negativo",6,,,
+"EQU0195","La Libertad","Pasto","Hembra","Sí",11,2,162,365,36.3,1.2,37.1,43,6.7,"No","Negativo",3,,,
+"EQU0176","Lambayeque","Pasto","Macho","No",7,1,172,382,31.3,1.92,38.8,37,6.6,"Sí","Leve",4,"Imidocarb 2 dosis",21,1
+"EQU0273","Lambayeque","Pasto","Macho","Sí",16,4,173,380,33.2,2.36,38.6,42,6.6,"Sí","Leve",8,"Imidocarb 1 dosis",24,1
+"EQU0069","Lima","Alfalfa","Macho","Sí",11,4,189,520,29.3,1.46,37.4,40,6.4,"No","Negativo",5,,,
+"EQU0009","lima","Pasto","Macho","Sí",7,2,178,435,40.8,1.41,37.8,32,8,"No","Negativo",4,,,
+"EQU0141","Lambayeque","Heno + concentrado","Hembra","Sí",4,3,174,408,28.3,2.1,,47,7.2,"Sí","Moderada",1,"Imidocarb 2 dosis",29,1
+"EQU0263","Lima","Heno + concentrado","Macho","No",11,6,172,364,32.6,2.87,,39,6.9,"Sí","Grave",3,"Imidocarb 1 dosis",16,1
+"EQU0228","Lima","Heno + concentrado","Hembra","Sí",14,2,176,420,46.2,1.34,37.5,43,7.3,"No","Negativo",1,,,
+"EQU0096","La Libertad","Pasto","Macho","No",7,3,175,433,35.6,2.09,37.4,42,6.3,"No","Negativo",2,,,
+"EQU0210","Lambayeque","Pasto","Macho","Sí",,3,199,516,32.7,2.19,38.9,40,6.6,"Sí","Moderada",7,"Imidocarb 1 dosis",30,0
+"EQU0026","Piura","Alfalfa","Hembra","No",6,7,181,406,26.8,2.23,39.2,52,7.8,"Sí","Grave",20,"Imidocarb 2 dosis",13,1
+"EQU0214","Lambayeque","Alfalfa","Hembra","Sí",9,3,184,439,35.8,1.62,,35,7.3,"No","Negativo",3,,,
+"EQU0226","La Libertad","Pasto","Hembra","Sí",4,3,163,351,34.5,2.11,,37,6.8,"No","Negativo",1,,,
+"EQU0053","Lima","Alfalfa","Macho","No",8,,170,375,30.5,1.77,38.4,43,7.8,"Sí","Moderada",13,"Imidocarb 1 dosis",4,1
+"EQU0153","Lambayeque","Pasto","Macho","Sí",9,4,177,415,42.3,1.19,37.1,37,7.1,"No","Negativo",6,,,
+"EQU0260","Lambayeque","Alfalfa","Hembra","No",13,0,171,356,45.1,1.49,,31,6.9,"No","Negativo",4,,,
+"EQU0042","La Libertad","Heno + concentrado","Macho","No",8,2,178,396,38.3,1.78,38.3,42,6.7,"Sí","Leve",0,"Imidocarb 2 dosis",25,1
+"EQU0145","La Libertad","Alfalfa","Hembra","No",8,3,173,392,,2.29,38,37,7.4,"Sí","Moderada",12,"Imidocarb 2 dosis",17,1
+"EQU0071","Lambayeque","Pasto","Hembra","Sí",5,2,180,466,42.6,,37.9,42,6.6,"No","Negativo",5,,,
+"EQU0033","La Libertad","Alfalfa","Macho","Sí",12,5,170,425,48.6,1.03,37.3,27,6.3,"No","Negativo",14,,,
+"EQU0113","Lambayeque","Pasto","Macho","Sí",12,1,186,479,41,1.7,,33,6.8,"No","Negativo",1,,,
+"EQU0285","Lima","Pasto","Macho","Sí",9,2,178,431,31.9,2.97,37.8,,6.1,"No","Negativo",1,,,
+"EQU0023","La Libertad","Alfalfa","Macho","No",10,3,178,440,28.3,2.53,38,47,7.8,"Sí","Moderada",4,"Imidocarb 2 dosis",11,1
+"EQU0110","La Libertad","HENO + CONCENTRADO","Macho","No",8,2,185,472,27,1.93,38.5,50,6.8,"Sí","Grave",6,"Imidocarb 1 dosis",30,0
+"EQU0288","Lambayeque","Alfalfa","Hembra","No",9,1,177,360,46,1.62,37.6,,7,"No","Negativo",3,,,
+"EQU0101","Lima","heno + concentrado","Hembra","Sí",6,3,173,414,30.7,2.02,36.7,41,6.5,"No","Negativo",11,,,
+"EQU0037","Piura","Heno + concentrado","Hembra","Sí",10,3,177,493,30.9,1.2,38,39,6.8,"No","Negativo",2,,,
+"EQU0062","La Libertad","Alfalfa","Macho","No",11,2,188,466,36.8,1.86,38,34,7.7,"No","Negativo",3,,,
+"EQU0185","Lambayeque","Heno + concentrado","Macho","No",9,1,170,,,0.79,38.1,35,6.8,"No","Negativo",1,,,
+"EQU0254","La Libertad","Pasto","Macho","No",4,1,178,417,40.1,,37.5,34,6.9,"No","Negativo",13,,,
+"EQU0067","La Libertad"," Heno + concentrado ","Hembra","si",10,2,176,415,37.6,2.44,37.8,35,7.6,"No","Negativo",2,,,
+"EQU0231","La Libertad","Pasto","Macho","No",14,2,180,444,32,1.68,38.3,,7.7,"Sí","Leve",6,"Imidocarb 2 dosis",22,1
+"EQU0275","Lambayeque","Heno + concentrado","Hembra","No",8,1,186,501,35.4,1.52,37.1,53,6.5,"No","Negativo",3,,,
+"EQU0158","Piura","Heno + concentrado","Hembra","No",6,1,199,562,29.4,2.12,39.6,51,7.3,"Sí","Moderada",1,"Imidocarb 2 dosis",27,1
+"EQU0206","Lambayeque","Heno + concentrado","Hembra","Sí",2,4,184,435,31.3,1.85,39,40,6.4,"Sí","Leve",11,"Imidocarb 1 dosis",26,1
+"EQU0068","La Libertad","Heno + concentrado","Hembra","No",6,3,169,364,26.9,2.08,38,51,5.8,"Sí","Grave",16,"Imidocarb 2 dosis",20,1
+"EQU0090","Lima","Alfalfa","Macho","Sí",11,1,162,457,39.8,1.14,36.5,36,7.4,"No","Negativo",0,,,
+"EQU0208","Lima","Pasto","Hembra","No",14,0,191,423,30.9,2.87,38.2,45,7,"Sí","Leve",1,"Imidocarb 2 dosis",16,1
+"EQU0170","La Libertad","Heno + concentrado","Macho","Sí",3,4,192,498,40.2,1.48,,33,,"No","Negativo",0,,,
+"EQU0281","Piura","Pasto","Hembra","Sí",12,6,167,394,37.8,,37.8,42,7,"No","Negativo",14,,,
+"EQU0171","La Libertad","Alfalfa","Macho","Sí",7,1,178,497,32.8,1.88,37.3,34,,"No","Negativo",0,,,
+"EQU0032","Lambayeque","Alfalfa","Hembra","Sí",20,2,191,436,32,2.23,38.6,38,6.7,"Sí","Leve",7,"Imidocarb 1 dosis",10,1
+"EQU0100","Lambayeque","Heno + concentrado","Macho","No",8,3,173,418,28.9,1.31,38.2,39,6.2,"Sí","Moderada",4,"Imidocarb 1 dosis",18,1
+"EQU0192","Piura","Pasto","Macho","No",11,0,177,402,34.3,1.65,38.1,37,7,"Sí","Leve",3,"Imidocarb 2 dosis",17,1
+"EQU0061","Lambayeque","Heno + concentrado","Macho","Sí",9,2,169,427,40.9,1.67,38.1,33,6.7,"No","Negativo",1,,,
+"EQU0197","Lambayeque","Alfalfa","Macho","No",4,1,176,393,36.3,1.71,37.9,49,6.9,"No","Negativo",3,,,
+"EQU0014","Lima","Alfalfa","Macho","No",7,3,165,318,34.9,1.32,37.6,44,7.7,"No","Negativo",7,,,
+"EQU0022","Lambayeque","Heno + concentrado","Macho","NO",11,,192,484,45,1.95,37.4,27,6.8,"No","Negativo",8,,,
+"EQU0187","Lima","Heno + concentrado","Hembra","Sí",11,3,186,422,31.5,2.4,38.1,45,8.2,"Sí","Leve",2,"Imidocarb 1 dosis",15,1
+"EQU0103","Lima","Heno + concentrado","Hembra","No",14,3,183,536,40.3,2.63,37.7,32,7.6,"No","Negativo",2,,,
+"EQU0044","La Libertad","Pasto","Hembra","No",5,0,161,350,31.1,2.14,37.7,46,7.3,"No","Negativo",0,,,
+"EQU0174","Piura","Pasto","Hembra","Sí",14,2,164,,37.3,1.82,,37,6.9,"No","Negativo",0,,,
+"EQU0004","Lima","Alfalfa","Hembra","Sí",14,0,186,462,40.1,1.78,37.7,39,6.6,"No","Negativo",2,,,
+"EQU0276","La Libertad","Alfalfa","Macho","Sí",6,2,179,364,25.7,2.6,39.1,43,7.4,"Sí","Grave",17,"Imidocarb 2 dosis",14,0
+"EQU0060","Lambayeque","Alfalfa","Macho","Sí",10,2,184,488,35.5,1.55,37.1,40,7,"No","Negativo",1,,,
+"EQU0016","La Libertad","Heno + concentrado","Hembra","No",9,3,173,422,30,2.98,38,52,6.2,"Sí","Moderada",0,"Imidocarb 2 dosis",14,1
+"EQU0213","Piura","Alfalfa","Macho","Sí",7,3,173,416,35.8,1.44,37.3,37,6.4,"No","Negativo",0,,,
+"EQU0182","Lambayeque","Pasto","Hembra","Sí",12,2,178,416,31.7,1.21,37.8,,7.1,"No","Negativo",5,,,
+"EQU0135","Piura","Heno + concentrado","Hembra","si",11,3,173,385,34,1.34,37.8,41,6.8,"No","Negativo",5,,,
+"EQU0052","Lima","Heno + concentrado","Hembra","Sí",11,2,165,381,39.3,1.45,37.1,30,6.3,"No","Negativo",9,,,
+"EQU0286","La Libertad","Alfalfa","Hembra","Sí",9,2,173,382,28.6,2.19,37.6,38,5.8,"No","Negativo",0,,,
+"EQU0038","Piura","Pasto","Hembra","No",7,2,186,522,28.7,2.37,38.7,38,7.8,"Sí","Leve",11,"Imidocarb 2 dosis",9,1
+"EQU0015","Lambayeque","Heno + concentrado","Hembra","Sí",10,1,172,491,35.3,2.45,37.7,38,7,"No","Negativo",0,,,
+"EQU0003","Lambayeque","Pasto","Hembra","No",8,0,155,29.6,32.5,2.02,37.7,44,7.1,"Sí","Grave",3,"Imidocarb 1 dosis",28,1
+"EQU0277","Lambayeque","Pasto","Macho","Sí",7,1,178,435,37.6,1.29,37.8,32,,"No","Negativo",0,,,
+"EQU0217","Lambayeque","Pasto","Macho","No",10,2,174,468,41.6,1.36,,35,,"No","Negativo",1,,,
+"EQU0030","La Libertad","Alfalfa","Hembra","No",7,3,184,511,38.4,1.96,37.7,35,7.2,"No","Negativo",3,,,
+"EQU0025","La Libertad","Pasto","Hembra","Sí",6,2,172,325,,2.03,37.8,49,6.2,"Sí","Moderada",5,"Imidocarb 2 dosis",21,1
+"EQU0194","La Libertad","Alfalfa","Hembra","Sí",12,0,187,435,38.8,2.08,,38,6.8,"No","Negativo",0,,,
+"EQU0154","La Libertad","Alfalfa","Hembra","No",12,4,184,410,32.8,1.83,37.9,46,7.2,"Sí","Moderada",2,"Imidocarb 2 dosis",4,1
+"EQU0127","Lambayeque","Pasto","Macho","No",21,0,177,441,23.1,2.49,38.8,60,7.4,"Sí","Moderada",1,"Imidocarb 1 dosis",21,1
+"EQU0175","Lambayeque","Pasto","Hembra","Sí",8,1,183,372,41.4,1.33,37.9,33,7.7,"No","Negativo",3,,,
+"EQU0259","Lima","Alfalfa","Macho","Sí",12,0,183,492,33.3,1.47,38.2,42,6.8,"No","Negativo",0,,,
+"EQU0039","La Libertad","Alfalfa","Macho","Sí",10,4,187,474,28.6,2.04,38.1,47,6.5,"Sí","Moderada",0,"Imidocarb 2 dosis",30,0
+"EQU0247","Piura","Heno + concentrado","Hembra","Sí",8,2,161,387,36.9,1.94,38,32,6.5,"No","Negativo",3,,,
+"EQU0095","La Libertad","Pasto","Hembra","Sí",18,2,186,408,24.9,2.04,38.1,38,6.9,"Sí","Leve",1,"Imidocarb 2 dosis",10,1
+"EQU0002","Piura","Heno + concentrado","Macho","No",7,2,186,444,30,2.88,38.7,46,6.1,"Sí","Leve",3,"Imidocarb 1 dosis",4,1
+"EQU0124","Piura","Alfalfa","Macho","Sí",9,5,181,466,40.1,1.45,37.5,32,6.7,"No","Negativo",3,,,
+"EQU0179","Lima","Heno + concentrado","Macho","Sí",11,3,191,450,,2.04,38.1,43,7.5,"No","Negativo",2,,,
+"EQU0266","La Libertad","Pasto","Macho","Sí",13,0,184,415,31.5,2.41,38.3,44,7.3,"Sí","Leve",4,"Imidocarb 1 dosis",30,0
+"EQU0199","Lambayeque","Pasto","Hembra",,3,3,176,460,35.1,1.99,37.5,39,7.5,"No","Negativo",0,,,
+"EQU0080","La Libertad","Alfalfa","Macho","No",10,3,170,389,33.8,1.57,37.6,46,6.3,"No","Negativo",2,,,
+"EQU0006","Lima","Heno + concentrado","Macho","Sí",2,7,178,445,33.5,2.88,38.2,35,6.9,"Sí","Moderada",10,"Imidocarb 2 dosis",5,1
+"EQU0248","Lima","Pasto","Macho","Sí",11,0,199,531,37.5,1.51,,43,7.2,"No","Negativo",10,,,
+"EQU0107","Lambayeque","Heno + concentrado","Hembra","No",9,4,173,384,37.4,1.01,37.6,34,7.5,"No","Negativo",3,,,
+"EQU0109","Lima","Pasto","Macho","No",15,1,183,405,33,2.1,38.5,,6.9,"Sí","Moderada",0,"Imidocarb 2 dosis",1,1
+"EQU0196","Lambayeque","Pasto","Hembra","No",5,3,,445,35.5,2.05,38.5,44,7.1,"Sí","Grave",0,"Imidocarb 2 dosis",12,1
+"EQU0056","Lambayeque","Heno + concentrado","Macho","No",7,3,178,475,34.2,1.99,37.5,48,6.7,"No","Negativo",1,,,
+"EQU0114","La Libertad","Alfalfa","Macho","Sí",12,0,161,348,38.3,0.86,37.2,48,6.8,"No","Negativo",3,,,
+"EQU0233","La Libertad","Pasto","Hembra","No",8,3,174,402,30.5,2.15,37.6,38,7.9,"No","Negativo",4,,,
+"EQU0261","Piura","Heno + concentrado","Hembra","No",11,2,188,407,28,2.2,38.1,38,,"Sí","Moderada",0,"Imidocarb 1 dosis",18,1
+"EQU0041","Lambayeque","Pasto","Macho","Sí",19,0,179,404,30.5,2.08,37.9,42,6.3,"Sí","Leve",1,"Imidocarb 2 dosis",7,1
+"EQU0236","Lima","Pasto","Macho","Sí",6,2,176,433,34.7,1.55,37.8,33,6.2,"No","Negativo",2,,,
+"EQU0063","La Libertad","Alfalfa","Hembra","Sí",6,3,171,386,41.3,1.84,37.4,32,5.5,"No","Negativo",5,,,
+"EQU0131","Piura","Heno + concentrado","Hembra","No",11,5,177,435,30.9,2.11,38.8,47,6.9,"Sí","Leve",1,"Imidocarb 1 dosis",23,1
+"EQU0132","Lambayeque","Heno + concentrado","Hembra","Sí",4,5,184,446,40.4,0.94,37.9,40,6.2,"No","Negativo",1,,,
+"EQU0088","Piura","Heno + concentrado","Hembra","Sí",6,1,178,413,34.2,1.55,37.7,38,6.1,"No","Negativo",2,,,
+"EQU0105","Piura","Heno + concentrado","Macho","No",4,2,179,436,36,1.61,,47,6.9,"No","Negativo",1,,,
+"EQU0080","La Libertad","Alfalfa","Macho","No",10,3,170,389,33.8,1.57,37.6,46,6.3,"No","Negativo",2,,,
+"EQU0270","Lambayeque","Alfalfa","Macho","Sí",4,0,184,,,1.57,37.6,35,6.9,"No","Negativo",0,,,
+"EQU0209","La Libertad","Alfalfa","Hembra","No",5,1,183,476,35.4,1.83,38.5,39,6.7,"No","Negativo",2,,,
+"EQU0091","Piura","Heno + concentrado","Macho","No",8,2,190,487,41.5,1.06,37.1,36,6.6,"No","Negativo",8,,,
+"EQU0242","Lambayeque","Alfalfa","Macho","No",5,4,171,424,30.2,2.75,38.6,53,6.9,"Sí","Moderada",7,"Imidocarb 1 dosis",30,0
+"EQU0122","Piura","Alfalfa","Macho","No",6,1,174,412,44.1,1.69,37.4,42,7.1,"No","Negativo",3,,,
+"EQU0020","Piura","Heno + concentrado","Macho","No",13,1,186,443,35.9,2.3,37.7,34,7.9,"Sí","Leve",0,"Imidocarb 1 dosis",11,0
+"EQU0202","Piura","Pasto","Macho","No",8,4,172,423,37.9,2.47,38.4,39,7.4,"No","Negativo",3,,,
+"EQU0283","Lambayeque","Heno + concentrado","Macho","Sí",7,3,194,540,33,2.36,38.2,40,7.3,"Sí","Grave",5,"Imidocarb 2 dosis",14,1
+"EQU0224","Lambayeque","Pasto","Macho","No",16,1,187,470,41.3,2.66,37.9,39,6.9,"No","Negativo",1,,,
+"EQU0076","La Libertad","Heno + concentrado","Macho","No",,3,170,511,34.8,1.69,37.3,35,6.8,"No","Negativo",2,,,
+"EQU0047","Lambayeque","Pasto","Macho","Sí",12,1,169,404,37.1,1.49,38.1,43,6.8,"No","Negativo",2,,,
+"EQU0045","Lambayeque","Alfalfa","Macho","Sí",12,1,175,439,40.2,1.88,37.1,42,8.1,"No","Negativo",6,,,
+"EQU0087","La Libertad","Pasto","Macho","Sí",15,1,186,,42.1,1.17,38.5,33,6.8,"No","Negativo",4,,,
+"EQU0251","Lambayeque","Pasto","Macho","Sí",2,3,179,424,37.9,1.25,38,38,7.2,"No","Negativo",0,,,
+"EQU0097","Lima"," Alfalfa ","Hembra","Sí",8,1,180,426,35,1.77,37.3,47,7.5,"No","Negativo",0,,,
+"EQU0121","Piura","Alfalfa","Macho","Sí",16,1,179,426,37.2,0.79,38,35,6.4,"No","Negativo",16,,,
+"EQU0289","Piura","Pasto","Macho","No",6,0,175,449,39.3,2.24,,46,7.3,"No","Negativo",3,,,
+"EQU0099","Piura","Alfalfa","Hembra","No",15,1,185,452,38,2.57,37.5,48,6.6,"No","Negativo",8,,,
+"EQU0212","Lambayeque","Pasto","Hembra","No",9,4,176,401,38.7,0.75,37.4,40,6.1,"No","Negativo",11,,,
+"EQU0034","La Libertad","Alfalfa","Macho","No",9,2,166,388,32,2.52,37.5,49,7.3,"Sí","Leve",5,"Imidocarb 1 dosis",22,1
+"EQU0146","Piura","Heno + concentrado","Macho","No",4,2,192,558,33.1,2.51,38.3,42,,"Sí","Grave",0,"Imidocarb 2 dosis",9,1
+"EQU0051","Lambayeque","Heno + concentrado","Hembra","No",13,1,176,386,23.9,2.11,38.1,40,7,"Sí","Grave",0,"Imidocarb 2 dosis",15,1
+"EQU0005","Piura","Heno + concentrado","Hembra","No",18,1,176,415,30.5,2.27,37.9,37,6.7,"Sí","Leve",2,"Imidocarb 2 dosis",8,1
+"EQU0059","Lima","Pasto","Hembra","Sí",8,2,168,38.5,31.2,1.64,38.6,45,6.8,"No","Negativo",8,,,
+"EQU0075","Piura","Pasto","Macho","No",5,5,184,424,35.5,1.57,37.8,36,6.6,"No","Negativo",32,,,
+"EQU0137","Lima","Alfalfa","Macho","Sí",9,1,183,463,35.2,1.6,37.4,34,7,"No","Negativo",4,,,
+"EQU0086","Lambayeque  ","Alfalfa","Hembra","No",5,3,169,373,28.2,2.06,38.1,48,7,"Sí","Grave",17,"Imidocarb 1 dosis",29,1
+"EQU0104","Lima","Heno + concentrado","Hembra","Sí",9,2,196,502,37.2,1.25,,32,7.1,"No","Negativo",1,,,
+"EQU0238","Lambayeque","Heno + concentrado","Hembra","Sí",9,3,182,434,36.8,1.31,38.4,39,7.4,"No","Negativo",11,,,
+"EQU0244","Lambayeque","Pasto","Macho","Sí",15,2,164,357,28.9,2.45,37.4,49,7.7,"Sí","Leve",18,"Imidocarb 1 dosis",26,1
+"EQU0065","Lambayeque","Heno + concentrado","Macho","No",15,2,164,381,38.1,1.54,37.9,39,7.1,"No","Negativo",0,,,
+"EQU0161","Piura","Pasto","Hembra","SI",16,5,169,383,36.7,1.32,39.1,49,7,"Sí","Leve",14,"Imidocarb 1 dosis",12,1
+"EQU0162","La Libertad","Heno + concentrado","Macho","Sí",5,2,180,425,39.3,1.18,37.7,34,6.7,"No","Negativo",7,,,
+"EQU0028","La Libertad","Pasto","Hembra","Sí",13,3,181,427,31.8,1.36,37.8,42,7.4,"No","Negativo",13,,,
+"EQU0115","Lambayeque","Alfalfa","Macho","No",10,1,178,,34.3,1.42,37.7,39,6.6,"Sí","Moderada",11,"Imidocarb 2 dosis",12,1
+"EQU0066","La Libertad","Alfalfa","Hembra","No",4,4,178,383,39.1,1.58,37.9,36,7.5,"No","Negativo",0,,,
+"EQU0111","La Libertad","Pasto","Macho","Sí",10,4,185,487,39.9,0.5,37.7,36,7.8,"No","Negativo",1,,,
+"EQU0166","Lima","Heno + concentrado","Hembra","No",5,1,188,486,41.1,1.55,37.4,36,6.4,"No","Negativo",2,,,
+"EQU0058","Piura","Pasto","Macho","No",5,4,187,495,41.9,,38.3,34,6.7,"No","Negativo",1,,,
+"EQU0008","Lima","Alfalfa","Macho",,10,0,189,511,33.7,1.83,38.2,36,7,"No","Negativo",2,,,
+"EQU0120","Lambayeque","Heno + concentrado","Hembra","Sí",9,2,183,474,35.6,1.32,37.8,34,6,"No","Negativo",1,,,
+"EQU0017","Lambayeque","Alfalfa","Macho","Sí",10,1,170,381,41.3,1.41,37.1,38,6.9,"No","Negativo",0,,,
+"EQU0136","Lambayeque","Pasto","Macho","Sí",6,0,172,383,,1.77,,37,5.9,"No","Negativo",0,,,
+"EQU0191","Lambayeque","Pasto","Macho","No",10,1,173,324,48.5,1.57,37.8,35,7.6,"No","Negativo",0,,,
+"EQU0074","La Libertad","Heno + concentrado","Hembra","Sí",14,0,,421,43.5,1.7,38,40,7.1,"No","Negativo",6,,,
+"EQU0035","La Libertad","Pasto","Macho","Sí",9,1,188,423,38.9,1.15,37.4,39,7.9,"No","Negativo",0,,,

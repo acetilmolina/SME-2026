@@ -1,0 +1,346 @@
+﻿"id_ternero","procedencia","tipo_dieta","sexo","vacunacion_respiratoria","edad_ingreso_meses","numero_traslados","peso_ingreso_kg","ganancia_diaria_g","temperatura_c","frecuencia_respiratoria_rpm","leucocitos_10_9_l","fibrinogeno_g_l","hematocrito_pct","neumonia","severidad_neumonia","episodios_fiebre","tratamiento","dias_hasta_recuperacion","recuperado"
+"TER0272","Costa","Mixta","Macho","Sí",10,1,168,796,38.9,17,6.5,3.7,38.2,"No","Sin neumonía",1,,,
+"TER0233","Costa","Forraje","Hembra","No",8,3,182,747,38.6,,8.6,3.3,32,"No","Sin neumonía",0,,,
+"TER0306","Sierra","Mixta","Macho","No",12,,217,836,,28,5.8,4.3,28.6,"No","Sin neumonía",0,,,
+"TER0031","Costa","Mixta","Macho","No",,0,206,1044,39,28,10,5.7,41.6,"No","Sin neumonía",2,,,
+"TER0098","Sierra","Mixta","Hembra","No",6,2,193,619,38.9,32,,4.8,30.1,"Sí","Leve",1,"Florfenicol",17,1
+"TER0255","Costa","Forraje","Hembra","No",10,2,237,1066,38.9,38,3.2,4,32.8,"No","Sin neumonía",2,,,
+"TER0122","Costa","Concentrado","Macho",,13,0,200,1071,38.7,25,10.6,2.8,33.5,"No","Sin neumonía",0,,,
+"TER0076","Sierra","Mixta","Macho","Sí",10,2,197,1026,39.9,33,8.7,4.8,36.8,"Sí","Moderada",1,"Florfenicol",9,1
+"TER0331","Costa","Forraje","Hembra","Sí",7,2,200,792,38.9,,4,4.2,33.5,"No","Sin neumonía",1,,,
+"TER0048","Sierra","Concentrado","Macho","No",11,3,168,767,39.5,49,11.9,5.6,38.8,"Sí","Moderada",3,"Tulatromicina",8,1
+"TER0203","Costa","Concentrado","Macho","No",12,2,218,924,38.9,21,11.8,3.8,37.7,"No","Sin neumonía",0,,,
+"TER0047","Costa","Mixta","Macho","No",9,1,224,840,38.9,27,9.7,4.1,35.3,"No","Sin neumonía",3,,,
+"TER0275","Sierra","Forraje","Macho","Sí",,2,206,1102,39.2,37,8.2,4.1,28.2,"No","Sin neumonía",0,,,
+"TER0057","Selva"," Forraje ","Hembra","Sí",12,0,190,932,39.1,26,,4,42.4,"No","Sin neumonía",0,,,
+"TER0011","Costa","Mixta","Hembra","Sí",9,3,208,885,38.7,29,,4.5,,"No","Sin neumonía",4,,,
+"TER0026","Sierra","Concentrado","Macho","No",11,2,183,714,40.4,39,16.4,4.8,30.5,"Sí","Grave",0,"Florfenicol",6,1
+"TER0258","Sierra","Concentrado","Macho","Sí",9,2,198,1063,39.1,26,12.8,2.5,30,"No","Sin neumonía",0,,,
+"TER0129","Sierra","Concentrado","Macho","Sí",10,1,245,998,38.9,24,6.5,4.5,36.6,"No","Sin neumonía",0,,,
+"TER0035"," Costa ","Forraje","Macho","No",10,0,233,725,39.1,34,5,5.5,36.7,"Sí","Moderada",1,"Florfenicol",1,1
+"TER0003","Selva","Concentrado","Macho","Sí",9,0,23.3,847,39,31,8.9,2.4,31.6,"No","Sin neumonía",1,,,
+"TER0314","Selva","Forraje","Macho","Sí",10,1,250,832,39.4,32,8.4,3.4,32.4,"Sí","Leve",5,"Florfenicol",17,1
+"TER0304","Sierra","Concentrado","Macho","No",6,0,207,850,39.1,38,11.6,6.2,32.9,"Sí","Leve",1,"Tulatromicina",7,1
+"TER0229","Sierra","Concentrado","Macho","Sí",12,0,213,839,39.4,32,10.5,4.1,38.5,"Sí","Moderada",1,"Tulatromicina",18,1
+"TER0064","Sierra","Mixta","Hembra","Sí",8,0,239,901,39,40,7.7,4.5,32.6,"No","Sin neumonía",0,,,
+"TER0134","Selva","Forraje","Hembra","Sí",12,1,170,877,38.5,27,9.4,3.8,29.8,"No","Sin neumonía",0,,,
+"TER0147","Sierra","Concentrado","Hembra","No",12,0,241,875,,28,8.5,2.8,33.1,"No","Sin neumonía",0,,,
+"TER0111","Sierra","Forraje","Macho","No",10,2,215,731,39.4,43,,5.4,27.6,"Sí","Grave",4,"Tulatromicina",9,1
+"TER0235","Selva","Forraje","Hembra","No",5,1,155,626,39.4,40,8.7,6.5,29.4,"Sí","Grave",2,"Florfenicol",18,1
+"TER0288","Sierra","Forraje","Macho","Sí",8,2,243,980,38.3,29,8.8,3.1,36.7,"No","Sin neumonía",1,,,
+"TER0273","selva","Forraje","Macho","No",8,3,,709,38.9,25,7.1,3.5,33.6,"No","Sin neumonía",1,,,
+"TER0027","Costa","Mixta","Macho","Sí",8,1,193,,38.9,31,7.3,,34.7,"No","Sin neumonía",0,,,
+"TER0296"," Sierra ","Forraje","Macho","Sí",11,1,230,839,39.5,45,14.8,,28.1,"Sí","Leve",1,"Tulatromicina",7,1
+"TER0279","Sierra","Forraje","Macho","No",9,0,169,,39.6,47,11.3,6.1,32.1,"Sí","Leve",2,"Florfenicol",3,1
+"TER0193","Sierra","Concentrado","Macho","Sí",7,1,208,1091,39,39,10.5,4.1,29.9,"No","Sin neumonía",0,,,
+"TER0082","Costa","Concentrado","Macho","No",7,1,272,1274,39.2,33,9.2,3,34.2,"No","Sin neumonía",0,,,
+"TER0297","Sierra","Mixta","Hembra","Sí",10,2,219,889,38.8,,6.8,3.7,30.9,"No","Sin neumonía",2,,,
+"TER0162","Costa","Forraje","Macho","Sí",7,1,214,718,40.1,40,14,3.6,35.7,"Sí","Leve",0,"Tulatromicina",6,1
+"TER0227","Sierra","Concentrado","Macho","No",10,1,185,865,38.7,28,9.4,4.2,34.8,"No","Sin neumonía",0,,,
+"TER0073","Costa","Mixta","Hembra","Sí",6,2,200,904,39.7,51,11.1,5.7,22.3,"Sí","Grave",3,"Tulatromicina",9,1
+"TER0301","Sierra","Concentrado","Macho","No",10,1,264,945,39.5,36,11.1,5.1,26.3,"Sí","Moderada",4,"Tulatromicina",6,1
+"TER0052","Sierra","Forraje","Macho","No",11,1,287,1029,38.9,30,8.7,5.4,39.4,"No","Sin neumonía",0,,,
+"TER0228","Selva","Forraje","Macho","Sí",5,0,195,785,38.9,25,7.5,2.1,35.2,"No","Sin neumonía",0,,,
+"TER0061","Costa","Forraje","Macho","Sí",10,2,171,,38.6,30,8.8,3.4,26.1,"No","Sin neumonía",0,,,
+"TER0128","Costa","Mixta","Macho","Sí",8,0,227,993,39.5,37,10.5,5.4,27,"Sí","Leve",2,"Florfenicol",18,1
+"TER0322","Sierra","Forraje","Macho","Sí",6,3,202,675,39.1,,13.1,2.5,31.8,"No","Sin neumonía",1,,,
+"TER0252","Costa","Concentrado","Macho","Sí",9,1,201,1211,38.4,29,6.2,3.6,33.3,"No","Sin neumonía",0,,,
+"TER0268","Sierra","Forraje","Macho","No",8,3,228,970,39.5,35,11.9,4.3,30.7,"Sí","Grave",2,"Florfenicol",7,1
+"TER0021","Sierra","Concentrado","Hembra","No",,2,218,1152,38.9,28,9.2,4.5,37.9,"No","Sin neumonía",1,,,
+"TER0080","Costa","Mixta","Macho","Sí",9,4,236,909,39.2,36,7.9,4.5,,"No","Sin neumonía",2,,,
+"TER0247","Sierra","Concentrado","Macho","Sí",11,0,235,974,38.4,30,8.2,3.7,32.8,"No","Sin neumonía",0,,,
+"TER0133","Costa","Forraje","Hembra","Sí",10,,286,1002,38.6,27,7.3,4.8,36,"No","Sin neumonía",3,,,
+"TER0295","Sierra","Mixta","Macho","Sí",,0,275,,38.8,34,10,3.7,41.4,"No","Sin neumonía",0,,,
+"TER0323","Sierra","Forraje","Macho","Sí",6,0,195,940,39.2,34,9.6,6,29.7,"No","Sin neumonía",0,,,
+"TER0019","costa","Mixta","Macho","Sí",8,0,147,815,38.9,25,8.2,4.3,35.8,"No","Sin neumonía",1,,,
+"TER0199","Costa","Forraje","Macho","Sí",9,3,232,1194,39.1,28,7.6,3.5,35.9,"No","Sin neumonía",1,,,
+"TER0072","Selva","Mixta","Macho","Sí",11,3,213,872,,36,8.7,3.9,27.8,"Sí","Leve",1,"Florfenicol",10,1
+"TER0167","Sierra","Concentrado","Hembra","Sí",11,3,237,732,39,26,7.3,3.3,38.9,"No","Sin neumonía",0,,,
+"TER0088","Costa","Forraje","Hembra","No",9,1,188,786,38.6,26,6.1,4.2,35.2,"No","Sin neumonía",1,,,
+"TER0110","Sierra","Forraje","Macho","Sí",9,2,276,983,39.2,,11.2,7.2,38.1,"No","Sin neumonía",0,,,
+"TER0190","Sierra","Forraje","Hembra","No",9,1,285,964,39.7,45,12.7,,36.2,"Sí","Moderada",2,"Florfenicol",15,0
+"TER0081","Selva","Forraje","Macho","Sí",10,1,217,960,38.8,34,9,5.1,36.7,"No","Sin neumonía",0,,,
+"TER0239","Selva","Forraje","Macho","No",9,1,198,783,39.1,25,7.2,2.5,32.1,"No","Sin neumonía",1,,,
+"TER0194","Costa","Mixta","Hembra","Sí",13,3,222,938,39,26,5,4.7,31.4,"No","Sin neumonía",1,,,
+"TER0120","Sierra","Forraje","Macho","Sí",9,2,207,847,39.4,29,9.2,4.7,37.2,"No","Sin neumonía",1,,,
+"TER0078","Costa","Mixta","Macho","No",8,0,178,835,39.2,43,9.7,4.9,32,"Sí","Moderada",3,"Tulatromicina",21,0
+"TER0321","Costa","Concentrado","Hembra","Sí",7,1,232,959,38.6,32,11,3.9,45.5,"No","Sin neumonía",0,,,
+"TER0186","Sierra","Concentrado","Hembra","No",5,1,234,,39.3,39,9.2,4.2,30.6,"No","Sin neumonía",0,,,
+"TER0069","Sierra","Forraje","Macho","No",11,2,185,687,39.6,42,10.1,5.8,35,"Sí","Grave",3,"Tulatromicina",9,0
+"TER0285","Sierra","Forraje","Hembra","Sí",7,1,197,848,39.1,40,11.3,6.4,33.4,"Sí","Leve",1,"Tulatromicina",13,1
+"TER0091","Costa","Forraje","Hembra","No",10,1,210,871,,37,,5,40.2,"No","Sin neumonía",0,,,
+"TER0058","Sierra","Forraje","Hembra","Sí",9,3,170,513,,34,12.6,6.2,30.8,"No","Sin neumonía",1,,,
+"TER0326","Selva","Forraje","Macho","Sí",8,1,250,917,39.5,37,7.5,5.3,34.5,"Sí","Moderada",0,"Tulatromicina",6,1
+"TER0113","Sierra","Concentrado","Hembra","Sí",9,1,188,890,39.4,38,8.7,6.6,36.6,"Sí","Leve",0,"Tulatromicina",3,1
+"TER0245","Selva","Concentrado","Macho","Sí",10,2,163,933,39.1,36,6.9,4.6,40.9,"No","Sin neumonía",0,,,
+"TER0197","Costa","Mixta","Macho","No ",6,2,201,880,38.7,26,6.8,2.4,32.6,"No","Sin neumonía",4,,,
+"TER0121","Sierra","Concentrado","Hembra","No",9,0,242,814,39.3,37,13.5,5.9,31.6,"Sí","Moderada",0,"Tulatromicina",5,1
+"TER0284","Selva","Forraje","Hembra","No",6,1,289,832,,27,6.6,4.5,34.9,"No","Sin neumonía",1,,,
+"TER0309","Costa","Concentrado  ","Macho","Sí",9,0,232,968,38.9,29,8.7,4.3,35.3,"No","Sin neumonía",3,,,
+"TER0263","Sierra","Forraje","Hembra","Sí",10,2,214,483,40,45,8.9,4.7,34,"Sí","Grave",0,"Florfenicol",3,1
+"TER0315","Costa","Mixta","Macho","No",11,4,165,818,39.8,24,,5.1,35.3,"Sí","Grave",3,"Tulatromicina",13,1
+"TER0189","Costa","Mixta","Macho","No",13,0,244,896,38.7,32,5,5.3,34.8,"No","Sin neumonía",0,,,
+"TER0202","Costa","Concentrado","Hembra","No",6,1,188,804,40.2,45,13.6,6.5,25.5,"Sí","Leve",0,"Florfenicol",11,1
+"TER0300","Costa","Forraje","Hembra","No",7,3,229,688,39.2,41,14.6,6.3,29,"Sí","Grave",1,"Florfenicol",4,1
+"TER0138","Costa","Concentrado","Hembra","No",11,0,250,835,39.6,42,10.3,6.3,32.1,"Sí","Moderada",3,"Tulatromicina",4,1
+"TER0282","Costa","Mixta","Macho","Sí",11,1,178,818,39.6,39,12.9,5.1,39.9,"No","Sin neumonía",0,,,
+"TER0090","Sierra","Concentrado","Hembra","No",9,2,272,887,38.9,40,9.6,5.5,30.5,"No","Sin neumonía",0,,,
+"TER0204","Sierra","Concentrado","Hembra","Sí",6,0,245,921,38.4,31,8.7,5.1,33.6,"No","Sin neumonía",0,,,
+"TER0060","Selva","Mixta","Macho","No",5,1,172,781,39.6,38,12.7,4.9,35.7,"Sí","Moderada",0,"Tulatromicina",11,1
+"TER0283","Selva","Forraje","Hembra","Sí",7,0,228,864,39.1,27,7.7,5.3,35.4,"No","Sin neumonía",0,,,
+"TER0158","Sierra","Mixta","Hembra","Sí",9,2,,879,39.2,30,8.3,3.8,33.8,"Sí","Moderada",0,"Tulatromicina",13,1
+"TER0042","Sierra","Concentrado","Hembra","No",10,0,212,913,39.6,42,9.8,2.9,32.8,"Sí","Leve",1,"Florfenicol",8,1
+"TER0207","Sierra","Mixta","Macho","Sí",11,5,246,933,38.9,41,10.8,5.6,29.4,"Sí","Leve",3,"Tulatromicina",8,1
+"TER0333","Costa","Forraje","Macho","No",8,2,188,,38.7,27,6.5,4.4,35,"No","Sin neumonía",1,,,
+"TER0075","Costa","Forraje","Hembra","Sí",12,1,227,684,,28,6.4,4.4,39.9,"No","Sin neumonía",1,,,
+"TER0008","Costa","mixta","Hembra","Sí",6,2,266,963,39.1,17,8.4,2.9,39.7,"No","Sin neumonía",0,,,
+"TER0327","Costa","Concentrado","Hembra","Sí",9,2,273,975,38.7,28,11.2,3.6,31.8,"No","Sin neumonía",1,,,
+"TER0237","Costa","Mixta","Macho","No",9,1,207,920,39.2,33,7.2,4.9,38.7,"No","Sin neumonía",0,,,
+"TER0046","Costa","Mixta","Macho",,9,0,211,988,38.8,37,7.2,3,36.3,"No","Sin neumonía",2,,,
+"TER0206","Sierra","Forraje","Macho","No",9,5,262,1000,39.2,26,10.9,5.6,31.9,"No","Sin neumonía",0,,,
+"TER0305","Sierra","Forraje","Macho","Sí",11,2,208,711,39.6,39,13.3,4.9,31.9,"Sí","Leve",1,"Tulatromicina",1,1
+"TER0313","Sierra","Mixta","Hembra","No",8,0,174,682,39.6,50,15.8,6.1,28.8,"Sí","Grave",2,"Florfenicol",6,1
+"TER0221","Selva","MIXTA","Macho","no",11,1,221,717,38.9,34,7.8,3.8,34.1,"No","Sin neumonía",0,,,
+"TER0168","Costa","Mixta","Hembra","SI",7,1,236,,39.5,37,11.9,3.9,31.8,"No","Sin neumonía",1,,,
+"TER0223","Sierra","Forraje","Hembra","Sí",8,0,259,691,37.6,21,5.2,3.2,32.4,"No","Sin neumonía",1,,,
+"TER0116","Sierra","Forraje","Macho","Sí",6,1,,827,,38,,6.4,29,"Sí","Leve",1,"Tulatromicina",1,1
+"TER0083","Costa","Concentrado","Macho","Sí",11,1,201,1002,39.4,41,,4.4,42,"Sí","Moderada",1,"Tulatromicina",4,1
+"TER0029","Sierra","Mixta","Hembra","Sí",9,3,130,699,39.8,,9.9,4.5,35.8,"Sí","Moderada",1,"Tulatromicina",6,1
+"TER0114","Costa","Mixta","Hembra","No",6,0,238,758,38.5,37,8.3,5,35.1,"Sí","Moderada",1,"Tulatromicina",2,1
+"TER0016","Costa","Mixta","Macho","No",9,1,268,1067,38.8,28,9.8,5.6,33,"No","Sin neumonía",0,,,
+"TER0152","Sierra","Forraje","Macho","No",8,0,178,562,39.7,,17,5.2,27.8,"Sí","Leve",0,"Tulatromicina",3,1
+"TER0317","Sierra","Concentrado","Hembra","No",7,0,193,839,39.9,41,15.3,5.8,34.8,"Sí","Leve",1,"Tulatromicina",5,1
+"TER0054","Sierra","Mixta","Macho","No",,1,199,825,39.5,36,13.8,4.5,41.1,"Sí","Leve",3,"Florfenicol",8,1
+"TER0278","Costa","Forraje","Hembra","Sí",6,0,231,732,39,31,5.5,3.6,42.9,"No","Sin neumonía",0,,,
+"TER0093","Sierra","Forraje","Macho","Sí",10,2,251,1016,,29,7.8,3.2,32.8,"No","Sin neumonía",2,,,
+"TER0184","Selva","Mixta","Macho","Sí",7,0,150,588,39.2,24,6.4,3.3,34.9,"No","Sin neumonía",0,,,
+"TER0182","Sierra","Concentrado","Macho","No",9,2,222,,39.1,36,9.6,4.9,32.2,"Sí","Moderada",3,"Tulatromicina",7,1
+"TER0056","Selva","Concentrado","Macho","Sí",11,0,206,1116,39.5,32,9.1,3.2,36.1,"No","Sin neumonía",1,,,
+"TER0259","Costa","Mixta","Hembra","Sí",9,3,166,602,39.3,36,12.5,6.2,33.5,"Sí","Leve",3,"Florfenicol",9,1
+"TER0264","Sierra","Mixta","Macho","Sí",10,2,248,936,,28,10.3,4.8,32.8,"No","Sin neumonía",1,,,
+"TER0302","Sierra","Concentrado","Macho","Sí",9,1,248,1217,38.5,32,8.6,5.3,36.6,"No","Sin neumonía",2,,,
+"TER0335","Sierra","Forraje","Hembra","Sí",7,0,191,691,39.8,45,13.7,5.5,33.8,"Sí","Moderada",1,"Tulatromicina",18,1
+"TER0034","Sierra","Concentrado","Macho","Sí",8,2,229,905,38.8,25,10.1,3.3,34.1,"No","Sin neumonía",1,,,
+"TER0230","Costa","Forraje","Macho","Sí",11,2,,849,39.2,,11.4,2.2,39.5,"No","Sin neumonía",1,,,
+"TER0112","Selva","Forraje","Macho",,9,1,227,926,39.4,,9.3,5.9,37.9,"No","Sin neumonía",2,,,
+"TER0045","Sierra","Concentrado","Hembra","No",9,4,,921,39.2,33,11.4,4.4,35,"No","Sin neumonía",0,,,
+"TER0297","Sierra","Mixta","Hembra","Sí",10,2,219,889,38.8,,6.8,3.7,30.9,"No","Sin neumonía",2,,,
+"TER0188","Costa","Forraje","Macho","No ",10,5,240,1008,38.7,27,8.1,3.9,43.2,"No","Sin neumonía",1,,,
+"TER0185","Selva","Mixta","Macho","Sí",8,3,,925,38.4,25,12.4,4.8,37.4,"No","Sin neumonía",1,,,
+"TER0240","Costa","Forraje","Macho","Sí",8,0,190,904,39.2,35,8,4.9,38.7,"No","Sin neumonía",0,,,
+"TER0098","Sierra","Mixta","Hembra","No",6,2,193,619,38.9,32,,4.8,30.1,"Sí","Leve",1,"Florfenicol",17,1
+"TER0007","Sierra","Concentrado","Macho","Sí",11,3,225,1091,38.8,33,10.5,5.5,28.1,"No","Sin neumonía",0,,,
+"TER0155","Costa","Concentrado","Macho","No",7,2,228,943,40.1,46,13.5,5.9,34.4,"Sí","Grave",1,"Florfenicol",15,0
+"TER0119","Selva","Forraje","Macho","No",6,4,196,718,39.4,35,,4.6,37.9,"Sí","Moderada",4,"Florfenicol",9,0
+"TER0328","Sierra","Mixta","Macho","No",8,0,18,825,39.6,36,10.4,3.9,34.1,"Sí","Moderada",3,"Tulatromicina",5,1
+"TER0067","Costa","Mixta","Hembra","Sí",8,3,237,,38.5,29,10.8,4.8,28.9,"No","Sin neumonía",1,,,
+"TER0340","Costa","Mixta","Macho","Sí",9,0,202,1334,38.8,22,10.9,3.2,33.5,"No","Sin neumonía",0,,,
+"TER0150","Costa","Mixta","Hembra","Sí",8,1,215,708,39.7,36,12.1,5,28.1,"Sí","Leve",0,"Florfenicol",17,1
+"TER0319","Costa","Mixta","Macho","No",8,2,223,951,38.8,38,9.4,3.5,30.6,"No","Sin neumonía",1,,,
+"TER0032","Selva","Forraje","Macho","Sí",6,1,,959,39.1,32,10.9,5.5,35.9,"No","Sin neumonía",1,,,
+"TER0195","Costa","Forraje","Macho","Sí",14,5,210,943,39.3,37,8.5,2.2,32.6,"No","Sin neumonía",1,,,
+"TER0180","Selva","Concentrado","Macho","Sí",13,1,226,,39.2,40,10.5,5.4,26.3,"Sí","Leve",1,"Tulatromicina",13,1
+"TER0289","Selva","Concentrado","Hembra","si",,5,216,886,38.9,21,11,3.9,32.5,"No","Sin neumonía",0,,,
+"TER0210","Costa","Forraje","Hembra","No",6,4,187,841,39.9,50,11.5,5.3,32.5,"Sí","Grave",2,"Florfenicol",21,0
+"TER0051","Costa","Forraje","Hembra","Sí",6,0,306,1034,39.7,39,,4.4,35.4,"No","Sin neumonía",0,,,
+"TER0039","Costa","Concentrado","Hembra","Sí",8,2,231,1099,38.2,23,,4.5,28.6,"No","Sin neumonía",0,,,
+"TER0338","Sierra","Concentrado","Macho","No",8,0,278,1047,38.7,33,9.4,4.8,32,"No","Sin neumonía",2,,,
+"TER0066","Costa","Forraje","Hembra",,10,1,174,735,39.4,31,9,2.8,40.4,"No","Sin neumonía",3,,,
+"TER0307","Selva","Concentrado","Hembra","No",10,1,163,841,39.3,25,5.6,4.4,33,"No","Sin neumonía",1,,,
+"TER0068","Costa","Concentrado","Macho","No",12,2,177,1053,38.8,35,9.5,3.9,31.9,"No","Sin neumonía",0,,,
+"TER0171","Sierra","Mixta","Macho","Sí",10,0,199,910,39.5,35,10.7,5,34.9,"No","Sin neumonía",1,,,
+"TER0022","Sierra","Mixta","Macho","Sí",5,2,220,978,39.2,27,9,4.2,33.2,"No","Sin neumonía",0,,,
+"TER0232","Costa","Concentrado","Macho","Sí",13,1,188,412,39.7,30,10.8,6.7,32.1,"Sí","Moderada",1,"Tulatromicina",9,1
+"TER0261","Sierra","Concentrado","Hembra","Sí",11,0,212,1054,39.3,32,7.7,4.4,33.9,"No","Sin neumonía",0,,,
+"TER0135","Sierra","Concentrado","Hembra","No",9,1,179,685,39.3,41,10.3,5.5,31.9,"Sí","Moderada",1,"Florfenicol",21,0
+"TER0123","Selva","Forraje","Macho","Sí",8,1,164,709,38.7,32,5.9,4.3,37,"No","Sin neumonía",0,,,
+"TER0033","Sierra","Forraje","Macho","Sí",8,3,,,39.7,27,13.6,6.1,35.3,"Sí","Leve",3,"Tulatromicina",9,1
+"TER0175","Selva","Mixta","Hembra","Sí",10,2,193,1046,39.4,29,7.5,2.3,40.2,"No","Sin neumonía",2,,,
+"TER0337","Sierra","Mixta","Macho","Sí",10,1,227,964,39,34,9.2,2.5,36,"No","Sin neumonía",1,,,
+"TER0269","Sierra","Forraje","Macho","Sí",13,4,200,822,39.1,42,12.7,3.7,32.9,"No","Sin neumonía",0,,,
+"TER0256","Costa","Forraje","Macho","Sí",11,4,151,793,39.3,33,11,4.4,33.7,"No","Sin neumonía",3,,,
+"TER0166","Selva","Forraje","Hembra","No",11,3,236,668,39,30,,4.3,29.6,"No","Sin neumonía",1,,,
+"TER0126","Sierra","Concentrado","Macho","No",11,1,192,904,40,36,11.6,6.1,28,"Sí","Leve",2,"Florfenicol",5,1
+"TER0316","Sierra","Concentrado","Hembra","Sí",13,2,193,908,39.3,42,10.2,4.8,30.9,"Sí","Leve",0,"Tulatromicina",21,0
+"TER0220","Selva","Concentrado","Hembra","No",9,2,224,861,39.7,45,12.6,5.1,31.7,"Sí","Leve",1,"Tulatromicina",2,1
+"TER0178","Selva","Forraje","Hembra","NO",6,2,220,798,39.2,28,5.7,3.1,39.4,"Sí","Leve",1,"Florfenicol",5,1
+"TER0141","Costa","Concentrado","Macho","No",9,2,165,1084,,18,,5.4,35,"No","Sin neumonía",0,,,
+"TER0196","Costa","Mixta","Macho","No",5,1,235,930,39,37,11.2,4.9,35.5,"Sí","Leve",0,"Florfenicol",3,1
+"TER0250","Costa","Mixta","Macho","No",7,0,246,774,38.7,17,7.1,4.6,36.8,"No","Sin neumonía",1,,,
+"TER0243","Costa","Mixta","Macho","No",7,,262,1127,38.8,27,11.7,4.1,32.3,"No","Sin neumonía",0,,,
+"TER0244","Sierra","Mixta","Hembra","Sí",12,3,266,879,38.4,,7.3,3.8,31.6,"No","Sin neumonía",1,,,
+"TER0074","Sierra","Forraje","Hembra","Sí",12,0,217,814,39.2,34,11,4.1,32.5,"No","Sin neumonía",0,,,
+"TER0140","Costa","Mixta","Macho","Sí",10,0,203,609,39.1,38,11,6,29.1,"Sí","Leve",4,"Tulatromicina",8,1
+"TER0274","Sierra","Mixta","Hembra","Sí",8,4,204,820,38.6,23,7.7,3.2,31.1,"No","Sin neumonía",0,,,
+"TER0336","Sierra","Concentrado","Hembra","Sí",8,0,223,882,38.7,23,9,3.6,34.4,"No","Sin neumonía",1,,,
+"TER0040","Sierra","Forraje","Macho","Sí",12,0,271,1111,39.5,35,12,5.4,28.1,"Sí","Leve",1,"Florfenicol",21,0
+"TER0201","Selva","Forraje","Macho","Sí",9,0,187,806,38.7,29,9.3,2.6,33.6,"No","Sin neumonía",0,,,
+"TER0270","Selva","Forraje","Macho","Sí",8,1,184,631,39.3,29,10.2,3.3,37.2,"No","Sin neumonía",1,,,
+"TER0038","Sierra","Concentrado","Macho","No",11,1,,876,39.3,43,12.7,5.2,29.9,"Sí","Moderada",0,"Florfenicol",17,1
+"TER0330","Sierra","Forraje","Hembra","Sí",9,1,192,482,38.6,41,9.1,3.4,34.3,"No","Sin neumonía",1,,,
+"TER0299","Selva","Mixta","Hembra","No",10,1,253,880,39.4,33,6.5,4.4,,"No","Sin neumonía",2,,,
+"TER0086","Sierra","Mixta","Macho","Sí",10,2,197,1030,38.6,22,7.7,4.9,30.7,"No","Sin neumonía",0,,,
+"TER0311","Costa","Concentrado","Hembra","No",15,6,254,1002,38.5,32,11.4,3.8,40,"No","Sin neumonía",1,,,
+"TER0132","Costa","Concentrado","Macho","Sí",12,1,148,1033,38.2,21,6.2,3.7,35.5,"No","Sin neumonía",1,,,
+"TER0177","Sierra","Forraje","Hembra","Sí",10,2,278,797,39.1,36,10.8,5.2,,"Sí","Leve",2,"Tulatromicina",5,1
+"TER0213","COSTA","Forraje","Macho","Sí",7,2,206,926,38.8,27,8.1,4.4,35.6,"No","Sin neumonía",3,,,
+"TER0257","Sierra","Mixta","Macho","Sí",10,1,205,841,39,40,11.3,,27.2,"Sí","Moderada",2,"Tulatromicina",7,1
+"TER0002","Sierra","Mixta","Hembra","Sí",11,2,241,831,38.9,39,11.9,3.9,39.9,"No","Sin neumonía",0,,,
+"TER0136","Costa","Concentrado","Hembra","Sí",9,0,213,865,38.6,34,8.7,4.1,34.6,"No","Sin neumonía",1,,,
+"TER0103","Sierra","Mixta","Hembra","No",12,2,274,899,39.5,31,7.7,3.7,35.5,"No","Sin neumonía",2,,,
+"TER0267","Selva"," Concentrado ","Hembra","No",12,2,191,930,38.6,23,7.5,5.4,36,"No","Sin neumonía",0,,,
+"TER0222","Sierra","Concentrado","Hembra","Sí",11,2,267,704,38.7,32,10.8,5.5,33.8,"Sí","Leve",2,"Tulatromicina",5,1
+"TER0183","Sierra","Forraje","Macho","Sí",5,0,196,763,,37,13.4,4.2,30.4,"No","Sin neumonía",2,,,
+"TER0174","Costa","Concentrado","Hembra","No",12,1,197,824,39.4,34,12,5.3,35.9,"Sí","Leve",0,"Florfenicol",17,1
+"TER0037","Costa","Mixta","Macho","No",6,0,258,947,39.4,41,9.7,5,29.5,"Sí","Moderada",1,"Florfenicol",21,0
+"TER0224","Selva","Forraje","Hembra","No",6,0,227,891,,37,8.8,5.5,31.8,"Sí","Leve",1,"Tulatromicina",3,1
+"TER0049","Costa","Concentrado","Hembra","Sí",9,2,207,770,39.4,37,13.7,5.8,40,"Sí","Moderada",1,"Tulatromicina",12,1
+"TER0092","Sierra","Mixta","Macho","No",8,1,226,895,38.4,32,12.1,5.4,33.8,"No","Sin neumonía",1,,,
+"TER0234","Sierra","Concentrado","Hembra","Sí",11,1,158,816,39.9,36,11.9,5.8,28.5,"Sí","Grave",0,"Florfenicol",3,1
+"TER0276","Selva","Forraje","Macho","No",7,1,197,780,40,43,10,5.8,33,"Sí","Leve",3,"Florfenicol",13,1
+"TER0097","Costa","Concentrado","Macho","Sí",10,1,232,911,38.5,27,,4.5,38.4,"No","Sin neumonía",0,,,
+"TER0062","Sierra","Mixta","Macho","No",9,1,192,785,39.5,38,11.4,7.2,36.5,"Sí","Grave",1,"Tulatromicina",8,1
+"TER0271","Sierra","Concentrado","Macho","Sí",11,1,236,1005,38.6,30,7.6,4.1,40.6,"No","Sin neumonía",2,,,
+"TER0028","Selva","Mixta","Hembra","No",9,0,229,940,38.3,26,7.3,4.4,34.6,"No","Sin neumonía",0,,,
+"TER0303","Costa","Concentrado","Hembra","Sí",8,1,246,858,39.1,27,9.9,5,30,"Sí","Leve",0,"Tulatromicina",4,1
+"TER0023","Selva","Mixta","Hembra","Sí",14,2,186,977,38.8,32,9.1,4.9,44.5,"No","Sin neumonía",2,,,
+"TER0170","Costa","Forraje","Macho","Sí",9,0,219,875,39.2,40,,5.7,39.2,"No","Sin neumonía",1,,,
+"TER0286","Costa","Forraje","Hembra","Sí",11,5,201,873,38.6,29,,,34.6,"No","Sin neumonía",0,,,
+"TER0094","Costa","Forraje","Macho","Sí",11,2,233,973,40,43,12,3.6,34.3,"Sí","Leve",2,"Florfenicol",9,1
+"TER0018","Sierra","Mixta","Hembra","Sí",13,,268,943,39.4,36,8.6,4,35,"No","Sin neumonía",0,,,
+"TER0176","Costa","Mixta","Hembra","No",9,0,210,651,38.5,32,9.8,4.3,31.7,"No","Sin neumonía",1,,,
+"TER0260","Sierra","Forraje","Macho","No",8,2,194,981,39.9,42,,4.7,39.9,"Sí","Grave",0,"Tulatromicina",8,1
+"TER0096","Costa","Concentrado","Macho","No",7,2,204,889,39.1,,8.4,5.3,31.8,"No","Sin neumonía",2,,,
+"TER0095","Costa","Concentrado","Hembra","Sí",8,2,176,828,38.7,35,11.2,4.4,36.3,"No","Sin neumonía",0,,,
+"TER0318","Selva","Mixta","Macho","Sí",10,3,221,637,39,27,10.3,5.3,40,"No","Sin neumonía",0,,,
+"TER0108","Costa","Mixta","Macho","Sí",7,2,198,960,39,30,9.5,3.4,40.8,"No","Sin neumonía",0,,,
+"TER0087","Selva","Forraje","Macho","Sí",10,3,212,699,39.3,25,10,3.7,35.6,"No","Sin neumonía",0,,,
+"TER0179","Costa","Concentrado","Macho","Sí",9,1,225,1158,39.4,35,7.4,3,38.1,"No","Sin neumonía",1,,,
+"TER0254","Selva","Forraje","Macho","No",11,1,186,617,39.6,43,14.7,4.9,30.3,"Sí","Moderada",1,"Florfenicol",9,1
+"TER0084","Sierra","Forraje","Macho","Sí",10,0,218,1035,39,20,8.7,4.6,39.4,"No","Sin neumonía",0,,,
+"TER0293","Costa","Forraje","Macho","Sí",5,0,199,735,39.9,41,14.4,4.8,31.8,"Sí","Leve",2,"Florfenicol",3,1
+"TER0102","Selva","Mixta","Macho","Sí",,1,183,815,,28,9.9,4.3,28.9,"Sí","Leve",1,"Tulatromicina",6,1
+"TER0281","Sierra","Forraje","Macho","Sí",6,3,259,842,39.8,,11.1,5.8,34.7,"Sí","Leve",3,"Tulatromicina",3,1
+"TER0079","Costa","Mixta","Hembra","No",8,1,168,,39.3,40,15.9,6.2,28.7,"Sí","Leve",1,"Tulatromicina",10,1
+"TER0249","Sierra","Forraje","Hembra","No",7,2,224,912,39,,7.4,4.2,35.8,"No","Sin neumonía",2,,,
+"TER0222","Sierra","Concentrado","Hembra","Sí",11,2,267,704,38.7,32,10.8,5.5,33.8,"Sí","Leve",2,"Tulatromicina",5,1
+"TER0063","Costa","Forraje","Macho","No",11,0,246,972,39.3,27,5.9,3.8,35.2,"No","Sin neumonía",2,,,
+"TER0164","Sierra","Forraje","Hembra","Sí",5,0,197,544,39.6,45,,5.6,35.3,"Sí","Leve",3,"Tulatromicina",2,1
+"TER0253","Costa","Forraje","Hembra","Sí",9,1,200,695,39.4,31,11.9,7.6,26.7,"Sí","Leve",1,"Tulatromicina",7,1
+"TER0156","Sierra","Forraje","Macho","Sí",9,2,213,779,39,32,8.5,4.6,37.4,"No","Sin neumonía",1,,,
+"TER0334","Sierra","Mixta","Macho","Sí",9,1,247,968,38.7,28,9.9,4.3,34.2,"No","Sin neumonía",2,,,
+"TER0209","Selva","Mixta","Macho","No",5,0,206,1072,40,43,11.4,6.2,31.5,"Sí","Grave",0,"Tulatromicina",6,1
+"TER0308","costa","Mixta","Macho","No",6,1,180,768,39.1,39,10.9,3,35.4,"Sí","Leve",2,"Tulatromicina",9,1
+"TER0144","Selva","Concentrado","Macho","Sí",8,3,225,1009,38.8,30,8.8,3.2,34.7,"No","Sin neumonía",0,,,
+"TER0070","Costa","Forraje","Macho","No",8,1,205,663,39.3,40,9.9,3.9,32.9,"Sí","Moderada",3,"Tulatromicina",14,1
+"TER0262","Costa","Forraje","Hembra","Sí",8,1,245,802,38.4,29,8.8,4.2,34.7,"No","Sin neumonía",0,,,
+"TER0009","Sierra","Forraje","Macho",,7,4,224,919,40.2,,12.9,7.1,31.7,"Sí","Grave",2,"Tulatromicina",15,1
+"TER0172","Sierra","Concentrado","Macho","Sí",7,1,252,1120,39.5,28,10,4.3,40.7,"No","Sin neumonía",2,,,
+"TER0292","Sierra","Forraje","Hembra","No",9,2,,719,38.9,30,9.2,2.3,37.6,"No","Sin neumonía",2,,,
+"TER0059","Sierra","Mixta","Hembra","No",10,0,183,,38.6,23,7.8,3.7,35.9,"No","Sin neumonía",0,,,
+"TER0215","Selva","Mixta","Hembra","Sí",10,0,220,927,39,34,12.6,4.8,31.2,"No","Sin neumonía",1,,,
+"TER0139","Selva","Forraje","Hembra","Sí",6,,219,743,39.3,25,5.2,4.3,31.1,"No","Sin neumonía",0,,,
+"TER0266","Selva","Mixta","Macho","No",8,2,240,875,39.3,27,7.9,6.4,37.3,"No","Sin neumonía",1,,,
+"TER0287","Selva","Mixta","Macho","Sí",11,,208,839,39.6,36,10.3,3.5,35.9,"No","Sin neumonía",1,,,
+"TER0200","Costa","Forraje","Hembra","No",9,2,259,820,38.4,27,7.8,2.7,29.2,"No","Sin neumonía",0,,,
+"TER0146","Selva","Mixta","Macho",,8,2,211,729,39.5,45,10.1,5.9,32.6,"Sí","Grave",1,"Florfenicol",7,1
+"TER0325","Sierra","Concentrado","Macho","Sí",8,2,133,755,39.2,48,10.7,4.1,27.1,"Sí","Grave",1,"Tulatromicina",8,1
+"TER0015","Costa","Mixta","Hembra","Sí",11,1,245,964,39.1,33,8.3,5,38.3,"No","Sin neumonía",0,,,
+"TER0053","Costa","Concentrado","Macho","No",7,0,215,1014,39.8,48,13.3,5,35.1,"Sí","Moderada",2,"Florfenicol",11,1
+"TER0090","Sierra","Concentrado","Hembra","No",9,2,272,887,38.9,40,9.6,5.5,30.5,"No","Sin neumonía",0,,,
+"TER0001","Sierra","Mixta","Macho","NO",8,1,207,729,39.9,41,15.3,6.6,24.4,"Sí","Grave",1,"Tulatromicina",13,1
+"TER0192","Sierra","Concentrado","Hembra","Sí",11,2,169,1009,38.9,23,10.4,3.5,29.8,"No","Sin neumonía",2,,,
+"TER0130","Sierra","Concentrado","Macho","No",9,,140,946,39.6,,10.8,6.1,25.6,"Sí","Moderada",2,"Florfenicol",7,1
+"TER0191","Costa","Concentrado","Macho","No",6,1,163,927,39.3,45,11.2,6,34,"Sí","Grave",3,"Tulatromicina",21,0
+"TER0173","Selva","Forraje","Macho","Sí",5,0,219,768,39.2,25,,3.6,35.1,"No","Sin neumonía",0,,,
+"TER0124","Selva","Mixta","Macho","Sí",10,1,228,915,39,35,11.7,3.9,34,"No","Sin neumonía",2,,,
+"TER0290","Selva","Mixta","Hembra","Sí",7,0,130,615,39.6,35,7.8,4.9,28.5,"Sí","Moderada",0,"Florfenicol",12,1
+"TER0312"," Costa ","Forraje","Macho","No",10,0,235,834,39,26,6.5,4.6,36.7,"No","Sin neumonía",0,,,
+"TER0118","Selva","Concentrado","Hembra","Sí",13,0,221,808,38.8,22,,2,34.9,"No","Sin neumonía",0,,,
+"TER0198","Costa","Forraje","Hembra","Sí",6,1,176,734,40,40,12.9,3.9,30,"Sí","Moderada",1,"Tulatromicina",12,1
+"TER0212","Sierra","Concentrado","Macho","Sí",8,2,216,1084,39.6,31,9.5,4.3,34.7,"No","Sin neumonía",1,,,
+"TER0104","Selva","Mixta","Macho","Sí",12,1,162,1007,39.4,25,11.9,4.5,33.8,"No","Sin neumonía",0,,,
+"TER0241","Selva  ","Mixta","Hembra","Sí",12,1,215,1085,38.5,30,12.2,3.8,31.8,"No","Sin neumonía",0,,,
+"TER0089","Costa","Mixta","Hembra","Sí",5,1,233,1055,39.2,33,,3.2,38.3,"Sí","Leve",0,"Florfenicol",21,0
+"TER0043","Sierra","Forraje","Hembra","Sí",9,0,197,871,38,27,8.2,4.7,30.5,"No","Sin neumonía",0,,,
+"TER0240","Costa","Forraje","Macho","Sí",8,0,190,904,39.2,35,8,4.9,38.7,"No","Sin neumonía",0,,,
+"TER0218","Costa","Mixta","Macho","Sí",10,1,195,663,40,41,,5.5,35.5,"Sí","Leve",1,"Tulatromicina",6,1
+"TER0280","Selva","Concentrado","Hembra","No",5,3,265,881,39.5,40,10.9,5.1,36.4,"Sí","Moderada",2,"Tulatromicina",13,1
+"TER0148","Sierra","Forraje","Hembra","Sí",8,0,,772,39,21,7.2,5.9,36.1,"No","Sin neumonía",0,,,
+"TER0208","Costa","Forraje","Hembra","No",10,0,224,1105,38.8,28,9.3,4.5,34.5,"No","Sin neumonía",1,,,
+"TER0181","Sierra","Forraje","Hembra","No",12,0,193,702,,39,,6.3,34.5,"Sí","Leve",1,"Florfenicol",8,1
+"TER0324","Selva","Forraje","Macho","No",8,3,259,840,39.7,32,10.2,4.9,39.1,"Sí","Moderada",0,"Tulatromicina",10,1
+"TER0077","Sierra","Mixta","Macho","No",9,4,22.9,840,39,31,8.3,4.6,34.8,"No","Sin neumonía",1,,,
+"TER0149","Selva","Mixta","Macho","Sí",11,3,218,1051,39,28,9.4,3.6,30.3,"No","Sin neumonía",0,,,
+"TER0142","Sierra","Forraje","Hembra","Sí",9,0,156,636,39.5,35,13.4,4.7,31.3,"No","Sin neumonía",1,,,
+"TER0107","Costa","Concentrado","Macho","Sí",5,0,232,1070,39.4,39,9,4.7,36.1,"No","Sin neumonía",1,,,
+"TER0165","Selva","Mixta","Hembra","No",7,2,152,712,39.3,,11.8,4.5,31.4,"Sí","Leve",1,"Tulatromicina",1,1
+"TER0115","Sierra","Concentrado","Hembra",,10,2,221,683,38.7,,10.9,4.5,38,"No","Sin neumonía",0,,,
+"TER0169","Selva","Concentrado","Hembra","Sí",5,1,167,1022,39,27,8.3,4.2,37.2,"No","Sin neumonía",0,,,
+"TER0214","Sierra","Concentrado","Macho","No",12,0,268,935,39,39,10.4,7.1,36.8,"Sí","Leve",1,"Tulatromicina",13,1
+"TER0217","Sierra","Forraje","Macho","Sí",9,2,198,737,,45,13.8,5.3,31.1,"Sí","Moderada",0,"Tulatromicina",11,1
+"TER0127","Costa","Forraje","Macho","No",8,0,204,1240,39.2,31,8.6,4.6,35.2,"No","Sin neumonía",1,,,
+"TER0160","Costa","Concentrado","Macho","Sí",8,0,227,945,39.4,40,9.8,6,37.5,"Sí","Leve",4,"Tulatromicina",7,1
+"TER0143","Sierra","Mixta","Macho","Sí",8,0,136,700,40.1,47,10.8,6.2,36.2,"Sí","Leve",0,"Florfenicol",2,1
+"TER0211","Costa","Mixta","Macho","No",8,0,229,772,40.1,34,13.1,5.1,31.5,"Sí","Moderada",1,"Tulatromicina",1,1
+"TER0236","Selva","Mixta","Hembra","Sí",8,2,183,1122,38.9,29,10.1,3.5,35.2,"No","Sin neumonía",3,,,
+"TER0099","Costa","Mixta","Macho","No",9,1,237,801,39.8,41,11.6,7.3,32,"Sí","Grave",3,"Tulatromicina",21,0
+"TER0109","Sierra","Mixta","Macho","No",10,4,233,650,39.5,37,10.1,4.1,29.7,"Sí","Moderada",4,"Tulatromicina",6,1
+"TER0006","Sierra","mixta","Macho","No",9,4,199,882,39.7,,10.6,5.9,28.6,"Sí","Moderada",1,"Tulatromicina",19,1
+"TER0231","Costa","Mixta","Macho","Sí",8,1,216,,39.1,29,8.8,3.1,32.5,"No","Sin neumonía",0,,,
+"TER0030","Selva","Forraje","Macho","Sí",5,2,226,707,38.9,22,12,4.3,36.2,"No","Sin neumonía",0,,,
+"TER0339","Selva","Mixta","Macho","No",12,2,217,913,39.6,43,12.7,5.9,36.7,"Sí","Moderada",4,"Tulatromicina",2,1
+"TER0145","Selva","Concentrado","Macho","No",12,1,282,809,38.8,26,11.6,4.7,32.5,"Sí","Leve",0,"Florfenicol",10,1
+"TER0219","Costa","Mixta","Macho","Sí",11,0,173,948,38.8,23,6.2,3.9,30.5,"No","Sin neumonía",1,,,
+"TER0014","Selva","Concentrado","Macho","Sí",11,1,130,624,39.8,32,11.3,6.8,28.7,"Sí","Moderada",0,"Florfenicol",5,1
+"TER0298","Costa","Mixta","Macho","Sí",10,2,212,1001,38.7,19,8.8,6.7,32.7,"No","Sin neumonía",1,,,
+"TER0101","Costa","Concentrado","Macho","Sí",12,2,201,1056,37.8,17,8.2,3.2,35.5,"No","Sin neumonía",1,,,
+"TER0125","Sierra","Concentrado","Hembra","Sí",9,0,203,1000,38.8,28,11,4.2,32.3,"No","Sin neumonía",1,,,
+"TER0163","Costa","Mixta","Hembra","No",8,1,235,1065,,24,6.4,4.4,34,"No","Sin neumonía",0,,,
+"TER0117","Sierra","Mixta","Macho",,6,3,190,806,38.9,31,7.8,3.6,34.9,"No","Sin neumonía",0,,,
+"TER0085","Costa","Mixta","Macho","No",9,2,237,993,39.9,36,12.1,5.9,34.4,"Sí","Moderada",4,"Florfenicol",15,1
+"TER0131","Sierra","Forraje","Macho","No",9,1,265,960,39.4,,6.8,4.6,38.3,"No","Sin neumonía",1,,,
+"TER0071","Selva","Forraje","Macho","Sí",6,1,232,740,,40,10.9,5,35.4,"Sí","Grave",3,"Florfenicol",12,1
+"TER0246","Sierra","Concentrado","Hembra","Sí",9,2,268,1250,38.4,25,8.6,4.9,37.5,"No","Sin neumonía",3,,,
+"TER0310","Sierra","Forraje","Macho","Sí",8,,130,423,39.7,48,10,5.6,28.3,"Sí","Leve",1,"Florfenicol",6,1
+"TER0151","Selva  ","Concentrado","Hembra","No",11,2,199,868,,39,7.4,6.3,31.7,"Sí","Leve",3,"Florfenicol",10,1
+"TER0041","Costa","Forraje","Hembra","Sí",7,1,163,659,38.6,22,8.3,5.4,34.2,"No","Sin neumonía",1,,,
+"TER0242","Sierra","Forraje","Macho","No",9,0,224,1097,39.3,34,10,4.4,32.6,"No","Sin neumonía",0,,,
+"TER0137","Sierra","Concentrado","Macho","Sí",9,1,162,1135,,30,7,4.3,31.5,"No","Sin neumonía",0,,,
+"TER0226","Costa","Concentrado","Macho","Sí",9,1,290,1153,38.7,21,9.6,3.7,29.6,"No","Sin neumonía",0,,,
+"TER0025","Costa","Mixta","Macho","No",9,1,215,1128,38.7,29,10.7,4.9,38.6,"No","Sin neumonía",0,,,
+"TER0291","Sierra","Concentrado","Macho","No",9,1,204,1148,39.1,42,12.2,3.8,40.1,"Sí","Leve",0,"Tulatromicina",6,1
+"TER0265","Costa","Concentrado","Macho","Sí",9,1,247,861,39.8,38,8.3,6.6,32.4,"Sí","Leve",1,"Florfenicol",9,1
+"TER0187","Sierra","Concentrado","Hembra","No",10,4,268,614,39.5,47,11.5,5.6,26.4,"Sí","Moderada",3,"Florfenicol",1,1
+"TER0004","Sierra","Concentrado","Macho","No",10,2,241,1011,38.6,31,7,4.9,33.6,"No","Sin neumonía",0,,,
+"TER0248","Costa","Mixta","Macho","Sí",10,1,233,706,38.7,32,7,3.3,27.9,"No","Sin neumonía",0,,,
+"TER0044","Sierra","Concentrado","Macho","No",10,1,145,949,38,27,7.9,3.3,34.7,"No","Sin neumonía",0,,,
+"TER0065","Selva","Concentrado","Macho","Sí",7,2,264,1148,38.4,,7.1,5,34.4,"No","Sin neumonía",2,,,
+"TER0216","Sierra","Mixta","Macho","Sí",8,2,198,673,39.2,27,,4.5,29.3,"Sí","Leve",1,"Florfenicol",11,1
+"TER0225","Costa","Mixta","Hembra","No",11,0,235,866,39.2,35,5.9,4.6,34.8,"No","Sin neumonía",1,,,
+"TER0055","Sierra","Mixta","Hembra","No",8,1,237,755,,34,12.7,5.1,,"No","Sin neumonía",3,,,
+"TER0205","Costa","Mixta","Hembra","Sí",10,2,255,973,39.1,26,7.5,4.9,40.8,"No","Sin neumonía",0,,,
+"TER0005","Costa","Concentrado","Hembra","Sí",11,1,212,894,38.7,33,7.7,5.8,36,"No","Sin neumonía",1,,,
+"TER0050","Selva","Mixta","Hembra","No",,3,231,690,39.7,41,14.1,7.8,27.3,"Sí","Grave",4,"Tulatromicina",10,1
+"TER0329","Costa","Concentrado","Macho","Sí",9,2,231,1034,39.1,25,10.8,4.1,37.5,"No","Sin neumonía",0,,,
+"TER0154","Sierra","Mixta","Macho","Sí",8,0,234,838,38.9,27,7.7,3.7,30,"No","Sin neumonía",0,,,
+"TER0017","Sierra","Mixta","Hembra","Sí",9,0,197,1012,,20,6.6,4.6,36,"No","Sin neumonía",0,,,
+"TER0277","Sierra","Mixta","Macho","No",7,1,249,938,39.1,28,6.4,3.3,29,"No","Sin neumonía",2,,,
+"TER0153","Selva","Forraje","Macho","Sí",10,1,236,683,38.8,,10.2,3.9,41.5,"No","Sin neumonía",0,,,
+"TER0036","Sierra","Forraje","Macho","No",9,1,238,764,39.6,47,12.1,7,,"Sí","Grave",3,"Tulatromicina",21,1
+"TER0106","Costa","Forraje","Hembra","Sí",8,1,207,943,38.8,26,11,4.9,34.8,"Sí","Leve",1,"Tulatromicina",4,1
+"TER0238","Sierra","Concentrado","Hembra","Sí",10,0,235,951,39.7,47,10.7,6.1,33.2,"Sí","Moderada",2,"Florfenicol",21,0
+"TER0020","Costa","Forraje","Macho","Sí",7,1,213,826,39.1,35,9.6,3.6,45.8,"No","Sin neumonía",1,,,
+"TER0100","Costa","Mixta","Macho","Sí",,2,214,937,38.9,31,9.2,4.6,36.1,"No","Sin neumonía",1,,,
+"TER0010","Sierra","Forraje","Hembra","Sí",7,1,224,874,38.9,34,10.2,4,37.4,"No","Sin neumonía",2,,,
+"TER0105","Selva","Forraje","Macho","no",10,0,,898,39.1,29,8.3,4.8,25.9,"No","Sin neumonía",2,,,
+"TER0013","Costa","Concentrado","Hembra","No",8,3,208,827,39.7,40,13.4,5.1,29.2,"Sí","Moderada",1,"Florfenicol",7,1
+"TER0294","Costa","Forraje","Macho","No",8,1,179,704,39.3,45,10.8,6,33.2,"Sí","Moderada",1,"Florfenicol",7,1
+"TER0024","Selva","Forraje","Hembra","No",8,1,160,552,39.5,31,11.7,5.5,35.9,"Sí","Moderada",4,"Tulatromicina",21,0
+"TER0251","Sierra","Concentrado","Hembra","Sí",10,1,174,1114,39,23,10.2,4.6,41.5,"No","Sin neumonía",0,,,
+"TER0012","Selva","Mixta","Hembra","No",10,0,197,536,39.6,35,12.1,4.7,28.1,"Sí","Leve",1,"Tulatromicina",6,1
+"TER0161","Selva","Forraje","Hembra","Sí",6,0,196,787,38.8,,10.1,2.9,,"No","Sin neumonía",0,,,
+"TER0332","Costa","Mixta","Hembra","Sí",8,0,209,688,39,28,7.5,4.3,37.9,"No","Sin neumonía",0,,,
+"TER0157","Costa","Mixta","Macho","No",8,0,228,943,38.6,32,7.8,3.7,37.8,"No","Sin neumonía",3,,,
+"TER0320","Sierra","Forraje","Macho","Sí",6,2,248,852,,32,9.8,3.1,28.8,"No","Sin neumonía",0,,,
+"TER0159","Selva","Mixta","Macho",,9,2,196,717,39.6,44,16.8,6.2,31,"Sí","Grave",1,"Florfenicol",15,1

@@ -1,0 +1,306 @@
+﻿"id_gato","albergue","tipo_dieta","sexo","vacunacion_triple_felina","edad_meses","gatos_por_recinto","condicion_corporal","peso_kg","temperatura_c","frecuencia_respiratoria_rpm","leucocitos_10_9_l","hematocrito_pct","proteinas_totales_g_dl","signos_respiratorios","severidad_respiratoria","episodios_previos","tratamiento","dias_hasta_remision","remision"
+"FEL0075","Albergue B","Mixta","Macho","Sí",44,5,5,3.87,38.4,30,7.7,29.6,7.3,"No","Sin signos",1,,,
+"FEL0208","albergue d","Mixta","Macho","Sí",8,5,7,4.92,39.4,32,14.6,39.8,7.6,"Sí","Moderada",0,"Doxiciclina",13,1
+"FEL0249","Albergue B","Seca","Hembra","Sí",51,10,4,3.65,38.9,20,5.7,51.1,6,"No","Sin signos",0,,,
+"FEL0032","Albergue C","Seca","Macho","No",21,2,4,3.8,39.1,,9.3,45.9,6.7,"No","Sin signos",2,,,
+"FEL0014","Albergue D","Mixta","Hembra","No",35,6,5,3.1,38.1,21,10.4,34.5,7.6,"No","Sin signos",1,,,
+"FEL0241","Albergue B","Húmeda","Hembra","Sí",27,6,5,4,39.3,25,11.9,28.5,6,"No","Sin signos",0,,,
+"FEL0117","Albergue C","Húmeda","Macho","Sí",49,11,5,2.13,39.8,38,15.8,28.7,6.3,"Sí","Grave",3,"Amoxicilina-clavulánico",21,1
+"FEL0079","Albergue D","Mixta","Macho","No",25,6,5,4.45,38.2,29,8.5,46.8,6.3,"No","Sin signos",0,,,
+"FEL0180","Albergue A","Seca","Hembra","Sí",37,3,7,4.41,38.9,32,10,39,7.2,"No","Sin signos",0,,,
+"FEL0235","Albergue D","Húmeda","Macho","No",,6,3,2.77,39.2,42,14.4,43.1,7.5,"Sí","Grave",0,"Doxiciclina",21,0
+"FEL0083","Albergue D","Húmeda","Hembra","Sí",50,3,5,2.97,38.6,26,6.9,44.5,7.2,"No","Sin signos",1,,,
+"FEL0231","Albergue C","Mixta","Macho",,29,4,5,4.39,39.2,36,15.8,34,8,"No","Sin signos",0,,,
+"FEL0143","Albergue A","mixta","Macho","No",16,6,5,4.29,39.3,38,10.5,37.4,7,"Sí","Leve",1,"Amoxicilina-clavulánico",21,0
+"FEL0259","Albergue D","Mixta","Hembra","Sí",24,10,5,2.2,39.1,32,7.7,28.9,,"Sí","Leve",2,"Amoxicilina-clavulánico",5,1
+"FEL0005","Albergue C","Seca","Hembra","NO",32,4,5,3.03,39.9,43,16.7,31.2,7.7,"Sí","Grave",4,"Doxiciclina",20,1
+"FEL0174","Albergue A","Mixta","Hembra","Sí",52,1,7,3.62,38.5,31,8.3,36.7,6.9,"No","Sin signos",0,,,
+"FEL0126","Albergue B","Húmeda","Macho","No",16,5,7,4.46,38.9,26,11.7,37.7,6.9,"No","Sin signos",0,,,
+"FEL0279","Albergue D","Mixta","Macho","No",6,3,7,4.75,39.2,28,10.3,28.3,7.2,"No","Sin signos",1,,,
+"FEL0224","Albergue A","Seca","Macho","Sí",23,2,5,2.95,39.4,30,14.2,32,7.4,"Sí","Leve",0,"Amoxicilina-clavulánico",13,1
+"FEL0270","Albergue A","Seca","Hembra","Sí",41,5,5,2.95,38.9,35,14.7,36.9,7,"No","Sin signos",0,,,
+"FEL0244","Albergue A","Mixta","Hembra","Sí",34,5,6,3.93,38.7,29,,43.6,8,"No","Sin signos",1,,,
+"FEL0030","Albergue A","Húmeda","Macho","Sí",16,4,4,3.1,38.2,24,,33.5,7.4,"No","Sin signos",1,,,
+"FEL0283","Albergue C","Mixta","Macho","Sí",27,6,5,4.99,38.9,19,12.8,42.6,6.6,"No","Sin signos",3,,,
+"FEL0119","Albergue A","Seca","Macho","No",49,3,5,4.1,38,25,9.4,39,6.1,"No","Sin signos",3,,,
+"FEL0009","Albergue D","Húmeda","Macho","Sí",31,4,3,2.82,38.7,33,14.1,39.7,7.2,"Sí","Moderada",0,"Amoxicilina-clavulánico",7,0
+"FEL0225","Albergue B","Seca","Hembra","No",15,8,6,3.87,39.1,28,14.7,41.7,8,"Sí","Moderada",4,"Doxiciclina",17,1
+"FEL0132","Albergue A","Seca","Hembra","Sí",36,6,5,2.65,39.3,36,15.5,35,,"Sí","Leve",3,"Doxiciclina",15,1
+"FEL0094","Albergue A","Seca","Hembra","No",39,5,5,3.29,38.8,25,10.7,37.1,7.2,"No","Sin signos",1,,,
+"FEL0255","Albergue D","Húmeda","Hembra","Sí",29,3,6,,38.3,18,11.2,40.4,7.4,"No","Sin signos",0,,,
+"FEL0170","Albergue B","Húmeda","Hembra","Sí",3,7,3,2.84,39.2,37,18.7,,6.2,"Sí","Grave",1,"Doxiciclina",17,1
+"FEL0294","Albergue B","Mixta","Hembra","No",19,7,7,4.17,39.4,32,13.7,22.7,,"Sí","Moderada",1,"Amoxicilina-clavulánico",15,1
+"FEL0100","Albergue B","Húmeda","Macho","Sí",42,5,4,3.62,38.7,43,8.7,38.7,6.8,"Sí","Leve",0,"Doxiciclina",4,1
+"FEL0033","Albergue B","Seca","Macho","Sí",25,4,5,3.4,38.9,18,11.3,25.6,7.8,"No","Sin signos",1,,,
+"FEL0113","Albergue B","Mixta","Hembra","No",31,10,5,,39.3,34,14,32.7,7.7,"Sí","Moderada",6,"Doxiciclina",12,1
+"FEL0269","Albergue D","Seca","Hembra","No",54,,5,3.29,38.9,28,15,43.9,7.9,"Sí","Leve",1,"Doxiciclina",18,1
+"FEL0065","Albergue B","Seca","Macho","Sí",3,6,5,4.01,38.6,,13.4,37.7,6.8,"No","Sin signos",1,,,
+"FEL0285","Albergue A","Mixta","Hembra","Sí",32,3,3,2.27,38.8,26,12.7,33.2,6.3,"No","Sin signos",0,,,
+"FEL0123","Albergue A","Húmeda","Macho","Sí",39,5,6,4.87,,29,13.2,36.9,7.6,"No","Sin signos",1,,,
+"FEL0016","Albergue B","Húmeda","Hembra","No",3,2,5,3.19,38.6,21,9.1,33.4,6.5,"No","Sin signos",0,,,
+"FEL0272","Albergue A","Seca","Macho","No",28,3,6,4.18,39.4,34,15.5,38.3,6.5,"Sí","Leve",1,"Amoxicilina-clavulánico",21,0
+"FEL0069","Albergue D","Húmeda","Hembra","Sí",20,7,6,3.55,39.4,35,17.4,33.6,7.3,"Sí","Moderada",1,"Amoxicilina-clavulánico",21,1
+"FEL0162","Albergue C","Seca","Hembra","No",63,2,4,2.64,38.7,26,6.7,42.9,8,"No","Sin signos",2,,,
+"FEL0020","Albergue A","Mixta","Macho","No",51,4,3,4.36,38.8,27,12.9,37.4,6.4,"No","Sin signos",0,,,
+"FEL0025","Albergue B","Húmeda","Hembra","No",30,2,6,4.03,39.4,36,11.6,35.3,7.8,"Sí","Moderada",1,"Doxiciclina",21,0
+"FEL0059","Albergue A","Seca","Macho","Sí",20,4,4,4.49,,23,,39.1,7.6,"No","Sin signos",0,,,
+"FEL0041","Albergue B","Húmeda","Macho","Sí",22,10,6,5.24,38.6,35,12.9,34.8,8.2,"No","Sin signos",0,,,
+"FEL0150","Albergue B","Húmeda","Hembra","Sí",40,3,4,3.47,38.3,,6.2,39.4,7.2,"No","Sin signos",0,,,
+"FEL0243","Albergue C","Mixta","Hembra","No",28,10,5,4.07,39.4,22,10,28.1,7.9,"Sí","Grave",0,"Amoxicilina-clavulánico",21,1
+"FEL0197","Albergue A","Mixta","Macho","Sí",47,8,6,5.2,38.8,27,9.8,35.1,7,"No","Sin signos",0,,,
+"FEL0207","Albergue D","Mixta","Macho","Sí",12,6,5,4.2,38.8,26,8.6,33.9,7.4,"No","Sin signos",0,,,
+"FEL0124","Albergue D","Húmeda","Hembra","No",29,5,5,3.34,38.5,39,,43.3,8.1,"No","Sin signos",0,,,
+"FEL0253","Albergue A","Mixta","Macho","Sí",27,4,4,4.12,38.3,18,10.7,32.6,6.5,"No","Sin signos",0,,,
+"FEL0186","Albergue A","Seca","Macho","No",8,6,5,2.98,39,40,16.3,44.9,7.5,"Sí","Moderada",3,"Amoxicilina-clavulánico",10,1
+"FEL0066","Albergue A","Seca","Macho","Sí",28,8,6,4.17,,35,11.4,34.1,8.5,"Sí","Moderada",2,"Doxiciclina",15,1
+"FEL0107","Albergue D","Seca","Macho","No",34,6,5,3.78,39.4,,13.3,33.9,7,"Sí","Grave",2,"Doxiciclina",12,1
+"FEL0087","Albergue B","Húmeda","Hembra","Sí",60,4,5,3.58,38,23,6.8,42.8,7.4,"No","Sin signos",1,,,
+"FEL0028","Albergue C","MIXTA","Hembra","No",16,3,6,3.58,38.9,21,6.9,41.8,7.7,"No","Sin signos",2,,,
+"FEL0272","Albergue A","Seca","Macho","No",28,3,6,4.18,39.4,34,15.5,38.3,6.5,"Sí","Leve",1,"Amoxicilina-clavulánico",21,0
+"FEL0013","Albergue C","Seca","Macho","No",35,7,5,3.17,39.5,33,12.7,27.3,7.6,"Sí","Grave",3,"Doxiciclina",7,0
+"FEL0204","Albergue A","Seca","Macho","Sí",38,11,4,4.57,38.6,37,,36.2,7,"No","Sin signos",2,,,
+"FEL0154","Albergue B","Mixta","Hembra","Sí",74,5,6,3.71,39.2,30,16.4,35.8,7.7,"Sí","Leve",3,"Doxiciclina",10,1
+"FEL0176","Albergue C","Seca","Macho","Sí",25,7,5,3.69,38.6,23,8.6,36.4,7.8,"No","Sin signos",2,,,
+"FEL0265","Albergue B","Seca","Macho","Sí",31,3,4,3.37,39,28,12,34,7.5,"Sí","Leve",0,"Amoxicilina-clavulánico",8,1
+"FEL0131","Albergue C","Húmeda","Hembra","No",30,7,5,2.71,39.2,34,14.3,28,6.6,"Sí","Moderada",2,"Amoxicilina-clavulánico",12,1
+"FEL0081","Albergue A","Seca","Macho","No",49,5,5,4.26,38.5,31,13.4,38.2,7.4,"Sí","Leve",4,"Doxiciclina",13,1
+"FEL0233","albergue b","Mixta","Hembra","No",49,6,5,3.61,39.7,35,20.6,34.6,8,"Sí","Moderada",2,"Doxiciclina",4,1
+"FEL0156","Albergue B","Mixta","Hembra","No",48,4,6,3.73,38.9,41,13,35.5,7.8,"Sí","Grave",0,"Doxiciclina",21,0
+"FEL0296","Albergue D","Mixta","Hembra","Sí",23,6,1,1.91,38.8,19,13.6,39.8,7.7,"No","Sin signos",1,,,
+"FEL0145","Albergue B","Mixta","Hembra","No",29,5,5,3.13,39.3,34,,31.3,7.9,"No","Sin signos",1,,,
+"FEL0293","Albergue C","Seca","Hembra","Sí",9,8,6,4.62,39.3,22,13.4,38.2,7.6,"Sí","Leve",0,"Amoxicilina-clavulánico",21,0
+"FEL0157","Albergue A","Seca","Macho","Sí",33,8,6,4.35,39.1,29,16.3,27.3,7.1,"Sí","Leve",1,"Doxiciclina",15,1
+"FEL0198"," Albergue A ","Mixta","Macho","Sí",53,2,4,4.25,38.4,29,,40.3,7.2,"No","Sin signos",1,,,
+"FEL0169","Albergue D","Seca","Hembra","Sí",32,7,6,3.19,,28,9.4,,,"No","Sin signos",0,,,
+"FEL0133","Albergue B","Mixta","Hembra","No",53,5,7,4.11,38.7,33,9.7,29.4,7.4,"No","Sin signos",0,,,
+"FEL0048","Albergue A","Seca","Macho","No",16,2,7,3.99,39.3,41,7.3,39.1,8.8,"Sí","Moderada",1,"Amoxicilina-clavulánico",21,0
+"FEL0227","Albergue B","Mixta","Hembra","No",27,7,4,2.77,39.9,32,15.2,33.2,6.9,"Sí","Moderada",1,"Doxiciclina",18,0
+"FEL0029","Albergue A","Húmeda","Macho"," Sí",39,5,3,2.56,38.5,24,6.6,37.1,7,"No","Sin signos",0,,,
+"FEL0216","Albergue B","Seca","Macho","No",49,4,7,5.1,,36,14,38.2,6.8,"Sí","Leve",3,"Amoxicilina-clavulánico",11,1
+"FEL0282","Albergue A","Seca","Hembra","No",34,5,6,3.4,39,41,12.1,31.4,7.6,"Sí","Leve",2,"Doxiciclina",21,0
+"FEL0168","Albergue D","Seca","Hembra","Sí",42,5,4,3.13,38.9,20,13,42.3,6.7,"No","Sin signos",1,,,
+"FEL0297","Albergue D","Húmeda","Macho","Sí",49,2,2,2.82,39.2,35,12.5,30.4,6.5,"Sí","Leve",0,"Amoxicilina-clavulánico",10,1
+"FEL0166","Albergue B","Seca","Macho","No",46,8,5,3.38,39.4,39,12.9,33.5,7.8,"Sí","Moderada",3,"Doxiciclina",10,0
+"FEL0230","Albergue C","Mixta","Macho","No",18,5,,4.23,38.1,20,7.3,47,7.4,"No","Sin signos",0,,,
+"FEL0175","Albergue D","Seca","Hembra","Sí",61,2,6,3.03,38.3,31,10.7,36.2,6.8,"No","Sin signos",0,,,
+"FEL0281","Albergue A","Seca","Hembra","No",54,2,6,,38.9,29,14,44.5,6.8,"No","Sin signos",1,,,
+"FEL0228","Albergue B","Seca","Macho","Sí",55,6,5,4.23,,35,16.2,38,8.6,"Sí","Leve",1,"Doxiciclina",14,1
+"FEL0158","Albergue D","Seca","Hembra","Sí",22,9,7,5.36,38.9,21,7.6,,5.6,"No","Sin signos",0,,,
+"FEL0076","Albergue C","Seca","Hembra","Sí",21,9,7,4.66,38.5,17,7.7,42.6,7.7,"No","Sin signos",1,,,
+"FEL0292","Albergue A","Mixta","Hembra",,52,5,4,2.94,38.9,33,12.7,37.3,7.9,"Sí","Moderada",3,"Amoxicilina-clavulánico",20,1
+"FEL0190","Albergue A","Seca","Macho","No",21,8,4,3.03,,,9,37.2,6.9,"No","Sin signos",1,,,
+"FEL0055","Albergue B","Húmeda","Macho","Sí",27,6,3,2.68,39.3,,18.6,26.6,6.1,"Sí","Leve",3,"Doxiciclina",2,1
+"FEL0052","Albergue D","Mixta","Hembra","Sí",17,8,4,3.57,38.1,28,12.5,38.3,6.7,"No","Sin signos",1,,,
+"FEL0300","Albergue B","Mixta","Hembra","No",22,7,4,2.6,39.3,27,11.6,30.3,6.9,"Sí","Moderada",2,"Amoxicilina-clavulánico",8,1
+"FEL0161","Albergue A","Seca","Macho","No",34,5,5,3.59,39.1,40,15.9,33.2,6.6,"Sí","Moderada",3,"Amoxicilina-clavulánico",5,1
+"FEL0012","Albergue A","Seca","Hembra","No",21,4,5,4.06,39.2,39,10.9,33.4,7.9,"No","Sin signos",1,,,
+"FEL0148","Albergue A","Mixta","Macho","Sí",15,3,6,5.8,37.6,23,8.4,33.7,7.4,"No","Sin signos",0,,,
+"FEL0255","Albergue D","Húmeda","Hembra","Sí",29,3,6,,38.3,18,11.2,40.4,7.4,"No","Sin signos",0,,,
+"FEL0223","ALBERGUE A","Seca","Macho",,34,7,7,4.24,39.5,35,12.2,37.7,6.8,"Sí","Grave",0,"Doxiciclina",15,1
+"FEL0256","Albergue A","Mixta","Hembra","Sí",35,3,4,2.75,38.8,30,11.3,42.3,7.1,"No","Sin signos",1,,,
+"FEL0114","Albergue C","Húmeda","Macho","no",9,4,3,2.62,39.5,34,8.7,36.2,8.3,"Sí","Moderada",0,"Doxiciclina",21,0
+"FEL0037","Albergue A","Seca","Macho","No",28,2,5,3.46,38.6,23,16.4,36.8,6,"No","Sin signos",1,,,
+"FEL0043","Albergue B","Mixta","Macho",,30,5,5,5.18,38.4,24,13.3,40.5,6.8,"No","Sin signos",1,,,
+"FEL0004","Albergue A","Mixta","Macho","Sí",11,5,8,4.27,39.2,25,11.5,37.7,6.7,"Sí","Leve",3,"Amoxicilina-clavulánico",4,1
+"FEL0195","Albergue A","Seca","Macho","Sí",38,3,6,4.99,38.5,21,5.1,37.4,7.1,"No","Sin signos",0,,,
+"FEL0115","Albergue B","Seca","Hembra","Sí",19,4,5,2.53,38.1,30,,42.8,7.2,"No","Sin signos",0,,,
+"FEL0141","Albergue B","Mixta","Hembra","Sí",25,,3,2.3,39.2,34,10.7,31.8,7.1,"No","Sin signos",0,,,
+"FEL0024","Albergue A","Mixta","Hembra","No",28,5,5,3.56,39.2,26,8.8,35.7,6.4,"Sí","Leve",2,"Amoxicilina-clavulánico",6,1
+"FEL0172","Albergue C","Seca","Macho","No",22,7,3,2.87,38.5,17,6.9,38.7,7.7,"No","Sin signos",1,,,
+"FEL0121","Albergue B","Mixta","Hembra","No",8,7,4,2.83,39.2,21,10.7,29.9,7.9,"No","Sin signos",1,,,
+"FEL0118","Albergue D","Seca","Macho","No",10,4,4,4.87,39.7,37,14.5,31.8,8.8,"Sí","Moderada",1,"Doxiciclina",19,1
+"FEL0105","Albergue B","Mixta","Hembra","No",30,3,5,4.02,38.9,33,11.6,37,6.1,"No","Sin signos",0,,,
+"FEL0192","Albergue C","Húmeda","Macho","Sí",45,2,7,4.57,38.3,33,6.4,35.2,6.8,"Sí","Leve",3,"Amoxicilina-clavulánico",3,1
+"FEL0160","Albergue C","Mixta","Hembra","No",13,6,5,2.57,39.4,36,16.3,19.1,7.8,"Sí","Grave",1,"Amoxicilina-clavulánico",1,1
+"FEL0110","Albergue B","Seca","Macho","Sí",19,4,6,4.4,38,20,8.2,54.9,6,"No","Sin signos",1,,,
+"FEL0097","Albergue B","Mixta","Macho","No",36,5,4,3.91,38.3,38,11.3,45.3,6.8,"No","Sin signos",5,,,
+"FEL0084","Albergue C","Seca","Hembra","Sí",58,3,7,3.84,38.7,25,11.3,39,6.9,"No","Sin signos",0,,,
+"FEL0111","Albergue A","Húmeda","Hembra","No",16,5,6,3.84,38.7,33,8.3,43.1,,"No","Sin signos",0,,,
+"FEL0217","Albergue A","Seca","Macho","Sí",40,6,6,3.39,39.5,37,,28.8,8.5,"Sí","Leve",1,"Amoxicilina-clavulánico",6,1
+"FEL0167","Albergue C","Seca","Hembra","No",9,6,4,2.62,39.5,40,12.1,30.8,7,"Sí","Grave",2,"Amoxicilina-clavulánico",1,1
+"FEL0034","Albergue A","Seca","Macho","No ",25,5,6,5.47,38.7,28,6.6,35.1,7.5,"No","Sin signos",5,,,
+"FEL0222","Albergue C","Mixta","Hembra","Sí",5,2,5,3.51,38.7,35,10,46.6,7.3,"No","Sin signos",0,,,
+"FEL0276","Albergue A","Mixta","Hembra","No",32,5,4,2.13,39.3,26,5.6,34.2,6.9,"Sí","Leve",4,"Doxiciclina",4,1
+"FEL0200","Albergue B","Seca  ","Macho","Sí",16,5,5,3.17,37.9,29,7.9,35.6,7.9,"No","Sin signos",1,,,
+"FEL0134","Albergue C","Húmeda","Macho","No",11,5,3,3.08,39,28,13.5,33.8,7.9,"Sí","Leve",3,"Amoxicilina-clavulánico",21,0
+"FEL0164","Albergue A","Húmeda","Hembra","Sí",29,4,4,2.27,39,33,15.1,35,7.3,"No","Sin signos",0,,,
+"FEL0248","Albergue C","Seca","Macho","Sí",11,5,4,3.97,39,,11.8,47,,"No","Sin signos",1,,,
+"FEL0072","Albergue D","Seca","Hembra","No",45,2,3,3.46,39.1,31,12.8,40.5,6.1,"No","Sin signos",1,,,
+"FEL0220","Albergue B","Húmeda","Macho","Sí",33,12,5,3.09,39.6,37,16,28.3,8.6,"Sí","Grave",2,"Amoxicilina-clavulánico",3,0
+"FEL0250","Albergue B","Seca","Macho","No",39,2,3,3.84,38.5,18,8.3,29.6,6.1,"No","Sin signos",1,,,
+"FEL0140","Albergue A","Mixta","Hembra","No",13,6,6,4,38.8,38,14.1,27.7,7.1,"Sí","Moderada",2,"Doxiciclina",16,1
+"FEL0109","Albergue A","Seca","Macho","No",34,8,7,4.09,39,29,9.5,36.1,7.6,"Sí","Leve",4,"Amoxicilina-clavulánico",8,1
+"FEL0142","Albergue B","Húmeda","Hembra","Sí",3,5,2,2.11,38.8,32,13.6,32.8,5.8,"No","Sin signos",2,,,
+"FEL0211","Albergue A","Seca","Hembra","No",32,9,9,4.9,38.9,42,14.7,33.6,7.4,"Sí","Leve",7,"Amoxicilina-clavulánico",16,1
+"FEL0247","Albergue C","Seca","Hembra","Sí",16,,5,3.04,38.9,27,12.5,32.1,7.1,"Sí","Leve",2,"Amoxicilina-clavulánico",8,1
+"FEL0099","Albergue C","Húmeda","Hembra","No",42,4,5,3.52,38,23,10.3,33.3,7.2,"No","Sin signos",1,,,
+"FEL0173","Albergue A","Húmeda","Hembra","No",23,9,3,2.84,38.8,37,17.1,36.7,7.9,"Sí","Grave",4,"Doxiciclina",10,1
+"FEL0042","Albergue A","Seca","Hembra","No",37,5,5,2.46,38.9,35,11,29.4,8.4,"Sí","Moderada",5,"Doxiciclina",14,1
+"FEL0212"," Albergue A ","Húmeda","Hembra","No",59,4,4,3.86,38.5,22,9.1,39.1,7.3,"Sí","Leve",2,"Amoxicilina-clavulánico",21,0
+"FEL0147","Albergue A","Seca","Hembra","No",15,5,4,3.41,39.3,36,11.2,30.4,7,"Sí","Leve",4,"Amoxicilina-clavulánico",6,1
+"FEL0019","Albergue B","Seca","Macho","No",46,6,7,4.65,39.1,25,10.2,35.6,,"No","Sin signos",2,,,
+"FEL0006","Albergue A","Seca","Macho","Sí",30,6,3,3.62,38.3,,11.9,30.2,8.1,"No","Sin signos",0,,,
+"FEL0103","Albergue B","Mixta","Macho","No",19,3,3,3.14,39,26,14.7,38.9,7.7,"Sí","Leve",4,"Doxiciclina",7,1
+"FEL0194","Albergue C","Mixta","Hembra","Sí",14,5,4,2.68,39,31,14,31,7.4,"Sí","Leve",5,"Amoxicilina-clavulánico",2,1
+"FEL0130","Albergue B","Seca","Macho","Sí",49,3,4,3.76,38.8,26,11,36.4,7.2,"No","Sin signos",0,,,
+"FEL0261","Albergue B","seca","Hembra","Sí",4,5,6,4.01,38.6,27,9.1,36.5,6.5,"No","Sin signos",1,,,
+"FEL0136","Albergue C","Seca","Macho","No",10,5,5,3.33,39.5,31,11.6,26.5,8.3,"Sí","Moderada",0,"Amoxicilina-clavulánico",6,1
+"FEL0188","Albergue A","Seca","Hembra","Sí",32,7,5,3.67,37.9,31,7,30.3,7,"No","Sin signos",0,,,
+"FEL0010","Albergue A","Mixta","Macho","No",38,4,4,3.35,39.3,,,34,6.7,"Sí","Grave",2,"Doxiciclina",7,1
+"FEL0286","Albergue C","Mixta","Macho","Si",17,3,6,4.47,38.3,26,10.2,30.4,6.7,"No","Sin signos",0,,,
+"FEL0196","Albergue C","Seca","Hembra","No",34,6,4,2.8,39,34,18.7,37.3,7.5,"Sí","Grave",2,"Amoxicilina-clavulánico",21,0
+"FEL0237","Albergue A","Mixta","Macho","Sí",53,5,7,5.9,38.6,38,13.7,33.5,8.4,"Sí","Leve",2,"Amoxicilina-clavulánico",14,1
+"FEL0239","Albergue C","Húmeda","Macho","No",30,7,6,4.46,38.2,26,9.7,44.8,6.8,"No","Sin signos",1,,,
+"FEL0101","albergue c","Húmeda","Hembra","No",42,6,7,3.84,39,36,12.6,29.3,7.3,"Sí","Moderada",1,"Amoxicilina-clavulánico",6,1
+"FEL0104","Albergue A","Mixta","Macho","Sí",6,7,3,3.17,38.1,27,7.3,40.9,7.1,"No","Sin signos",2,,,
+"FEL0205","Albergue B","Seca","Hembra","No",12,5,5,2.86,38.9,35,11.8,43.3,7.2,"Sí","Moderada",1,"Doxiciclina",13,1
+"FEL0088","Albergue B","Mixta","Hembra","Sí",44,8,4,3.68,38.9,32,10.9,34.1,7.6,"No","Sin signos",0,,,
+"FEL0093","Albergue B","Seca","Macho","Sí",24,4,6,4.63,38.9,27,13.2,38.7,6.1,"No","Sin signos",2,,,
+"FEL0036","Albergue A","Mixta","Macho","No",28,6,5,4.6,39.1,34,12.9,38.8,7.6,"Sí","Moderada",4,"Doxiciclina",1,1
+"FEL0295","Albergue A","Húmeda","Macho","Sí",3,10,3,3.46,39.5,,20,30.5,6.8,"Sí","Grave",3,"Amoxicilina-clavulánico",21,0
+"FEL0047","Albergue A","Seca","Macho","Sí",43,3,6,5.02,38.6,26,9,43.6,6.9,"No","Sin signos",1,,,
+"FEL0209","Albergue A","Húmeda","Hembra","Sí",12,2,4,2.66,39.4,31,13.5,35.8,8.2,"Sí","Moderada",2,"Amoxicilina-clavulánico",13,1
+"FEL0152","Albergue B","Seca","Hembra","No",50,6,7,3.01,,20,14.4,36.9,6.9,"No","Sin signos",0,,,
+"FEL0099","Albergue C","Húmeda","Hembra","No",42,4,5,3.52,38,23,10.3,33.3,7.2,"No","Sin signos",1,,,
+"FEL0060","Albergue B","Seca","Hembra","No",46,4,4,2.93,38.7,26,7,36.5,7.6,"No","Sin signos",1,,,
+"FEL0267","Albergue A","Mixta","Macho","No",44,6,4,3.41,38.4,,,34.9,8.5,"Sí","Leve",3,"Doxiciclina",2,1
+"FEL0210","albergue a","Seca","Macho","No",3,3,5,3.22,39.6,33,13.1,29.9,7.4,"Sí","Grave",1,"Amoxicilina-clavulánico",12,1
+"FEL0023","Albergue D","Seca","Hembra","Sí",25,6,4,3.38,39.1,23,16.8,37.8,8,"Sí","Leve",1,"Amoxicilina-clavulánico",12,1
+"FEL0252","Albergue D","Seca","Macho","Sí",32,,6,4.06,38.5,,12.6,38.5,7.6,"No","Sin signos",1,,,
+"FEL0278","Albergue B","Seca","Macho","Sí",17,2,4,3.21,39.3,32,17.3,43.7,7.2,"Sí","Grave",1,"Doxiciclina",21,0
+"FEL0181","Albergue A","Seca","Macho","No",16,7,8,4.69,39.3,29,8.9,35.8,6.9,"Sí","Moderada",3,"Doxiciclina",6,1
+"FEL0056","Albergue B","Seca","Hembra","No",49,3,5,2.45,39.6,,11.4,35.5,7.3,"No","Sin signos",2,,,
+"FEL0063","Albergue B","Húmeda","Hembra","Sí",9,4,5,2.75,38.8,31,14.1,33.3,7.7,"Sí","Leve",1,"Doxiciclina",21,0
+"FEL0127","Albergue B","Seca","Hembra","No",21,5,7,3.95,40.2,37,15.1,33.3,8.8,"Sí","Moderada",1,"Amoxicilina-clavulánico",6,1
+"FEL0027","Albergue A","Seca","Hembra","No",39,4,6,3.64,38.7,26,10.9,32.4,7.7,"Sí","Leve",3,"Amoxicilina-clavulánico",20,1
+"FEL0002","Albergue C","Mixta","Macho","No",35,6,4,3.61,,35,16.6,26.5,6.9,"Sí","Leve",1,"Doxiciclina",8,1
+"FEL0291","Albergue A","Seca","Macho","No",42,6,5,4.55,38.3,29,8.9,40.2,6.5,"No","Sin signos",0,,,
+"FEL0067","Albergue D","Húmeda","Macho","Sí",32,6,8,5.81,38.9,28,10.8,35.8,8.1,"No","Sin signos",2,,,
+"FEL0146","Albergue A","Seca","Hembra","No",44,6,5,4.37,38.8,21,9.2,36.8,7.2,"No","Sin signos",2,,,
+"FEL0260","Albergue A","Seca","Hembra","No",52,4,8,4.35,38.2,22,7.3,47.5,6.2,"No","Sin signos",0,,,
+"FEL0268","Albergue B","Húmeda","Macho","Sí",93,10,6,,38.3,27,8.1,44.1,6.7,"No","Sin signos",0,,,
+"FEL0191","Albergue A","Seca","Hembra","Sí",10,6,4,2.14,39.6,38,,38.3,6.9,"Sí","Moderada",1,"Amoxicilina-clavulánico",1,1
+"FEL0262","Albergue B","Húmeda","Hembra","No",13,4,5,3.05,39,21,13.7,28.9,7.7,"Sí","Leve",3,"Amoxicilina-clavulánico",2,1
+"FEL0074","Albergue A","Húmeda","Hembra","No",27,8,4,3.07,39,37,,40,8.1,"Sí","Leve",0,"Doxiciclina",2,1
+"FEL0165","Albergue D","Húmeda","Macho","No",18,2,3,2.9,39.5,33,8.8,35.8,8.5,"Sí","Leve",3,"Amoxicilina-clavulánico",13,1
+"FEL0245","Albergue A","Seca","Hembra","Sí",29,9,5,2.79,39.2,34,16.5,33.7,7.9,"Sí","Leve",1,"Amoxicilina-clavulánico",8,1
+"FEL0061","Albergue B","Mixta","Macho","No",3,1,6,4.29,39.8,33,12.2,32.3,7.3,"Sí","Leve",0,"Doxiciclina",3,1
+"FEL0073","Albergue B","Mixta","Hembra","Sí",29,7,4,3.56,38.4,28,6.1,35.1,7.4,"No","Sin signos",1,,,
+"FEL0219","Albergue A","Húmeda","Hembra","Sí",25,8,5,3.11,39.4,,12.9,24.5,6.7,"Sí","Moderada",3,"Doxiciclina",2,1
+"FEL0189","Albergue C","Seca","Hembra","No",25,7,3,2.46,38.7,37,15.4,39.2,6.7,"Sí","Leve",3,"Amoxicilina-clavulánico",21,0
+"FEL0179","Albergue A","Seca","Macho","No",24,5,5,2.67,38.7,,9.8,32.6,7.3,"No","Sin signos",3,,,
+"FEL0038","Albergue C","Mixta","Macho","Sí",42,6,5,,38.8,23,15.8,39.7,6.3,"No","Sin signos",3,,,
+"FEL0046","Albergue B","Mixta","Hembra","No",62,2,4,2.93,39.3,37,17.1,30.9,7.7,"Sí","Moderada",0,"Doxiciclina",12,1
+"FEL0288","Albergue A","Seca","Macho","Sí",10,2,5,4.03,39.1,29,11.2,35.9,7.2,"No","Sin signos",1,,,
+"FEL0203","Albergue B","Seca","Hembra","Sí",28,4,8,3.93,38.3,17,11.7,39.8,6.4,"No","Sin signos",0,,,
+"FEL0080","Albergue A","Seca","Hembra","No",39,5,4,2.57,39.1,31,10.7,35.6,7.4,"Sí","Moderada",2,"Amoxicilina-clavulánico",12,1
+"FEL0155","Albergue B","Seca","Macho","Sí",6,5,6,,39.3,34,8.6,32.6,7.2,"No","Sin signos",2,,,
+"FEL0271","Albergue A","Seca","Hembra","Sí",17,8,5,4,38.9,20,5,38.6,7.8,"No","Sin signos",0,,,
+"FEL0287","Albergue A","Mixta","Hembra","Sí",23,2,4,3.1,39.4,33,15,36.2,7.3,"No","Sin signos",0,,,
+"FEL0193","Albergue B","Húmeda","Hembra","Sí",3,5,4,3.35,38.1,,6.8,35.4,6.5,"No","Sin signos",0,,,
+"FEL0182","Albergue C","Húmeda","Hembra","No",,4,6,2.56,38.8,25,,38.3,7.2,"No","Sin signos",2,,,
+"FEL0187","Albergue C","Mixta","Hembra","No",24,4,3,2.94,38.7,24,10,43.8,6.8,"No","Sin signos",2,,,
+"FEL0144","Albergue B","Mixta","Hembra","No",38,5,4,3.25,38.7,27,10,49.9,7.8,"No","Sin signos",1,,,
+"FEL0238","Albergue C","Mixta","Macho","Sí",48,6,7,5.03,38.7,30,8.7,46,,"No","Sin signos",0,,,
+"FEL0090","Albergue D","Seca","Hembra","No",69,6,6,3.41,38.9,32,9.1,38.6,8,"No","Sin signos",4,,,
+"FEL0266","Albergue A","Seca","Hembra","No",10,6,5,3.57,39.5,36,15.6,32.6,8.6,"Sí","Leve",1,"Doxiciclina",15,1
+"FEL0054","Albergue C","Seca","Macho","No",31,1,8,,38.8,30,13.1,36.1,7.3,"No","Sin signos",0,,,
+"FEL0290","Albergue B"," Húmeda ","Hembra","No",45,3,5,3.1,39.1,39,14.4,32,7.8,"Sí","Moderada",1,"Amoxicilina-clavulánico",21,0
+"FEL0128","Albergue B","Mixta","Macho",,35,8,7,4.58,,29,11.9,38.8,6.7,"Sí","Moderada",1,"Amoxicilina-clavulánico",21,0
+"FEL0184","Albergue C","Seca","Macho","No",24,2,5,2.83,39.3,25,14.8,36.5,7,"Sí","Leve",3,"Amoxicilina-clavulánico",3,1
+"FEL0108","Albergue B","Seca","Macho","Sí",3,1,5,3.38,39,23,,,7.9,"No","Sin signos",1,,,
+"FEL0058","Albergue D","Seca","Macho","No",41,2,5,0.324,38.8,33,10.8,39,7.4,"Sí","Leve",2,"Doxiciclina",6,1
+"FEL0070","Albergue A","Seca","Macho","Sí",35,4,,3.47,38.4,26,12.2,36.6,6.9,"No","Sin signos",0,,,
+"FEL0003","Albergue D","Seca","Hembra","No",27,3,3,2.16,39.3,28,10.3,34.9,6.9,"No","Sin signos",2,,,
+"FEL0044","Albergue C","Mixta","Macho","No",58,2,7,4.27,38.8,25,8.4,40.2,6.8,"No","Sin signos",1,,,
+"FEL0096","Albergue A","Húmeda","Macho","Sí",25,7,4,,38.6,32,8.5,47.1,9,"No","Sin signos",2,,,
+"FEL0135","Albergue A","Mixta","Hembra","Sí",48,3,6,3.66,38.6,21,15.1,34.2,7.5,"No","Sin signos",0,,,
+"FEL0185","Albergue C","Seca","Macho","No",11,6,5,2.93,38.8,32,10.5,31.6,7,"Sí","Leve",3,"Doxiciclina",6,1
+"FEL0091","Albergue B","Húmeda","Hembra","No",60,6,5,3.3,,36,18.2,34.9,7.8,"Sí","Moderada",5,"Doxiciclina",4,1
+"FEL0163","Albergue C","Seca","Macho","Sí",26,7,7,4.78,39.4,28,19.2,35.4,7.9,"Sí","Moderada",0,"Doxiciclina",17,1
+"FEL0199","Albergue B","Seca","Macho","si",49,3,5,0.315,38.5,31,15.9,37.7,7.6,"Sí","Leve",2,"Amoxicilina-clavulánico",7,1
+"FEL0263","Albergue C","Mixta","Macho","No",51,5,6,4.81,38.6,22,7.6,37.7,6.5,"No","Sin signos",0,,,
+"FEL0151","Albergue C","Mixta","Hembra","Sí",28,3,5,2.76,,28,12,37.4,7.1,"No","Sin signos",0,,,
+"FEL0102","Albergue C","Húmeda","Macho","Sí",35,5,7,5.37,39.2,33,12.9,38.5,7.3,"No","Sin signos",0,,,
+"FEL0201","Albergue B","Seca","Macho","Sí",36,1,7,3.88,38.8,21,12.3,38.1,7,"No","Sin signos",0,,,
+"FEL0240","Albergue A","Mixta","Hembra","Sí",6,8,6,4.38,38.5,34,10.1,36.7,,"Sí","Leve",1,"Amoxicilina-clavulánico",4,1
+"FEL0202","Albergue B","Mixta","Macho","Sí",41,8,4,2.46,39.1,28,,36.7,8.4,"Sí","Moderada",3,"Amoxicilina-clavulánico",3,1
+"FEL0236","Albergue D","Seca","Hembra","No",71,6,3,2.52,39.7,37,12.3,24.1,6.9,"Sí","Moderada",3,"Doxiciclina",13,1
+"FEL0115","Albergue B","Seca","Hembra","Sí",19,4,5,2.53,38.1,30,,42.8,7.2,"No","Sin signos",0,,,
+"FEL0242","Albergue C","Húmeda","Macho","No",54,6,5,4.33,38.6,20,11.8,32.1,6.7,"No","Sin signos",0,,,
+"FEL0159","Albergue D","Mixta","Macho","No",6,2,8,4.92,38,27,10,33.3,8.1,"No","Sin signos",0,,,
+"FEL0040","Albergue A","Seca","Hembra","Sí",25,4,5,3.66,39.1,41,11.5,32.4,8.4,"Sí","Leve",0,"Amoxicilina-clavulánico",20,1
+"FEL0138","Albergue A","Mixta","Hembra","Sí",27,7,3,2.28,39.1,22,9.2,36.7,6.1,"No","Sin signos",2,,,
+"FEL0085","Albergue B","Mixta","Hembra","Sí",37,11,7,4.48,38.7,19,16.3,21,7.9,"No","Sin signos",0,,,
+"FEL0098","Albergue C","Mixta","Macho","No",16,6,4,4.41,38.5,28,15.8,35.5,7.1,"Sí","Moderada",0,"Amoxicilina-clavulánico",11,1
+"FEL0125","Albergue A","Mixta","Macho","No",41,10,7,4,39.5,30,12.3,33.7,7.1,"Sí","Grave",5,"Doxiciclina",8,1
+"FEL0206","Albergue C","Mixta","Macho","No",31,6,6,4.39,38.4,40,14.4,23.8,7.5,"Sí","Leve",0,"Doxiciclina",3,1
+"FEL0007","Albergue C","Seca","Macho","No",43,4,5,3.17,,32,14.8,29.5,,"Sí","Grave",2,"Amoxicilina-clavulánico",21,0
+"FEL0229","Albergue C","Húmeda","Macho","si",17,7,6,5.56,38,29,5.6,31.2,8.7,"No","Sin signos",0,,,
+"FEL0008","Albergue C","Mixta","Hembra","No",5,4,6,3.83,39.8,37,16.6,36.7,6.9,"Sí","Moderada",2,"Amoxicilina-clavulánico",11,0
+"FEL0045","Albergue A","Húmeda","Macho","No",34,4,5,4.06,39.3,31,10.5,35.2,7.4,"No","Sin signos",3,,,
+"FEL0071","Albergue A","Seca","Hembra","No",58,3,5,3.41,39.1,34,12.7,36.2,7.6,"No","Sin signos",3,,,
+"FEL0171","Albergue A","Mixta","Macho","Sí",27,5,5,3.74,38.8,25,8.8,35.2,6.9,"No","Sin signos",0,,,
+"FEL0049","Albergue C","Mixta","Macho","Sí",44,5,7,0.388,38.3,27,7.5,28.2,7,"No","Sin signos",0,,,
+"FEL0251","Albergue A","Mixta","Hembra","No",40,9,8,4.57,38.6,25,3.3,42.1,6.3,"No","Sin signos",3,,,
+"FEL0289","Albergue A","Húmeda","Macho","Sí",40,3,4,3.22,38.7,25,10.1,34.9,6.9,"No","Sin signos",0,,,
+"FEL0215","Albergue A","Mixta","Macho","Sí",39,4,6,4.97,38.8,24,4.2,41.5,6.5,"No","Sin signos",1,,,
+"FEL0275","Albergue B","Seca","Hembra","No",14,6,7,3.34,38.7,,14.5,38.8,6.3,"Sí","Leve",3,"Doxiciclina",4,1
+"FEL0280","Albergue B","Seca","Macho","No",29,5,4,4.34,39.5,42,14.1,31.3,8.9,"Sí","Grave",3,"Doxiciclina",21,0
+"FEL0153","Albergue B","Mixta","Macho","Sí",52,6,7,,37.9,24,7.5,38.7,7.1,"No","Sin signos",0,,,
+"FEL0258","Albergue A","Húmeda","Hembra","No",28,3,6,2.64,39.5,37,14.6,34.7,7.6,"Sí","Moderada",1,"Doxiciclina",10,1
+"FEL0120","Albergue D","Húmeda","Macho","Sí",45,3,4,4.99,38.3,16,13.7,36.9,7,"No","Sin signos",1,,,
+"FEL0021","Albergue C","Mixta","Hembra","No",15,1,7,5.23,39.2,34,17,29.8,6.7,"Sí","Grave",0,"Amoxicilina-clavulánico",15,0
+"FEL0298","Albergue D","Mixta","Macho","Sí",58,7,6,3.75,39.1,31,12.7,38.2,7,"No","Sin signos",1,,,
+"FEL0257","Albergue C","Húmeda","Hembra","Sí",8,8,6,4.62,38.9,40,13.2,38.8,7.3,"Sí","Leve",1,"Doxiciclina",2,1
+"FEL0264","Albergue B","Seca","Macho","Sí",41,4,3,,,23,10.4,40.6,7.2,"No","Sin signos",0,,,
+"FEL0221","Albergue B","Seca","Hembra","Sí",29,6,4,2.75,39.1,29,11.5,28.2,8.7,"Sí","Leve",4,"Doxiciclina",21,1
+"FEL0064","Albergue A","Seca","Macho","No",29,6,6,4.37,38.1,22,13.2,42.9,7.5,"No","Sin signos",0,,,
+"FEL0104","Albergue A","Mixta","Macho","Sí",6,7,3,3.17,38.1,27,7.3,40.9,7.1,"No","Sin signos",2,,,
+"FEL0026","Albergue D","Seca","Hembra","Sí",,3,5,3.68,38.5,27,7.6,45.5,5.6,"No","Sin signos",0,,,
+"FEL0178","Albergue D","Seca","Macho","No",20,3,,3.59,39.1,28,,33.4,6.6,"No","Sin signos",1,,,
+"FEL0015","Albergue B","Seca","Macho","Sí",3,1,6,4.6,38.9,30,10.4,40.7,7.5,"No","Sin signos",0,,,
+"FEL0078","Albergue A","Seca","Hembra","No",34,6,7,3.85,38.7,34,16.4,31.6,6,"Sí","Leve",1,"Amoxicilina-clavulánico",4,1
+"FEL0068","Albergue A","Mixta","Macho","Sí",3,5,7,4.7,38.4,38,12.7,31.6,6,"Sí","Grave",0,"Amoxicilina-clavulánico",11,1
+"FEL0057","Albergue D","Mixta","Hembra","Sí",36,2,3,2.36,38.3,27,12.6,38.7,6.8,"No","Sin signos",0,,,
+"FEL0082","Albergue D","Seca","Macho","No",69,6,7,4.82,38.7,25,8.3,31.1,7.6,"No","Sin signos",2,,,
+"FEL0226","Albergue A","Húmeda","Macho","Sí",42,2,5,4.54,38.6,32,9.7,37.4,6.6,"No","Sin signos",1,,,
+"FEL0254","Albergue A","Mixta","Macho","No",17,10,6,4.32,39.4,33,13.8,35.9,7.2,"Sí","Grave",6,"Amoxicilina-clavulánico",11,1
+"FEL0031","Albergue A","Seca","Macho","Sí",23,4,5,3.74,39.9,37,17,35.9,8.4,"Sí","Leve",3,"Doxiciclina",16,1
+"FEL0234","Albergue C","Húmeda","Macho","Sí",24,6,4,3.6,39.2,37,16.3,38.1,6.9,"Sí","Grave",2,"Doxiciclina",15,1
+"FEL0086","Albergue A","Seca","Macho","Sí",22,3,7,5.38,38.1,23,8.7,42,6.8,"No","Sin signos",0,,,
+"FEL0050","Albergue B","Mixta","Macho","Sí",22,5,6,4.16,39.6,32,13,26.9,7,"Sí","Moderada",0,"Amoxicilina-clavulánico",2,1
+"FEL0232","Albergue D","Húmeda","Hembra","No",32,2,4,2.55,39.1,36,11.7,31.9,6.7,"Sí","Moderada",0,"Doxiciclina",6,1
+"FEL0112","Albergue D","Seca","Hembra","Sí",40,4,3,2.4,38.1,20,10.7,37.7,6.7,"No","Sin signos",0,,,
+"FEL0089","Albergue B","Seca","Hembra","Sí",16,6,6,3.4,39.5,,10.7,30.6,7.1,"Sí","Moderada",0,"Doxiciclina",21,0
+"FEL0051","Albergue D","Seca","Hembra",,51,3,5,2.41,,24,11.1,35.4,7.9,"No","Sin signos",1,,,
+"FEL0039","Albergue C","Seca","Macho","No",52,6,6,4.45,39.4,,14.2,35.3,6.3,"Sí","Moderada",2,"Doxiciclina",14,1
+"FEL0122","Albergue B","Seca","Macho","No",3,4,5,4.37,38.5,26,6.6,45.1,5.8,"No","Sin signos",1,,,
+"FEL0018","Albergue C","Seca","Hembra","Sí",47,6,3,2.39,38.7,27,6.4,35.9,7.8,"No","Sin signos",1,,,
+"FEL0274","Albergue B","Seca","Hembra","Sí",43,4,5,4.61,38.4,25,11.6,25,6.8,"No","Sin signos",0,,,
+"FEL0183","Albergue C","Mixta","Macho","No",26,2,5,3.91,,23,11.3,38.4,8.5,"No","Sin signos",1,,,
+"FEL0149","Albergue A","Mixta","Macho","Sí",52,8,3,3.77,38.5,32,11.4,40.2,6.4,"No","Sin signos",1,,,
+"FEL0277","Albergue B","Seca","Macho","No",33,5,3,3.34,39.1,28,15.7,32.1,7.5,"Sí","Grave",7,"Doxiciclina",21,0
+"FEL0095","Albergue A","Mixta","Hembra","No",21,7,4,,39,31,15.6,37.9,6.4,"Sí","Leve",3,"Doxiciclina",16,1
+"FEL0022","Albergue A","Mixta","Hembra","Sí",34,2,5,3,39.6,39,12.7,34.1,8.4,"Sí","Leve",0,"Amoxicilina-clavulánico",5,1
+"FEL0001","albergue b","Húmeda","Macho","Sí",65,5,5,4,38.3,32,12.3,33.2,6.8,"No","Sin signos",1,,,
+"FEL0214","Albergue B","Seca","Macho","Sí",23,6,6,4.47,,28,16.3,31.7,7.5,"Sí","Leve",1,"Amoxicilina-clavulánico",21,0
+"FEL0129","Albergue D","Seca","Hembra","No",29,5,5,4.24,39.5,28,15.2,28.6,,"Sí","Leve",2,"Amoxicilina-clavulánico",7,1
+"FEL0011","Albergue C","mixta","Macho","Sí",56,4,5,4.84,38.8,38,8.6,35.2,6.5,"No","Sin signos",1,,,
+"FEL0299","Albergue A","Húmeda","Macho",,14,4,5,4.57,38.5,26,12.9,38.9,6.8,"No","Sin signos",0,,,
+"FEL0139","Albergue B","Húmeda","Hembra","Sí",40,6,5,3.21,39.2,20,5.3,37.6,7.7,"No","Sin signos",0,,,
+"FEL0284","Albergue B","Seca","Hembra","Sí",13,8,4,3.26,39.1,,12.3,32.9,6.7,"Sí","Leve",1,"Amoxicilina-clavulánico",11,1
+"FEL0116","Albergue C","Seca","Macho",,21,4,5,4.59,39.7,38,17.6,30.3,,"Sí","Moderada",2,"Doxiciclina",11,0
+"FEL0062","Albergue A","Húmeda","Macho","No",35,2,8,,38.3,21,,40.4,7.8,"No","Sin signos",3,,,
+"FEL0035","albergue c","Seca","Macho",,6,5,6,3.87,,25,9.7,35.1,5.8,"No","Sin signos",2,,,
+"FEL0137","Albergue A","Seca","Hembra","No",45,,3,2.39,39.1,29,,41.5,6.4,"Sí","Leve",0,"Amoxicilina-clavulánico",10,1
+"FEL0053","Albergue B","Mixta","Macho","Sí",40,4,5,4.23,,25,17.5,43.1,5.4,"No","Sin signos",0,,,
+"FEL0106","Albergue B","Mixta","Macho","No",52,7,4,3.62,38.5,31,11.9,32.6,6.7,"No","Sin signos",0,,,
+"FEL0213","Albergue C","Seca","Macho","Sí",32,7,4,3.55,38.1,27,8.2,45.6,6.4,"No","Sin signos",1,,,
+"FEL0218","Albergue B","Húmeda","Hembra","No",59,7,4,2.36,39.8,30,14.2,38.7,7.8,"Sí","Grave",4,"Doxiciclina",21,0
+"FEL0177","Albergue C","Seca","Hembra","Sí",21,4,6,4.36,38.5,20,10,37.5,6.1,"No","Sin signos",2,,,
+"FEL0273","Albergue A","Seca","Macho","No",19,7,4,4.86,38.7,31,12.1,,8,"No","Sin signos",0,,,
+"FEL0077","Albergue D","Mixta","Macho","Sí",14,8,5,4.15,39.3,42,14.4,37.9,7.3,"Sí","Moderada",0,"Doxiciclina",20,1
+"FEL0092","Albergue D","Seca","Macho","No",41,2,7,4.61,38.7,23,11.5,,7,"No","Sin signos",1,,,
+"FEL0246","Albergue C","Mixta","Hembra","No",65,6,5,4.48,39.1,29,17.1,43.6,7.7,"No","Sin signos",0,,,
+"FEL0017","Albergue C","Mixta","Macho","no",48,7,2,1.69,38.9,27,8.8,37.3,6.4,"No","Sin signos",1,,,

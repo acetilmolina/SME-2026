@@ -1,0 +1,346 @@
+﻿"id_cuy","region","linea_genetica","sexo","suplemento_vitamina_c","densidad_animales_m2","tamano_camada","peso_nacimiento_g","peso_8_semanas_g","temperatura_c","hematocrito_pct","leucocitos_10_9_l","proteinas_totales_g_dl","glucosa_mg_dl","salmonelosis","severidad_clinica","episodios_diarrea","tratamiento","dias_hasta_recuperacion","recuperado"
+"CUY0320","Cajamarca","Inti","Macho","No",6.9,,156,953,38.9,38.1,9.9,5.2,153,"No","Sin salmonelosis",1,,,
+"CUY0287","Junín","Andina","Hembra","Sí",13.3,1,173,739,39.4,44.9,,6.1,141,"No","Sin salmonelosis",1,,,
+"CUY0326","Lima","Perú","Hembra","No",9,2,128,653,39.3,42.2,7.7,5.2,125,"Sí","Moderada",2,"Sulfa-trimetoprim",3,1
+"CUY0098","Cajamarca","Inti","Hembra","Sí",8,4,162,1017,38.4,48.6,4.1,6.2,175,"No","Sin salmonelosis",0,,,
+"CUY0060","Lima","Perú","Hembra","Sí",7.2,1,148,854,39.7,47.5,6.3,5.6,138,"No","Sin salmonelosis",0,,,
+"CUY0032","Lima","Andina","Macho","No",10.2,2,126,718,38.7,45.9,10.2,5,120,"Sí","Moderada",1,"Enrofloxacino",2,1
+"CUY0036","Cajamarca","Andina","Hembra","No",8,1,181,881,38.9,37.9,10.9,5.7,119,"Sí","Leve",1,"Sulfa-trimetoprim",9,1
+"CUY0258","Cajamarca","Andina","Hembra","Sí",5.2,4,194,734,38.3,41.8,11.7,6,137,"No","Sin salmonelosis",1,,,
+"CUY0230","Junín","Perú","Macho","No",8.2,3,185,1225,38.6,38.9,11.5,5.5,103,"No","Sin salmonelosis",1,,,
+"CUY0340","Cajamarca","Perú","Macho","No",13.1,4,146,831,38.9,44.9,14.1,5.7,138,"Sí","Grave",2,"Sulfa-trimetoprim",17,1
+"CUY0280","Arequipa","Andina","Macho","Sí",9,1,141,874,,40.7,10.5,5.4,114,"No","Sin salmonelosis",2,,,
+"CUY0103","Junín","Andina","Macho","Sí",7.5,1,17.1,981,,47.8,11.5,5.5,144,"No","Sin salmonelosis",0,,,
+"CUY0104","Arequipa","Perú","Macho","No",6.7,3,155,895,40,37.3,9.6,4.2,137,"Sí","Grave",2,"Sulfa-trimetoprim",20,1
+"CUY0300","Cajamarca","Perú","Hembra","No",9.8,1,109,732,38.5,37.3,9.1,6.2,126,"Sí","Leve",0,"Enrofloxacino",5,1
+"CUY0304","Arequipa","Andina","Macho","Sí",10,6,205,973,38.6,43.7,9.3,6.4,129,"No","Sin salmonelosis",1,,,
+"CUY0268","Cajamarca","Perú","Macho",,8,3,104,621,39.5,37,9.8,5.1,132,"Sí","Leve",1,"Enrofloxacino",4,1
+"CUY0179","Lima","Andina","Macho","Sí",8.1,2,171,896,37.6,47.1,8.1,6,147,"No","Sin salmonelosis",1,,,
+"CUY0034","Junín","Andina","Macho","Sí",5.6,3,213,,38.5,47.6,11.3,5.8,131,"No","Sin salmonelosis",1,,,
+"CUY0012","Lima","Perú","Macho","No",10.1,3,144,976,38.4,46.8,6.5,5.5,173,"No","Sin salmonelosis",1,,,
+"CUY0222","Cajamarca","Perú","Macho","Sí",8.2,3,181,1092,40.3,41.5,12.6,5,114,"Sí","Grave",0,"Sulfa-trimetoprim",12,1
+"CUY0150","Cajamarca","Perú","Hembra","No",10.2,2,175,,38.9,40.1,10.4,5.4,137,"No","Sin salmonelosis",0,,,
+"CUY0039","Cajamarca","Inti","Macho","Sí",8.8,1,144,1070,39,47.4,9.2,4.7,129,"No","Sin salmonelosis",0,,,
+"CUY0313","Junín","ANDINA","Macho","Sí",4.8,3,153,923,,43,9.1,5.3,131,"No","Sin salmonelosis",0,,,
+"CUY0156","Junín","Perú","Hembra","No",9.2,,185,1092,39,44,,6.4,160,"No","Sin salmonelosis",1,,,
+"CUY0057","Lima","Perú","Hembra","Sí",8.9,2,157,917,38.7,40.9,7.5,5.8,183,"No","Sin salmonelosis",0,,,
+"CUY0319","Junín","Andina","Macho","Sí",11.7,3,117,817,38.6,34.3,10,6.8,107,"Sí","Leve",1,"Sulfa-trimetoprim",14,1
+"CUY0182","Junín","Andina","Macho","Sí",11,2,162,837,,46,12.4,,143,"No","Sin salmonelosis",0,,,
+"CUY0168","Lima","Inti","Macho","Sí",10,4,,843,38.2,49.5,6.6,5.6,107,"No","Sin salmonelosis",1,,,
+"CUY0141","Arequipa","Inti","Hembra","No",6.3,5,130,839,38.2,51.2,8.8,,165,"No","Sin salmonelosis",0,,,
+"CUY0271","Arequipa","Perú","Macho","Sí",9.7,4,119,716,38.8,39.6,10.6,6.6,119,"Sí","Moderada",5,"Enrofloxacino",2,1
+"CUY0008","Lima","Inti","Macho","Sí",9.3,3,146,1069,39,47.3,9,6,146,"No","Sin salmonelosis",0,,,
+"CUY0195","Arequipa","Inti","Hembra","Sí",7,3,134,796,38.5,40,11,5.5,131,"Sí","Grave",1,"Enrofloxacino",7,1
+"CUY0062","Arequipa","Andina","Macho","No",8.3,2,90,778,37.9,46.1,,5.3,166,"No","Sin salmonelosis",0,,,
+"CUY0270","Lima","Perú","Macho","No",8.4,4,199,1028,39.6,46,8.5,4.4,128,"Sí","Leve",1,"Enrofloxacino",15,1
+"CUY0022","Cajamarca","Inti","Hembra","Sí",12.6,2,109,774,,37.6,7,6.1,118,"No","Sin salmonelosis",2,,,
+"CUY0261","Cajamarca","Perú","Hembra","Sí",9.6,1,156,797,39.4,44.2,12.7,5.2,136,"Sí","Leve",1,"Sulfa-trimetoprim",13,1
+"CUY0275","Cajamarca","Inti","Hembra","No",5.7,1,128,810,38.7,42.7,7,6.7,167,"No","Sin salmonelosis",0,,,
+"CUY0165","Cajamarca","Andina","Macho","No",7.1,2,151,775,39.8,40,15.1,4.8,158,"Sí","Leve",1,"Enrofloxacino",5,1
+"CUY0241","Arequipa","Andina","Macho","No",11.3,4,150,805,38.8,50.8,8.4,6.1,126,"No","Sin salmonelosis",1,,,
+"CUY0063","Lima","Perú","Macho","No",7.7,6,130,957,39.2,37.3,13.3,,152,"Sí","Moderada",1,"Enrofloxacino",8,1
+"CUY0149","Cajamarca","Andina","Macho","No",6.7,5,156,927,38.5,37.9,11.1,5.3,157,"No","Sin salmonelosis",0,,,
+"CUY0325","Cajamarca"," Perú ","Macho","Sí",9.4,4,191,1004,37.8,42.5,12.3,6.7,198,"No","Sin salmonelosis",0,,,
+"CUY0263","Arequipa","Perú","Macho","Sí",9.4,3,136,927,37.9,44.8,8.5,5.8,184,"No","Sin salmonelosis",0,,,
+"CUY0206","Arequipa","Inti","Hembra","Sí",7.4,4,145,762,39.4,47.2,10.5,4,128,"Sí","Leve",1,"Enrofloxacino",6,1
+"CUY0295","Arequipa","Andina","Macho","Sí",8.5,6,143,820,38.5,41.9,9.6,4.8,109,"No","Sin salmonelosis",1,,,
+"CUY0064","Lima","Perú","Macho","No",6.9,3,149,933,38,40.7,7,6.3,154,"No","Sin salmonelosis",0,,,
+"CUY0011","junín","Andina","Hembra","Sí",8.2,1,145,818,,43.8,6.3,5.4,128,"Sí","Leve",1,"Enrofloxacino",1,1
+"CUY0191","Cajamarca","Perú","Hembra","No",6.5,3,142,769,38.4,47.1,7.1,5.6,151,"No","Sin salmonelosis",0,,,
+"CUY0163","Arequipa","Inti","Hembra",,9.6,2,129,720,38.1,42.5,10.2,6.3,159,"No","Sin salmonelosis",0,,,
+"CUY0294","Junín","Andina","Hembra","Sí",8.8,3,125,752,38.9,45.4,6.4,6.5,168,"No","Sin salmonelosis",2,,,
+"CUY0314","Lima","Andina","Hembra","Sí",7.4,1,152,780,38.1,40,5.5,5.6,153,"No","Sin salmonelosis",0,,,
+"CUY0161","Arequipa","Inti","Hembra","No",6.7,5,174,784,38.7,41,10.2,5.7,154,"No","Sin salmonelosis",2,,,
+"CUY0303","Cajamarca","Inti","Macho","No",11.1,3,159,1051,39,34.6,,6,107,"No","Sin salmonelosis",1,,,
+"CUY0110","Cajamarca","Inti","Hembra","No",9.1,2,152,949,38.9,50.8,9,5.6,147,"No","Sin salmonelosis",1,,,
+"CUY0255","Lima","Inti","Hembra","No",,1,201,891,,46.1,7.2,5.9,138,"No","Sin salmonelosis",0,,,
+"CUY0006","Cajamarca","Andina","Hembra","Sí",15,3,141,688,39.2,47.6,10.6,4.7,134,"Sí","Leve",2,"Enrofloxacino",18,1
+"CUY0187","Junín","Perú","Hembra","Sí",7.3,4,133,734,38.8,40.5,14.5,5.7,167,"Sí","Moderada",1,"Sulfa-trimetoprim",1,1
+"CUY0335","Junín","Perú","Macho","Sí",7.2,4,126,908,38.7,46,10.4,5,104,"No","Sin salmonelosis",3,,,
+"CUY0292","Junín","Andina","Hembra","Sí",9.6,,159,751,38.4,34.1,8,6,140,"No","Sin salmonelosis",0,,,
+"CUY0256","Cajamarca","Andina","Macho","Sí",9.2,3,180,982,,46.5,11.4,5.7,117,"No","Sin salmonelosis",4,,,
+"CUY0305","Lima","Inti","Hembra","No",4.7,2,171,993,38.8,46.7,8.1,6,160,"No","Sin salmonelosis",0,,,
+"CUY0075","Cajamarca","Perú","Hembra","Sí",6.6,1,,866,38.4,39.5,8.8,5.3,183,"No","Sin salmonelosis",0,,,
+"CUY0298","Arequipa","Andina","Macho","No",6.5,1,136,1073,38.4,34.3,6.4,5,127,"No","Sin salmonelosis",0,,,
+"CUY0178","Junín","Perú","Hembra","No",7.5,3,118,817,39.3,37.2,10,4.4,110,"Sí","Grave",1,"Enrofloxacino",17,1
+"CUY0315","Lima","Andina","Macho",,12,2,158,916,,42.6,,5.7,129,"No","Sin salmonelosis",0,,,
+"CUY0259","Cajamarca","Inti","Macho","No",9.7,1,114,830,39.2,38.7,13.7,4.9,124,"Sí","Moderada",1,"Enrofloxacino",10,1
+"CUY0236","Arequipa","Perú","Hembra","Sí",8.6,1,149,919,39.3,43.4,9.4,5,152,"No","Sin salmonelosis",0,,,
+"CUY0072","Cajamarca","Perú","Hembra","Sí",9.8,2,136,856,38.6,43.6,8.7,6,171,"No","Sin salmonelosis",0,,,
+"CUY0264","Lima","Inti","Macho","No",7,4,159,855,38.5,41.5,8.9,6,91,"Sí","Leve",3,"Sulfa-trimetoprim",11,1
+"CUY0302","Lima","Andina","Hembra","Sí",8.7,3,166,789,38.5,38.2,7.9,4.9,139,"No","Sin salmonelosis",0,,,
+"CUY0274","Lima","Perú","Macho","Sí",5.8,3,96,827,38.7,43.3,10.7,5.4,,"Sí","Leve",0,"Sulfa-trimetoprim",5,1
+"CUY0208","Cajamarca","Andina","Hembra","Sí",10.4,2,127,765,37.8,46.2,10.2,5.9,119,"No","Sin salmonelosis",0,,,
+"CUY0083","Cajamarca","Perú","Macho","No",11.8,1,151,1047,39.5,39.1,12.5,4.7,107,"Sí","Moderada",3,"Sulfa-trimetoprim",8,1
+"CUY0123","Lima","Andina","Hembra","Sí",5,2,148,842,38.4,35.9,11.6,6.6,166,"No","Sin salmonelosis",0,,,
+"CUY0324","Cajamarca","Andina","Macho","Sí",6.8,,170,846,,33.4,9.1,5.7,165,"No","Sin salmonelosis",6,,,
+"CUY0049","Cajamarca","Inti","Macho","No",9.8,2,124,909,38.5,42.2,11.7,5.4,165,"No","Sin salmonelosis",1,,,
+"CUY0067","Cajamarca","Andina","Hembra","No",4.9,1,150,720,37.7,44,7.2,5.5,138,"No","Sin salmonelosis",3,,,
+"CUY0197","Cajamarca","Perú","Macho","No",8.6,3,106,818,38.8,44,5.7,5.6,156,"No","Sin salmonelosis",1,,,
+"CUY0107","Arequipa","Perú","Hembra","No",10.8,2,116,891,38.4,46.6,9.2,6.4,111,"No","Sin salmonelosis",1,,,
+"CUY0065","Junín","Perú","Macho","Sí",7.6,4,122,1012,38.5,45.3,8.3,5.9,156,"No","Sin salmonelosis",1,,,
+"CUY0226","Cajamarca","Inti","Macho","Sí",10.8,3,103,914,38.9,45.6,7.9,5.4,165,"No","Sin salmonelosis",0,,,
+"CUY0317","Lima","Perú","Macho","Sí",9.8,2,173,985,39.1,43.2,9.3,5.4,114,"No","Sin salmonelosis",2,,,
+"CUY0172","Lima","Perú","Macho","No",9.4,3,141,1045,38.5,37.9,10.4,5.5,151,"No","Sin salmonelosis",1,,,
+"CUY0121","Junín","Andina","Macho","No",10.2,1,182,811,38.4,40.4,,5.1,92,"Sí","Leve",0,"Sulfa-trimetoprim",8,1
+"CUY0102","Cajamarca","Inti","Macho","No",7.2,1,116,835,39.3,37.8,10.5,4.8,120,"Sí","Leve",0,"Enrofloxacino",3,0
+"CUY0332","Cajamarca","Perú","Hembra","Sí",7.2,4,134,899,39.4,41.9,10.2,5.2,148,"Sí","Moderada",1,"Enrofloxacino",21,0
+"CUY0122","Cajamarca","Inti","Hembra","Sí",10.8,1,154,835,39.1,40.6,11.6,5.1,112,"Sí","Leve",3,"Sulfa-trimetoprim",5,1
+"CUY0144","Junín","Inti","Hembra","Sí",8.4,1,104,773,38.8,43,8.9,5.7,145,"No","Sin salmonelosis",1,,,
+"CUY0038","Cajamarca","Andina","Hembra","No",10.9,6,141,684,39.6,37.3,17,5.2,91,"Sí","Moderada",2,"Enrofloxacino",15,1
+"CUY0312","Junín","Inti","Macho","Sí",8.6,3,137,868,38.5,43.9,9.4,5.7,111,"Sí","Moderada",1,"Enrofloxacino",3,1
+"CUY0306","Arequipa","Perú","Macho","No",7.7,4,166,911,39.2,,11.3,5.3,142,"No","Sin salmonelosis",0,,,
+"CUY0132","Lima","Inti","Hembra","No",7.8,5,137,919,39.2,36,11.6,5.3,142,"No","Sin salmonelosis",1,,,
+"CUY0293","Lima","Perú","Hembra","Sí",8.9,2,128,838,38.7,45.3,8.6,5.1,144,"No","Sin salmonelosis",0,,,
+"CUY0117","Cajamarca","Inti","Macho","Sí",11.7,,167,949,38.4,45.6,,5.2,137,"No","Sin salmonelosis",2,,,
+"CUY0232","Junín","Andina","Hembra","Sí",7.7,2,150,872,38.3,45.4,9.1,6.5,118,"No","Sin salmonelosis",4,,,
+"CUY0192","Lima","Andina","Hembra","Sí",9.2,4,137,916,39.1,43.7,11.3,6.1,166,"No","Sin salmonelosis",0,,,
+"CUY0042","Cajamarca","Inti","Hembra","No",6.5,6,107,,39.1,39.6,9.5,6.2,165,"No","Sin salmonelosis",0,,,
+"CUY0284","Cajamarca","Andina","Macho","Sí",6.6,2,181,863,39.5,44,6.6,,138,"No","Sin salmonelosis",2,,,
+"CUY0282","Lima","Perú","Macho","Sí",6.9,3,159,821,39.2,,12,6.1,96,"Sí","Leve",0,"Enrofloxacino",10,1
+"CUY0134","Lima","Perú","Macho","Sí",9.7,3,138,826,39.5,44.1,9.2,5.1,119,"Sí","Leve",1,"Sulfa-trimetoprim",5,1
+"CUY0138","LIMA","Andina","Hembra","No",6.6,2,153,683,39.2,42.5,13.5,5.6,91,"Sí","Leve",1,"Sulfa-trimetoprim",12,0
+"CUY0297","Cajamarca","Andina","Hembra","No",10.2,1,160,951,39.5,37.3,11,4.9,129,"Sí","Grave",2,"Enrofloxacino",8,1
+"CUY0323","Junín","Perú","Hembra","Sí",7.7,,156,886,39.2,42.8,10.1,5.7,138,"No","Sin salmonelosis",1,,,
+"CUY0331","Lima","Perú","Macho",,11,5,115,1037,37.8,37.9,7.6,4.8,151,"Sí","Leve",2,"Enrofloxacino",6,1
+"CUY0096","Cajamarca","Inti","Macho","No",7.9,2,144,962,,43.3,10.9,6.4,166,"No","Sin salmonelosis",0,,,
+"CUY0019","Cajamarca","Perú","Hembra","si",8.4,2,112,,39,38.8,16.4,4.5,124,"Sí","Leve",0,"Enrofloxacino",7,1
+"CUY0279","Cajamarca","Inti","Hembra","Sí",8.8,3,133,875,38.5,46.4,7.5,6.2,151,"No","Sin salmonelosis",0,,,
+"CUY0189","Arequipa","Andina","Hembra","Sí",7.9,6,145,881,38.6,42.4,7.1,5.7,175,"No","Sin salmonelosis",1,,,
+"CUY0257","Cajamarca","Inti","Macho","No",9.9,5,136,1014,39.3,36.5,9.7,6.6,141,"No","Sin salmonelosis",1,,,
+"CUY0135","Arequipa","Andina","Hembra","No",10.2,3,171,1006,38.8,41.5,8.9,,130,"No","Sin salmonelosis",0,,,
+"CUY0184","lima","Perú","Hembra","Sí",8.3,2,146,831,38.8,37.9,8.6,5.3,134,"No","Sin salmonelosis",1,,,
+"CUY0116","Lima","Inti","Hembra","No",8,1,122,811,38.5,46.5,4.5,5.7,132,"No","Sin salmonelosis",1,,,
+"CUY0308","Junín","Perú","Macho","No",10.3,1,182,1127,,43.3,12.2,5,97,"Sí","Grave",0,"Sulfa-trimetoprim",13,1
+"CUY0125","Lima","Perú","Macho","No",12.2,2,156,1046,39.8,,12.5,3.7,121,"Sí","Moderada",0,"Enrofloxacino",12,1
+"CUY0296","Arequipa","Inti","Macho","Sí",8.2,3,166,1044,,39,9,5.8,140,"No","Sin salmonelosis",0,,,
+"CUY0188","Cajamarca","Inti","Macho","Sí",8.9,9,149,977,38.5,43.2,8.2,5.3,181,"No","Sin salmonelosis",2,,,
+"CUY0176","Cajamarca","Andina","Macho","No",7.7,3,165,818,38.9,,10.5,6,140,"No","Sin salmonelosis",1,,,
+"CUY0204","Junín","Inti","Macho","Sí",9.7,2,198,1035,38.7,45.9,14.1,5.6,147,"No","Sin salmonelosis",1,,,
+"CUY0118","CAJAMARCA","Inti","Hembra","No",6.5,1,,893,38.7,48,7.1,5.7,130,"No","Sin salmonelosis",0,,,
+"CUY0137","Lima","Andina","Macho","No",8.1,3,162,1008,38.8,51,6.9,7,178,"No","Sin salmonelosis",1,,,
+"CUY0249","Cajamarca","Perú","Hembra","NO",8.3,5,150,,38.8,44.6,6.8,6.2,127,"No","Sin salmonelosis",2,,,
+"CUY0047","Cajamarca","Perú","Hembra","Sí",15,3,166,1075,39.5,35.3,9.5,5.6,128,"Sí","Moderada",1,"Enrofloxacino",5,1
+"CUY0108","Cajamarca","Andina","Macho","Sí",7,3,157,827,38.2,39.7,12.3,5.1,106,"No","Sin salmonelosis",3,,,
+"CUY0080","Cajamarca","Inti","Macho","Sí",9.4,1,187,985,39,49.7,11.2,5.4,147,"No","Sin salmonelosis",1,,,
+"CUY0171","Junín","Perú","Macho","No",8.2,,167,1041,38.8,38.7,8.2,5.7,143,"No","Sin salmonelosis",0,,,
+"CUY0215","Cajamarca","Inti","Macho","No",9.5,5,181,996,39.1,43.6,9.9,5.7,121,"Sí","Leve",1,"Enrofloxacino",6,1
+"CUY0202","Arequipa","Perú","Macho","No",9.3,4,178,939,38.3,43.8,13.5,4.7,134,"No","Sin salmonelosis",0,,,
+"CUY0086","Cajamarca","Andina","Macho","Sí",,3,142,874,38.7,44,,6.6,169,"No","Sin salmonelosis",0,,,
+"CUY0174","Cajamarca","Andina","Hembra","Sí",10.8,4,125,694,39,42.9,11.4,4.9,122,"Sí","Leve",1,"Sulfa-trimetoprim",13,1
+"CUY0159","Cajamarca","Perú","Hembra","Sí",11.3,4,201,,39.2,31.3,11.3,4.8,117,"Sí","Leve",1,"Enrofloxacino",13,1
+"CUY0055","Arequipa","Andina","Macho","si",10.2,1,128,928,38.9,39,12.3,5.4,121,"No","Sin salmonelosis",1,,,
+"CUY0069","Lima","Inti","Macho","No",11.3,3,122,832,38.7,37,10.4,5.7,157,"No","Sin salmonelosis",1,,,
+"CUY0205","Junín","Inti","Hembra","No",10.6,5,151,855,,41.3,13.6,4.6,126,"Sí","Grave",2,"Enrofloxacino",17,1
+"CUY0091","Lima","Andina","Hembra","No",9.3,4,117,693,39.3,39.8,10.3,4.5,147,"Sí","Leve",2,"Sulfa-trimetoprim",21,0
+"CUY0240","Junín","Inti","Macho","No",11,1,173,993,39.2,47.1,8.8,4.1,147,"No","Sin salmonelosis",1,,,
+"CUY0005","Lima","Andina","Macho","No",9.2,5,126,815,39.2,,13.5,4.9,103,"Sí","Moderada",3,"Enrofloxacino",5,1
+"CUY0276","Junín","Inti","Macho","No",9.6,2,122,731,39.2,38.5,9.4,5.4,162,"No","Sin salmonelosis",1,,,
+"CUY0082","Lima","Perú","Hembra","Sí",10.1,1,115,,39.1,41.1,6.9,,152,"No","Sin salmonelosis",0,,,
+"CUY0170","Junín","Inti","Macho","Sí",11.1,,178,793,38.9,42.9,12.6,,125,"Sí","Leve",2,"Enrofloxacino",21,1
+"CUY0199","Cajamarca","Inti","Hembra","Sí",9.1,3,156,869,39.1,42.7,13.7,5,109,"Sí","Grave",2,"Sulfa-trimetoprim",4,1
+"CUY0045","Arequipa","Inti","Hembra","No",9.7,1,136,868,38.6,42.2,8.1,5.9,173,"No","Sin salmonelosis",1,,,
+"CUY0237","Lima","Inti","Hembra","No",7.4,4,165,794,39.4,39.1,10.6,5.3,84,"Sí","Moderada",1,"Enrofloxacino",6,1
+"CUY0077","Cajamarca","Inti","Hembra","Sí",12.2,3,130,850,38.5,41.1,7.7,5.6,164,"No","Sin salmonelosis",1,,,
+"CUY0244","Arequipa","Andina","Macho","Sí",9.2,2,155,974,38.8,37.5,10,6,133,"No","Sin salmonelosis",0,,,
+"CUY0081","Cajamarca","Andina","Hembra","No",7.6,1,180,959,38.3,40.4,10,5.1,159,"No","Sin salmonelosis",0,,,
+"CUY0023","Lima","Andina","Macho","Sí",10.3,3,135,988,39.4,46.8,,4.3,160,"No","Sin salmonelosis",0,,,
+"CUY0017","Junín","Perú","Hembra","Sí",11.7,3,103,865,38.5,42.4,8.1,6.1,149,"No","Sin salmonelosis",0,,,
+"CUY0010","Junín","Andina","Hembra","Sí",11.2,1,152,744,38.1,39.7,10.3,5.4,,"No","Sin salmonelosis",0,,,
+"CUY0069","Lima","Inti","Macho","No",11.3,3,122,832,38.7,37,10.4,5.7,157,"No","Sin salmonelosis",1,,,
+"CUY0048","Junín","Perú","Macho","No",10,2,177,919,38.2,45,8.1,5.9,137,"No","Sin salmonelosis",1,,,
+"CUY0044","Junín","Andina","Macho","Sí",6.1,4,151,977,,41.1,11,5.5,155,"No","Sin salmonelosis",2,,,
+"CUY0198","Cajamarca","Andina","Hembra","No",11.5,4,115,793,38.8,42.4,10.1,4.8,149,"No","Sin salmonelosis",1,,,
+"CUY0143","Lima","Perú","Hembra","Sí",9.1,2,144,776,38.7,41,9.6,5.7,156,"No","Sin salmonelosis",1,,,
+"CUY0167","Junín","Inti","Macho","No",9.9,1,177,884,38.8,33.1,11.7,5.5,113,"Sí","Leve",1,"Enrofloxacino",16,1
+"CUY0154","Cajamarca","Perú","Macho",,9,3,166,973,,46.2,10.3,5.6,168,"No","Sin salmonelosis",0,,,
+"CUY0250","Arequipa","Inti","Hembra","Sí",9,5,145,787,39.3,,12.9,5.7,140,"Sí","Leve",5,"Sulfa-trimetoprim",13,1
+"CUY0026","Lima","Andina","Macho","Sí",11.6,4,177,998,38.3,48.1,9.3,5.8,155,"No","Sin salmonelosis",1,,,
+"CUY0031","Lima","Andina","Macho","No",12,3,188,968,39.3,42,11.5,5.5,108,"Sí","Leve",0,"Enrofloxacino",13,1
+"CUY0071","Junín","Andina","Hembra","No",9.7,4,148,757,38.7,42.8,,6.4,158,"No","Sin salmonelosis",1,,,
+"CUY0115","Arequipa","Perú","Macho","Sí",13.1,2,142,1030,38.9,43.8,10.6,4.5,139,"No","Sin salmonelosis",0,,,
+"CUY0227","Lima","Perú","Hembra","No",8.3,1,130,,39.5,35,8.8,5.6,102,"Sí","Moderada",2,"Sulfa-trimetoprim",6,1
+"CUY0074","Junín","Inti","Hembra","Sí",,1,214,1048,37.8,42.1,9.5,6.6,129,"No","Sin salmonelosis",1,,,
+"CUY0242","Cajamarca","Andina","Hembra","No",6.8,5,155,759,38.1,44.5,6.2,6,162,"No","Sin salmonelosis",1,,,
+"CUY0145","Arequipa","Andina","Macho","No",9.3,1,141,899,39,41.1,6.9,5,126,"No","Sin salmonelosis",2,,,
+"CUY0177","Arequipa","Inti","Macho","Sí",7.2,2,142,916,37.8,40.9,9.6,5.6,146,"No","Sin salmonelosis",2,,,
+"CUY0339","Cajamarca","Andina","Macho","No",10.8,4,176,999,38.9,44.9,10.4,5.7,159,"No","Sin salmonelosis",2,,,
+"CUY0221","Cajamarca","Inti","Macho","No",9.4,1,164,866,38.1,48,7,5.2,149,"No","Sin salmonelosis",1,,,
+"CUY0269","cajamarca","Inti","Macho","No",11.4,2,157,960,38.4,41.9,13.3,6,174,"No","Sin salmonelosis",1,,,
+"CUY0266","Junín","Perú","Macho","No",11,3,144,1052,38.3,37,8.9,6.3,141,"No","Sin salmonelosis",2,,,
+"CUY0078","Lima","Perú","Macho","No",5.3,3,150,961,38.6,50,13.9,5.1,144,"No","Sin salmonelosis",0,,,
+"CUY0100","Junín","Andina","Hembra","Sí",9.7,4,164,805,38.2,41.4,5,6,159,"No","Sin salmonelosis",0,,,
+"CUY0018","Cajamarca","Inti","Hembra","No",6.4,,176,856,38.7,44.3,6.5,4.7,135,"No","Sin salmonelosis",0,,,
+"CUY0003","Cajamarca","Inti","Hembra","Sí",5.3,2,168,885,38.3,43.2,13.4,5.5,123,"Sí","Moderada",1,"Sulfa-trimetoprim",21,0
+"CUY0209","Cajamarca","Perú","Hembra","No",8.5,4,143,826,39.7,47.4,12.4,5.1,109,"Sí","Leve",2,"Sulfa-trimetoprim",11,1
+"CUY0001","Lima","Perú","Hembra","Sí",7.4,3,148,,39,36.8,6.4,5.3,133,"No","Sin salmonelosis",2,,,
+"CUY0337","Junín","Andina","Macho","No",7.1,1,174,949,38.5,36.5,13.2,5.2,135,"No","Sin salmonelosis",0,,,
+"CUY0094","Lima","Perú","Macho","Sí",6.1,1,129,976,39.1,41.7,9.7,5.7,156,"No","Sin salmonelosis",0,,,
+"CUY0053","Lima","Andina","Hembra","No",9.7,,181,865,38.3,42.6,9.5,5.6,146,"No","Sin salmonelosis",0,,,
+"CUY0213","Cajamarca","Andina","Macho","Sí",8.5,1,170,920,38.5,37.2,8.8,6.3,140,"No","Sin salmonelosis",2,,,
+"CUY0126","Cajamarca","Andina","Macho","No",8.8,2,186,871,38.9,48.3,11.1,6.1,154,"No","Sin salmonelosis",1,,,
+"CUY0245","Junín","Andina","Hembra","Sí",12.9,4,,823,38.7,42.8,10,5.4,124,"Sí","Leve",2,"Sulfa-trimetoprim",21,0
+"CUY0185","Junín"," Inti ","Hembra","No",9.8,1,145,809,38.6,40.9,7.9,6.1,174,"No","Sin salmonelosis",2,,,
+"CUY0040","Junín","Andina","Macho","Sí",9.7,2,106,644,39.4,42.3,9.9,4.3,127,"Sí","Leve",1,"Enrofloxacino",3,1
+"CUY0041","Junín","Perú","Macho","Sí",5.7,5,198,1062,39.1,37.5,14.7,5.3,150,"No","Sin salmonelosis",0,,,
+"CUY0164","Lima","Andina","Macho","Sí",8.6,4,153,865,38.1,43.5,9.9,6.5,157,"No","Sin salmonelosis",1,,,
+"CUY0334","Lima","Perú","Hembra","SI",8.9,3,111,877,38.3,43.2,10.3,4.1,131,"No","Sin salmonelosis",1,,,
+"CUY0027","Lima","Perú","Hembra","Sí",9.3,3,140,1048,38.6,48.9,9.8,6.1,,"No","Sin salmonelosis",1,,,
+"CUY0052","Cajamarca","Andina","Hembra","No",5,1,163,771,39.2,32.8,13.7,6,125,"Sí","Moderada",4,"Sulfa-trimetoprim",13,1
+"CUY0272","Lima","Inti","Macho","No",6.1,5,169,1160,38.9,42.5,10.1,,145,"No","Sin salmonelosis",2,,,
+"CUY0265","Arequipa","Perú","Macho","No",8.9,2,172,1081,37.8,47.4,10.4,5.7,117,"No","Sin salmonelosis",1,,,
+"CUY0140","Lima","Perú","Hembra","Sí",11.6,4,154,914,38.3,,9.7,,122,"No","Sin salmonelosis",4,,,
+"CUY0066","Lima","Andina","Macho","No",7.4,3,181,804,38.5,40.5,4.3,5.3,144,"No","Sin salmonelosis",0,,,
+"CUY0142","Cajamarca","Andina","Hembra","No",7.7,4,134,620,39.9,39.7,13,4.5,137,"Sí","Moderada",2,"Sulfa-trimetoprim",11,1
+"CUY0166","Junín","Andina","Hembra","Sí",7.3,5,109,729,38.3,,8.1,6,164,"No","Sin salmonelosis",2,,,
+"CUY0219","Cajamarca","Andina","Hembra","Si",12.2,6,118,714,38.4,42.4,7.4,5.1,123,"No","Sin salmonelosis",2,,,
+"CUY0311","Lima","Perú  ","Macho","No",11.1,4,200,1045,39,39.8,9.3,6,116,"Sí","Leve",0,"Sulfa-trimetoprim",12,1
+"CUY0139","Lima","Perú","Hembra","Sí",9.9,2,171,842,38.8,40.5,12.4,5.2,100,"Sí","Leve",1,"Enrofloxacino",4,1
+"CUY0160","Arequipa","Andina","Macho",,5.9,1,154,947,39.3,,13.1,5.3,132,"No","Sin salmonelosis",0,,,
+"CUY0310","Lima","Perú","Hembra","No",11.1,5,113,871,38.3,34.5,7.3,5.6,159,"No","Sin salmonelosis",0,,,
+"CUY0029","Lima","Perú","Macho","Sí",9.2,1,134,1100,38.5,41.7,8.5,6.2,111,"No","Sin salmonelosis",0,,,
+"CUY0281","Cajamarca","Inti","Hembra","No",9.1,4,189,,38.8,43.7,9.8,5,161,"No","Sin salmonelosis",0,,,
+"CUY0216","Junín","Perú","Hembra","Sí",12.4,2,148,867,38.7,55.1,7.7,5.2,,"No","Sin salmonelosis",0,,,
+"CUY0051","Junín","Inti","Macho","No",,3,175,956,,35.9,11.6,5.3,145,"No","Sin salmonelosis",2,,,
+"CUY0299","Arequipa","Perú","Hembra","No",10,1,16.9,1064,38.8,30.7,9.5,6,167,"No","Sin salmonelosis",0,,,
+"CUY0225","Junín","Andina","Hembra","Sí",14.2,2,109,701,38.6,44.3,7.7,4.8,136,"No","Sin salmonelosis",0,,,
+"CUY0073","Junín","Andina","Hembra","Sí",8.3,2,180,1006,38.9,40.4,9.4,6.4,178,"No","Sin salmonelosis",0,,,
+"CUY0286","Lima","Andina","Macho","No",,2,115,675,38.2,39.9,9.7,6.1,147,"No","Sin salmonelosis",0,,,
+"CUY0329","Arequipa","Perú","Hembra","Sí",8.4,6,152,1030,38.4,46.7,9.5,5.4,159,"No","Sin salmonelosis",0,,,
+"CUY0106","Junín","Perú","Hembra","Sí",11.2,3,157,797,39.7,40.2,11.3,5.4,130,"Sí","Leve",1,"Enrofloxacino",21,0
+"CUY0014","Cajamarca","Perú","Hembra","No",7.8,4,137,779,38,41.6,8,6.7,158,"No","Sin salmonelosis",0,,,
+"CUY0328","Arequipa","Inti","Macho","Sí",13.5,8,147,881,39,45.4,12.1,4.8,161,"Sí","Moderada",0,"Sulfa-trimetoprim",14,1
+"CUY0277","Lima","Inti","Hembra","No",9.4,3,135,879,39.7,41.4,14.4,5.4,124,"Sí","Grave",2,"Sulfa-trimetoprim",10,0
+"CUY0260","Cajamarca","Perú","Hembra","Sí",12.6,4,156,995,39.3,42.9,,5.1,152,"Sí","Leve",1,"Enrofloxacino",5,1
+"CUY0212","Junín","Perú","Macho","No",7.9,1,104,939,39.3,41.7,12.5,4.3,117,"Sí","Moderada",0,"Sulfa-trimetoprim",2,1
+"CUY0043","Lima","Perú","Hembra","Sí",11.2,3,177,755,38.4,46.7,5.9,5.6,159,"No","Sin salmonelosis",0,,,
+"CUY0148","Arequipa","Inti","Macho","Sí",12.4,4,137,939,38.6,48.1,9.5,5.2,162,"No","Sin salmonelosis",2,,,
+"CUY0239","Cajamarca","Inti","Hembra","No",6.5,3,110,796,38.6,41.9,7.6,5.7,173,"No","Sin salmonelosis",0,,,
+"CUY0330","Junín","Inti","Hembra","Sí",7,4,151,873,38.8,42.6,6.5,5.2,167,"No","Sin salmonelosis",0,,,
+"CUY0152","Arequipa","Andina","Macho","No",11.9,2,163,961,38.9,45.1,7.1,,135,"No","Sin salmonelosis",0,,,
+"CUY0203","Junín","Inti","Macho","Sí",7.7,4,163,993,39.1,35.3,13,5.4,153,"No","Sin salmonelosis",2,,,
+"CUY0211","Junín","Inti","Hembra","No",10.1,2,107,850,38.7,42.3,9.1,4.9,149,"Sí","Leve",2,"Sulfa-trimetoprim",21,0
+"CUY0068","Cajamarca","Andina","Macho","No",9.1,1,149,736,38.2,43.7,6.1,6.9,157,"No","Sin salmonelosis",2,,,
+"CUY0024","Lima","Perú","Hembra","Sí",10.2,1,168,1026,,,8.8,6.1,139,"No","Sin salmonelosis",0,,,
+"CUY0218","Junín","Andina","Macho"," Sí",8.1,3,151,838,38.5,39.5,9.9,5.4,138,"No","Sin salmonelosis",2,,,
+"CUY0095","Junín","Perú","Hembra","Sí",9.1,2,129,874,39.4,41.5,11,5.4,105,"Sí","Leve",0,"Enrofloxacino",10,1
+"CUY0058","Lima","Perú","Macho","Sí",8,3,172,991,38.3,47.6,8.5,4.7,151,"No","Sin salmonelosis",0,,,
+"CUY0158","Cajamarca","Perú","Macho","Sí",9.2,2,121,809,39.4,44.4,15.8,5.3,137,"Sí","Moderada",0,"Enrofloxacino",10,1
+"CUY0190","Cajamarca","Inti","Macho","No",6.5,2,142,,39.2,39,12.5,5.4,149,"Sí","Moderada",2,"Enrofloxacino",21,0
+"CUY0035","Arequipa","Perú","Macho","No",8.7,5,185,1120,39.6,32.7,9.6,4.9,132,"Sí","Grave",3,"Enrofloxacino",10,1
+"CUY0130","lima","Perú","Macho","Sí",10.1,5,148,1101,38.2,43.2,10.8,5.2,177,"No","Sin salmonelosis",1,,,
+"CUY0207","Cajamarca","Andina","Macho","No",,4,174,961,38.6,42.3,10.6,5.6,151,"No","Sin salmonelosis",4,,,
+"CUY0228","Lima","Perú","Macho","Sí",12,1,127,830,39.6,36.5,15.2,5.8,122,"Sí","Moderada",0,"Sulfa-trimetoprim",19,1
+"CUY0033","Lima","Inti","Macho","Sí",6.4,2,132,912,38.3,42.6,8.2,5.7,133,"No","Sin salmonelosis",0,,,
+"CUY0004","Lima","Perú","Hembra","Sí",7.7,2,187,1007,38.1,42.2,6.4,7,165,"No","Sin salmonelosis",1,,,
+"CUY0247","Lima","Andina","Hembra","Sí",8.4,4,114,806,,42,9.9,4.9,140,"No","Sin salmonelosis",0,,,
+"CUY0200","Cajamarca","Inti","Hembra","No",9,,133,719,38.9,41.4,12.5,5.3,147,"Sí","Leve",1,"Enrofloxacino",6,1
+"CUY0214","Lima","Inti","Macho","Sí",9.6,5,138,940,38.5,37.9,5.5,5.4,171,"No","Sin salmonelosis",0,,,
+"CUY0046","Lima","Perú","Hembra","Sí",11.5,6,124,788,39.3,37.6,10.2,5.4,138,"Sí","Moderada",5,"Sulfa-trimetoprim",18,1
+"CUY0120","Lima  ","Inti","Hembra","Sí",5.3,2,177,1007,38.8,37.4,,5.1,150,"No","Sin salmonelosis",0,,,
+"CUY0015","Cajamarca","Inti","Macho","No",8.4,2,170,922,38.8,35.4,12.5,5.2,120,"Sí","Leve",2,"Sulfa-trimetoprim",16,1
+"CUY0233","lima","Perú","Macho","No",9.4,1,109,912,39,41.3,,4.8,145,"Sí","Leve",1,"Enrofloxacino",18,1
+"CUY0061","Arequipa","Inti","Macho","No",8.7,1,156,926,39.9,43.3,14.5,4.2,129,"Sí","Grave",1,"Enrofloxacino",11,0
+"CUY0217","Lima","Inti","Macho",,7.5,3,143,889,38.4,40.5,11.1,5.4,169,"No","Sin salmonelosis",1,,,
+"CUY0194","Junín","Inti","Macho","no",6.3,4,143,994,38.6,39.5,11.2,4.2,113,"No","Sin salmonelosis",1,,,
+"CUY0278","Lima","Andina","Macho","No",10.8,3,102,800,38.2,43.2,9.3,5.1,105,"No","Sin salmonelosis",1,,,
+"CUY0169","Junín","Andina","Macho","Sí",8.4,4,146,932,38.7,43.2,10.9,6.2,167,"No","Sin salmonelosis",0,,,
+"CUY0285","Junín","Perú","Hembra","Sí",6.5,4,143,916,39.1,35.4,4.4,5.3,131,"No","Sin salmonelosis",2,,,
+"CUY0307","Cajamarca","Andina","Macho","No",8.4,4,198,1091,38.5,49.6,9.3,5.6,198,"No","Sin salmonelosis",0,,,
+"CUY0157","Junín","Inti","Hembra","No",7.6,2,127,759,38.6,36.6,12.1,5,147,"Sí","Moderada",2,"Enrofloxacino",3,1
+"CUY0112","Arequipa","Andina","Macho","SI",10.7,3,166,970,38.8,39.7,13.5,5.2,145,"Sí","Moderada",1,"Sulfa-trimetoprim",11,1
+"CUY0136","Junín","Perú","Macho","Sí",,3,137,860,38.9,38.5,11.2,6,154,"Sí","Leve",3,"Enrofloxacino",11,1
+"CUY0025","Lima","Perú","Macho","No",7.4,2,152,1093,38.3,41.4,5.9,5.3,130,"No","Sin salmonelosis",0,,,
+"CUY0318","Arequipa","Perú","Macho","No",8.8,3,130,900,39.1,51.6,6.2,5.2,159,"No","Sin salmonelosis",2,,,
+"CUY0007","Junín","Perú","Hembra","Sí",4.1,3,127,823,39,41.5,13.4,5.6,140,"No","Sin salmonelosis",0,,,
+"CUY0070","Arequipa","Perú","Macho",,6.9,2,121,929,38.2,46.1,9.5,6.2,147,"No","Sin salmonelosis",0,,,
+"CUY0321","Lima","Andina","Hembra","Sí",7.8,1,131,764,38.2,38.8,9,4.9,199,"No","Sin salmonelosis",2,,,
+"CUY0235","Cajamarca","Perú","Hembra","No",5.5,3,126,828,39.5,40.2,10.3,5.6,117,"Sí","Moderada",1,"Sulfa-trimetoprim",2,1
+"CUY0105","Lima","Perú","Hembra","No",7.6,1,15.9,827,38.8,39.3,8.5,5.7,145,"No","Sin salmonelosis",0,,,
+"CUY0028","Junín","Inti","Macho","No",8.1,3,113,735,38.3,45.9,6.6,5.2,161,"No","Sin salmonelosis",1,,,
+"CUY0283","Lima","Andina","Macho","Sí",5.4,4,176,1026,39.2,49.7,9.5,4.8,170,"No","Sin salmonelosis",0,,,
+"CUY0056","Junín","Perú","Macho","No",8,4,159,986,39.1,34.3,7.1,5.3,113,"No","Sin salmonelosis",2,,,
+"CUY0309","Cajamarca","Inti","Macho","No",8.5,1,133,818,38.3,46.7,8.6,6.2,145,"No","Sin salmonelosis",0,,,
+"CUY0291","Arequipa","Inti","Macho","No",9.7,3,160,1150,38.2,44,9.7,6,148,"No","Sin salmonelosis",1,,,
+"CUY0021","Arequipa","Perú","Macho","No",8.2,2,146,934,40.1,41.8,13,5.2,129,"Sí","Grave",3,"Sulfa-trimetoprim",9,1
+"CUY0016","Junín","Andina","Macho","No",7.5,4,171,993,38.6,44.4,7.9,6.6,147,"No","Sin salmonelosis",0,,,
+"CUY0129","Junín","Inti","Hembra","No",8.5,4,135,815,39.6,37.8,,6,104,"Sí","Moderada",2,"Enrofloxacino",17,1
+"CUY0196","Lima","Perú","Hembra","No",7.5,2,173,939,39.4,46.8,6,5.5,136,"No","Sin salmonelosis",1,,,
+"CUY0273","Cajamarca","Andina","Hembra","No",9.6,3,139,882,,48.7,6.3,5.2,152,"No","Sin salmonelosis",0,,,
+"CUY0114","Cajamarca","Andina","Macho","No",6.7,4,177,913,38.4,45.5,9.3,5.2,162,"No","Sin salmonelosis",2,,,
+"CUY0254","Lima","Andina","Macho","Sí",9.6,3,213,1042,38.5,,,5.2,134,"No","Sin salmonelosis",1,,,
+"CUY0246","Cajamarca","Perú","Hembra","Sí",9,3,101,841,38.7,35.1,10.6,6,150,"Sí","Leve",1,"Enrofloxacino",2,1
+"CUY0333","Junín","Inti","Macho","No",9.7,2,148,872,38.7,51.9,7.4,5.5,131,"No","Sin salmonelosis",1,,,
+"CUY0124","Junín","Inti","Macho","Sí",8.8,3,135,852,38.7,46.1,8.1,6,175,"No","Sin salmonelosis",0,,,
+"CUY0267","Lima","Inti","Macho","Sí",9.6,4,131,780,39.5,39.3,11.5,4.8,146,"Sí","Leve",2,"Enrofloxacino",4,1
+"CUY0151","Lima","Perú","Hembra","No",9,1,159,684,40.4,36.5,12.6,4.8,110,"Sí","Grave",2,"Sulfa-trimetoprim",12,1
+"CUY0316","Lima","Andina","Macho","Sí",6.7,2,175,882,,38.3,8.5,4.8,146,"No","Sin salmonelosis",2,,,
+"CUY0079","Junín","Andina","Hembra","No",8,2,170,846,,44.6,11.8,5.3,141,"Sí","Grave",1,"Sulfa-trimetoprim",3,1
+"CUY0087","Cajamarca","Andina","Hembra","Sí",8.1,6,186,869,,42.4,10.7,5.6,137,"No","Sin salmonelosis",0,,,
+"CUY0338","Cajamarca","Andina","Macho","No",8,1,142,635,39.7,44.3,12.6,4.3,98,"Sí","Moderada",3,"Enrofloxacino",1,1
+"CUY0009","Cajamarca","Perú","Hembra","Sí",12.3,1,160,872,38.3,40.7,11.3,6,171,"No","Sin salmonelosis",0,,,
+"CUY0181","Cajamarca","Inti","Macho","No",9.1,4,156,806,39.2,32.1,13.5,5.9,123,"Sí","Moderada",4,"Sulfa-trimetoprim",10,1
+"CUY0109","Junín","Inti","Hembra","Sí",10.5,3,145,1072,39,42.5,10.8,6,122,"No","Sin salmonelosis",1,,,
+"CUY0147","Cajamarca","Perú","Macho","No",7.2,2,159,748,38.9,41.8,11.7,,77,"Sí","Grave",2,"Enrofloxacino",2,1
+"CUY0327","Cajamarca","Inti","Macho","No",8.3,4,136,,40.4,43.9,14.5,5.1,126,"Sí","Grave",1,"Enrofloxacino",19,1
+"CUY0092","Cajamarca","Perú","Hembra","Sí",11.6,2,,,38.1,40.4,9.8,5.6,201,"No","Sin salmonelosis",0,,,
+"CUY0037","Junín","Perú","Hembra","No",6.8,1,129,658,38.4,38.2,13.6,5.8,162,"Sí","Moderada",0,"Sulfa-trimetoprim",5,1
+"CUY0076","Arequipa","Perú","Hembra","Sí",12.2,4,130,758,38.8,42,10.1,5.3,136,"No","Sin salmonelosis",1,,,
+"CUY0229","Lima","Andina","Macho","No",12.5,3,172,792,40.2,44.2,9.7,5,132,"Sí","Grave",0,"Enrofloxacino",21,0
+"CUY0175","Arequipa","Inti","Macho","Sí",8.2,2,186,857,38.5,43.1,8.5,5.2,133,"No","Sin salmonelosis",0,,,
+"CUY0243","Arequipa","Perú","Macho","No",7.1,3,165,973,39,42.6,9.1,5,166,"No","Sin salmonelosis",0,,,
+"CUY0085","Junín","Inti","Macho","Sí",10.5,5,144,725,39.5,41.4,15.7,6.2,145,"Sí","Moderada",1,"Enrofloxacino",21,0
+"CUY0097","Arequipa","Andina","Macho","No",6.5,1,155,903,38.6,38.2,9.3,6,138,"No","Sin salmonelosis",1,,,
+"CUY0155","Cajamarca","Inti","Macho","No",8.8,1,189,1000,38.3,46,13,5.3,109,"No","Sin salmonelosis",0,,,
+"CUY0262","Lima","Perú","Macho","No",9.1,1,159,802,38.7,41,11,5.3,157,"No","Sin salmonelosis",0,,,
+"CUY0093","Cajamarca","Perú","Hembra","No",6.8,3,85,576,39.3,39.2,14.7,5.3,159,"Sí","Moderada",5,"Enrofloxacino",11,1
+"CUY0336","Lima","Perú","Macho","No",6.9,1,180,993,38.8,45.7,8.6,4.6,147,"No","Sin salmonelosis",1,,,
+"CUY0186","Junín","Andina","Hembra","Sí",6.6,4,197,849,39.5,40.7,10.5,4.8,136,"Sí","Moderada",0,"Enrofloxacino",13,1
+"CUY0173","Lima","Andina","Macho","No",10.4,2,167,809,39.3,,14.6,5.4,134,"Sí","Leve",2,"Enrofloxacino",13,1
+"CUY0054","Cajamarca","Perú","Macho","Sí",7.4,4,,906,38.3,44.4,9,5.2,169,"No","Sin salmonelosis",1,,,
+"CUY0089","Cajamarca","Andina","Macho","Sí",7.8,2,159,850,38.5,,9.8,6,145,"No","Sin salmonelosis",2,,,
+"CUY0088","Junín","Inti","Macho","Sí",,,154,876,,39.9,9.1,6.5,111,"No","Sin salmonelosis",0,,,
+"CUY0050","Junín","Inti","Hembra","No",8.8,5,166,814,39.2,42.6,9.7,6.4,201,"No","Sin salmonelosis",0,,,
+"CUY0111","Lima","Perú","Macho","Sí",8.8,5,149,972,38.8,40.7,7.4,5.2,110,"Sí","Moderada",2,"Sulfa-trimetoprim",16,1
+"CUY0183","Arequipa","Andina","Macho","Sí",6.6,2,122,892,38.7,45.7,11.6,5.3,147,"No","Sin salmonelosis",0,,,
+"CUY0248","Cajamarca","Andina","Macho","No",7.1,1,159,976,37.8,,7.9,5.9,144,"No","Sin salmonelosis",0,,,
+"CUY0084","Cajamarca","Inti","Hembra","No",6.9,1,140,887,38.3,42.6,13.3,6.6,152,"No","Sin salmonelosis",1,,,
+"CUY0301","Cajamarca  ","Perú","Hembra","No",9,6,169,1000,38.6,44,13.9,5.7,116,"No","Sin salmonelosis",0,,,
+"CUY0266","Junín","Perú","Macho","No",11,3,144,1052,38.3,37,8.9,6.3,141,"No","Sin salmonelosis",2,,,
+"CUY0201","Junín","Andina","Macho","Sí",10,3,169,974,38.2,40.8,9,5.7,149,"No","Sin salmonelosis",0,,,
+"CUY0290","Cajamarca","Andina","Macho",,9.3,2,179,951,38.9,43.7,8.8,4.5,116,"No","Sin salmonelosis",2,,,
+"CUY0030","Cajamarca","Andina","Hembra","Sí",8.4,2,169,944,38.4,45.8,9.4,5.3,138,"No","Sin salmonelosis",0,,,
+"CUY0289","Cajamarca","Inti","Hembra","Sí",7.8,2,132,947,38.5,40.8,9.4,5.6,186,"No","Sin salmonelosis",1,,,
+"CUY0231","Cajamarca","Perú","Hembra","Sí",8,1,169,802,38.7,42.4,8.7,6.2,131,"No","Sin salmonelosis",0,,,
+"CUY0252","Arequipa","Andina","Hembra","No",10.6,5,109,717,39.6,36.8,15.6,4.5,100,"Sí","Grave",1,"Enrofloxacino",15,1
+"CUY0282","Lima","Perú","Macho","Sí",6.9,3,159,821,39.2,,12,6.1,96,"Sí","Leve",0,"Enrofloxacino",10,1
+"CUY0131","Arequipa","Andina","Hembra","No",9.9,4,112,630,,42.8,10.3,4.4,125,"Sí","Grave",4,"Enrofloxacino",11,1
+"CUY0002","Arequipa","Andina","Macho","No",8.4,5,167,869,39.7,,12.3,5.2,125,"Sí","Grave",5,"Sulfa-trimetoprim",21,0
+"CUY0128","Cajamarca","Perú","Macho","No",9.5,8,165,1070,38.9,35,12.5,4.5,112,"Sí","Moderada",4,"Sulfa-trimetoprim",21,0
+"CUY0059","Cajamarca","Andina","Hembra","Sí",9.5,4,172,817,38.5,47.1,11.1,5.7,172,"No","Sin salmonelosis",0,,,
+"CUY0153","Cajamarca","Inti","Macho","No",10.7,3,169,1082,40.5,45.5,14.6,5.3,126,"Sí","Moderada",3,"Enrofloxacino",19,1
+"CUY0203","Junín","Inti","Macho","Sí",7.7,4,163,993,39.1,35.3,13,5.4,153,"No","Sin salmonelosis",2,,,
+"CUY0224","Lima","Andina","Hembra","No",8.4,3,158,848,38.8,41.3,7.7,7,143,"No","Sin salmonelosis",0,,,
+"CUY0288","Junín","Perú","Macho","No",10,4,168,938,38.7,30.8,7.5,6,136,"Sí","Leve",4,"Enrofloxacino",17,1
+"CUY0099","Cajamarca","Andina","Macho","Sí",11.2,5,150,859,38.6,43.2,,5.4,151,"No","Sin salmonelosis",0,,,
+"CUY0162","Junín","Perú","Hembra","Sí",10.7,1,162,850,39.1,41.9,13.5,5.6,173,"No","Sin salmonelosis",2,,,
+"CUY0127","Arequipa","Perú","Macho","No",8,3,118,851,,,12.8,5.4,126,"Sí","Grave",2,"Sulfa-trimetoprim",21,0
+"CUY0238","Cajamarca","Andina","Macho","Sí",10.3,2,108,644,39.4,38.1,,5.2,140,"Sí","Leve",1,"Sulfa-trimetoprim",5,1
+"CUY0193","Junín","Inti","Macho","No",13.5,3,157,908,39.6,34.6,10.6,4.8,128,"Sí","Moderada",3,"Enrofloxacino",10,1
+"CUY0210","Lima","Perú","Hembra","Sí",11.8,1,130,943,37.2,43.2,7.6,6.3,207,"No","Sin salmonelosis",0,,,
+"CUY0146","Cajamarca","Andina","Macho","Sí",6.3,1,141,832,38.3,34.6,7.8,5.5,162,"No","Sin salmonelosis",0,,,
+"CUY0020","Lima","Andina","Macho","Sí",11.6,4,181,1001,,46,6.7,5.7,126,"No","Sin salmonelosis",2,,,
+"CUY0220","Junín"," Perú ","Macho","No",7.3,1,177,973,38.1,44.2,10.4,5.7,174,"No","Sin salmonelosis",1,,,
+"CUY0113","Junín","Inti","Hembra","No",8.7,1,203,730,39.5,40.6,10.3,5.5,123,"Sí","Leve",1,"Sulfa-trimetoprim",4,1
+"CUY0234","Cajamarca","Inti","Macho","No",8.6,2,125,931,39.6,41.7,12.8,4.9,126,"Sí","Leve",2,"Sulfa-trimetoprim",2,1
+"CUY0145","Arequipa","Andina","Macho","No",9.3,1,141,899,39,41.1,6.9,5,126,"No","Sin salmonelosis",2,,,
+"CUY0180","Junín","Andina","Macho","No",8.7,3,170,834,38.5,41.1,13.6,4.9,,"Sí","Grave",3,"Enrofloxacino",8,1
+"CUY0133","Lima","Inti","Hembra","No",10.7,3,159,859,37.7,44.9,5.7,5.3,158,"No","Sin salmonelosis",2,,,
+"CUY0253","Cajamarca","Andina","Hembra","Sí",8.4,2,171,956,38.5,46.4,6.7,5.9,165,"No","Sin salmonelosis",0,,,
+"CUY0251","Lima","Perú  ","Macho","No",9.5,1,171,857,39,39.8,11.7,4.2,117,"Sí","Leve",0,"Enrofloxacino",10,1
+"CUY0119","Arequipa","Perú","Macho","Sí",8.4,1,148,1005,39.3,48.3,13,6.3,147,"Sí","Leve",0,"Sulfa-trimetoprim",1,1
+"CUY0223","Lima","Andina","Hembra","Sí",7.9,3,155,794,38.9,42.7,8.3,4.4,,"No","Sin salmonelosis",0,,,
+"CUY0013","Lima","Perú","Macho","Sí",7.3,2,144,968,38.9,42,7.4,5.4,150,"No","Sin salmonelosis",0,,,
+"CUY0090","Junín","Inti","Hembra","No",11,1,150,891,39.9,38.5,12.5,5.4,113,"Sí","Leve",0,"Enrofloxacino",9,1
+"CUY0101","Arequipa","Inti","Hembra","Sí",5.9,1,128,785,39.1,42.4,9.9,5.7,127,"No","Sin salmonelosis",3,,,
+"CUY0322","Cajamarca","Perú","Macho","Sí",9.2,3,,924,39.5,40,11.5,4.6,139,"Sí","Moderada",2,"Enrofloxacino",14,1

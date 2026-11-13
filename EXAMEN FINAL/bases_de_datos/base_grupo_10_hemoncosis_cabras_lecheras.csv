@@ -1,0 +1,316 @@
+﻿"id_cabra","region","sistema_crianza","etapa_lactancia","desparasitacion_estrategica","edad_anios","numero_partos","condicion_corporal","produccion_leche_l_dia","hematocrito_pct","hemoglobina_g_dl","proteinas_totales_g_dl","eosinofilos_pct","albumina_g_dl","hemoncosis_clinica","severidad_famacha","hpg_cientos","tratamiento","dias_hasta_recuperacion","recuperada"
+"CAP0015","Ica","Semi-extensivo","Tardía","Sí",2.4,1,2.7,1.38,31.1,10.6,7.2,4.9,2.84,"No","Sin hemoncosis",13,,,
+"CAP0218","Piura","Estabulado","Media","No",3.7,2,2.1,0.8,23,7.9,5.9,4,2.75,"Sí","Moderada",0,"Ivermectina",28,0
+"CAP0139","Ica","Estabulado","Temprana","Sí",3,0,3,1.84,20.3,7.5,6.6,7.7,3.22,"Sí","Moderada",9,"Ivermectina",27,1
+"CAP0309","Piura","Estabulado","Temprana","si",,2,2.9,1.37,25.9,8.3,5.3,4.2,2.88,"Sí","Leve",15,"Ivermectina",21,1
+"CAP0305","Piura","Estabulado","Tardía","No",6.2,3,3.7,1.7,30.8,,5.7,1.2,,"No","Sin hemoncosis",1,,,
+"CAP0104","Piura","Extensivo","Media","No",4.1,,3.3,1.06,21.8,7.5,5.6,5.6,,"Sí","Moderada",10,"Ivermectina",20,1
+"CAP0031","Piura","Estabulado","Media","No",6.4,1,2.3,1.35,27.6,10.1,7.4,4.6,3.41,"No","Sin hemoncosis",0,,,
+"CAP0284","Lambayeque","Semi-extensivo","Media","Sí",6.2,4,1.6,1.36,13.9,7.8,6,7.9,2.64,"Sí","Moderada",16,"Ivermectina",21,1
+"CAP0158","Piura","Estabulado","Media","No",3.2,1,2.7,1.51,28.6,11.2,7.1,9.7,3.01,"No","Sin hemoncosis",14,,,
+"CAP0172","Lambayeque","Extensivo","Tardía","Sí",2.3,0,3.7,1.63,29.4,10.8,7.7,4.5,3.11,"No","Sin hemoncosis",2,,,
+"CAP0092","Ica","Estabulado","Temprana","No",5.2,3,1.6,1.4,27.4,8.7,6.2,6.6,2.87,"No","Sin hemoncosis",42,,,
+"CAP0285","Lambayeque","Extensivo","Media","No",6.3,4,3.4,1.02,19.1,10.4,7.6,7.4,2.34,"Sí","Leve",3,"Ivermectina",20,1
+"CAP0265","Lambayeque","Estabulado","Tardía","No",,1,2.7,1.08,23.7,10.5,4.6,9,2.67,"Sí","Moderada",17,"Closantel",23,1
+"CAP0018","Lambayeque","Estabulado","Media","Sí",5.6,6,3.2,1.47,28.1,9.6,5.5,8.1,3.1,"No","Sin hemoncosis",4,,,
+"CAP0200","Piura","Extensivo","Media","Sí",2.8,0,3.5,1.2,32.7,10.3,7.7,6.5,3.28,"No","Sin hemoncosis",4,,,
+"CAP0240","Piura","Semi-extensivo","Temprana",,3.8,1,,1.52,30.1,10.8,7.2,4.5,3.98,"No","Sin hemoncosis",8,,,
+"CAP0179","Lambayeque","Semi-extensivo","Media","Sí",4.1,1,3.4,1.36,27.5,9.1,7.8,7,4.08,"No","Sin hemoncosis",2,,,
+"CAP0058","Ica","Semi-extensivo","Tardía","Sí",2.7,2,2.7,1.46,27.2,9.2,6.7,6.5,4.29,"No","Sin hemoncosis",4,,,
+"CAP0169","Lambayeque","Semi-extensivo","Media","Sí",9.7,9,1.5,0.93,28,9.5,6.7,1.7,3.18,"No","Sin hemoncosis",0,,,
+"CAP0208","Lambayeque","Estabulado","Media","No",5.2,3,2.7,1.86,31.1,11.2,6.1,2.6,3.4,"No","Sin hemoncosis",0,,,
+"CAP0041","LAMBAYEQUE","Extensivo","Media","No",4.1,1,3.2,1.31,26.7,10,7.7,4.6,3.31,"No","Sin hemoncosis",4,,,
+"CAP0269","Lambayeque","Extensivo","Temprana","Sí",5.1,3,3.2,1.62,36.6,9.6,,1.9,4.32,"No","Sin hemoncosis",0,,,
+"CAP0129","Ica","Semi-extensivo","Media","No",6.6,3,3.8,2.11,23.9,9.7,6.1,7.8,3.15,"No","Sin hemoncosis",0,,,
+"CAP0214","Piura","Semi-extensivo","Temprana","No",7,5,3.1,1.37,22.7,9,6.2,9.4,3.3,"Sí","Moderada",5,"Ivermectina",28,0
+"CAP0145","Lambayeque","Estabulado","Tardía","No",5.2,,3.7,1.81,33.6,10.9,6.9,5.5,3.62,"No","Sin hemoncosis",8,,,
+"CAP0288","Piura","Semi-extensivo","Temprana","No",4.7,3,3.3,2.08,20.5,9.2,5.9,10.5,2.68,"Sí","Leve",44,"Ivermectina",15,1
+"CAP0155","Ica","Extensivo","Tardía","No",4.7,2,2.8,0.79,31.3,9.9,6,3.5,3.54,"No","Sin hemoncosis",1,,,
+"CAP0044","Lambayeque","Semi-extensivo","Temprana","Sí",8.6,3,3.3,1.4,32.3,10.4,6.1,5.9,3.36,"No","Sin hemoncosis",7,,,
+"CAP0259","Lambayeque","Extensivo","Media","Sí",4.5,1,3.3,1.51,22,10.9,6.4,4.1,3.59,"Sí","Leve",1,"Ivermectina",13,0
+"CAP0101","Piura","Semi-extensivo","Tardía","Sí",6.7,5,2.3,0.73,30.1,9.9,6.1,5,3.12,"No","Sin hemoncosis",9,,,
+"CAP0254","Piura","Estabulado","Media","NO",5.4,0,2.6,1.83,29.7,10.5,7.1,5.5,3.08,"No","Sin hemoncosis",4,,,
+"CAP0106","Ica","Semi-extensivo","Media","Sí",4.3,2,2.5,0.89,27.7,7.8,6.9,10.7,3.82,"No","Sin hemoncosis",2,,,
+"CAP0188","Ica","Semi-extensivo","Temprana","No",5,2,3.9,1.84,36.9,11.5,6.2,5.1,3.35,"No","Sin hemoncosis",7,,,
+"CAP0165","Ica","Extensivo","Tardía","Sí",5.6,5,3.4,1.48,22.7,8.2,5.6,9.4,2.97,"No","Sin hemoncosis",1,,,
+"CAP0242","Lambayeque","Extensivo","Tardía","No",6.2,3,2.6,0.27,18.1,5.9,5.5,5.7,3.02,"Sí","Grave",3,"Ivermectina",25,1
+"CAP0142","Piura","Estabulado","Tardía","Sí",1.7,0,3.4,1.4,21.3,6.9,5.9,8.2,3.07,"Sí","Leve",19,"Ivermectina",22,1
+"CAP0196","Ica","Estabulado","Tardía","No",6.3,4,3.5,2.06,32.7,9.7,,4.8,3.89,"No","Sin hemoncosis",3,,,
+"CAP0286","Piura","Semi-extensivo","Temprana","No",5.2,2,3.2,1.3,27.6,9.3,,7.9,2.67,"No","Sin hemoncosis",3,,,
+"CAP0042","Piura","Estabulado","Tardía","No",2.1,0,2.9,,23.5,8.5,6,8.5,2.75,"Sí","Leve",10,"Ivermectina",22,1
+"CAP0232","Piura","Extensivo","Media","No",4.9,3,2.7,0.74,26.9,7,5.3,10.2,2.98,"Sí","Grave",16,"Closantel",6,1
+"CAP0221","Ica","Semi-extensivo","Tardía","Sí",4.3,,2.4,0.7,,9.4,6.7,2.5,3.68,"No","Sin hemoncosis",3,,,
+"CAP0115","Ica","Estabulado","Tardía","No",7.4,3,3.4,,24.3,10.1,6.6,4.4,3.6,"No","Sin hemoncosis",20,,,
+"CAP0289","Piura","Estabulado","Tardía","Sí",6.1,6,3.1,1.34,,10.5,6.3,7,2.17,"No","Sin hemoncosis",3,,,
+"CAP0137","Lambayeque","Semi-extensivo","Tardía","Sí",3.4,3,2.9,,,,7.4,5.1,3.06,"No","Sin hemoncosis",0,,,
+"CAP0073","Piura","Extensivo","Temprana","Sí",,4,3.2,1.56,31.3,8.9,7.7,7.5,3.27,"No","Sin hemoncosis",0,,,
+"CAP0252","Lambayeque","Extensivo","Tardía","No",5.7,3,3.5,1.02,,9.2,5.4,6,3.48,"No","Sin hemoncosis",2,,,
+"CAP0084","Lambayeque","Extensivo","Tardía",,4.3,0,2.9,0.85,26.2,8.5,6.9,3,3.03,"No","Sin hemoncosis",1,,,
+"CAP0117","Piura","Estabulado","Media","Sí",3.7,3,2.8,1.6,29.9,9.2,6.4,5.6,3.17,"No","Sin hemoncosis",19,,,
+"CAP0060","Lambayeque","Extensivo","Media","No",1.5,,1.8,1.09,30,13.7,,2.1,3.06,"No","Sin hemoncosis",4,,,
+"CAP0174","Ica","Semi-extensivo","Tardía","No",5.7,2,3.2,1.28,35.9,13.3,6.8,5.6,3.42,"No","Sin hemoncosis",0,,,
+"CAP0274","Piura","Estabulado","Media","Sí",5.7,3,2.9,1.12,30.8,10.3,7.2,7.9,2.97,"No","Sin hemoncosis",2,,,
+"CAP0019","Lambayeque","Extensivo","Temprana","No",4.3,4,3.1,0.86,20.3,8.8,6.4,4.4,2.51,"Sí","Leve",35,"Ivermectina",20,1
+"CAP0140","Piura","Extensivo","Tardía","No",2.5,2,3.3,1.33,31,,6.2,4.7,3.25,"No","Sin hemoncosis",7,,,
+"CAP0108","Piura","Semi-extensivo","Media","Sí",2.9,1,2.5,1.53,27.2,10.9,6.8,6.2,2.93,"No","Sin hemoncosis",2,,,
+"CAP0189","Lambayeque","Estabulado","Temprana","Sí",5.8,2,3.1,1.9,19.4,11.6,6,7.3,2.56,"Sí","Moderada",1,"Closantel",14,1
+"CAP0040","Piura","Semi-extensivo","Tardía","Sí",3.4,9,3.3,1.62,32.5,8.7,7.2,4.5,,"No","Sin hemoncosis",13,,,
+"CAP0095","Piura","Semi-extensivo","Media","No",1.6,1,2.8,1.05,25.2,8.6,6.1,6.7,3.01,"Sí","Moderada",23,"Closantel",5,1
+"CAP0143","Piura","Estabulado","Tardía","No",2.9,2,2.2,1.22,24.3,11.6,6.6,3.6,2.76,"No","Sin hemoncosis",1,,,
+"CAP0184","Lambayeque","Extensivo","Tardía","Sí",3.8,3,2.9,0.67,23.4,,5.2,11.4,2.93,"Sí","Moderada",4,"Closantel",16,1
+"CAP0282","Piura","Extensivo","Tardía","Sí",5.3,3,3.2,0.94,20.9,6.2,6.2,10.7,2.64,"Sí","Moderada",3,"Ivermectina",10,1
+"CAP0177","Ica","Extensivo","Temprana","Sí",5,2,2,0.88,22.9,7.9,5.7,7.3,2.37,"Sí","Leve",6,"Closantel",8,1
+"CAP0014","Lambayeque","Semi-extensivo","Tardía","Sí",7.6,4,3.7,1.25,38.5,10.9,6.2,2.2,3.4,"No","Sin hemoncosis",3,,,
+"CAP0249","Piura","Extensivo","Media","No",5.3,5,3.3,1.18,28.1,7.7,5.3,5.6,2.97,"Sí","Grave",14,"Closantel",28,0
+"CAP0062","PIURA","Extensivo","Media","Sí",4.9,4,3.7,1.68,,10.3,,6.2,3.05,"No","Sin hemoncosis",0,,,
+"CAP0247","Ica","Extensivo","Temprana","No",3.1,0,2.4,0.8,20.2,6.8,6.5,7.6,3.14,"Sí","Moderada",0,"Closantel",5,1
+"CAP0111","Lambayeque","Estabulado","Temprana","Sí",5.2,1,2.5,1.25,22.9,7.1,5.3,9.7,2.14,"Sí","Moderada",17,"Ivermectina",28,1
+"CAP0175","Piura","Estabulado","Tardía","Sí",5.7,4,4.1,1.33,24.6,9.1,5.7,6.4,2.9,"No","Sin hemoncosis",5,,,
+"CAP0144","Lambayeque","Extensivo","Temprana","Sí",5,2,2.3,1.16,19.9,8.1,6.6,9.1,2.32,"Sí","Moderada",24,"Closantel",4,1
+"CAP0005","Lambayeque","Estabulado","Temprana","Sí",5.4,3,,1.56,28.4,12.1,5.6,8,3.13,"No","Sin hemoncosis",1,,,
+"CAP0156","Piura","Semi-extensivo","Tardía","Sí",2.9,3,3.1,1.42,30.5,11.2,5.4,3.6,2.64,"No","Sin hemoncosis",5,,,
+"CAP0043","Lambayeque","Semi-extensivo","Tardía","No",3.6,3,3.3,1.71,30.6,,6.6,5.3,3.03,"No","Sin hemoncosis",4,,,
+"CAP0238","Ica","Estabulado","Temprana","Sí",6.1,2,3.3,1.91,28.3,12.9,7,5.4,2.99,"No","Sin hemoncosis",2,,,
+"CAP0131","Piura","Semi-extensivo","Media","No",4.3,4,2.5,1.36,31.1,10,6.6,5.8,3.85,"No","Sin hemoncosis",10,,,
+"CAP0023","Ica","Estabulado","Media","Sí",3,0,2.6,1.12,29.7,10.6,7.4,3.9,3.59,"No","Sin hemoncosis",13,,,
+"CAP0112","Piura","Extensivo","Tardía","Sí",9.2,7,2.6,0.94,26.1,13.4,6.2,6.5,3.07,"No","Sin hemoncosis",11,,,
+"CAP0009","LAMBAYEQUE","Extensivo","Temprana","Sí",,5,2.5,0.44,,7,6.3,4.9,2.83,"Sí","Leve",5,"Closantel",4,1
+"CAP0253","Ica","Estabulado","Tardía","No",5.5,2,2.7,0.13,30.3,12.3,6.6,7.6,3.06,"No","Sin hemoncosis",1,,,
+"CAP0087","Piura","Semi-extensivo","Temprana","Sí",4.6,2,2.1,1.14,,7.7,,8.7,2.38,"Sí","Grave",8,"Ivermectina",28,0
+"CAP0025","Piura","Extensivo","Media","Sí",4.6,3,2.8,0.89,21.8,6.5,,11.8,3.26,"Sí","Moderada",7,"Ivermectina",25,1
+"CAP0053","Ica","Estabulado","Temprana","No",8.8,10,2.1,1.43,21.3,7.6,6,8.3,2.99,"Sí","Leve",64,"Closantel",2,1
+"CAP0119","Piura","Estabulado","Tardía","Sí",5.3,3,2.7,1.33,25.5,10.1,6.4,6.5,3.91,"No","Sin hemoncosis",2,,,
+"CAP0109","Lambayeque","Estabulado","Media","Sí",6.3,7,2.2,1.58,28.2,10.3,7,1.9,3.09,"No","Sin hemoncosis",6,,,
+"CAP0148","Lambayeque","Semi-extensivo","Tardía","Sí",2.8,1,3.2,0.71,36.1,10.5,6.8,6.1,3.56,"No","Sin hemoncosis",2,,,
+"CAP0287","Piura","Semi-extensivo","Media","Sí",3.7,2,3.5,1.54,25,,6.2,2.1,3.37,"No","Sin hemoncosis",0,,,
+"CAP0102","piura","Estabulado","Media","No",7.9,4,2.3,1.75,28.2,9.9,6.2,7.7,3.55,"No","Sin hemoncosis",3,,,
+"CAP0166","Piura","Extensivo","Temprana","Sí",3.7,0,2.9,1.07,21.4,8.6,6.8,9.4,2.68,"Sí","Moderada",11,"Ivermectina",25,1
+"CAP0017","Piura","Estabulado","Temprana","Sí",6.7,6,3.8,1.43,32.6,10,6.5,4.7,3,"No","Sin hemoncosis",5,,,
+"CAP0037","Piura","Estabulado","Temprana",,5.6,6,3.3,1.51,22.8,9.9,7.6,6.1,3.12,"No","Sin hemoncosis",4,,,
+"CAP0279","Piura","Semi-extensivo","Tardía","Sí",2,2,1.9,0.27,22.1,7.5,6.9,8,3.52,"Sí","Leve",7,"Closantel",2,1
+"CAP0209","Ica","Estabulado","Media","No",2.9,1,3.3,,21.9,9,5.9,4.8,2.51,"Sí","Moderada",3,"Ivermectina",4,0
+"CAP0010","Piura","Extensivo","Temprana","No",3.6,1,3,0.127,26.9,8.5,5.2,7.1,2.47,"Sí","Leve",26,"Closantel",3,1
+"CAP0099","Ica","Semi-extensivo","Temprana","No",1.5,1,3.6,,26.1,8.5,,5.2,2.9,"Sí","Leve",5,"Ivermectina",23,1
+"CAP0128","Piura","Estabulado","Tardía","Sí",5.7,5,2.4,1.7,33.2,11.2,6.1,7.9,3.54,"No","Sin hemoncosis",3,,,
+"CAP0164","Lambayeque"," Extensivo ","Media","Sí",3.9,2,2.4,1.48,26.3,10.1,6.3,3.1,2.81,"No","Sin hemoncosis",0,,,
+"CAP0146","Piura","Extensivo","Temprana","Sí",5.3,3,3.9,2.16,26.3,8.9,6.9,2.9,2.44,"No","Sin hemoncosis",3,,,
+"CAP0206","Lambayeque","Semi-extensivo","Temprana","Sí",9.2,8,3,1.61,29.5,9.6,6.4,9,3.24,"No","Sin hemoncosis",2,,,
+"CAP0052","Piura","Extensivo","Media","No",4.9,2,1.8,0.4,22.7,6.8,5.1,7.9,3.34,"Sí","Leve",3,"Closantel",4,0
+"CAP0033","Piura","Semi-extensivo","Tardía","No",3.9,2,2.8,0.39,24.6,8,6.1,7,2.66,"Sí","Leve",1,"Ivermectina",17,1
+"CAP0070","Lambayeque","Estabulado","Media","Sí",2.1,2,2.7,1.23,28.6,11.1,7.2,8,3.43,"No","Sin hemoncosis",1,,,
+"CAP0297","Ica","Estabulado","Temprana","Sí",3.7,2,2.7,1.06,32.8,10.1,6.7,7.5,2.46,"Sí","Leve",2,"Ivermectina",10,1
+"CAP0227","Ica","Semi-extensivo","Media","No",6.1,,2.8,0.98,23,5.4,5.2,,2.24,"Sí","Grave",3,"Closantel",9,1
+"CAP0272","Piura","Extensivo","Temprana","Sí",6.1,4,3.2,1.09,40.9,13,6.7,2.4,,"No","Sin hemoncosis",7,,,
+"CAP0182","Piura","Extensivo","Media","No",6.6,2,3.2,1.57,,9.3,5.7,3.6,2.9,"No","Sin hemoncosis",2,,,
+"CAP0241","Piura","Estabulado","Media","No",1.5,0,3.1,1.64,25.7,9.9,6.2,9.3,3.62,"No","Sin hemoncosis",0,,,
+"CAP0294","Ica","Extensivo","Tardía","No",6.1,1,3.5,0.93,21.7,7.6,,8.2,,"Sí","Leve",6,"Closantel",1,1
+"CAP0120","Piura","Extensivo","Tardía","No",1.5,,3.2,1,25.3,,7.5,4.1,3.05,"No","Sin hemoncosis",14,,,
+"CAP0224","Piura","Semi-extensivo","Media","No",3.5,3,3,0.75,22.8,9.9,5.9,8.9,2.43,"Sí","Grave",14,"Ivermectina",3,1
+"CAP0081","Piura","Extensivo","Tardía","Sí",4.4,1,2.5,1.29,,10.2,6.1,5.3,2.75,"No","Sin hemoncosis",2,,,
+"CAP0223","Piura","Estabulado","Tardía","Sí",5.3,2,2.4,,16.9,6.4,5.9,7,3.05,"Sí","Leve",6,"Ivermectina",28,0
+"CAP0097","Lambayeque","Extensivo","Media","No ",2,1,2.4,1.25,19.4,7.3,5.6,7.7,2.78,"Sí","Moderada",13,"Closantel",7,1
+"CAP0011","Piura","Semi-extensivo","Tardía","No",7.4,4,3.2,1.09,18.4,6.8,6,3.6,3.58,"Sí","Leve",0,"Ivermectina",18,1
+"CAP0246","Piura","Estabulado","Media","Sí",4.1,1,3.2,1.44,30.3,9.6,6,8.2,3.5,"No","Sin hemoncosis",5,,,
+"CAP0291","Lambayeque","Estabulado","Media","No",6.2,4,2.5,1.28,21.7,8.3,6,7.8,2.72,"Sí","Grave",15,"Ivermectina",5,1
+"CAP0127","Piura","Extensivo","Tardía","No",5.2,2,2.2,1.05,24.1,9.8,7.4,6.6,3.06,"Sí","Moderada",14,"Closantel",5,1
+"CAP0205","Piura","Extensivo","Media","No",3.7,0,2.6,1.06,22,8,5.9,7.1,2.56,"Sí","Moderada",23,"Closantel",4,1
+"CAP0088","Ica","Semi-extensivo","Media","No",4.7,1,2.4,1.24,32.5,10.8,8.6,1.6,3.66,"No","Sin hemoncosis",13,,,
+"CAP0173","Lambayeque","Semi-extensivo","Tardía","Sí",6.3,0,3.2,0.81,,10.6,5.9,7.9,3.11,"No","Sin hemoncosis",4,,,
+"CAP0170","Lambayeque","Extensivo","Temprana","Sí",5.6,8,2.9,1.58,26.2,9.7,6.6,8.3,2.97,"No","Sin hemoncosis",16,,,
+"CAP0050","Lambayeque","Extensivo","Tardía","No",2.3,0,2.9,0.98,,8.7,7,,2.86,"Sí","Leve",2,"Ivermectina",20,1
+"CAP0161","Lambayeque","Estabulado","Tardía","Sí",4.2,4,3.2,1.5,24.9,11,5.2,9.1,2.99,"No","Sin hemoncosis",2,,,
+"CAP0075","Lambayeque","Extensivo","Tardía","Sí",3.8,4,1.7,0.95,28.7,9.3,5.9,5.2,2.69,"Sí","Leve",12,"Closantel",4,1
+"CAP0055","Lambayeque","Estabulado","Tardía","No",7.2,8,2.1,0.9,17.4,6.8,5.2,,3.23,"Sí","Grave",66,"Ivermectina",28,0
+"CAP0123","Lambayeque","Estabulado","Tardía","No",3.4,0,2.9,1.12,30.1,11.4,6.8,6.6,2.99,"No","Sin hemoncosis",5,,,
+"CAP0303","Ica","Semi-extensivo","Tardía","No",3.2,1,2.1,1.21,21.4,8.8,6.7,5.3,2.48,"Sí","Leve",1,"Closantel",6,1
+"CAP0107","Piura","Estabulado","Temprana","No",2.7,1,2.9,1.43,27.3,9,5.6,4.2,3.26,"No","Sin hemoncosis",13,,,
+"CAP0104","Piura","Extensivo","Media","No",4.1,,3.3,1.06,21.8,7.5,5.6,5.6,,"Sí","Moderada",10,"Ivermectina",20,1
+"CAP0226","Lambayeque","Semi-extensivo","Temprana","No",3.7,0,3.5,1.48,21.7,9.3,7.4,6.1,2.75,"No","Sin hemoncosis",1,,,
+"CAP0076","LAMBAYEQUE","Semi-extensivo","Temprana","No",5.8,2,2.4,1.15,15.7,8.9,5,9.6,3.11,"Sí","Moderada",23,"Closantel",1,1
+"CAP0222","Piura","Extensivo","Temprana","No",2.9,1,2.4,0.96,30.8,9.7,7,4.6,2.75,"No","Sin hemoncosis",2,,,
+"CAP0089","Piura","Extensivo","Temprana","Sí",5.1,1,2.3,0.91,27.6,9.1,6.7,6.3,3.22,"No","Sin hemoncosis",5,,,
+"CAP0114","Lambayeque","Extensivo","Temprana","No ",5.6,0,2.4,1.63,,12.7,7.3,5.7,3.27,"No","Sin hemoncosis",9,,,
+"CAP0121","Piura","Estabulado","Temprana","No",5.8,1,2.8,1.91,22.2,10,6.6,5.3,2.51,"No","Sin hemoncosis",8,,,
+"CAP0083","Lambayeque","Semi-extensivo","Tardía","No",4.7,1,2.3,1.01,24.1,9.5,7.5,7.6,2.5,"Sí","Moderada",16,"Closantel",3,1
+"CAP0074","Ica","Semi-extensivo","Tardía","Sí",8.1,1,2.2,1.29,30,11.4,,3.6,2.91,"No","Sin hemoncosis",3,,,
+"CAP0192","Piura","Extensivo","Tardía","No",3.9,,2.9,1.42,31.7,,7.4,5.3,2.73,"No","Sin hemoncosis",5,,,
+"CAP0007","Piura","Estabulado","Temprana","No",3.1,1,3.3,1.84,34.1,11.5,7,3.8,3.67,"No","Sin hemoncosis",24,,,
+"CAP0029","Lambayeque","Semi-extensivo","Media","Sí",6.4,5,,1.69,33.5,9.7,7,3.8,3.2,"No","Sin hemoncosis",0,,,
+"CAP0203","Lambayeque","Estabulado","Media","No",5.2,5,2.4,1.53,18,8.5,5.7,7.2,2.81,"Sí","Moderada",1,"Closantel",9,1
+"CAP0105","Piura","Extensivo","Tardía","No",7.7,4,2.6,1.37,15.7,8,6.2,8.7,2.58,"Sí","Grave",27,"Closantel",21,1
+"CAP0012","Ica","Extensivo","Media","No",2.2,1,3.2,1.3,20.3,6.8,6.3,7.5,2.13,"Sí","Moderada",8,"Closantel",3,1
+"CAP0283","Piura","Semi-extensivo","Temprana","Sí",6.4,3,3.1,1.72,26.4,10.4,5,9,4.02,"No","Sin hemoncosis",3,,,
+"CAP0262","Lambayeque","Estabulado","Media","No",6.2,6,3.2,1.7,34.3,10,6.8,8.5,2.89,"No","Sin hemoncosis",1,,,
+"CAP0186","Lambayeque","Semi-extensivo","Tardía","Sí",7.6,5,2.8,1.37,35.2,10.5,6.4,4.7,2.86,"No","Sin hemoncosis",13,,,
+"CAP0103","Piura","Semi-extensivo","Media","No",4.7,3,2.4,0.68,16.8,9.1,,7.5,2.29,"Sí","Moderada",2,"Closantel",11,1
+"CAP0147","Piura","Extensivo","Media","No",5.2,2,2.9,0.91,17.6,10.4,6.8,8.9,2.36,"Sí","Moderada",13,"Closantel",6,1
+"CAP0197","Ica","Extensivo","Tardía","No",3.6,4,3.3,1.06,21,7,6.8,7.9,2.85,"Sí","Moderada",9,"Ivermectina",2,1
+"CAP0071","Ica","Extensivo","Tardía","Sí",6.6,2,3.1,0.3,22.4,7.8,5.3,6.1,2.3,"Sí","Leve",5,"Closantel",10,1
+"CAP0113","Piura","Extensivo","Media","Sí",3.8,3,2.9,1.05,21.2,9.3,5.9,2.6,2.24,"Sí","Leve",32,"Closantel",17,1
+"CAP0260","Lambayeque","Extensivo","Temprana","si",5.8,1,3.2,1.01,29.3,10.4,6.6,8,3.34,"No","Sin hemoncosis",0,,,
+"CAP0151","Ica","Extensivo","Media","No",5.5,0,3.6,1.23,27.3,9.2,7.2,,3.22,"No","Sin hemoncosis",2,,,
+"CAP0138","Lambayeque","Extensivo","Media","No",7.1,4,2.5,1.33,26.1,9.8,6.5,6.5,3.3,"No","Sin hemoncosis",20,,,
+"CAP0302","Piura","Extensivo","Temprana","No",4.3,2,2.4,1.11,21,8.2,6.9,6,2.81,"Sí","Moderada",14,"Ivermectina",13,1
+"CAP0098","Piura","Semi-extensivo","Tardía","Sí",1.7,1,3.1,1.45,35.8,12.3,7.6,2.4,3.87,"No","Sin hemoncosis",1,,,
+"CAP0296","Piura","Semi-extensivo","Media","Sí",8.5,5,3.5,1.32,28.4,8.7,6.4,,2.72,"No","Sin hemoncosis",6,,,
+"CAP0229","Piura","Semi-extensivo","Tardía","Sí",5.6,2,2.6,1.15,30.6,11.6,5.5,,,"No","Sin hemoncosis",0,,,
+"CAP0220","Piura","Estabulado","Media","Sí",3.3,2,2.8,1.82,28.7,10.1,6,3.7,3.11,"No","Sin hemoncosis",5,,,
+"CAP0021","Piura","Extensivo","Tardía","Sí",4.1,2,2.3,0.29,24.4,,6.1,7.4,2.84,"Sí","Leve",9,"Closantel",8,1
+"CAP0298","Lambayeque"," Extensivo ","Media","Sí",4.9,2,2.2,0.69,20.6,11.1,7.2,3.3,3.53,"No","Sin hemoncosis",1,,,
+"CAP0293","ICA","Extensivo","Tardía","Sí",4.3,4,3.3,1.03,30.1,11.2,7.7,2.8,3.49,"No","Sin hemoncosis",7,,,
+"CAP0064","Piura","Estabulado","Tardía","Sí",4.1,1,4.9,2.35,29.5,8.7,6.9,6.1,3.6,"No","Sin hemoncosis",14,,,
+"CAP0301","Piura","Semi-extensivo","Tardía","No",4.9,2,3.2,1.16,28.9,,7.8,6.7,2.83,"No","Sin hemoncosis",7,,,
+"CAP0162","Piura","Extensivo","Tardía","No",4.1,1,2.1,0.72,30.7,10.9,,5.7,2.67,"No","Sin hemoncosis",3,,,
+"CAP0034","Piura","Estabulado","Temprana","Sí",3.4,7,3.3,1.68,26,9.3,8.5,5.4,3.82,"No","Sin hemoncosis",6,,,
+"CAP0001","Piura","Extensivo","Tardía","Sí",,2,2,0.94,24.2,6.1,7.1,6.6,2.63,"Sí","Grave",7,"Ivermectina",28,0
+"CAP0256","Ica","Semi-extensivo","Media","Sí",4.9,5,3.8,1.58,32.8,10.8,6.8,8.6,3.3,"No","Sin hemoncosis",1,,,
+"CAP0152","Lambayeque","semi-extensivo","Temprana","No ",5.7,2,3.4,1.52,22.6,7.3,5.6,6,3.33,"Sí","Moderada",53,"Closantel",12,1
+"CAP0079","Ica","Estabulado","Temprana","Sí",7.2,4,2.7,1.6,33.6,12.6,8.2,5.1,3.86,"No","Sin hemoncosis",0,,,
+"CAP0057","Ica","Extensivo","Tardía","Sí",4.6,1,2.5,1.05,25.5,7.4,6.3,3.2,3.23,"Sí","Leve",12,"Ivermectina",16,1
+"CAP0039","Piura","Extensivo","Media","No",3.2,1,2.8,1.14,25.1,8.9,,,3.11,"Sí","Moderada",4,"Ivermectina",17,1
+"CAP0198","Piura","Estabulado","Tardía","No",2.2,2,3.9,1.79,23.8,9.5,,7.3,2.6,"Sí","Leve",7,"Closantel",16,1
+"CAP0078","Piura","Estabulado","Media","Sí",5.5,4,3.1,1.16,37.9,10.5,7.1,8.9,3.08,"No","Sin hemoncosis",1,,,
+"CAP0304","Lambayeque","Estabulado","Tardía","Sí",8.2,7,3.2,1.7,35.3,10.2,7,4.4,3.73,"No","Sin hemoncosis",1,,,
+"CAP0168","Piura","Semi-extensivo","Temprana","No",4.7,0,3.2,1.64,,12.2,6.1,7.4,3.2,"No","Sin hemoncosis",1,,,
+"CAP0237","Ica","Estabulado","Media","Sí",5.8,4,2.4,1.54,23.8,10.3,5.8,4.1,3.18,"No","Sin hemoncosis",4,,,
+"CAP0292","Piura","Extensivo","Media","Sí",5.5,3,3.5,1.16,38.4,13.5,7.4,6.1,3.69,"No","Sin hemoncosis",3,,,
+"CAP0163","Piura","Extensivo","Media","Sí",6.4,2,2,0.93,17.5,6.7,5.7,10.4,2.6,"Sí","Moderada",13,"Ivermectina",28,0
+"CAP0251","Ica","Semi-extensivo","Media","No",5.2,2,2.5,1.22,24.1,7.8,7.1,12.4,2.95,"Sí","Leve",19,"Ivermectina",11,1
+"CAP0195","Ica","Semi-extensivo","Tardía","Sí",5.8,4,1.8,0.28,20.4,7.5,5.5,,2.38,"Sí","Leve",10,"Ivermectina",28,0
+"CAP0308","Ica","Extensivo","Temprana","Sí",2.8,1,1.9,1.39,32.4,8.7,6.9,6.6,2.77,"No","Sin hemoncosis",0,,,
+"CAP0250","Ica","Extensivo","Temprana","No",4.2,5,,1.32,24.1,8.3,5.4,10.1,3.47,"Sí","Grave",35,"Ivermectina",13,0
+"CAP0022","Piura","Estabulado","Temprana","No",3.1,0,3.5,1.85,27.4,12.3,6.7,0.3,3.29,"No","Sin hemoncosis",2,,,
+"CAP0094","Lambayeque","Extensivo","Media","No",1.5,0,2.9,0.37,22.7,,,9.2,2.79,"Sí","Leve",2,"Closantel",1,1
+"CAP0124","Ica","Semi-extensivo","Tardía","No",5.7,3,3.2,1.25,29.8,10.2,5.6,4.7,2.44,"No","Sin hemoncosis",13,,,
+"CAP0096","Ica","Extensivo","Tardía","No",3.1,2,2.1,1.06,26.6,8.6,6.7,7.5,2.69,"Sí","Leve",6,"Ivermectina",8,1
+"CAP0135","Ica","Extensivo","Tardía","Sí",3.9,3,3.5,1.44,29.3,12.6,6.4,4.3,3.2,"No","Sin hemoncosis",9,,,
+"CAP0216","Lambayeque","Extensivo","Media","No",1.8,0,3.2,1.06,23.9,8,5.8,8.6,2.55,"Sí","Moderada",3,"Closantel",25,1
+"CAP0231","Lambayeque","Extensivo","Tardía","Sí",2.5,3,2.7,0.62,,8.9,6.1,9.1,2.27,"Sí","Leve",3,"Ivermectina",15,1
+"CAP0085","Piura","Extensivo","Media","No",2.9,1,3.1,1.06,24.5,9.5,5.3,7.1,3.53,"Sí","Leve",78,"Ivermectina",12,0
+"CAP0300","Lambayeque","semi-extensivo","Tardía","Sí",6.6,2,3.6,0.86,28.7,10.7,6.6,4.7,3.79,"No","Sin hemoncosis",1,,,
+"CAP0049","Piura","Semi-extensivo","Media","No",6.2,2,3,1.4,33.2,11.6,8.5,2.7,3.13,"No","Sin hemoncosis",0,,,
+"CAP0048","Piura","Semi-extensivo","Media","No",4.6,3,2.1,1.06,25.2,10.8,5.4,6.3,,"Sí","Leve",33,"Ivermectina",28,1
+"CAP0059"," Ica ","Estabulado","Media","No",5.4,2,3.6,1.24,37.3,11.2,8,2.9,3.61,"No","Sin hemoncosis",1,,,
+"CAP0006","Ica","Semi-extensivo","Media","Sí",3.6,2,2.3,1.34,30,12.7,6.2,5.5,3.17,"No","Sin hemoncosis",2,,,
+"CAP0248","Piura","Semi-extensivo","Temprana","Sí",7.4,2,2.9,2.02,31.9,9.9,6.7,6.5,3.93,"No","Sin hemoncosis",0,,,
+"CAP0056","Lambayeque","Semi-extensivo","Temprana","No",6.7,7,3.2,1.53,23.9,6.7,4.7,9.9,2.66,"Sí","Moderada",0,"Closantel",9,0
+"CAP0225","Ica","Estabulado","Media","No",5.5,5,2.8,1.41,31.6,12.5,6.2,2.6,3.29,"No","Sin hemoncosis",15,,,
+"CAP0199","Piura","Estabulado","Media","No",3.9,1,3.1,1.3,32.4,,7.3,2.5,3.55,"No","Sin hemoncosis",3,,,
+"CAP0054","Piura","Extensivo","Tardía","No",1.5,0,3,0.58,22.9,6.9,6.6,7.3,2.58,"Sí","Grave",1,"Ivermectina",28,0
+"CAP0212","Piura","Semi-extensivo","Media","No",5.6,3,3.8,1.79,30.5,9.9,7,8.1,2.57,"No","Sin hemoncosis",3,,,
+"CAP0046","Piura","Extensivo","Temprana","No",2.5,0,2.8,1.15,30.1,11.5,7.2,7.4,3.28,"No","Sin hemoncosis",2,,,
+"CAP0004","Lambayeque","Semi-extensivo","Media",,4.1,2,2.5,1.3,36.8,11.3,,3.1,3.63,"No","Sin hemoncosis",19,,,
+"CAP0022","Piura","Estabulado","Temprana","No",3.1,0,3.5,1.85,27.4,12.3,6.7,0.3,3.29,"No","Sin hemoncosis",2,,,
+"CAP0215","Piura","Extensivo","Media","No",6.7,1,3.6,1.08,23,8.2,7.5,7.2,2.65,"Sí","Leve",2,"Closantel",4,0
+"CAP0290","Piura","Estabulado","Media","Sí",3.9,5,3,1.71,29.9,9.7,6.3,4.9,3.48,"No","Sin hemoncosis",2,,,
+"CAP0150","Piura","Extensivo","Media","Sí",4.5,3,,1.77,33.5,9.3,7.7,2.3,3.58,"No","Sin hemoncosis",19,,,
+"CAP0210","Lambayeque","Extensivo","Media","No",4,2,2.7,1.68,35.4,11.2,5.8,2.8,3.07,"No","Sin hemoncosis",0,,,
+"CAP0211","Lambayeque","Extensivo","Tardía","Sí",6.4,2,2.7,0.81,24.5,9.8,6.4,5.1,2.89,"Sí","Moderada",52,"Ivermectina",12,1
+"CAP0277","Piura","Semi-extensivo","Tardía","No",6.5,7,2.9,1.03,31.9,10.5,7.3,5.7,3.7,"No","Sin hemoncosis",5,,,
+"CAP0045","Lambayeque","Extensivo","Temprana","Sí",6.3,10,3.5,1.45,24.3,9,5.9,6.5,3.12,"Sí","Moderada",26,"Ivermectina",7,1
+"CAP0307","Ica","Extensivo","Temprana","No",5,3,2.6,0.108,,7.5,,9.4,3.08,"Sí","Leve",2,"Closantel",2,1
+"CAP0126","Piura","Extensivo","Media","No",5.1,0,3.4,1.29,36.7,13,,4.4,3.37,"No","Sin hemoncosis",6,,,
+"CAP0160","Lambayeque","Extensivo","Media","No",4.8,2,2.1,1.35,29.9,10.4,6.7,4.4,3.37,"No","Sin hemoncosis",17,,,
+"CAP0110","Ica","Semi-extensivo","Media","No",3.5,1,3,1.67,34.9,12.4,7.5,0.2,2.69,"No","Sin hemoncosis",0,,,
+"CAP0072","Piura","Extensivo","Media","SI",2.7,1,2.6,1.25,25.1,8.8,5.4,12.3,3.08,"Sí","Leve",15,"Closantel",9,1
+"CAP0024","Ica","Semi-extensivo","Tardía","No",6,2,2.7,0.71,22.4,7.9,,6.1,2.09,"Sí","Moderada",0,"Ivermectina",28,0
+"CAP0065","Piura","Extensivo","Media","Sí",5.1,1,2.5,0.86,,10.7,6.3,3.8,3.92,"No","Sin hemoncosis",0,,,
+"CAP0030","Lambayeque","Extensivo","Temprana","Sí",4,2,2.6,1.48,29.4,9.3,7.3,2.4,3.09,"No","Sin hemoncosis",3,,,
+"CAP0135","Ica","Extensivo","Tardía","Sí",3.9,3,3.5,1.44,29.3,12.6,6.4,4.3,3.2,"No","Sin hemoncosis",9,,,
+"CAP0278","Lambayeque","Extensivo","Media","No",4.7,2,,0.94,19.6,6.6,6.3,11.4,2.12,"Sí","Moderada",28,"Closantel",8,1
+"CAP0038","Piura","Extensivo","Media","Sí",,3,2.8,1.45,,9.8,6.6,5.9,2.45,"No","Sin hemoncosis",0,,,
+"CAP0153","Lambayeque","Extensivo","Media","Sí",5.9,5,3,1.68,31.4,11.2,5.9,6.2,3.64,"No","Sin hemoncosis",10,,,
+"CAP0028","Piura","Estabulado","Temprana","No",4.1,3,2.8,1.85,30.7,7.6,6.2,2.7,3.01,"No","Sin hemoncosis",4,,,
+"CAP0306","Ica","Estabulado","Temprana","Sí",7.7,8,3.8,2.22,30.8,9.4,6.5,6.6,2.67,"No","Sin hemoncosis",0,,,
+"CAP0185","Ica","Estabulado","Temprana","No",4.2,3,2.8,1.61,24.2,9.1,6.4,10.2,3.14,"Sí","Moderada",6,"Closantel",13,1
+"CAP0091","Piura","Semi-extensivo","Media","Sí",5,4,2.9,1.39,21.8,9.1,7.1,7.6,3.12,"No","Sin hemoncosis",3,,,
+"CAP0122","Lambayeque","Estabulado","Media","Sí",3,2,2.3,1.21,30,9.7,7.4,7.1,3.6,"No","Sin hemoncosis",6,,,
+"CAP0281","Lambayeque","Estabulado","Tardía","Sí",2.6,,2.4,1.22,20.8,10.3,6.7,5.1,3.43,"No","Sin hemoncosis",0,,,
+"CAP0236","Lambayeque","Estabulado","Tardía","Sí",1.7,0,3.2,1.27,15.4,6.7,5.9,9.1,2.53,"Sí","Grave",4,"Closantel",3,1
+"CAP0264","Ica","Extensivo","Temprana","Sí",1.9,4,,0.89,23.9,9.3,6.5,8.9,2.66,"Sí","Leve",26,"Closantel",8,1
+"CAP0273","Lambayeque","Extensivo","Tardía","No",,1,2.4,1.22,31.4,10.3,6,3.2,2.66,"Sí","Leve",2,"Ivermectina",8,0
+"CAP0067","Lambayeque","Estabulado","Tardía",,9.2,4,3,1.47,31.2,8.6,6.8,5.2,2.93,"No","Sin hemoncosis",9,,,
+"CAP0036","Lambayeque","Estabulado","Media","No",5.9,3,2.5,1.85,31.4,11.2,,3.6,3.87,"No","Sin hemoncosis",3,,,
+"CAP0295","Piura","Extensivo","Media","Sí",4.3,0,2.9,0.93,32.1,10.1,6.7,5.4,2.34,"Sí","Leve",2,"Ivermectina",28,0
+"CAP0230","Lambayeque","Semi-extensivo","Temprana","Sí",3.1,1,3.3,1.34,26.3,9.5,6.2,8.1,3.05,"Sí","Leve",19,"Ivermectina",6,1
+"CAP0243","Piura","Extensivo","Tardía","Sí",5.2,5,2.7,1.19,31.2,11.9,5.1,5,3.35,"Sí","Leve",12,"Ivermectina",7,1
+"CAP0035","Piura","Extensivo","Temprana","Sí",6,6,2.2,1.16,,,,8.8,2.21,"Sí","Grave",59,"Closantel",16,1
+"CAP0299","Piura","Semi-extensivo","Media","No",7.3,7,2.7,1.12,22.9,9,,3.9,3.23,"No","Sin hemoncosis",11,,,
+"CAP0047","Lambayeque","Extensivo","Media","Sí",4.2,0,2.9,0.69,,11.2,6.3,0.7,2.78,"Sí","Leve",0,"Ivermectina",7,1
+"CAP0020","Ica","Semi-extensivo","Temprana","No",6,0,3.4,1.56,25.1,10.3,6.2,3.6,3.28,"No","Sin hemoncosis",0,,,
+"CAP0080","Piura","Extensivo","Tardía","No",6.6,1,3,0.33,19.8,7.7,5.1,6.3,2.39,"Sí","Leve",7,"Ivermectina",4,1
+"CAP0100","Piura","Estabulado","Tardía","No",1.5,0,2.4,1.17,28.9,9,7.4,5.7,3.99,"No","Sin hemoncosis",3,,,
+"CAP0044","Lambayeque","Semi-extensivo","Temprana","Sí",8.6,3,3.3,1.4,32.3,10.4,6.1,5.9,3.36,"No","Sin hemoncosis",7,,,
+"CAP0207","Piura","Extensivo","Media","Sí",1.5,1,4,1.47,39.4,13,6.9,4.9,3.02,"No","Sin hemoncosis",13,,,
+"CAP0310","Ica","Extensivo","Tardía","Sí",,3,3.1,0.75,33.4,10.3,6.3,2.2,3.86,"No","Sin hemoncosis",0,,,
+"CAP0068","Ica","Estabulado","Tardía","Sí",5.4,3,2.8,1.58,30.4,9.4,6.4,6.6,2.6,"No","Sin hemoncosis",4,,,
+"CAP0267","Piura","Extensivo","Tardía","No",6.2,6,2.3,0.68,23.9,8.9,5.8,6.9,2.56,"Sí","Grave",9,"Closantel",6,1
+"CAP0093","Piura","Semi-extensivo","Temprana","No",5.2,3,2.6,0.85,21.1,8.1,5.1,1.6,3.05,"Sí","Leve",6,"Closantel",3,1
+"CAP0133","Ica","Estabulado","Temprana","Sí",5.5,,3.3,1.97,28.5,11.5,6.9,2.4,3.59,"No","Sin hemoncosis",3,,,
+"CAP0276","Ica","Extensivo","Media","No ",3.2,3,2.2,0.79,26.5,,6.6,4.8,2.77,"Sí","Leve",64,"Closantel",11,1
+"CAP0090","Piura","Extensivo","Media","Sí",4.4,1,3.6,1.68,27,9.7,,3.5,3.89,"No","Sin hemoncosis",1,,,
+"CAP0194","Lambayeque","Semi-extensivo","Tardía","No",5.2,5,3,1.27,25.2,10.8,6.9,3.7,3.58,"No","Sin hemoncosis",0,,,
+"CAP0061","Piura","Semi-extensivo","Media",,3.9,0,3.4,1.41,30,9.1,7.1,4.2,2.73,"No","Sin hemoncosis",17,,,
+"CAP0257","Lambayeque","Extensivo","Temprana","Sí",7.4,5,2.5,0.68,25.1,10.5,8,5.4,3.65,"No","Sin hemoncosis",9,,,
+"CAP0233","Piura","Semi-extensivo","Media","No",4,5,2.7,1.36,27.1,8.1,4.3,6.2,3.84,"No","Sin hemoncosis",0,,,
+"CAP0258","Piura","Semi-extensivo","Media","Sí",3.1,1,3.3,0.71,17.2,7.2,6.9,3.6,3.44,"Sí","Leve",10,"Closantel",7,1
+"CAP0086","Ica","Extensivo","Media","No",5,4,3.3,1.42,25.5,10.7,,4,2.65,"No","Sin hemoncosis",0,,,
+"CAP0180","Piura","Extensivo","Temprana","Sí",3.2,4,2.7,1.38,28.8,10.2,6.4,6.8,2.6,"Sí","Moderada",60,"Closantel",8,1
+"CAP0244","Piura","Semi-extensivo","Temprana","No",2.3,2,2.9,1.43,19.4,7.4,5.5,10.8,2.85,"Sí","Grave",9,"Closantel",18,1
+"CAP0077","Piura","Estabulado","Media","Sí",8,6,3.3,1.54,25,9.8,7,6.7,2.84,"Sí","Moderada",27,"Ivermectina",28,0
+"CAP0066","Piura","Extensivo","Media","Sí",1.5,1,3.6,0.49,20.4,,5,11,2.89,"Sí","Moderada",8,"Closantel",23,1
+"CAP0125","Lambayeque","Semi-extensivo","Temprana","No",5.5,4,3.7,1.4,18.6,8.3,6.3,6.4,3.03,"Sí","Grave",34,"Ivermectina",28,0
+"CAP0234","Piura","Extensivo","Tardía","No",5.7,4,3.1,0.59,,,4.9,3.6,3.09,"Sí","Grave",5,"Ivermectina",28,0
+"CAP0228","lambayeque","Extensivo","Media","No",8.3,4,3.2,1.09,21.2,9.1,7.3,6.3,3.24,"Sí","Leve",26,"Ivermectina",15,1
+"CAP0118","Ica","Extensivo","Media","Sí",4.7,3,2.3,1.25,32.1,10.7,7.5,5.1,3.94,"No","Sin hemoncosis",2,,,
+"CAP0003","Lambayeque","Extensivo","Media","No",6.1,3,2.3,0.6,17.2,7.1,5.3,7,2.57,"Sí","Grave",39,"Ivermectina",28,0
+"CAP0032","Lambayeque","Extensivo","Temprana","No",6.9,5,3.6,1.78,26.8,10.5,7.8,4.2,,"No","Sin hemoncosis",1,,,
+"CAP0016","Lambayeque","Semi-extensivo","Temprana","Sí",8.1,10,3.7,1.78,30.5,10.9,6.5,6.4,3.35,"No","Sin hemoncosis",9,,,
+"CAP0157","Piura","Semi-extensivo","Media","Sí",6.4,5,4.2,1.89,28.3,11.4,5.9,2,3.11,"No","Sin hemoncosis",10,,,
+"CAP0181","Lambayeque","Semi-extensivo","Tardía","Sí",4.6,,3.5,1.42,29.8,,6.5,3.5,3.02,"No","Sin hemoncosis",1,,,
+"CAP0082","Lambayeque","Extensivo","Tardía","Sí",3.6,1,2.4,0.7,,9.2,,,2.69,"Sí","Leve",34,"Closantel",18,1
+"CAP0268","lambayeque","Extensivo","Temprana","Sí",3.3,1,2.3,1.5,,11,6,2.8,2.68,"No","Sin hemoncosis",0,,,
+"CAP0266","Lambayeque","Semi-extensivo","Tardía","No",4.8,1,3.4,1.48,25.3,9,7.3,8.8,3.02,"No","Sin hemoncosis",3,,,
+"CAP0051","Ica","Extensivo","Temprana","No",2.4,1,2.4,0.94,20.2,5.4,5.3,,1.94,"Sí","Grave",28,"Ivermectina",28,0
+"CAP0069","Lambayeque","Estabulado","Temprana","Sí",1.5,1,3.1,1.45,30.8,10.3,8,5.2,3.85,"No","Sin hemoncosis",4,,,
+"CAP0187","Ica","Semi-extensivo","Media",,9.1,7,3.6,1.69,31.2,8.8,5.3,5.9,4.45,"No","Sin hemoncosis",14,,,
+"CAP0183","Piura","Semi-extensivo","Tardía","No",7.3,4,3.6,1.16,27.4,9.3,,7.6,2.95,"No","Sin hemoncosis",2,,,
+"CAP0130","Lambayeque","Estabulado","Media","No",4.7,2,3.7,1.62,28,9,6.7,8.1,3.3,"No","Sin hemoncosis",3,,,
+"CAP0255","Ica","Semi-extensivo","Media","No",1.5,0,2.7,0.8,,6.9,6.6,9.1,2.64,"Sí","Grave",8,"Closantel",6,1
+"CAP0280","Lambayeque","Semi-extensivo","Temprana","No",7,4,2.3,1.04,21,9.3,8,1,3.31,"Sí","Grave",13,"Closantel",15,1
+"CAP0263","Piura","Semi-extensivo","Tardía","No",3.4,2,3,1.11,30.3,11.1,6,4.1,3.41,"No","Sin hemoncosis",1,,,
+"CAP0261","Lambayeque","Semi-extensivo","Media","Sí",4.8,1,3.6,1.9,29.1,10,7.6,4,2.82,"No","Sin hemoncosis",0,,,
+"CAP0132","Piura","Estabulado","Tardía","No",5.2,3,3.1,1.65,29.8,9.1,6,6.1,3.39,"No","Sin hemoncosis",31,,,
+"CAP0204","Ica","Extensivo","Temprana","Sí",4,6,2.1,1.33,,7.1,6.6,,2.67,"Sí","Leve",28,"Closantel",8,1
+"CAP0191","Ica","Semi-extensivo","Temprana","No",5.2,1,2.7,1.23,31.9,8.6,7,5.5,3.13,"No","Sin hemoncosis",0,,,
+"CAP0239","Lambayeque","Semi-extensivo","Tardía","Sí",5.7,3,3.1,1.16,,9.1,6.9,8.7,3.18,"No","Sin hemoncosis",0,,,
+"CAP0154","Ica","Extensivo","Tardía","No",3.7,3,2.6,,,7.4,6.5,6.7,2.55,"Sí","Grave",10,"Ivermectina",28,0
+"CAP0176","Ica","Extensivo","Tardía","No",4.7,1,3.4,1.39,29.8,,7.1,5.4,3.51,"No","Sin hemoncosis",1,,,
+"CAP0245","Piura","Extensivo","Media","Sí",3.9,2,2.7,1.14,24.4,9.8,7.5,11.4,2.9,"Sí","Leve",29,"Ivermectina",1,1
+"CAP0201","Piura","Semi-extensivo","Media","Sí",6.1,3,3.8,1.9,31.4,9.4,6.9,7.4,3.78,"No","Sin hemoncosis",11,,,
+"CAP0136","Piura","Estabulado","Temprana","Sí",,3,2.9,,29.1,10.5,6.2,4.2,3.35,"No","Sin hemoncosis",4,,,
+"CAP0116","Piura","Semi-extensivo","Media","Sí",4.4,2,2.6,1.74,26.9,8.4,6.8,11.1,3.03,"Sí","Leve",6,"Ivermectina",6,0
+"CAP0013","Ica","Extensivo","Temprana","No",4.5,4,2.7,1.11,15.9,5.3,5.3,9.7,3.21,"Sí","Grave",21,"Closantel",28,0
+"CAP0165","Ica","Extensivo","Tardía","Sí",5.6,5,3.4,1.48,22.7,8.2,5.6,9.4,2.97,"No","Sin hemoncosis",1,,,
+"CAP0275","Piura","Extensivo","Media","No",6.5,5,2.6,0.61,21.7,6.3,5.7,5.7,3.27,"Sí","Grave",18,"Closantel",18,1
+"CAP0008","Lambayeque","Estabulado","Tardía","Sí",3.3,2,2.5,0.89,23.2,7,5.7,5,3.03,"Sí","Leve",3,"Ivermectina",18,1
+"CAP0002","Piura","Estabulado","Temprana","No",5,1,3.7,1.72,31.7,,8.5,4.2,3.58,"No","Sin hemoncosis",1,,,
+"CAP0141","Lambayeque","Extensivo","Temprana","No",5.3,1,2.5,0.79,29.5,8.8,6.7,8.6,3.28,"Sí","Leve",6,"Ivermectina",8,1
+"CAP0171","Piura","Estabulado","Temprana","Sí",1.8,0,2.7,1.63,20.2,8.4,6.5,8,3.2,"Sí","Moderada",8,"Closantel",13,1
+"CAP0167","Piura","Extensivo","Media","Sí",7,8,3,0.58,20.7,9.6,5.8,8.8,3.04,"Sí","Moderada",1,"Closantel",22,1
+"CAP0190","Piura","Semi-extensivo","Media","Sí",3.5,0,2.8,1.14,28.1,8.3,6.3,9.8,3.43,"Sí","Leve",4,"Closantel",6,1
+"CAP0271","Lambayeque","Semi-extensivo","Media","No",5,1,3,,20.7,6.9,6.6,12.2,2.99,"Sí","Grave",8,"Ivermectina",28,0
+"CAP0134","Piura","Semi-extensivo","Tardía","No",6,7,3.2,1.4,33.5,12.4,6.8,4.3,3.23,"No","Sin hemoncosis",12,,,
+"CAP0178","Piura","Extensivo","Media","No",3.4,3,3,1.17,18.9,8.3,6.5,8.7,2.29,"Sí","Moderada",44,"Closantel",17,1
+"CAP0235","Ica"," Semi-extensivo ","Tardía","Sí",4.4,4,2.6,1.02,32.9,10.6,7.1,3.4,2.78,"No","Sin hemoncosis",3,,,
+"CAP0027","Lambayeque","Semi-extensivo","Tardía","Sí",4,6,3.3,1.37,30.9,10.6,6.7,1.5,3.2,"No","Sin hemoncosis",7,,,
+"CAP0202","Piura","Estabulado","Media","Sí",5.4,3,3,1.7,30,13.2,9,3,3.68,"No","Sin hemoncosis",0,,,
+"CAP0063","Piura","Extensivo","Media","Sí",2.5,1,2.6,1.27,22.7,10.1,,11.5,2.92,"Sí","Leve",22,"Ivermectina",9,1
+"CAP0193","Piura"," Extensivo ","Temprana","No",6,6,2.8,0.91,33.5,11.4,7.5,6.9,3.11,"No","Sin hemoncosis",9,,,
+"CAP0213","Lambayeque","Semi-extensivo","Media","No",5.1,2,2.8,1.42,31,11.7,6.7,7.9,3.11,"No","Sin hemoncosis",5,,,
+"CAP0159","Ica","Estabulado","Media","No",1.5,0,,1.01,23.6,12.3,6.7,7.3,,"No","Sin hemoncosis",5,,,
+"CAP0217","Piura","Semi-extensivo","Tardía","Sí",4.5,4,2.7,0.84,30.2,,6.8,4.9,2.72,"Sí","Leve",16,"Ivermectina",9,1
+"CAP0026","Ica","Semi-extensivo","Media","Sí",3.3,2,3.4,1.31,27.1,9.9,6.8,6.2,3.56,"No","Sin hemoncosis",3,,,
+"CAP0219","Lambayeque","Estabulado","Tardía","No",6.4,3,3.2,1.32,24.8,9.1,5.8,9.6,2.45,"Sí","Moderada",16,"Closantel",15,1
+"CAP0149","Piura","Estabulado","Media","Sí",9.8,,3,1.43,28.2,9.8,5.9,3,3.88,"No","Sin hemoncosis",9,,,
+"CAP0270","Ica","Semi-extensivo","Tardía","No",1.5,1,2.3,0.83,20.7,10.1,7.3,6.1,3.31,"Sí","Leve",7,"Closantel",19,1

@@ -1,0 +1,366 @@
+﻿"id_lechon","granja","aditivo_dieta","sexo","madre_vacunada_ecoli","edad_destete_dias","tamano_camada","peso_destete_kg","ganancia_diaria_g","temperatura_c","hematocrito_pct","proteinas_totales_g_dl","glucosa_mg_dl","leucocitos_10_9_l","diarrea_posdestete","severidad_diarrea","episodios_diarrea","tratamiento","dias_hasta_remision","remision"
+"LEC0259","Granja B","Probiótico","Hembra","No",20,13,7.29,348,40,,7,60,25.9,"Sí","Grave",4,"Colistina",14,0
+"LEC0100","Granja C","Control","Macho castrado","Sí",24,15,4.88,315,38.4,31.8,4.6,108,17.1,"No","Sin diarrea",2,,,
+"LEC0121","Granja C","Ácidos orgánicos","Hembra","Sí",26,17,4.63,,39.4,29.9,6.2,106,14,"Sí","Grave",2,"Apramicina",2,0
+"LEC0343","Granja C","Control","Macho castrado","Sí",22,12,7.46,336,38.5,28.4,4.6,129,9.1,"No","Sin diarrea",0,,,
+"LEC0140","Granja A","Ácidos orgánicos","Macho castrado","Sí",23,6,7.06,388,39.4,36.5,5.8,65,21.3,"Sí","Leve",0,"Colistina",14,0
+"LEC0145","Granja C","Probiótico","Macho castrado","No",24,11,5.91,333,39.5,35.6,7.7,60,14.9,"Sí","Moderada",2,"Colistina",14,0
+"LEC0263","Granja B","Control","Macho castrado","Sí",24,15,7.03,356,38.9,30.4,5.6,93,14,"No","Sin diarrea",2,,,
+"LEC0098","Granja B","Ácidos orgánicos","Hembra","Sí",25,14,,,39.6,27.6,5.8,112,10.8,"No","Sin diarrea",0,,,
+"LEC0294","Granja A","Control","Hembra","No",22,17,7.29,285,39.1,26.6,5.8,100,12.2,"Sí","Moderada",5,"Colistina",3,1
+"LEC0236","Granja A","Probiótico","Macho castrado","Sí",25,12,6.48,497,38.1,28.5,,119,12.1,"No","Sin diarrea",0,,,
+"LEC0285","Granja A","Ácidos orgánicos","Macho castrado","No",24,11,5.59,428,39.6,32,5.5,121,14.5,"No","Sin diarrea",0,,,
+"LEC0325","Granja C","Probiótico","Hembra","No",23,10,7.98,414,39.3,,5.4,105,15.1,"No","Sin diarrea",0,,,
+"LEC0067","Granja A","Control","Hembra","Sí",23,11,6.02,357,,28.5,5.4,106,16.1,"No","Sin diarrea",1,,,
+"LEC0316","Granja B","Control","Hembra","Sí",23,9,6.73,348,39.6,36.3,5.6,66,13.9,"Sí","Leve",0,"Colistina",14,0
+"LEC0352","Granja A","Ácidos orgánicos","Macho castrado","Sí",20,10,4.73,286,39.3,33.9,5.5,99,16.3,"Sí","Leve",2,"Apramicina",2,1
+"LEC0009","Granja C","Ácidos orgánicos","Macho castrado","Sí",24,8,6.51,466,,25.7,6.1,108,17.4,"No","Sin diarrea",0,,,
+"LEC0139","Granja C","Ácidos orgánicos","Macho castrado","Sí",25,12,5.52,441,39.1,37.5,5.2,74,15.3,"No","Sin diarrea",0,,,
+"LEC0003","Granja A","Ácidos orgánicos","Macho castrado","Sí",21,14,7.45,416,39.8,38.3,5.4,81,17.1,"No","Sin diarrea",1,,,
+"LEC0222","Granja A","Ácidos orgánicos","Hembra","Sí",23,19,7.85,504,39.5,26.6,5.5,112,14.2,"No","Sin diarrea",0,,,
+"LEC0030","Granja B","Ácidos orgánicos","Hembra","No",27,11,5.86,477,39.3,29.6,5.1,109,12.9,"No","Sin diarrea",1,,,
+"LEC0337"," Granja C ","Ácidos orgánicos","Hembra","No",22,13,4.01,312,40.2,34.9,5.4,67,21.6,"Sí","Moderada",0,"Apramicina",14,0
+"LEC0138","Granja A","Control","Macho castrado","Sí",21,15,6.21,362,40,29.9,5.3,103,9.3,"No","Sin diarrea",1,,,
+"LEC0029","Granja A","Probiótico","Macho castrado",,27,8,7.83,475,39.2,34.8,4.9,83,10.8,"No","Sin diarrea",0,,,
+"LEC0250","Granja C","Probiótico","Macho castrado","Sí",26,17,5.97,442,,39.4,5.5,103,11.3,"Sí","Leve",3,"Apramicina",14,0
+"LEC0252","Granja B","Control","Macho castrado","si",28,14,0.732,401,39.6,,5.9,96,20.2,"No","Sin diarrea",1,,,
+"LEC0353","Granja A","Probiótico","Macho castrado","Sí",22,11,4.42,346,38.8,33.4,,112,11.8,"No","Sin diarrea",0,,,
+"LEC0171","Granja A","Control","Hembra","No",22,15,7.58,468,38.5,32,5,114,16.7,"No","Sin diarrea",4,,,
+"LEC0019","Granja C","Control","Hembra","No",21,8,7.62,372,39.5,35.9,5.8,102,23.4,"Sí","Moderada",2,"Apramicina",6,1
+"LEC0107","Granja A","Ácidos orgánicos","Macho castrado","No",21,9,,,39.5,,6.4,92,20.3,"Sí","Moderada",2,"Apramicina",2,1
+"LEC0182","Granja A","Control","Macho castrado","No",23,17,6.78,480,38.8,31.2,5.9,75,14.9,"Sí","Leve",3,"Colistina",12,1
+"LEC0167","Granja A","Control","Macho castrado","No",23,13,6.53,394,39.5,43.6,5.9,78,13.6,"Sí","Leve",2,"Apramicina",8,1
+"LEC0262","Granja A","Ácidos orgánicos","Macho castrado","No",25,15,6.79,334,39.3,28.8,5.1,111,11.7,"No","Sin diarrea",4,,,
+"LEC0287","Granja C","Ácidos orgánicos","Macho castrado","No",26,10,8.25,,39.4,34,4.9,119,12.3,"No","Sin diarrea",0,,,
+"LEC0086","Granja B","Control","Hembra","Sí",25,14,6.17,353,39.1,32.4,5.6,87,14.5,"No","Sin diarrea",0,,,
+"LEC0157","Granja A","Ácidos orgánicos","Hembra","No",24,11,,418,40,33.7,5.7,117,,"No","Sin diarrea",0,,,
+"LEC0257","Granja C","Probiótico","Hembra","Sí",18,17,6.72,380,39,30.9,5.6,129,15.3,"No","Sin diarrea",2,,,
+"LEC0118","Granja A","Probiótico","Hembra","No",25,18,6.44,409,39.7,36.1,6.4,79,18.1,"Sí","Moderada",1,"Apramicina",9,1
+"LEC0128","Granja B","Control","Hembra","No",26,12,7.96,389,39.7,27,5.5,110,11.6,"No","Sin diarrea",2,,,
+"LEC0326","Granja A","Probiótico","Hembra","Sí",22,11,7.32,376,38.9,37,5.3,87,21.1,"Sí","Leve",0,"Apramicina",5,1
+"LEC0179","Granja A","Probiótico","Macho castrado","Sí",25,15,5.98,266,39.1,35.8,5.9,130,14.2,"No","Sin diarrea",0,,,
+"LEC0072","Granja A","Probiótico","Hembra","Sí",21,14,8.79,427,39.2,37.7,4.8,99,16.4,"Sí","Leve",2,"Colistina",7,1
+"LEC0347","Granja B","Ácidos orgánicos","Macho castrado","Sí",23,11,5.17,384,,33,5.8,89,12.7,"No","Sin diarrea",0,,,
+"LEC0040","Granja A","Probiótico","Hembra","Sí",25,10,6.61,338,38.6,,4.9,132,15.9,"No","Sin diarrea",2,,,
+"LEC0241","Granja A","Ácidos orgánicos","Macho castrado","Sí",21,9,5.98,322,39.4,29.2,5.8,111,15.6,"No","Sin diarrea",2,,,
+"LEC0132","Granja C","Ácidos orgánicos","Hembra","No",20,13,8.07,392,39.4,37.9,5.8,99,13.2,"Sí","Leve",1,"Apramicina",14,0
+"LEC0079","Granja A","Probiótico","Hembra","Sí",24,9,6.04,277,38.9,22.9,5.2,116,,"No","Sin diarrea",0,,,
+"LEC0178","Granja A","Control","Hembra","Sí",29,9,4.76,252,38.8,31.4,5.6,112,14.3,"No","Sin diarrea",0,,,
+"LEC0044","Granja C","Control","Macho castrado","Sí",24,9,6.71,421,39.4,34.9,4.7,122,9.5,"No","Sin diarrea",0,,,
+"LEC0081","Granja A","Ácidos orgánicos","Macho castrado","No",23,14,6.91,432,38.7,32,6,112,16.1,"No","Sin diarrea",0,,,
+"LEC0011","Granja C","Probiótico","Hembra","No",22,12,4.78,325,39.6,,5.7,86,25.6,"Sí","Moderada",1,"Apramicina",2,1
+"LEC0323","Granja A","Probiótico","Macho castrado","No ",24,16,6.6,388,39.3,31,5.5,116,16.4,"No","Sin diarrea",1,,,
+"LEC0025","Granja C","Control","Hembra","No",26,13,6.89,286,40.3,38.1,6.4,80,13.7,"Sí","Moderada",2,"Apramicina",9,1
+"LEC0309","Granja C","Control","Macho castrado","Sí",25,7,7.12,373,,32.7,5.4,104,15.4,"No","Sin diarrea",1,,,
+"LEC0308","Granja A","Control","Hembra","Sí",26,,6.74,279,39.6,38.2,6.6,110,22.8,"Sí","Leve",3,"Colistina",8,1
+"LEC0230","Granja B","Probiótico","Macho castrado","Sí",28,13,6.34,372,39.3,35.2,,85,5.6,"No","Sin diarrea",0,,,
+"LEC0102","Granja B","Ácidos orgánicos","Hembra","No",26,18,6.96,362,39.1,34.3,6.8,81,16.5,"Sí","Grave",2,"Apramicina",2,0
+"LEC0143","Granja B","Ácidos orgánicos","Macho castrado","Sí",20,11,6.12,331,38.8,32.3,5.8,113,17.1,"No","Sin diarrea",0,,,
+"LEC0076","Granja A","Probiótico","Hembra","No",24,12,7.74,456,38.5,35.2,5,112,11.1,"No","Sin diarrea",3,,,
+"LEC0026","Granja C","Ácidos orgánicos","Hembra","No",24,15,7.68,340,39.2,35.5,6.5,103,14.9,"Sí","Leve",5,"Apramicina",5,1
+"LEC0327","Granja A","Probiótico","Hembra","No",23,,,413,38.6,34.9,5.2,107,12.5,"No","Sin diarrea",1,,,
+"LEC0239","Granja B","Probiótico","Macho castrado","No",24,14,8.69,365,39.4,34.6,5.4,86,12.2,"Sí","Leve",2,"Apramicina",3,1
+"LEC0113","Granja A","Ácidos orgánicos","Macho castrado","No",19,12,5.5,382,38.8,31.3,5.7,113,6.7,"No","Sin diarrea",0,,,
+"LEC0002","GRANJA B","Ácidos orgánicos","Macho castrado","Sí",29,15,8.23,501,39,34.5,6.4,98,21.1,"No","Sin diarrea",2,,,
+"LEC0278","Granja B"," Ácidos orgánicos ","Hembra","no",28,13,7.4,447,39.7,33.4,6.3,104,16.5,"Sí","Grave",0,"Apramicina",14,0
+"LEC0042","Granja C","Ácidos orgánicos","Hembra","No",20,10,6.45,368,39.1,37.3,5.2,95,18.1,"Sí","Leve",1,"Colistina",14,0
+"LEC0244","Granja A","Probiótico","Macho castrado","Sí",24,12,9.01,483,38.9,32.1,4.7,117,12.1,"No","Sin diarrea",1,,,
+"LEC0077","Granja A","Probiótico","Hembra","Sí",23,17,7.36,466,39,,5.3,123,8.6,"No","Sin diarrea",2,,,
+"LEC0215","Granja C","Ácidos orgánicos","Hembra","Sí",20,13,5.71,301,39.2,38.8,5.7,135,20.2,"No","Sin diarrea",1,,,
+"LEC0260","Granja C","Probiótico","Macho castrado","No",22,10,8.75,467,39.8,45.5,6.2,79,17.7,"Sí","Moderada",0,"Colistina",6,1
+"LEC0310","Granja B","Control","Macho castrado","No",29,14,7.13,550,39.1,32.3,5.1,97,13.7,"No","Sin diarrea",1,,,
+"LEC0134","Granja B","Control","Hembra","Sí",23,14,8.92,485,38.8,27,,112,16.1,"No","Sin diarrea",0,,,
+"LEC0281","Granja B","Ácidos orgánicos","Macho castrado","No",23,11,4.59,224,39.4,33,6.1,101,17,"Sí","Moderada",1,"Colistina",4,0
+"LEC0209","Granja A","Ácidos orgánicos","Hembra","Sí",20,18,5.66,293,39.9,40.4,5.5,60,15.1,"Sí","Moderada",0,"Apramicina",7,1
+"LEC0049","Granja C","Ácidos orgánicos","Macho castrado","No",22,16,6.66,394,39.6,33.5,5.5,104,12.9,"No","Sin diarrea",1,,,
+"LEC0314","Granja C","Ácidos orgánicos","Macho castrado","Sí",28,14,7.86,430,39.2,37.9,5.4,88,11.5,"No","Sin diarrea",1,,,
+"LEC0036","Granja A","Control","Hembra","No",24,11,7.95,427,39.4,30,5.3,96,15.2,"No","Sin diarrea",1,,,
+"LEC0247","Granja C","Control","Macho castrado","Sí",20,9,5.54,260,39.6,36.3,6.3,96,12.8,"Sí","Leve",1,"Apramicina",9,1
+"LEC0008","Granja A","Control","Hembra","Sí",22,12,,,39.6,32.8,5,118,16.4,"No","Sin diarrea",2,,,
+"LEC0059","Granja B","Control","Macho castrado","No",24,11,6.91,360,39.3,33.9,5.8,,18.3,"Sí","Moderada",2,"Colistina",3,1
+"LEC0139","Granja C","Ácidos orgánicos","Macho castrado","Sí",25,12,5.52,441,39.1,37.5,5.2,74,15.3,"No","Sin diarrea",0,,,
+"LEC0135","Granja C","Control","Hembra","Sí",27,18,4.83,327,39.5,38.1,6.5,90,15.7,"Sí","Grave",2,"Colistina",10,1
+"LEC0199","Granja B","Control","Macho castrado","Sí",23,9,8,522,39,34.2,4.2,129,16.1,"No","Sin diarrea",0,,,
+"LEC0115","Granja B","Probiótico","Macho castrado","No",25,8,6.79,476,39.9,28.7,,108,20.6,"Sí","Leve",2,"Apramicina",4,1
+"LEC0295","Granja B","Ácidos orgánicos","Macho castrado","Sí",,7,6.27,391,38.5,35.6,6.3,93,13.4,"No","Sin diarrea",0,,,
+"LEC0163","Granja B","Control","Hembra","No",28,13,5.48,160,39.2,,4.3,109,19.3,"Sí","Moderada",2,"Apramicina",14,0
+"LEC0203","Granja B","Control","Hembra","Sí",29,13,5.63,313,38.9,31,5.1,109,11.6,"No","Sin diarrea",0,,,
+"LEC0045"," Granja C ","Control","Macho castrado","Sí",19,6,6,317,39.2,,4.7,126,15.2,"No","Sin diarrea",1,,,
+"LEC0039","Granja B","Probiótico","Hembra","Sí",23,13,7.57,420,39,37.3,5.5,103,17.8,"No","Sin diarrea",0,,,
+"LEC0004","Granja A","Probiótico","Hembra","Sí",25,15,6.74,349,39.1,22.6,4.9,112,15,"No","Sin diarrea",0,,,
+"LEC0181","Granja B","Ácidos orgánicos","Hembra","No",28,5,5.66,271,38.9,35.6,6,105,12.2,"No","Sin diarrea",1,,,
+"LEC0231","Granja C","Control","Macho castrado","Sí",22,22,7.9,289,39.8,38.3,5,89,17.6,"Sí","Moderada",2,"Colistina",14,0
+"LEC0016","Granja A","Ácidos orgánicos","Macho castrado","Sí",24,9,6.57,413,39.7,30.3,,135,5.6,"No","Sin diarrea",0,,,
+"LEC0037","Granja B","Probiótico","Hembra","Sí",22,8,8.39,473,38.9,,5.3,97,16.8,"No","Sin diarrea",1,,,
+"LEC0266","Granja A","Control","Macho castrado","Sí",19,12,5.48,224,40.1,34.7,6.5,75,17.9,"Sí","Grave",1,"Colistina",4,1
+"LEC0200","Granja B","Ácidos orgánicos","Macho castrado","Sí",22,,5.93,295,39.6,36.7,4.6,104,12.9,"No","Sin diarrea",0,,,
+"LEC0101","Granja B","Control","Macho castrado","No",25,8,5.67,379,39.2,31.4,5.4,88,13.2,"No","Sin diarrea",3,,,
+"LEC0169","Granja C","Control","Hembra","Sí",22,18,6.88,425,39.1,33.8,4.2,98,11.8,"No","Sin diarrea",3,,,
+"LEC0080","Granja B","Probiótico","Hembra","No",23,18,,471,39.3,30.3,5.2,108,13.1,"Sí","Moderada",1,"Apramicina",1,1
+"LEC0097","Granja C","Ácidos orgánicos","Macho castrado","Sí",23,9,5.06,312,39.6,,6.4,101,17.7,"Sí","Moderada",1,"Colistina",14,0
+"LEC0300","Granja A","Control","Hembra","Sí",22,17,6.46,346,40.2,34.1,5.9,99,17.2,"Sí","Grave",3,"Apramicina",13,1
+"LEC0170","Granja A","Control","Hembra","Sí",25,11,6.89,322,39.6,35.3,6.3,94,18.6,"Sí","Grave",2,"Apramicina",7,1
+"LEC0297","Granja B","Probiótico","Macho castrado","Sí",22,6,6.86,354,39.1,,5.5,110,15.9,"No","Sin diarrea",1,,,
+"LEC0341","Granja B","Control","Macho castrado",,,12,6.57,375,38.6,29.5,5.1,102,14.5,"No","Sin diarrea",1,,,
+"LEC0358","Granja A","ácidos orgánicos","Hembra","No",28,11,5.04,228,39.2,40.7,6.1,90,17.1,"Sí","Leve",3,"Apramicina",8,1
+"LEC0151","Granja B","Ácidos orgánicos","Macho castrado","No",24,8,8.12,433,39.2,,6.2,120,16.9,"Sí","Moderada",2,"Colistina",9,1
+"LEC0318","Granja C","Control","Macho castrado","No",19,9,8.41,428,39.4,,5.7,90,16.3,"Sí","Leve",0,"Colistina",5,1
+"LEC0296","Granja A","Ácidos orgánicos","Hembra","Sí",21,12,7.71,473,39.3,30.3,5.7,119,12.3,"No","Sin diarrea",0,,,
+"LEC0035","Granja C","Ácidos orgánicos","Macho castrado","Sí",20,12,8.45,515,39.9,37.2,5.3,86,13.8,"No","Sin diarrea",2,,,
+"LEC0022","Granja B","Probiótico","Hembra","Sí",25,15,7.53,352,38.6,32.8,4.9,124,15,"No","Sin diarrea",0,,,
+"LEC0242","Granja C","Probiótico","Hembra","Sí",29,10,8.25,499,39.6,38.5,5.5,115,10,"No","Sin diarrea",2,,,
+"LEC0276","Granja C","Ácidos orgánicos","Hembra","Sí",27,10,5.91,254,39.5,34,5.6,100,16.2,"No","Sin diarrea",0,,,
+"LEC0305","Granja A","Ácidos orgánicos","Hembra","Sí",20,11,6.19,396,39.3,27.3,,110,13.6,"No","Sin diarrea",1,,,
+"LEC0133","Granja B","Probiótico","Hembra","Sí",21,13,6.54,482,39.2,33.5,6.1,101,18,"No","Sin diarrea",0,,,
+"LEC0093","Granja C","Control","Hembra","Sí",24,13,6.85,301,39.2,34.5,5.5,109,12.8,"No","Sin diarrea",2,,,
+"LEC0354"," Granja B ","Ácidos orgánicos","Hembra","Sí",24,9,5.97,357,39.3,35.8,4.4,115,16.7,"No","Sin diarrea",0,,,
+"LEC0340","Granja A","Control","Macho castrado","Sí",21,6,7.08,330,39.2,30.8,5.7,111,12.5,"Sí","Leve",0,"Apramicina",1,1
+"LEC0189","Granja C","Control","Macho castrado","No",21,13,5.41,277,40.3,42.6,6.7,91,22.9,"Sí","Moderada",1,"Apramicina",8,1
+"LEC0212","Granja A","Ácidos orgánicos","Hembra","Sí",26,10,5.71,396,38.9,27.8,4.4,113,10.3,"No","Sin diarrea",1,,,
+"LEC0202","Granja B","Probiótico","Hembra","No",25,12,6.25,,38.3,28,6.1,127,9,"No","Sin diarrea",2,,,
+"LEC0254","Granja A","Probiótico","Macho castrado","Sí",25,12,7.22,360,39,25.9,6.5,98,11,"No","Sin diarrea",0,,,
+"LEC0176","Granja B","Probiótico","Hembra","Sí",20,,6.13,361,39.2,23.4,5.3,119,14.5,"No","Sin diarrea",0,,,
+"LEC0068","Granja C","Control","Hembra","No",22,12,6.99,362,,35.2,,109,22.5,"Sí","Grave",4,"Colistina",10,0
+"LEC0321","Granja A","Control","Macho castrado","Sí",21,9,8.75,456,38.9,28.9,4.9,101,,"No","Sin diarrea",1,,,
+"LEC0257","Granja C","Probiótico","Hembra","Sí",18,17,6.72,380,39,30.9,5.6,129,15.3,"No","Sin diarrea",2,,,
+"LEC0017","Granja A","Probiótico","Macho castrado","No",24,12,8.67,471,39.7,27,,101,14.8,"No","Sin diarrea",0,,,
+"LEC0066","Granja B","Probiótico","Macho castrado","No",22,8,7.3,357,39.8,31.7,6.9,103,21.4,"Sí","Grave",1,"Colistina",11,1
+"LEC0320","Granja A","Probiótico","Macho castrado","No",25,13,5.59,208,39.9,36.2,6.9,87,14.1,"Sí","Moderada",0,"Colistina",4,1
+"LEC0256","Granja C","Control","Macho castrado","Sí",24,12,6.97,405,39.5,,5.4,89,14.3,"No","Sin diarrea",0,,,
+"LEC0043","Granja B","Control","Macho castrado","Sí",,8,6.43,377,38.8,26.3,4.7,141,13.4,"No","Sin diarrea",1,,,
+"LEC0227","Granja C","Ácidos orgánicos","Hembra","Sí",23,13,6.77,437,39.1,31.6,6.5,109,21,"No","Sin diarrea",1,,,
+"LEC0223","Granja A","Probiótico","Hembra","Sí",25,12,6.83,393,39.4,36.7,6.7,88,13.8,"No","Sin diarrea",0,,,
+"LEC0041","Granja A","Control","Hembra","Sí",27,,6.93,358,39.2,31.6,,97,11.6,"No","Sin diarrea",1,,,
+"LEC0267","Granja B","Control","Macho castrado","Sí",25,9,9.01,504,39.2,34.7,,102,13.4,"No","Sin diarrea",0,,,
+"LEC0166","Granja A","Probiótico","Macho castrado","Sí",25,7,7.01,442,39.1,,5,91,16.7,"No","Sin diarrea",0,,,
+"LEC0110","Granja B","Control","Macho castrado","Sí",23,11,7.1,348,,36.2,6.1,111,13.9,"Sí","Leve",1,"Apramicina",8,1
+"LEC0293","Granja B","Control","Hembra","Sí",24,15,6.06,314,38.9,33,5.5,74,12.3,"No","Sin diarrea",2,,,
+"LEC0109","Granja C","Control","Hembra","Sí",20,,5.42,337,39.5,32.2,,90,20.4,"Sí","Moderada",2,"Colistina",6,1
+"LEC0131","Granja B","Control","Hembra","Sí",23,15,8.32,416,38.8,32,6.2,92,14.1,"No","Sin diarrea",1,,,
+"LEC0359","Granja B","Ácidos orgánicos","Macho castrado","No",21,9,5.2,229,39.5,34.5,6,88,,"Sí","Moderada",0,"Apramicina",5,1
+"LEC0099","Granja A","Control","Macho castrado",,23,14,8.12,517,39.4,33.3,4.9,102,10.6,"No","Sin diarrea",0,,,
+"LEC0355","Granja A","Control","Macho castrado","No",25,9,7.04,526,40,36.9,7.1,94,12.8,"Sí","Moderada",2,"Apramicina",14,0
+"LEC0238","GRANJA B","Control","Macho castrado","Sí",25,6,,,39.3,28.2,6.2,132,14.2,"No","Sin diarrea",0,,,
+"LEC0106","Granja B","Control","Macho castrado","Sí",25,11,5.17,264,39,29.6,,109,11.2,"No","Sin diarrea",1,,,
+"LEC0251","Granja C","Control","Macho castrado","Sí",21,8,7.15,290,39.8,33,6,129,15.7,"Sí","Leve",1,"Apramicina",10,1
+"LEC0185","Granja A","Control","Macho castrado","No",24,9,5.09,302,39.4,36.1,6.3,89,,"No","Sin diarrea",1,,,
+"LEC0153","Granja A","Probiótico","Macho castrado","Sí",28,17,8.02,400,39.3,33.5,6,117,16.6,"No","Sin diarrea",1,,,
+"LEC0346","Granja B","Probiótico","Macho castrado","Sí",,14,7.11,395,38.8,31,5.6,113,12.5,"No","Sin diarrea",0,,,
+"LEC0246","Granja A","Probiótico","Macho castrado","Sí",26,7,8.28,,39.3,32.9,5.5,108,15.4,"No","Sin diarrea",1,,,
+"LEC0015","Granja B","Ácidos orgánicos","Hembra","Sí",26,14,6.43,459,38.6,37,5,124,15.8,"No","Sin diarrea",1,,,
+"LEC0269","Granja A","Probiótico","Hembra","No",26,10,7.48,371,40.2,32.5,5.8,107,21,"Sí","Moderada",1,"Colistina",8,1
+"LEC0339","Granja A","Ácidos orgánicos","Hembra","No",26,9,8.23,357,39.3,30.6,4.7,127,17.3,"No","Sin diarrea",0,,,
+"LEC0055","granja c","Probiótico","Hembra","No",29,9,5.02,332,38.8,32,5.9,106,10.2,"No","Sin diarrea",0,,,
+"LEC0253","Granja A","Control","Macho castrado","Sí",21,8,7.24,279,39,35.1,5.6,120,11.9,"Sí","Leve",3,"Colistina",11,1
+"LEC0195","Granja C","Ácidos orgánicos","Hembra","No",22,18,5.78,269,39.6,43.4,6.4,62,20.3,"Sí","Grave",3,"Colistina",8,1
+"LEC0348","GRANJA A","Ácidos orgánicos","Hembra","Sí",23,13,6.15,368,39.2,28.5,5.1,117,13.2,"Sí","Leve",1,"Colistina",1,1
+"LEC0117","Granja B","Control","Macho castrado","SI",26,7,5.87,359,39.2,32.9,,106,11,"No","Sin diarrea",4,,,
+"LEC0328","Granja B","Ácidos orgánicos","Macho castrado","No",22,10,8.8,435,39.4,35.2,6.7,107,11.3,"No","Sin diarrea",2,,,
+"LEC0201","Granja A","Ácidos orgánicos","Macho castrado","Sí",23,8,4.71,343,39.5,35,5,113,14.3,"No","Sin diarrea",0,,,
+"LEC0177","Granja A","Ácidos orgánicos","Hembra","Sí",26,8,6.45,450,39.1,30.4,5.9,111,13,"No","Sin diarrea",1,,,
+"LEC0336","Granja A","Control","Hembra","Sí",22,6,5.7,420,39.2,28.8,5.5,,8.5,"No","Sin diarrea",0,,,
+"LEC0188","Granja A","Control","Hembra","No",23,13,6.88,375,39.1,29.5,4.3,120,10.3,"No","Sin diarrea",2,,,
+"LEC0060","Granja B","Ácidos orgánicos","Hembra","Sí",21,10,7.27,324,39.4,36.8,5.4,92,7.5,"No","Sin diarrea",1,,,
+"LEC0304","Granja B","Control","Hembra","No",25,13,6.4,305,,31.1,6.3,90,18.2,"Sí","Moderada",2,"Colistina",10,1
+"LEC0162","Granja B","Control","Macho castrado","Sí",21,13,6.42,346,,42.7,5.8,103,19.8,"Sí","Leve",2,"Apramicina",2,1
+"LEC0096","Granja A","Control","Macho castrado","No",28,11,6.61,421,39.2,28.4,6,107,15.6,"No","Sin diarrea",2,,,
+"LEC0090","Granja B","Control","Hembra","No",25,13,6.61,385,38.6,33,,128,16,"No","Sin diarrea",4,,,
+"LEC0319","Granja B","Ácidos orgánicos","Hembra","No",25,9,6.6,343,38.9,32,,123,11.4,"No","Sin diarrea",0,,,
+"LEC0258","Granja A","Control","Macho castrado","Sí",24,7,6.55,327,,31.6,6.1,93,16.5,"Sí","Leve",1,"Apramicina",5,1
+"LEC0268","Granja C","Ácidos orgánicos","Macho castrado","No",24,9,6.6,374,39.1,32.6,5.2,108,7,"No","Sin diarrea",0,,,
+"LEC0213","Granja C","Probiótico","Macho castrado","Sí",21,17,7.12,375,39.1,29,6.9,145,17.5,"Sí","Moderada",2,"Apramicina",7,0
+"LEC0137","Granja C","Probiótico","Hembra","Sí",24,11,4.99,285,39.4,32.1,5.2,130,17.1,"No","Sin diarrea",3,,,
+"LEC0174","Granja B","Ácidos orgánicos","Macho castrado","Sí",21,15,7.57,457,39.7,32.3,5.8,104,11.2,"No","Sin diarrea",1,,,
+"LEC0052","Granja B","Control","Macho castrado","Sí",20,7,6.32,367,39,33.2,5.9,106,17.7,"No","Sin diarrea",2,,,
+"LEC0270","Granja B","Control","Hembra","No",26,5,5.77,372,39.5,30.9,5.6,124,13.3,"No","Sin diarrea",1,,,
+"LEC0224","Granja B","Ácidos orgánicos","Macho castrado","Sí",23,8,4.06,400,39.5,31.3,6.1,102,13.1,"No","Sin diarrea",0,,,
+"LEC0317","Granja A","Ácidos orgánicos","Macho castrado","No ",,12,,472,39.8,29.8,6.1,81,20.1,"Sí","Grave",1,"Apramicina",14,0
+"LEC0197","Granja B","Control","Hembra","Sí",20,15,8.02,331,39.9,28,5.8,76,23.3,"Sí","Leve",4,"Colistina",14,0
+"LEC0155","Granja C","Control","Hembra","Sí",22,13,7.86,402,39.5,39.6,5.6,56,,"Sí","Leve",1,"Colistina",11,1
+"LEC0116","Granja C","Ácidos orgánicos","Hembra","Sí",23,12,6.36,401,39.6,33.4,5.5,103,9.7,"No","Sin diarrea",2,,,
+"LEC0150","Granja B","Control","Macho castrado","Sí",19,17,7.81,391,39.2,31.2,5.8,100,16.5,"Sí","Moderada",2,"Apramicina",13,0
+"LEC0183","Granja A","Control","Hembra","Sí",28,9,7.62,410,39.5,31.4,5.7,117,15.4,"No","Sin diarrea",0,,,
+"LEC0018","Granja B","Ácidos orgánicos","Hembra","Sí",27,10,7.36,444,39,27.7,5,126,14.1,"No","Sin diarrea",0,,,
+"LEC0226","Granja A","Control","Hembra","Sí",24,10,5.59,467,39.7,32.8,5.2,112,15.4,"No","Sin diarrea",0,,,
+"LEC0094","Granja B","Control","Macho castrado","No",23,9,8.42,519,39.4,30.9,5,118,,"No","Sin diarrea",0,,,
+"LEC0288","Granja B","Probiótico","Macho castrado","Sí",23,15,6.22,424,39.4,27.9,6.4,109,16,"No","Sin diarrea",0,,,
+"LEC0141","Granja A","Control","Macho castrado","Sí",26,13,6.25,294,38.6,30.4,6.2,97,10.9,"No","Sin diarrea",2,,,
+"LEC0013","Granja B","Probiótico","Hembra","Sí",19,15,7.56,466,39.8,31.5,6.1,113,8.7,"No","Sin diarrea",0,,,
+"LEC0051","Granja B","Ácidos orgánicos","Hembra","No",22,10,5.79,,39.4,35.3,5.8,104,15.5,"No","Sin diarrea",0,,,
+"LEC0091","Granja C","Ácidos orgánicos","Hembra","Sí",21,7,,403,39.1,34.3,6.7,97,13,"Sí","Leve",1,"Apramicina",3,1
+"LEC0273","Granja B","Ácidos orgánicos","Macho castrado","Sí",23,5,5.25,362,,29.3,4.9,102,10.3,"No","Sin diarrea",0,,,
+"LEC0085","Granja B","Control","Hembra","Sí",26,10,8.52,392,39.3,28.6,5.3,126,,"No","Sin diarrea",1,,,
+"LEC0312","Granja A","Probiótico","Hembra","Sí",26,16,8.47,341,39.1,32.6,5.2,95,12.6,"No","Sin diarrea",2,,,
+"LEC0159","Granja A","Ácidos orgánicos","Macho castrado","No",24,14,7.41,449,,32.3,5.8,111,12.9,"No","Sin diarrea",0,,,
+"LEC0084","Granja C","Probiótico","Hembra","Sí",26,13,6.82,327,39.9,46.1,5.9,64,24,"Sí","Moderada",2,"Apramicina",13,1
+"LEC0028","Granja A","Probiótico","Hembra","Sí",29,9,7.34,398,39.8,29.3,5,131,15.2,"No","Sin diarrea",0,,,
+"LEC0023","Granja A","Probiótico","Macho castrado","Sí",26,15,7.4,448,39.6,32.5,5.6,102,18.2,"No","Sin diarrea",0,,,
+"LEC0298","Granja C","Ácidos orgánicos","Hembra","Sí",25,14,6.25,417,38.7,29,4.6,97,12.8,"No","Sin diarrea",1,,,
+"LEC0173","Granja C","Probiótico","Hembra","Sí",19,11,6.18,364,40.2,34.1,6.1,96,17.2,"Sí","Leve",2,"Apramicina",3,1
+"LEC0207","Granja A","Probiótico","Hembra","Sí",27,10,5.13,,39.6,34.3,5.9,109,19,"Sí","Moderada",1,"Apramicina",9,1
+"LEC0274","Granja A","Ácidos orgánicos","Hembra","Sí",25,11,7.29,408,39.1,32.3,6,135,14.9,"No","Sin diarrea",0,,,
+"LEC0053","Granja C","Ácidos orgánicos","Macho castrado","No",26,9,7.83,373,,39.1,5.3,112,12.3,"No","Sin diarrea",0,,,
+"LEC0299","Granja C","Probiótico","Hembra","No",26,15,6.48,252,39.4,34.7,5.7,101,15.4,"Sí","Grave",6,"Apramicina",14,0
+"LEC0180","Granja C","Probiótico","Macho castrado","No",25,11,5.92,460,39.5,30.8,6.2,101,10.7,"No","Sin diarrea",1,,,
+"LEC0058","Granja B","Control","Hembra","Sí",25,17,7.51,523,38.7,37.3,5.7,119,13.4,"No","Sin diarrea",1,,,
+"LEC0175","Granja B","Ácidos orgánicos","Hembra","No",23,10,6.48,292,,25.1,5.6,115,8.4,"No","Sin diarrea",0,,,
+"LEC0306","Granja B","Ácidos orgánicos","Macho castrado","Sí",24,10,6,410,39,32.1,5.6,133,13.5,"No","Sin diarrea",0,,,
+"LEC0120","Granja B","Control","Hembra","No",27,5,5.77,449,38.8,30.5,5.1,,9.6,"No","Sin diarrea",0,,,
+"LEC0103","Granja A","Ácidos orgánicos","Macho castrado","Sí",25,10,6.13,359,39.4,31.4,6.5,106,15.3,"No","Sin diarrea",0,,,
+"LEC0154","Granja A","Control","Hembra","No",28,12,6.41,270,38.9,34.2,5,109,18.3,"No","Sin diarrea",2,,,
+"LEC0280","Granja A","Probiótico","Hembra","Sí",25,14,8.2,448,38.8,36,5.6,123,18,"No","Sin diarrea",0,,,
+"LEC0136","Granja A","Control","Macho castrado","Sí",28,14,7.24,438,39.5,,,106,8.9,"No","Sin diarrea",2,,,
+"LEC0218","Granja B","Ácidos orgánicos","Hembra","No",22,18,9.11,528,40.2,33.3,6.8,115,,"Sí","Grave",2,"Apramicina",14,0
+"LEC0235","Granja A","Control","Macho castrado","No",26,8,9.3,500,40,34.9,5,105,,"No","Sin diarrea",0,,,
+"LEC0104","Granja B","Probiótico","Macho castrado","Sí",23,15,6.71,399,38.4,26.4,4.8,101,15.7,"No","Sin diarrea",0,,,
+"LEC0108","Granja B","Control","Hembra","No",24,10,7.66,462,40.3,,6.2,70,26.2,"Sí","Moderada",0,"Apramicina",9,1
+"LEC0064","Granja B","Probiótico","Macho castrado","No",22,8,5.26,310,39.5,34.4,5.7,83,22,"Sí","Moderada",0,"Apramicina",1,1
+"LEC0333","Granja A","Ácidos orgánicos","Hembra","Sí",25,9,6.9,484,39.9,37.4,5.8,96,17.6,"Sí","Leve",0,"Apramicina",14,0
+"LEC0324","Granja A","Probiótico","Macho castrado","Sí",24,9,7.04,368,39.1,31.6,5,121,15.4,"No","Sin diarrea",1,,,
+"LEC0083","Granja B","Control","Hembra","No",24,9,7.11,326,38.9,28.3,,101,14.4,"No","Sin diarrea",1,,,
+"LEC0186","Granja B","Control","Macho castrado","Sí",,6,8.69,377,40,34.4,6,,18.1,"Sí","Grave",3,"Colistina",14,0
+"LEC0001","Granja A","Control","Macho castrado","Sí",25,7,6.06,443,38.7,31.4,3.9,104,11.2,"No","Sin diarrea",0,,,
+"LEC0122","Granja B","Control","Hembra","Sí",28,6,7.37,391,39.2,38.2,5.1,143,8.1,"No","Sin diarrea",3,,,
+"LEC0193","Granja A","Ácidos orgánicos","Macho castrado","No",26,10,5.63,274,40.1,31.3,5.8,67,18.2,"Sí","Moderada",2,"Colistina",10,1
+"LEC0032","Granja A","Probiótico","Macho castrado","SI",28,9,5.28,339,39.6,32.7,,88,9.4,"No","Sin diarrea",1,,,
+"LEC0302","Granja C","Control","Hembra","Sí",,10,6.46,413,39.6,28,4.6,125,14.2,"No","Sin diarrea",1,,,
+"LEC0277","Granja C","Control","Macho castrado","No",25,12,7.05,360,39,34.7,5.7,126,13.1,"No","Sin diarrea",3,,,
+"LEC0204","Granja C","Probiótico","Hembra","Sí",26,7,8.44,441,39.5,30,5.7,109,10.2,"No","Sin diarrea",0,,,
+"LEC0229","Granja B","Ácidos orgánicos","Macho castrado","No",26,14,5.68,312,39.4,35,5.5,127,17.1,"Sí","Moderada",0,"Colistina",13,1
+"LEC0114","Granja A","Control","Hembra","No",,19,6.59,364,39.8,41.8,6.6,107,20.7,"Sí","Moderada",2,"Colistina",14,0
+"LEC0356","Granja B","Ácidos orgánicos","Hembra","Sí",21,11,8.03,491,39.3,,6.2,134,17.3,"No","Sin diarrea",1,,,
+"LEC0217","Granja B","Probiótico","Hembra","No",22,15,6.95,344,38.8,34,5.8,97,23,"Sí","Leve",1,"Apramicina",14,0
+"LEC0243","Granja C","Ácidos orgánicos","Macho castrado","Sí",30,4,6.14,316,39.6,34.1,6.3,92,15.3,"No","Sin diarrea",0,,,
+"LEC0264","Granja A","Ácidos orgánicos","Macho castrado","Sí",28,14,5.73,406,39.9,34.5,6.9,106,16.1,"No","Sin diarrea",1,,,
+"LEC0190","Granja A","Ácidos orgánicos","Hembra","No",30,10,6.51,457,39,39,5.4,142,22.9,"No","Sin diarrea",1,,,
+"LEC0168","Granja A","Control","Macho castrado","Sí",18,12,6.44,354,39.3,30.9,5.8,118,16.3,"No","Sin diarrea",0,,,
+"LEC0329","Granja  B  ","Ácidos orgánicos","Macho castrado","Sí",23,11,7.12,464,39.3,31.8,5.5,116,14.8,"No","Sin diarrea",3,,,
+"LEC0228","Granja B","Probiótico","Hembra","Sí",24,9,7.03,470,39.3,35.9,5.1,131,11.4,"No","Sin diarrea",0,,,
+"LEC0350","Granja A","Control","Macho castrado","No",,16,5.96,454,39.5,34.8,6.1,,16.4,"Sí","Moderada",2,"Apramicina",3,0
+"LEC0198","Granja A","Control","Hembra","No",24,8,9.02,471,39.6,,5.7,104,,"Sí","Leve",2,"Apramicina",7,1
+"LEC0119","Granja C","Control","Macho castrado","No",30,16,7.18,460,,37.1,6.1,83,15.8,"Sí","Leve",4,"Apramicina",4,1
+"LEC0038","Granja A","Ácidos orgánicos","Macho castrado","Sí",19,7,6.83,376,38.9,32.3,5.3,128,8.8,"No","Sin diarrea",0,,,
+"LEC0357","Granja B","Ácidos orgánicos","Macho castrado","Sí",22,10,8.76,441,39.5,32.1,5.3,117,17.8,"No","Sin diarrea",3,,,
+"LEC0214","Granja A","Probiótico","Hembra","Sí",,6,6.45,358,38.7,30.5,5.4,116,1.8,"No","Sin diarrea",1,,,
+"LEC0225","Granja C","Control","Hembra","No",26,5,6.56,380,38.8,39.8,5.5,87,16.5,"No","Sin diarrea",2,,,
+"LEC0070","Granja A","Control","Hembra","No",27,7,7.19,371,39,36.5,5.2,81,15.3,"Sí","Leve",3,"Colistina",1,1
+"LEC0330","Granja B","Control","Macho castrado","Sí",24,11,7.45,401,38.8,31.6,5.5,116,19.2,"No","Sin diarrea",0,,,
+"LEC0056","Granja A","Ácidos orgánicos","Macho castrado","No",29,17,6.98,398,39.6,31.5,6.8,103,15.5,"No","Sin diarrea",1,,,
+"LEC0237","Granja A","Probiótico","Macho castrado","No",25,11,8.23,411,39.9,32.3,5.9,111,16,"No","Sin diarrea",2,,,
+"LEC0313","Granja B","Control","Hembra","Sí",24,10,8.44,349,39.1,29.9,5.1,116,17.1,"No","Sin diarrea",0,,,
+"LEC0006","Granja A","Probiótico","Hembra","No",23,14,5.6,374,39.4,30.9,5.4,113,16.2,"No","Sin diarrea",0,,,
+"LEC0142","Granja A","Probiótico","Hembra","Sí",28,8,5.67,345,39.6,34,5.4,99,12.6,"No","Sin diarrea",1,,,
+"LEC0211","Granja A","Control","Macho castrado","No",22,10,6.58,324,,35.6,5.8,118,13.8,"Sí","Leve",0,"Colistina",11,1
+"LEC0210","Granja B","Probiótico","Macho castrado","Sí",21,9,7.25,511,39.7,33.4,6.3,152,22.8,"No","Sin diarrea",1,,,
+"LEC0057","Granja A","Probiótico","Macho castrado","Sí",23,14,7.97,518,38.6,34.4,5.1,118,12.9,"No","Sin diarrea",0,,,
+"LEC0187","Granja A","Ácidos orgánicos","Hembra","Sí",28,11,6.61,460,39.5,35.4,5.8,102,17.6,"No","Sin diarrea",1,,,
+"LEC0046","Granja C"," Probiótico ","Hembra","No",26,7,6.11,437,39.4,31.6,5.9,100,11.7,"No","Sin diarrea",1,,,
+"LEC0082","Granja A","Probiótico","Macho castrado","Sí",30,17,0.539,409,39.6,26.5,4.7,127,15.2,"No","Sin diarrea",1,,,
+"LEC0303","Granja C","Probiótico","Hembra","No",22,9,6.84,389,40,36.7,6,102,16.7,"Sí","Grave",1,"Apramicina",14,0
+"LEC0342","Granja C","Probiótico","Macho castrado","Sí",21,10,7.76,374,39,33.7,6,92,15.3,"Sí","Leve",1,"Colistina",3,1
+"LEC0311","Granja B","Probiótico","Hembra","No",27,14,7.59,430,38.7,30.6,4.9,131,10.8,"No","Sin diarrea",3,,,
+"LEC0249","Granja B","Probiótico","Hembra","Sí",25,13,5.64,348,39.2,34.7,4.8,116,14.3,"No","Sin diarrea",0,,,
+"LEC0232","Granja A","Probiótico","Macho castrado","No",26,6,5.98,342,39.2,31.9,5.7,114,19.7,"No","Sin diarrea",2,,,
+"LEC0279","Granja C","Control","Hembra","Sí",20,10,5.9,272,39.9,37.4,,86,,"Sí","Moderada",1,"Colistina",14,0
+"LEC0014","Granja B","Probiótico","Hembra","No",25,5,7.58,430,39.1,40.8,5.2,119,10.2,"No","Sin diarrea",0,,,
+"LEC0261","Granja A","Control","Hembra","No",20,10,8.31,479,39.6,30.3,5.7,120,15,"No","Sin diarrea",3,,,
+"LEC0126","Granja B","Probiótico","Hembra","No",26,12,3.9,331,39.2,30.8,4.7,114,14.9,"No","Sin diarrea",1,,,
+"LEC0334","Granja B","Probiótico","Macho castrado","Sí",,6,7.67,446,38.8,23.9,4.2,94,11.5,"No","Sin diarrea",1,,,
+"LEC0271","Granja A","Ácidos orgánicos","Macho castrado","Sí",27,14,8.37,473,39.2,35,4.8,123,10.6,"No","Sin diarrea",0,,,
+"LEC0071","Granja A","Ácidos orgánicos","Macho castrado","No",20,9,5.52,397,39,27.5,6.1,87,22.3,"Sí","Leve",2,"Apramicina",9,1
+"LEC0192","Granja B","Control","Macho castrado","Sí",25,5,6.4,337,38.6,36.6,5.4,116,20.2,"No","Sin diarrea",0,,,
+"LEC0158","Granja A","Ácidos orgánicos","Macho castrado","No",24,4,5.41,377,39.1,26.6,5.5,102,12.5,"No","Sin diarrea",1,,,
+"LEC0073","Granja A","Ácidos orgánicos","Hembra"," Sí",28,11,8.17,413,39.2,39.9,5.1,124,16.5,"No","Sin diarrea",1,,,
+"LEC0020","Granja B","Control","Macho castrado","Sí",,10,6.65,333,39.6,27.9,5.7,134,13.2,"No","Sin diarrea",2,,,
+"LEC0338","Granja B","Control","Hembra","No",28,,6.36,320,38.7,42.1,5.6,91,12.5,"No","Sin diarrea",3,,,
+"LEC0322","Granja A","Control","Hembra","Sí",26,9,7.15,402,38.9,33.7,5.9,82,,"No","Sin diarrea",2,,,
+"LEC0335","Granja C","Probiótico","Hembra","No",25,14,7.37,334,39.7,32.5,4.9,122,14.9,"No","Sin diarrea",3,,,
+"LEC0184","Granja B","Control","Hembra","No",25,15,6.7,356,39.1,27.3,4.5,102,12.5,"No","Sin diarrea",1,,,
+"LEC0196","Granja A","Control","Hembra","Sí",27,8,6.82,415,39.1,,6.1,118,15.8,"No","Sin diarrea",2,,,
+"LEC0234","Granja A","Ácidos orgánicos","Hembra","Sí",23,21,6.36,385,39.4,28.6,6.8,120,12.1,"No","Sin diarrea",2,,,
+"LEC0205","Granja A","Control","Hembra","No",25,18,6.28,316,39.9,41,,106,14.2,"Sí","Grave",3,"Colistina",14,0
+"LEC0245","GRANJA B","Probiótico","Macho castrado","Sí",28,14,6.84,448,,28.2,5.7,101,9.2,"No","Sin diarrea",1,,,
+"LEC0123","Granja A","Ácidos orgánicos","Macho castrado","No",24,14,4.78,309,38.5,35.9,5.4,84,15.3,"No","Sin diarrea",0,,,
+"LEC0221","Granja A","Control","Hembra","Sí",29,16,8.71,387,39.4,35,5.4,95,19.8,"No","Sin diarrea",0,,,
+"LEC0124","Granja B","Ácidos orgánicos","Hembra","No",25,13,8.82,,39.2,37.4,5.9,112,10.6,"No","Sin diarrea",0,,,
+"LEC0255","Granja C","Ácidos orgánicos","Hembra","Sí",20,10,6.14,371,39.4,35.6,4.6,91,15.5,"No","Sin diarrea",3,,,
+"LEC0360","Granja A","Ácidos orgánicos","Macho castrado","No",21,11,8.64,526,39.6,31.7,5.3,112,5.6,"No","Sin diarrea",1,,,
+"LEC0152","Granja C","Control","Macho castrado","Sí",23,11,8.51,,39.2,34.6,4.5,109,14.8,"No","Sin diarrea",2,,,
+"LEC0165","Granja B","Control","Macho castrado","Sí",24,17,6.63,404,39,32.2,5.4,125,13.8,"No","Sin diarrea",1,,,
+"LEC0105","Granja B","Ácidos orgánicos","Hembra","Sí",24,13,6.05,353,39.7,38.8,5.8,105,14,"No","Sin diarrea",0,,,
+"LEC0130","Granja A","Ácidos orgánicos","Hembra","No",26,13,6.47,439,39.5,32.4,6.2,97,19.5,"No","Sin diarrea",0,,,
+"LEC0292","Granja C","ácidos orgánicos","Macho castrado","No",20,11,5.49,225,39.7,36.1,6,85,16,"Sí","Leve",4,"Apramicina",9,1
+"LEC0007","Granja A","Ácidos orgánicos","Macho castrado","Sí",22,7,7.53,,38.8,32.8,,85,12.7,"No","Sin diarrea",1,,,
+"LEC0047","Granja B","Probiótico","Macho castrado","Sí",28,16,8.29,446,,37.8,6.3,112,17.5,"No","Sin diarrea",3,,,
+"LEC0289","Granja A","Control","Macho castrado","Sí",26,15,9.19,344,,35.8,6.1,87,16.4,"Sí","Leve",1,"Colistina",1,1
+"LEC0078","Granja C","Ácidos orgánicos","Hembra","Sí",22,9,6.91,428,39.6,30.4,6,110,11.2,"No","Sin diarrea",1,,,
+"LEC0160","Granja C","Probiótico","Macho castrado",,20,22,7.46,288,39.7,38,6.9,90,23.1,"Sí","Moderada",3,"Colistina",14,0
+"LEC0069","Granja B","Control","Macho castrado","Sí",28,7,5.75,339,38.8,33.7,,137,14.5,"No","Sin diarrea",0,,,
+"LEC0345","Granja A","Probiótico","Macho castrado","No",24,8,4.9,337,,30.7,6.1,125,16.6,"No","Sin diarrea",3,,,
+"LEC0248","Granja A","Ácidos orgánicos","Hembra","Sí",21,13,9.16,433,,28.9,5.6,96,10.7,"No","Sin diarrea",1,,,
+"LEC0050","Granja C","Ácidos orgánicos","Macho castrado","Sí",21,9,5,346,39.4,30.7,,119,13.1,"Sí","Leve",1,"Apramicina",9,0
+"LEC0172","Granja B"," Ácidos orgánicos ","Macho castrado","No",24,10,6.47,457,39.2,29,5.4,114,9.7,"No","Sin diarrea",3,,,
+"LEC0315","Granja A","Control","Hembra",,27,10,5.82,332,39.8,35.7,5.9,84,19.2,"Sí","Grave",1,"Colistina",12,0
+"LEC0161","Granja A","Control","Macho castrado","Sí",24,7,6.05,373,39.4,26.1,,127,6.2,"No","Sin diarrea",0,,,
+"LEC0351","Granja A","Ácidos orgánicos","Macho castrado","Sí",20,15,6.56,481,39.3,26.7,5.3,131,8.7,"No","Sin diarrea",0,,,
+"LEC0021","Granja B","Ácidos orgánicos","Hembra","Sí",29,7,5.16,289,39.3,41.1,6.4,101,20.9,"Sí","Leve",0,"Colistina",10,1
+"LEC0065","Granja A","Ácidos orgánicos","Hembra","Sí",26,10,7.21,402,38.7,32.9,5.1,125,19.8,"No","Sin diarrea",0,,,
+"LEC0012","Granja A","Control","Macho castrado","No",27,14,7.02,409,39.7,28.6,4.3,99,15.8,"No","Sin diarrea",0,,,
+"LEC0033","Granja A","Probiótico","Macho castrado","No",20,8,5.7,378,39.7,35,5.4,141,10.8,"No","Sin diarrea",0,,,
+"LEC0087","Granja A","Probiótico","Macho castrado","Sí",24,15,5.96,304,38.5,35.5,5.8,129,7.2,"No","Sin diarrea",1,,,
+"LEC0063","Granja C","Control","Hembra","Sí",26,12,5.7,,39.1,32.2,6,121,12.2,"No","Sin diarrea",0,,,
+"LEC0307","Granja B","Control","Macho castrado","Sí",21,8,6.12,237,39.3,29,5,119,16.5,"No","Sin diarrea",0,,,
+"LEC0111","Granja C","Control","Macho castrado","No",24,16,7.18,388,39.3,34.3,5.3,122,19,"Sí","Leve",3,"Apramicina",2,1
+"LEC0286","Granja A","Control","Hembra","Sí",26,11,6.93,441,39.3,36.6,6.4,111,18.1,"No","Sin diarrea",0,,,
+"LEC0149","Granja C","Control","Hembra","Sí",27,13,8.61,586,39.4,34.1,,99,16.9,"No","Sin diarrea",0,,,
+"LEC0265","Granja B","Control","Macho castrado","No",27,14,6.04,329,39.8,36.7,5.8,74,25.4,"Sí","Grave",0,"Colistina",14,0
+"LEC0208","Granja A","Control","Macho castrado","No",20,15,7.34,387,39.2,34.5,6.5,109,19.7,"Sí","Grave",5,"Apramicina",5,1
+"LEC0206","Granja C","Control","Macho castrado","No",24,13,6.34,406,38.4,32.7,4.7,128,12.7,"No","Sin diarrea",0,,,
+"LEC0127","Granja C","Control","Hembra","No",21,15,6.77,399,39.3,33.4,5.3,,13.2,"No","Sin diarrea",2,,,
+"LEC0331","Granja B","Ácidos orgánicos","Macho castrado","No",24,8,6.44,,39.5,36.9,6,110,17.9,"Sí","Moderada",2,"Apramicina",7,1
+"LEC0147","Granja B","Control","Hembra","No",26,13,6,346,39.4,33,5.1,122,16.5,"No","Sin diarrea",0,,,
+"LEC0216","Granja A","Control","Hembra","No",21,8,5.25,373,,33.6,6,112,13.2,"No","Sin diarrea",1,,,
+"LEC0291","Granja B","Probiótico","Hembra","Sí",22,15,5.71,370,39.1,31.2,5.1,130,6,"No","Sin diarrea",0,,,
+"LEC0272","Granja A","Probiótico","Hembra","Sí",27,14,5.66,465,39.3,35.5,5.3,137,13.5,"No","Sin diarrea",1,,,
+"LEC0092","Granja A","Control","Macho castrado","Sí",27,15,7.65,410,39.8,34,6.1,128,14.7,"No","Sin diarrea",2,,,
+"LEC0034","Granja A","Control","Hembra","Sí",22,14,6.41,274,39.6,,5.4,82,15.9,"Sí","Leve",1,"Apramicina",2,1
+"LEC0027","Granja C","Control","Macho castrado","No",24,19,8.79,453,40.7,36.9,5.7,75,22.4,"Sí","Grave",3,"Colistina",14,0
+"LEC0157","Granja A","Ácidos orgánicos","Hembra","No",24,11,,418,40,33.7,5.7,117,,"No","Sin diarrea",0,,,
+"LEC0233","Granja C","Control","Hembra","No",25,10,7.39,442,39.5,28.2,6.4,114,20.1,"No","Sin diarrea",1,,,
+"LEC0191","Granja A","control","Macho castrado","Sí",24,10,9.01,380,39,36.2,4.8,111,8.8,"No","Sin diarrea",2,,,
+"LEC0219","Granja C","Ácidos orgánicos","Macho castrado","No",18,11,7.65,370,39.3,31.6,6.1,119,15.9,"No","Sin diarrea",0,,,
+"LEC0129","Granja A","Probiótico","Macho castrado","Sí",29,13,7.36,,39.2,31.6,5.5,105,12.4,"No","Sin diarrea",0,,,
+"LEC0010","Granja A","Probiótico","Hembra","No",24,16,0.691,342,39.2,32.2,4.9,129,15.7,"No","Sin diarrea",2,,,
+"LEC0156","Granja C","Control","Hembra","Sí",26,15,6,339,38.8,35.8,6,86,11.8,"Sí","Leve",1,"Colistina",9,1
+"LEC0275","Granja A","Control","Hembra","Sí",23,10,6.89,287,39.5,33,6.2,95,15.5,"Sí","Leve",2,"Apramicina",2,1
+"LEC0075","Granja C","Ácidos orgánicos","Macho castrado","Sí",25,10,,413,39.1,30.2,4.9,86,12.4,"No","Sin diarrea",1,,,
+"LEC0048","Granja B","Control","Hembra","No",26,8,5.94,400,39.2,32.7,5.7,95,13.6,"No","Sin diarrea",1,,,
+"LEC0061","Granja A","Probiótico","Macho castrado","Sí",28,10,7,379,39.2,31.3,5.8,111,12.9,"No","Sin diarrea",0,,,
+"LEC0024","Granja A","Ácidos orgánicos","Macho castrado","Sí",20,7,5.46,355,39.2,26,5.3,116,11,"No","Sin diarrea",1,,,
+"LEC0282","Granja C","Ácidos orgánicos","Hembra","No",22,4,5.02,365,39,29.7,5.6,146,13.4,"No","Sin diarrea",0,,,
+"LEC0088","Granja C","Probiótico","Macho castrado","Sí",27,9,8.67,558,39.1,28,6.1,121,10.1,"No","Sin diarrea",2,,,
+"LEC0213","Granja C","Probiótico","Macho castrado","Sí",21,17,7.12,375,39.1,29,6.9,145,17.5,"Sí","Moderada",2,"Apramicina",7,0
+"LEC0290","Granja B","Control","Hembra","Sí",24,8,,381,,30.9,4.8,122,13,"No","Sin diarrea",1,,,
+"LEC0146","Granja A","Ácidos orgánicos","Macho castrado","Sí",22,11,7.16,420,39.9,30.3,6,82,13.9,"Sí","Leve",2,"Colistina",1,1
+"LEC0149","Granja C","Control","Hembra","Sí",27,13,8.61,586,39.4,34.1,,99,16.9,"No","Sin diarrea",0,,,
+"LEC0349","Granja A","Probiótico","Hembra","No",25,12,5.14,299,38.6,39.5,5.6,109,13,"Sí","Moderada",1,"Colistina",9,1
+"LEC0074","Granja A","Probiótico","Hembra","No",26,16,6.67,353,39.4,33,5.8,75,21.1,"Sí","Grave",4,"Colistina",5,0
+"LEC0095","Granja A","Ácidos orgánicos","Macho castrado","Sí",29,14,6.06,323,38.9,29.6,4.8,125,10.2,"No","Sin diarrea",1,,,
+"LEC0089","Granja C","Control","Hembra","Sí",22,8,6.79,352,,,6.1,134,14.2,"No","Sin diarrea",0,,,
+"LEC0125","Granja B","Ácidos orgánicos","Macho castrado","Sí",25,10,7.39,359,39.1,28,5.1,95,14.9,"No","Sin diarrea",1,,,
+"LEC0164","Granja A","Ácidos orgánicos","Hembra","Sí",24,12,8.04,365,39,36.5,6.1,108,14,"No","Sin diarrea",0,,,
+"LEC0284","Granja B","Probiótico","Hembra","Sí",25,18,,361,39,38.3,5.2,125,17,"Sí","Leve",3,"Colistina",2,1
+"LEC0144","Granja B","Control","Hembra","Sí",20,15,7.97,404,40.1,34.4,6.7,114,16.6,"Sí","Leve",3,"Colistina",7,1
+"LEC0148","Granja C","Ácidos orgánicos","Macho castrado","Sí",23,19,8.8,455,,26.5,5.5,126,11.1,"No","Sin diarrea",1,,,
+"LEC0344","Granja A","Ácidos orgánicos","Hembra","Sí",26,12,7.71,365,40,44.2,7.2,111,24.4,"Sí","Leve",0,"Colistina",6,1
+"LEC0112","Granja C","Ácidos orgánicos","Hembra","No",28,6,7.47,455,39.6,34.9,6.6,109,19.6,"No","Sin diarrea",0,,,
+"LEC0332","Granja C","Probiótico","Macho castrado","No",22,14,6.21,293,39.6,34.8,5.9,89,15.9,"Sí","Leve",0,"Apramicina",13,0
+"LEC0220","Granja A","Ácidos orgánicos","Hembra","Sí",25,11,,442,39.1,32.2,5.8,124,11.1,"No","Sin diarrea",0,,,
+"LEC0005","Granja C","Control","Macho castrado","Sí",20,14,5.8,380,38.9,29.8,4.2,131,14.4,"No","Sin diarrea",1,,,
+"LEC0240","Granja C","Probiótico","Hembra","si",25,12,5.86,,39.2,32.1,5.7,95,21.1,"No","Sin diarrea",1,,,
+"LEC0194","Granja C","Probiótico","Macho castrado","Sí",26,18,5.67,463,39.1,27.6,5.3,96,9.7,"No","Sin diarrea",1,,,
+"LEC0062","Granja A","Probiótico","Macho castrado","Sí",23,9,5.95,391,39.5,31.7,5.8,102,15.2,"No","Sin diarrea",0,,,
+"LEC0283","Granja A","Ácidos orgánicos","Hembra","Sí",23,14,5.78,354,39.6,33,6.6,92,14.6,"No","Sin diarrea",0,,,
+"LEC0031","Granja A","Ácidos orgánicos","Hembra","No",23,12,6.12,,39.5,38.3,6,123,13.8,"No","Sin diarrea",1,,,
+"LEC0301","Granja B","Control","Hembra","No",26,11,6.7,235,39.4,32.8,5.6,88,22.9,"Sí","Leve",0,"Colistina",8,1
+"LEC0054","Granja C","Ácidos orgánicos","Hembra","Sí",25,8,7.09,431,39,30.1,5.7,118,14.1,"No","Sin diarrea",1,,,

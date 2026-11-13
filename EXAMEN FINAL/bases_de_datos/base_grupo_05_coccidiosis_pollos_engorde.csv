@@ -1,0 +1,356 @@
+﻿"id_ave","galpon","programa_anticoccidial","sexo","agua_clorada","densidad_aves_m2","reutilizaciones_cama","consumo_acumulado_kg","peso_35d_g","hematocrito_pct","proteinas_totales_g_dl","carotenoides_ug_ml","glucosa_mg_dl","temperatura_c","coccidiosis_clinica","severidad_lesiones","segmentos_con_lesion","tratamiento","dias_hasta_negativizacion","negativizado"
+"AVE0344","Galpón 2","Vacuna","Macho","Sí",10.4,2,3.71,2373,30.3,3.2,5.7,216,41.1,"No","Sin lesiones",0,,,
+"AVE0081","Galpón 4","Ninguno","Macho","Sí",14.7,3,3.48,2328,30.9,2.96,5.2,240,41.1,"Sí","Moderada",4,"Amprolio",3,1
+"AVE0131","Galpón 4","Ninguno","Hembra","Sí",12.2,0,3.31,1834,33.5,2.57,7.5,233,40.8,"No","Sin lesiones",0,,,
+"AVE0348","Galpón 2","Ionóforo","Macho","No",10.1,5,2.83,1922,28.4,3.26,7.1,,41.9,"No","Sin lesiones",2,,,
+"AVE0122","Galpón 3","Ionóforo","Macho","Sí",11.7,1,3.07,1789,34.7,4.41,7.7,261,40.6,"No","Sin lesiones",0,,,
+"AVE0254","Galpón 2","Ionóforo","Macho","Sí",11.3,4,2.99,2054,23.7,2.74,5.5,215,41.8,"Sí","Moderada",2,"Amprolio",14,1
+"AVE0165","Galpón 3","Ninguno","Macho","No",12.4,1,3.75,2513,34,3.41,7.9,185,,"No","Sin lesiones",0,,,
+"AVE0299","Galpón 1","Vacuna","Macho","si",11.4,2,3.86,2261,34.1,3.4,10.2,216,41.6,"No","Sin lesiones",0,,,
+"AVE0323","Galpón 4","Ninguno","Macho","Sí",9.2,2,3.46,2173,31.7,3.26,11.2,241,41,"No","Sin lesiones",0,,,
+"AVE0221","Galpón 2","Ninguno","Hembra","No",14.7,0,4.16,2251,30.8,2.9,9.2,204,41.1,"No","Sin lesiones",0,,,
+"AVE0187","Galpón 1","Ninguno","Hembra","No",11.3,3,3.34,1968,29.3,3.5,8.4,283,41.3,"No","Sin lesiones",4,,,
+"AVE0152","Galpón 1","Ionóforo","Hembra","No",12.7,2,2.98,1773,29.4,3.37,6.5,215,41.2,"No","Sin lesiones",0,,,
+"AVE0144","Galpón 1","Ionóforo","Hembra","No",12.3,0,4.04,2571,28.4,3.56,6.5,262,41.3,"No","Sin lesiones",0,,,
+"AVE0272","Galpón 4","Ionóforo","Macho",,10.1,2,3.07,2161,27.4,1.87,8.1,219,41.6,"Sí","Leve",0,"Amprolio",5,1
+"AVE0173","galpón 1","Ninguno","Hembra","Sí",12.2,2,3.33,1734,25.9,3.23,5.1,188,41.7,"Sí","Moderada",3,"Amprolio",3,1
+"AVE0276","Galpón 2","Ninguno","Hembra","No",13.8,0,3.86,1906,24.4,3,3.7,199,41,"Sí","Leve",0,"Amprolio",9,1
+"AVE0239","Galpón 2","VACUNA","Hembra","No",12.7,5,3.98,1917,28.7,3.2,8,195,41.5,"Sí","Leve",5,"Amprolio",10,1
+"AVE0068","Galpón 1","Ionóforo","Macho","Sí",9.3,1,3.57,2090,34.4,3.8,8.8,213,41.3,"No","Sin lesiones",0,,,
+"AVE0039","Galpón 4","Ionóforo","Hembra","Sí",12.4,1,3.43,2204,35,3.84,8.1,235,40.8,"No","Sin lesiones",1,,,
+"AVE0175","Galpón 1","Ionóforo","Hembra","Sí",9.4,1,3.32,2097,33,3.59,,207,41.6,"No","Sin lesiones",0,,,
+"AVE0208","Galpón 4","Ionóforo","Macho","No",13,0,,2447,22.4,3.16,3,235,41.4,"Sí","Leve",4,"Amprolio",4,1
+"AVE0055","Galpón 3","Ionóforo","Macho","No",10.1,3,3.24,1944,30.7,2.56,5.4,200,41.4,"Sí","Grave",1,"Amprolio",10,1
+"AVE0088","Galpón 4","Ionóforo","Hembra","No",13.5,1,3.67,2250,30.7,2.76,,237,41.3,"No","Sin lesiones",0,,,
+"AVE0287","Galpón 3","Vacuna","Hembra","No",13.4,1,3.54,2218,31.1,3.01,5.5,227,41.2,"No","Sin lesiones",1,,,
+"AVE0127","Galpón 3","Ninguno","Hembra","Sí",9.2,1,3.45,2018,28,3.24,9.1,201,41.1,"Sí","Leve",0,"Amprolio",7,1
+"AVE0325","Galpón 4","Ionóforo","Hembra","Sí",12.9,2,3.04,1748,26.7,3.05,,240,40.8,"No","Sin lesiones",1,,,
+"AVE0179","Galpón 1","Ionóforo","Hembra","Sí",11.1,4,3.11,2137,28.6,3.51,9,246,41.4,"No","Sin lesiones",2,,,
+"AVE0331","Galpón 3","Vacuna","Macho","Sí",11.2,1,4.26,2586,29.9,3.05,8.5,239,42.2,"Sí","Leve",0,"Amprolio",14,0
+"AVE0304","Galpón 1","Ninguno","Hembra","No",12.4,4,3.55,1909,22.6,2.51,4.5,194,,"Sí","Grave",1,"Amprolio",6,1
+"AVE0010","Galpón 4","Ninguno","Macho","Sí",13.8,1,3.49,2042,31.9,3.63,9.3,255,40.9,"No","Sin lesiones",0,,,
+"AVE0197","Galpón 2","Ninguno","Hembra","No",11.3,0,3.47,1916,26.7,2.32,7.7,221,41.6,"Sí","Leve",3,"Toltrazuril",6,1
+"AVE0001","Galpón 1","Ninguno","Macho","Sí",13.1,2,3.48,2181,28.2,3.28,4.9,183,41.7,"Sí","Moderada",2,"Toltrazuril",3,1
+"AVE0096","Galpón 1","Ninguno","Hembra","Sí",10.5,0,2.77,1617,34.4,3.73,9.3,268,40.9,"No","Sin lesiones",0,,,
+"AVE0308","Galpón 3","Vacuna","Hembra","Sí",,2,3.24,2341,33,3.4,,228,41.3,"No","Sin lesiones",0,,,
+"AVE0336","Galpón 1","Ionóforo","Macho","Sí",13.1,5,3.83,2211,27.2,3.63,8.7,244,41.3,"No","Sin lesiones",0,,,
+"AVE0317","Galpón 1","Ionóforo","Macho","No",14.8,2,3.33,1970,30.9,2.85,7.6,218,41.8,"Sí","Leve",1,"Toltrazuril",4,1
+"AVE0116","Galpón 3","Vacuna","Hembra","Sí",16,3,3.22,1893,30,2.89,7.3,221,,"Sí","Moderada",1,"Amprolio",2,1
+"AVE0086","Galpón 2","Ionóforo","Hembra","Sí",10,1,3.34,1828,29.6,3.22,10.5,262,41.1,"No","Sin lesiones",0,,,
+"AVE0205","Galpón 3","Ninguno","Macho","Sí",10,2,3.47,2407,30.9,3.06,7,208,41.6,"No","Sin lesiones",0,,,
+"AVE0318","Galpón 2","Ionóforo","Hembra","Sí",9.8,1,3.41,2037,33,3.44,7.3,231,41.3,"No","Sin lesiones",1,,,
+"AVE0006","Galpón 2","Ionóforo","Hembra",,11.3,0,3.72,2018,34.3,3.73,9,242,41.1,"No","Sin lesiones",3,,,
+"AVE0008","Galpón 3","Vacuna","Macho","Sí",13.3,2,3.1,1929,31.9,3.23,12.4,248,41.6,"No","Sin lesiones",0,,,
+"AVE0172","Galpón 4","Ionóforo","Macho","No",9.8,4,3.64,2230,24.6,2.92,6.8,221,41.4,"Sí","Grave",4,"Amprolio",14,0
+"AVE0270","Galpón 3","Ionóforo","Macho","No ",13.4,4,3.37,2035,28.6,3.27,9.9,240,41.2,"No","Sin lesiones",1,,,
+"AVE0330","Galpón 4","Ninguno","Hembra","No",10,3,3.61,1917,28.1,3.07,5.8,233,41.4,"Sí","Grave",4,"Toltrazuril",4,1
+"AVE0130","Galpón 1","Ninguno","Macho","No",13.1,,3.6,2304,,3.63,8.1,269,41.4,"No","Sin lesiones",7,,,
+"AVE0275","Galpón 4","Ionóforo","Hembra","No",14,2,3.74,,28.5,2.97,6.5,181,41.6,"Sí","Moderada",6,"Toltrazuril",3,1
+"AVE0160","Galpón 2","Vacuna","Hembra","No",11.8,1,,2046,27.6,2.59,6.2,246,41.6,"No","Sin lesiones",0,,,
+"AVE0041","Galpón 2","Ionóforo","Macho","Sí",12.1,0,3.79,2296,31.5,3.82,8.3,202,41.5,"No","Sin lesiones",0,,,
+"AVE0265","Galpón 1","Vacuna","Hembra","No",12.7,0,3.74,1995,26.4,2.31,7.1,176,41.3,"Sí","Moderada",1,"Toltrazuril",4,1
+"AVE0183","galpón 4","Vacuna","Hembra","Sí",14.7,3,3.54,2072,28,2.81,8.3,216,41,"No","Sin lesiones",1,,,
+"AVE0111","Galpón 2","vacuna","Hembra","Sí",12.5,1,3.85,227.9,,3.29,7.7,221,41.7,"No","Sin lesiones",1,,,
+"AVE0345","Galpón 2","Ninguno","Hembra","No",13,3,,1941,,2.48,5.6,177,42.1,"Sí","Grave",1,"Amprolio",14,0
+"AVE0125","Galpón 2","Ionóforo","Hembra","No",14.8,1,3.08,1971,26.8,3.35,10.5,215,41.2,"No","Sin lesiones",1,,,
+"AVE0066","Galpón 2","Ninguno","Hembra","Sí",12.7,,3.29,1847,31.2,,8.4,230,41.2,"No","Sin lesiones",4,,,
+"AVE0190","Galpón 1","Vacuna","Hembra","Sí",12,3,3.59,1904,30.3,2.91,7.2,203,41.8,"Sí","Moderada",0,"Toltrazuril",4,1
+"AVE0320","Galpón 3","Ninguno","Hembra","Sí",13.9,3,3.67,2018,27.3,,8.1,217,40.9,"Sí","Leve",0,"Amprolio",6,1
+"AVE0149","Galpón 2","Ionóforo","Hembra","No",11.8,1,3.16,1767,31.9,3.08,5.7,236,41.7,"No","Sin lesiones",1,,,
+"AVE0255","Galpón 2","Ninguno","Macho","Sí",11.8,0,3.47,2459,25.7,2.98,9,248,41.3,"No","Sin lesiones",0,,,
+"AVE0284","Galpón 2","Ionóforo","Hembra","No",11.7,2,3.82,2183,27.3,2.76,6.1,245,41.5,"No","Sin lesiones",0,,,
+"AVE0300","Galpón 3","Ninguno","Macho","Sí",10.3,3,3.15,2207,31,3.63,8.6,209,41.4,"No","Sin lesiones",2,,,
+"AVE0278","Galpón 3","Ninguno","Hembra","No",9.9,1,3.29,,29.9,3.26,9.2,194,41.2,"No","Sin lesiones",3,,,
+"AVE0104"," Galpón 2 ","Vacuna","Macho","No",14.4,1,3.77,2172,27.7,2.85,4.3,204,41.1,"Sí","Grave",0,"Amprolio",14,0
+"AVE0235","Galpón 1","Ionóforo","Macho","Sí",12.9,1,3.65,2394,29.7,3.45,9,234,41.5,"No","Sin lesiones",0,,,
+"AVE0303","Galpón 4","Ionóforo","Hembra","Sí",10.4,1,3.64,1821,31.6,3.45,10.1,223,41.2,"No","Sin lesiones",2,,,
+"AVE0108","Galpón 2","Vacuna","Hembra","Sí",11.1,3,3.43,2256,30.1,3.45,7.4,220,41.1,"No","Sin lesiones",2,,,
+"AVE0011","Galpón 2","Ionóforo","Macho","No",11.1,3,3.89,2354,35.6,3.15,8.3,266,41.9,"No","Sin lesiones",2,,,
+"AVE0301","Galpón 3","VACUNA","Hembra","NO",13.9,3,2.8,1670,27,,5.2,224,41.5,"Sí","Grave",2,"Amprolio",14,1
+"AVE0346","Galpón 4","Ninguno","Macho","Sí",13.2,,3.6,2283,31.6,3.17,10.2,240,41.6,"No","Sin lesiones",2,,,
+"AVE0339","Galpón 4","Ionóforo","Macho","No",14.8,3,3.59,2351,25.5,3.09,7.5,235,41.3,"Sí","Moderada",6,"Toltrazuril",4,1
+"AVE0033","Galpón 1","Ninguno","Macho","Sí",12.8,0,3.21,2272,28.8,3.04,,244,41.3,"No","Sin lesiones",1,,,
+"AVE0061","Galpón 1","Vacuna","Macho","No",12.8,0,2.98,1966,27.3,,7.8,224,41.7,"No","Sin lesiones",1,,,
+"AVE0292","Galpón 4","Ninguno","Hembra","Sí",13.1,2,3.68,1822,24.9,2.53,,198,41.4,"Sí","Leve",1,"Amprolio",14,0
+"AVE0234","Galpón 1","Ninguno","Macho","No",12.1,0,3.73,2196,29,3.03,10.2,223,41.2,"No","Sin lesiones",1,,,
+"AVE0084","Galpón 4","Ionóforo","Macho","No",12.3,3,3.28,2371,35.3,3.59,11.1,218,40.8,"No","Sin lesiones",2,,,
+"AVE0328","Galpón 3","Ionóforo","Hembra","Sí",14.2,0,3.09,2117,31.9,3.92,7.7,249,,"No","Sin lesiones",2,,,
+"AVE0167","Galpón 1","Ninguno","Macho","No",11.7,2,3.94,2040,29.2,2.63,6.3,277,41.3,"Sí","Moderada",4,"Amprolio",4,1
+"AVE0156","Galpón 1","Vacuna","Hembra","Sí",11.4,2,3.69,2226,25.3,3.19,5.3,205,41.5,"Sí","Grave",3,"Amprolio",14,0
+"AVE0166","Galpón 2","Ionóforo","Macho","No",10.8,3,3.66,2416,30.9,2.55,9.4,213,41.5,"No","Sin lesiones",2,,,
+"AVE0324","Galpón 4","Ninguno","Macho","Sí",13.9,2,3,1697,26.5,2.25,6.8,253,,"Sí","Moderada",0,"Amprolio",14,1
+"AVE0049","Galpón 4","Vacuna","Macho","Sí",12,2,3.75,2317,29,2.99,6.3,208,41.1,"No","Sin lesiones",0,,,
+"AVE0115","Galpón 2","Ionóforo","Hembra","Sí",11.6,2,3.43,2109,23.1,2.79,2.8,202,41.3,"Sí","Moderada",3,"Toltrazuril",6,1
+"AVE0350","Galpón 3","Ionóforo","Hembra","Sí",10.5,1,3.22,1940,28.3,3.14,9.4,238,41.5,"No","Sin lesiones",0,,,
+"AVE0198","Galpón 4","Vacuna","Macho","Sí",11.8,1,,2134,33.1,2.89,8.8,252,40.7,"No","Sin lesiones",0,,,
+"AVE0321","Galpón 3","Ionóforo","Hembra","Sí",12,1,3.29,2043,29.6,3.74,6.3,218,41,"No","Sin lesiones",0,,,
+"AVE0253","Galpón 2","Ninguno","Macho","Sí",13.4,1,3.56,1872,29.1,3.36,5.9,225,41.6,"Sí","Leve",3,"Toltrazuril",7,1
+"AVE0003","Galpón 4","Ninguno","Macho","Sí",10.1,0,3.5,2181,28.5,3.56,12.5,234,41.4,"No","Sin lesiones",0,,,
+"AVE0042","Galpón 4","Vacuna","Macho","Sí",11.3,2,3.63,2154,29.3,3.02,11.2,235,40.8,"No","Sin lesiones",1,,,
+"AVE0159","Galpón 4","Ionóforo","Hembra","No",11.3,0,3.58,222.4,26.8,3.87,5.7,221,41.4,"No","Sin lesiones",1,,,
+"AVE0002","Galpón 3","Vacuna","Hembra","Sí",15.2,4,3.46,1952,25.3,2.9,8.1,213,42.1,"Sí","Leve",0,"Amprolio",7,1
+"AVE0269","Galpón 2","Vacuna","Macho","No",12.2,1,3.61,2112,26.1,2.93,7.1,225,41.6,"Sí","Moderada",2,"Toltrazuril",11,1
+"AVE0311","Galpón 3","Ionóforo","Macho","No",12.6,3,3.17,2112,31.9,3.59,9.8,223,41.4,"No","Sin lesiones",1,,,
+"AVE0109","Galpón 1","Ionóforo","Hembra",,11.3,3,3.54,1940,33,3.13,9.1,251,41.6,"No","Sin lesiones",2,,,
+"AVE0258","Galpón 2","Vacuna","Hembra","SI",12.5,3,3.22,1868,29.2,3.74,9.2,225,41,"No","Sin lesiones",1,,,
+"AVE0058","Galpón 3","Vacuna","Macho","Sí",10.6,3,3.49,2002,29.7,2.39,8.4,219,41.2,"Sí","Leve",2,"Toltrazuril",12,1
+"AVE0197","Galpón 2","Ninguno","Hembra","No",11.3,0,3.47,1916,26.7,2.32,7.7,221,41.6,"Sí","Leve",3,"Toltrazuril",6,1
+"AVE0037","Galpón 3","Ninguno","Macho","Sí",13.9,1,3.03,2095,26.2,2.48,4.5,215,41.4,"Sí","Leve",5,"Amprolio",4,1
+"AVE0032","Galpón 3","Vacuna","Hembra","No",12.7,3,3.62,1938,26.6,2.88,6,253,41.7,"Sí","Moderada",0,"Toltrazuril",11,1
+"AVE0161","Galpón 2","Ninguno","Macho","Sí",16,3,3.14,1929,,3.11,7.6,239,41.6,"Sí","Leve",3,"Amprolio",14,0
+"AVE0077","Galpón 4","Vacuna","Macho","Sí",14.9,0,3.65,2210,29,3.03,5.4,229,,"No","Sin lesiones",0,,,
+"AVE0163","Galpón 3","Ninguno","Macho","No",13.3,1,3.72,2006,31.2,2.78,9.1,205,41.3,"No","Sin lesiones",1,,,
+"AVE0220","Galpón 2","Ninguno","Hembra","Sí",12.8,1,3.24,1902,33.3,,8.5,217,40.9,"No","Sin lesiones",1,,,
+"AVE0196","Galpón 2","Vacuna","Macho","Sí",11,3,3.56,2144,25.7,,5.8,222,41.7,"Sí","Moderada",1,"Amprolio",8,1
+"AVE0044","Galpón 3","Ninguno","Macho","No",10.4,1,3.81,2650,33.6,3.05,9.7,214,41.3,"No","Sin lesiones",1,,,
+"AVE0005","Galpón 2","Vacuna","Macho","No",10.5,1,3.79,2446,31.4,3.37,6.4,,41.4,"No","Sin lesiones",2,,,
+"AVE0333","Galpón 2","Ninguno","Macho","No",11.8,3,3.55,2038,31.9,2.91,5.7,245,41.7,"No","Sin lesiones",2,,,
+"AVE0027","Galpón 2","Ninguno","Hembra","No",11.2,2,3.99,2096,24.7,2.88,5.4,191,41.9,"Sí","Grave",1,"Toltrazuril",8,0
+"AVE0236","Galpón 1","Vacuna","Hembra","Sí",13.6,1,3.41,2192,30.9,3.85,9.4,240,41,"No","Sin lesiones",0,,,
+"AVE0040","Galpón 1","Ionóforo","Hembra","Sí",12.5,3,3.38,1936,31.2,3.55,6.8,185,41.1,"No","Sin lesiones",0,,,
+"AVE0018","Galpón 1","Vacuna","Hembra",,11.1,2,3.4,1866,28.1,2.98,5.6,235,41.2,"Sí","Leve",0,"Amprolio",14,0
+"AVE0080","Galpón 1","Ionóforo","Macho","Sí",11.4,4,3.44,2108,29.9,3.09,10.7,234,41.5,"No","Sin lesiones",0,,,
+"AVE0054","Galpón 3","Vacuna","Macho","Sí",8.3,2,3.25,2160,,3.02,7.2,226,41.2,"No","Sin lesiones",0,,,
+"AVE0212","Galpón 1","Vacuna","Hembra","No",12,0,4.1,1806,31.7,3.32,7.7,244,41.3,"No","Sin lesiones",0,,,
+"AVE0257","Galpón 1","Ionóforo","Macho","Sí",12.3,1,3.57,2199,30.8,3.24,7.6,191,41.6,"No","Sin lesiones",1,,,
+"AVE0338","Galpón 1","Vacuna","Macho","Sí",9.5,4,3.75,2167,32.1,3.93,7.9,246,41.8,"No","Sin lesiones",1,,,
+"AVE0256","Galpón 2","Ionóforo","Macho","No",11,1,3.41,2221,28.5,3.21,9.3,257,41.5,"No","Sin lesiones",0,,,
+"AVE0290","Galpón 2","Ionóforo","Macho","Sí",11.7,0,3.19,1874,,3.48,9.7,236,41.8,"No","Sin lesiones",2,,,
+"AVE0320","Galpón 3","Ninguno","Hembra","Sí",13.9,3,3.67,2018,27.3,,8.1,217,40.9,"Sí","Leve",0,"Amprolio",6,1
+"AVE0203","Galpón 4","Ionóforo","Macho","Sí",10.1,4,4.4,2395,29.1,3.34,8.9,220,41.4,"No","Sin lesiones",0,,,
+"AVE0286","Galpón 2","Vacuna","Macho","Sí",11.9,4,3.32,2226,,3.19,7.9,252,41.3,"No","Sin lesiones",0,,,
+"AVE0238","Galpón 2","Ionóforo","Macho","Sí",10.8,0,3.1,2105,29.5,4.16,10.9,247,41.4,"No","Sin lesiones",1,,,
+"AVE0030","Galpón 3","Ninguno","Macho","Sí",11.7,1,3.86,2368,32.3,4.11,9.2,289,41.1,"No","Sin lesiones",1,,,
+"AVE0024","Galpón 3","Ionóforo","Hembra","Sí",13,2,3.73,2007,32.4,3.66,10.6,212,41.3,"No","Sin lesiones",0,,,
+"AVE0123","Galpón 1","Ninguno","Macho","Sí",14.5,1,3.46,2291,,3.92,,233,40.6,"No","Sin lesiones",0,,,
+"AVE0101","Galpón 4","Ninguno","Hembra","No",9.7,0,3.53,2169,33.8,2.38,8,247,41.4,"No","Sin lesiones",1,,,
+"AVE0327","Galpón 2","Ionóforo","Macho","Sí",12.3,0,3.49,1880,27.5,2.36,9.2,239,41.6,"No","Sin lesiones",0,,,
+"AVE0307","Galpón 1","Ionóforo","Hembra","Sí",13.2,4,3.7,2051,29.6,2.71,5.1,263,40.9,"No","Sin lesiones",3,,,
+"AVE0038","Galpón 1","Ionóforo","Macho","No",,3,3.76,2375,30.7,3.5,6.2,271,41.4,"No","Sin lesiones",0,,,
+"AVE0215","Galpón 2","Ninguno","Macho","Sí",12.8,5,3.37,2024,32.8,3.52,8.8,279,,"No","Sin lesiones",2,,,
+"AVE0347","Galpón 1","Ninguno","Macho",,14,1,2.89,1925,25.5,3.21,9.1,240,41.3,"No","Sin lesiones",0,,,
+"AVE0062","Galpón 3","Ninguno","Hembra","No",10.8,0,3.4,2074,30.9,3.24,9.8,197,41.4,"No","Sin lesiones",0,,,
+"AVE0119","Galpón 2","Ionóforo","Hembra","Sí",12,1,3.26,1938,25.5,,7,264,41.5,"No","Sin lesiones",1,,,
+"AVE0207","Galpón 1","Vacuna","Hembra","Sí",,1,3.92,2196,31.5,3.53,7.4,201,41.4,"No","Sin lesiones",2,,,
+"AVE0202","Galpón 1","Ninguno","Hembra","Sí",13.3,1,3.09,1851,,3.13,,241,41.3,"Sí","Leve",0,"Amprolio",13,1
+"AVE0064","Galpón 3","Ionóforo","Hembra","No",12.7,1,3.45,2248,37.2,3.01,7.2,227,41.5,"No","Sin lesiones",0,,,
+"AVE0162","Galpón 1","Ionóforo","Hembra","No",11.2,2,3.81,2498,30.5,2.62,8.5,241,41.4,"No","Sin lesiones",0,,,
+"AVE0195","Galpón 3","Vacuna","Macho","No",12.4,2,3.65,2387,31.2,2.96,7.4,238,41.5,"No","Sin lesiones",0,,,
+"AVE0019","Galpón 2","Ninguno","Hembra","Sí",11.2,,3.44,2130,29.6,3.32,11.1,245,41.5,"No","Sin lesiones",1,,,
+"AVE0226","Galpón 4","Vacuna","Hembra","Sí",16,0,3.08,1737,29.2,3.37,13.3,219,41.2,"No","Sin lesiones",1,,,
+"AVE0217"," Galpón 1 ","Ionóforo","Macho","Sí",13.3,3,3.06,2025,24.1,2.82,6.1,236,41.5,"Sí","Moderada",5,"Amprolio",12,1
+"AVE0316","Galpón 1","Ionóforo","Macho",,14.9,2,3.22,2092,26.7,4.08,6.3,220,41.3,"No","Sin lesiones",1,,,
+"AVE0243","Galpón 2","Ninguno","Hembra","No",12.5,1,4.02,1929,31.1,3.18,5.6,158,,"Sí","Leve",1,"Toltrazuril",5,1
+"AVE0016","Galpón 3","Vacuna","Macho","Sí",12.4,3,3.26,2126,33.3,3.64,8.7,209,41.3,"No","Sin lesiones",0,,,
+"AVE0142","Galpón 4","Ninguno","Hembra","Sí",11.8,0,3.3,1987,21.5,2.75,4.6,244,41.9,"Sí","Moderada",2,"Toltrazuril",5,1
+"AVE0237","Galpón 4","Vacuna","Hembra","No",12.1,0,3.4,2135,29.9,2.91,8.8,207,41,"No","Sin lesiones",2,,,
+"AVE0248","Galpón 2","Ninguno","Hembra","No",10.3,0,3.44,,28,2.91,4.1,216,41.8,"Sí","Grave",5,"Amprolio",14,0
+"AVE0069","Galpón 1","Vacuna","Macho","Sí",12.1,4,3.77,2196,31.5,3.27,7.4,209,41.1,"No","Sin lesiones",0,,,
+"AVE0178","Galpón 1","Ninguno","Hembra","Sí",13.8,3,3.48,2076,28.9,,6.5,229,41.5,"No","Sin lesiones",0,,,
+"AVE0150","Galpón 3","Ionóforo","Macho","No",11.2,1,3.63,2180,29,3.03,7.4,248,41,"No","Sin lesiones",0,,,
+"AVE0326","Galpón 1","Vacuna","Hembra","Sí",12.5,1,3.77,2347,29,3.21,6.2,248,41.1,"No","Sin lesiones",4,,,
+"AVE0291","Galpón 3","Vacuna","Hembra","NO",11.6,2,2.93,1976,31.8,3.13,,247,41.3,"No","Sin lesiones",0,,,
+"AVE0045","Galpón 3","Vacuna","Macho",,12.6,0,3.8,,30.5,3.47,7.4,256,41.2,"No","Sin lesiones",2,,,
+"AVE0211","Galpón 3","Ionóforo","Hembra","Sí",12.3,2,3.1,1832,31.7,2.47,7,263,41.1,"No","Sin lesiones",1,,,
+"AVE0145","Galpón 4","Vacuna","Macho","Sí",12.5,1,3.11,2158,25,3.06,7.1,212,41.4,"No","Sin lesiones",0,,,
+"AVE0188","Galpón 2","Vacuna","Macho","Sí",12.8,2,4.25,2584,28.1,3.73,10.9,206,41.2,"No","Sin lesiones",3,,,
+"AVE0289","Galpón 4","Ninguno","Hembra","Sí",11.5,0,2.98,1749,,2.63,6.2,,41.6,"Sí","Leve",1,"Amprolio",10,1
+"AVE0132","Galpón 3","Ninguno","Macho","Sí",13,0,3.56,,31.8,,8.2,238,41.1,"No","Sin lesiones",0,,,
+"AVE0288","Galpón 3","Ninguno","Hembra","Sí",11.5,1,3.44,1550,24.5,2.87,5.3,244,41.6,"Sí","Leve",4,"Amprolio",8,1
+"AVE0274","Galpón 3","Ionóforo","Hembra","No",12.2,2,3.88,2112,31.9,3.08,8.2,230,41.2,"No","Sin lesiones",0,,,
+"AVE0186","Galpón 1","Ninguno","Macho","Sí",12.1,3,4.02,2381,31.2,3.12,8.8,269,41.4,"No","Sin lesiones",1,,,
+"AVE0106","Galpón 1","Ionóforo","Hembra","Sí",9.3,0,3.25,2063,28,2.73,6.3,208,41.8,"Sí","Grave",3,"Toltrazuril",12,1
+"AVE0105","Galpón 1","Ionóforo","Hembra","No",12,4,3.74,2014,21.5,2.93,7.2,260,41.2,"Sí","Moderada",2,"Amprolio",11,1
+"AVE0184","Galpón 3","Vacuna","Macho","No",10.4,2,3.62,2263,29.5,3.01,11.3,250,41.6,"Sí","Moderada",1,"Amprolio",4,1
+"AVE0057","Galpón 4","Ionóforo","Hembra",,14.8,1,3.1,1968,29.4,3.47,4.7,218,42,"Sí","Moderada",0,"Amprolio",4,1
+"AVE0337","Galpón 1","Vacuna","Macho","Sí",11.4,2,3.13,1831,32,3.22,12.7,249,41,"No","Sin lesiones",1,,,
+"AVE0087","Galpón 4","Ionóforo","Macho","Sí",11.1,2,3.9,2297,26.8,3.3,5.6,218,41.3,"Sí","Moderada",1,"Toltrazuril",14,0
+"AVE0266","Galpón 3","Ninguno","Macho","No",13.1,3,3.66,2112,34.8,3.43,9.6,,41.2,"No","Sin lesiones",1,,,
+"AVE0271","Galpón 2","Ionóforo","Hembra","Sí",12.7,2,4.04,2159,29.3,3.15,7.8,206,41.6,"Sí","Leve",0,"Toltrazuril",2,1
+"AVE0089","Galpón 1","Ninguno","Hembra","No",12.3,1,3.02,1553,26.9,3.48,,238,41.1,"Sí","Grave",2,"Toltrazuril",6,1
+"AVE0014","Galpón 2","Vacuna","Hembra","Sí",,2,3.39,1990,36,,6.6,223,40.8,"No","Sin lesiones",0,,,
+"AVE0252","Galpón 3","Vacuna","Macho",,14.2,1,3.53,,,4.37,11.8,207,41.3,"No","Sin lesiones",0,,,
+"AVE0134","Galpón 3","Ionóforo","Macho","No",12.3,2,3.58,2119,28.1,,7.3,178,41.8,"No","Sin lesiones",0,,,
+"AVE0306","Galpón 3","Ionóforo","Hembra","Sí",,1,3.46,1768,29.4,3.15,7.2,245,41.7,"Sí","Moderada",0,"Toltrazuril",12,1
+"AVE0229","Galpón 1","Ionóforo","Macho","Sí",9.8,2,3.79,2252,33.8,,7.9,214,41.6,"No","Sin lesiones",2,,,
+"AVE0206","Galpón 2","Vacuna","Hembra","Sí",12.1,4,3.3,1801,26.9,3.67,10.7,227,41.1,"Sí","Leve",3,"Toltrazuril",5,1
+"AVE0174","Galpón 3","Ionóforo","Macho","Sí",,5,2.89,2039,23.7,2.55,9.1,225,41.5,"Sí","Leve",6,"Amprolio",13,1
+"AVE0028","Galpón 4","Ionóforo","Hembra","Sí",13.8,1,3.35,2107,34.1,2.94,10.5,228,41.1,"No","Sin lesiones",0,,,
+"AVE0137","Galpón 3","Ninguno","Hembra","Sí",12.5,2,,2326,30.3,3.03,4,220,41.5,"No","Sin lesiones",1,,,
+"AVE0013","Galpón 1","Ionóforo","Hembra","Sí",11.2,3,3.53,2304,31.3,2.98,10.3,230,41.4,"No","Sin lesiones",3,,,
+"AVE0121","Galpón 2","Ninguno","Macho"," Sí",10.5,0,3.3,2135,32.3,4.07,10.3,257,41.5,"No","Sin lesiones",0,,,
+"AVE0223","Galpón 1","Ionóforo","Hembra","Sí",11,3,3.5,2114,31.5,3.58,,252,40.5,"No","Sin lesiones",3,,,
+"AVE0107","Galpón 3","Vacuna","Hembra","Sí",12,0,3.68,1657,32.9,2.63,7,228,41.1,"No","Sin lesiones",0,,,
+"AVE0029","Galpón 2","Vacuna","Macho","Sí",13.5,0,3.38,1899,,3.08,3.4,274,41.6,"Sí","Leve",1,"Toltrazuril",6,1
+"AVE0048","Galpón 2","Ionóforo","Hembra","Sí",11.6,0,3.09,1845,29.5,3.54,10.9,247,41.2,"No","Sin lesiones",1,,,
+"AVE0244","Galpón 3","Ninguno","Hembra","Sí",11,1,3.84,2008,32.6,3.66,7.9,231,41.5,"No","Sin lesiones",0,,,
+"AVE0046","Galpón 1","Ionóforo","Hembra","No",10.2,3,3.52,2136,28.3,3.34,9.4,215,41.5,"No","Sin lesiones",2,,,
+"AVE0334","Galpón 2","Ionóforo","Macho","Sí",12.1,1,3.4,2029,35.3,3.42,8.9,234,41.5,"No","Sin lesiones",0,,,
+"AVE0083","Galpón 1","Ionóforo","Macho","Sí",10,2,3.28,2259,31.1,3.31,8.5,234,41.7,"No","Sin lesiones",0,,,
+"AVE0114","Galpón 3","Ionóforo","Macho","No",10.2,0,2.91,2091,32.4,3.1,9.6,200,40.7,"No","Sin lesiones",0,,,
+"AVE0332","Galpón 3","Ionóforo","Hembra","No",11.2,1,3.01,2191,34.1,3.31,8.8,235,40.9,"No","Sin lesiones",0,,,
+"AVE0314","Galpón 3","Ninguno","Hembra","No",10.7,4,3.36,1875,28.3,2.63,8.6,193,41.7,"Sí","Grave",8,"Amprolio",9,1
+"AVE0285","Galpón 3","Vacuna","Hembra","No",14.4,1,3.43,1747,29.4,3.52,9.2,235,41.5,"Sí","Leve",2,"Toltrazuril",3,1
+"AVE0189","Galpón 3","Ionóforo","Hembra","Sí",14.1,2,3.66,1991,30.4,3.21,7.1,217,41.1,"No","Sin lesiones",0,,,
+"AVE0112","Galpón 1","Ninguno","Hembra","Sí",13.1,2,2.96,1444,26.4,2.83,5.3,232,41.4,"Sí","Leve",5,"Toltrazuril",8,1
+"AVE0059","Galpón 2","Vacuna","Macho","Sí",12.9,0,3.24,1990,31.6,3.55,8.8,206,40.9,"No","Sin lesiones",1,,,
+"AVE0277","Galpón 3","Ionóforo","Macho","Sí",11.3,1,3.38,2051,,2.79,7.7,205,41.5,"Sí","Leve",1,"Amprolio",14,0
+"AVE0007","Galpón 1","Vacuna","Hembra","No",13.7,1,3.2,2094,30.8,3.46,9.8,268,41.7,"No","Sin lesiones",3,,,
+"AVE0031","Galpón 3","Vacuna","Hembra","No",9.5,2,3.61,1874,33,3.72,,239,41.3,"No","Sin lesiones",1,,,
+"AVE0312","Galpón 1","Ionóforo","Hembra","No",12.4,1,3.66,2098,,3.91,10.1,282,40.7,"No","Sin lesiones",2,,,
+"AVE0126","Galpón 2","Ionóforo","Hembra","Sí",13.7,1,3.48,1811,30.4,3.79,6.5,248,41.7,"No","Sin lesiones",1,,,
+"AVE0009","Galpón 2","Vacuna","Macho","Sí",13.5,1,3.26,1858,29.3,2.73,5.7,240,41.6,"Sí","Leve",1,"Toltrazuril",2,1
+"AVE0302","GALPÓN 1","Ionóforo","Hembra","Sí",,4,3.78,2079,23.6,3.28,5.6,236,41.9,"Sí","Moderada",0,"Amprolio",7,1
+"AVE0246","Galpón 3","Ionóforo","Macho","Sí",10.4,2,3.68,2312,29.3,3.75,9.2,261,41,"No","Sin lesiones",0,,,
+"AVE0099","GALPÓN 2","Vacuna","Macho","Sí",14.1,1,3.89,2509,35.6,3.32,8.9,206,41.2,"No","Sin lesiones",0,,,
+"AVE0078","Galpón 4","Ionóforo","Hembra","Sí",15.2,2,2.91,2026,32.6,3.06,11,286,41.3,"Sí","Leve",1,"Toltrazuril",2,1
+"AVE0315","Galpón 1","Ionóforo","Macho","Sí",12.7,2,3.4,2349,32,,10.9,247,41.9,"No","Sin lesiones",0,,,
+"AVE0047","Galpón 3","Ninguno","Macho","No",9.9,2,3.21,1915,28.6,3.1,7.2,215,41.8,"Sí","Moderada",2,"Amprolio",4,1
+"AVE0228","Galpón 4","Ionóforo","Hembra","No",12.4,3,3.28,1725,29.5,2.5,7.4,213,41.3,"Sí","Grave",0,"Amprolio",12,1
+"AVE0012","Galpón 2","Ionóforo","Hembra","Sí",13.2,0,,2523,33.4,3.6,7.1,233,41,"No","Sin lesiones",1,,,
+"AVE0129","Galpón 1","Vacuna","Hembra","Sí",13.9,1,3.26,2109,33.4,3.06,,224,41.7,"No","Sin lesiones",0,,,
+"AVE0085","Galpón 1","Vacuna","Macho","Sí",10.9,1,3.31,2332,30.2,2.76,8.6,260,41.2,"No","Sin lesiones",0,,,
+"AVE0281","Galpón 2","Vacuna","Macho","Sí",9,2,3.78,2342,33.3,3.93,9.8,207,41.5,"No","Sin lesiones",1,,,
+"AVE0213","Galpón 3","Ionóforo","Hembra","Sí",9.9,0,3.34,2161,34.8,3.34,10.8,251,41.7,"No","Sin lesiones",0,,,
+"AVE0240","Galpón 2","Ionóforo","Hembra","Sí",12.1,1,3.48,2002,30.3,3.07,7.1,,41.6,"Sí","Moderada",0,"Amprolio",14,0
+"AVE0180","Galpón 2","Vacuna","Hembra","Sí",13,,2.91,1758,31.8,2.94,7.4,251,41.8,"Sí","Leve",3,"Toltrazuril",5,1
+"AVE0282","Galpón 3","Vacuna","Hembra","Sí",,0,3.46,1948,30.4,3.68,4.9,240,41.3,"No","Sin lesiones",1,,,
+"AVE0071","Galpón 1","Ninguno","Hembra","No",12.7,1,3.79,2134,25.5,,7.8,249,41.9,"Sí","Moderada",5,"Toltrazuril",8,1
+"AVE0070","Galpón 1","Vacuna","Hembra","No",13.9,0,3.59,2164,32.7,3.96,9.9,,,"No","Sin lesiones",0,,,
+"AVE0214","Galpón 3","Ionóforo","Macho","Sí",12,1,3.06,1946,26.7,2.53,6.7,217,41.7,"No","Sin lesiones",0,,,
+"AVE0230","Galpón 4","Ninguno","Macho","No",9.7,2,3.56,2272,31.6,3.39,8.8,,41.3,"No","Sin lesiones",0,,,
+"AVE0168","Galpón 4","Vacuna","Macho","Sí",12.1,3,3.68,2264,30.2,3.12,7.2,278,41.6,"No","Sin lesiones",1,,,
+"AVE0349","Galpón 2","Ninguno","Hembra","Sí",12,2,3.44,1806,37.1,3.43,9.2,260,41.6,"No","Sin lesiones",1,,,
+"AVE0025","Galpón 3","Vacuna","Hembra","Sí",12,3,3.47,2177,31.9,3.56,10.1,201,41.2,"No","Sin lesiones",0,,,
+"AVE0022","Galpón 1","Ionóforo","Macho","Sí",14.1,2,3.38,2235,,2.37,,226,41.3,"No","Sin lesiones",2,,,
+"AVE0340","Galpón 4","Ninguno","Macho","No",14.7,3,3.26,1916,25,,,180,41.5,"Sí","Grave",6,"Amprolio",12,1
+"AVE0090","Galpón 3","Vacuna","Macho","No",15.3,1,3.55,2216,,2.58,7.2,247,41.7,"Sí","Leve",1,"Toltrazuril",10,1
+"AVE0192","Galpón 1","Ionóforo","Hembra","No",11.5,1,3.58,2086,,2.36,6.8,240,,"No","Sin lesiones",1,,,
+"AVE0117","Galpón 2","Vacuna","Macho","Sí",12.5,1,,2603,32.9,3.49,10.5,251,41.3,"No","Sin lesiones",0,,,
+"AVE0219","Galpón 4","Ionóforo","Macho","Sí",10.6,1,3.44,,29.9,3.71,7.1,215,41.2,"No","Sin lesiones",1,,,
+"AVE0148","Galpón 2","Vacuna","Hembra","Sí",10.9,0,3.62,1889,31.4,3.43,6.6,274,41.3,"No","Sin lesiones",1,,,
+"AVE0250","Galpón 2","Ionóforo","Macho","No",12.8,3,3.9,2269,34.7,3.94,3.4,243,41.1,"Sí","Leve",2,"Amprolio",5,1
+"AVE0260","Galpón 2","Ionóforo","Hembra","Sí",8.6,1,3.44,214.8,33.2,3.36,8.6,225,41.3,"No","Sin lesiones",1,,,
+"AVE0154","Galpón 3","Vacuna","Macho","Sí",10.6,2,3.31,2239,28.9,3.75,6.6,239,41.5,"No","Sin lesiones",2,,,
+"AVE0191","Galpón 1","Ninguno","Macho","No",12.3,0,3.53,2138,30.6,3.21,8.1,,41.5,"No","Sin lesiones",5,,,
+"AVE0146","Galpón 4","Vacuna","Macho","Sí",12.4,5,3.41,1955,26.8,2.96,6.1,256,42.1,"Sí","Leve",1,"Toltrazuril",12,1
+"AVE0026","Galpón 4","Ionóforo","Hembra","Sí",14.8,1,,1774,26.8,3.06,5.8,188,41.2,"Sí","Leve",5,"Toltrazuril",5,1
+"AVE0056","Galpón 3","Ionóforo","Macho","Sí",14.4,1,3.86,2369,28,3.22,6.2,240,41.2,"Sí","Leve",0,"Toltrazuril",2,1
+"AVE0065","Galpón 3","Ninguno","Macho","No",12.9,4,3.45,2033,29.4,2.88,9.7,278,41.4,"No","Sin lesiones",1,,,
+"AVE0200","Galpón 1","Ionóforo","Macho","No",12.5,2,3.8,2353,30.6,3.48,9.5,230,41.3,"No","Sin lesiones",1,,,
+"AVE0093","Galpón 1","Ionóforo","Hembra","Sí",11.1,1,3.2,1927,28.9,3.64,11.5,257,41.7,"No","Sin lesiones",0,,,
+"AVE0295","Galpón 4","Vacuna","Hembra","Sí",9.5,3,3.55,2205,30.3,3.15,9.3,288,41.2,"No","Sin lesiones",2,,,
+"AVE0329","Galpón 1","Vacuna","Macho","No",9.6,0,3.67,1980,30.5,3.51,8.6,266,41.8,"Sí","Moderada",0,"Amprolio",10,1
+"AVE0155","Galpón 1","Ionóforo","Hembra","No",11,1,3.27,1958,30.2,3.37,8.8,283,41.9,"No","Sin lesiones",0,,,
+"AVE0143","Galpón 3","Vacuna","Macho","No",11.8,1,3.56,2240,28,3.18,,239,41.4,"No","Sin lesiones",0,,,
+"AVE0098","Galpón 1","Ninguno","Macho","Sí",10.6,2,2.76,1584,31.8,2.93,8.9,201,41.1,"No","Sin lesiones",0,,,
+"AVE0157","Galpón 2","Vacuna","Hembra","No",13.5,0,3.15,1769,29.5,,7.3,234,41.8,"Sí","Leve",2,"Amprolio",3,1
+"AVE0185","Galpón 4","Ionóforo","Hembra",,11,4,3.47,2207,,3.37,9.4,201,41.7,"No","Sin lesiones",1,,,
+"AVE0091","Galpón 1","Ionóforo","Hembra","No",12,1,3.12,1956,28.4,3.87,10.4,251,41.5,"No","Sin lesiones",1,,,
+"AVE0051","Galpón 4","Ionóforo  ","Hembra","si",13,5,3.41,1699,27.6,2.6,6.2,209,41.2,"Sí","Grave",1,"Toltrazuril",3,0
+"AVE0023","Galpón 2"," Ninguno ","Macho","Sí",14.1,1,3.74,2251,30.4,2.9,8.5,260,41.1,"No","Sin lesiones",1,,,
+"AVE0313","Galpón 3","Vacuna","Hembra","Sí",11.9,0,3.85,2261,,3.71,7,200,41.6,"No","Sin lesiones",0,,,
+"AVE0139","Galpón  3  ","Vacuna","Macho","No",12.6,4,3.35,2145,25.2,2.64,5,236,41.6,"Sí","Moderada",3,"Amprolio",14,0
+"AVE0245","Galpón 4","Ninguno","Hembra","Sí",13.3,4,3.58,2048,30.5,3.63,9.5,280,41.9,"No","Sin lesiones",1,,,
+"AVE0249","Galpón 1","Vacuna","Macho","No",,,,2007,33,3.41,6.6,209,41.4,"No","Sin lesiones",4,,,
+"AVE0170","Galpón 1","Ionóforo","Macho","Sí",12.3,1,3.09,2194,30.7,3.17,7.4,219,41.8,"No","Sin lesiones",0,,,
+"AVE0050","Galpón 1","Ionóforo","Macho","Sí",8.9,0,3.39,2169,31.2,3.88,7,242,41.5,"No","Sin lesiones",2,,,
+"AVE0232","Galpón 2","Vacuna","Macho","Sí",8,1,3.08,2034,32.2,3.3,7.9,243,41.3,"No","Sin lesiones",1,,,
+"AVE0036","Galpón 4","Ionóforo","Hembra","Sí",14,2,3.63,2353,25.2,3.54,8.1,253,41.5,"No","Sin lesiones",0,,,
+"AVE0020","Galpón 2","Ninguno","Macho","Sí",12.2,3,4.19,,,,8.9,224,41,"No","Sin lesiones",0,,,
+"AVE0076","Galpón 2","Ionóforo","Macho","Sí",11,0,3.37,2269,35.5,,9.1,247,41.4,"No","Sin lesiones",0,,,
+"AVE0147","Galpón 3","Ionóforo","Macho","Sí",10.2,1,,2482,32.4,3.52,10.5,219,41.7,"No","Sin lesiones",1,,,
+"AVE0227","Galpón 3","Ionóforo","Macho","Sí",9.8,3,3.61,2245,27.3,2.88,9.4,258,41.5,"No","Sin lesiones",1,,,
+"AVE0343","Galpón 2","Ionóforo","Hembra","Sí",12.5,2,,,28.4,2.68,3.9,256,41.4,"Sí","Leve",0,"Amprolio",6,1
+"AVE0094","Galpón 3","Ninguno","Macho","Sí",13.5,0,3.47,2094,31.7,3.04,9.4,242,41.3,"No","Sin lesiones",0,,,
+"AVE0268","Galpón 4","Ionóforo","Hembra","Sí",13.2,2,3.59,1643,29.3,3.1,6.2,217,41.8,"Sí","Moderada",0,"Toltrazuril",7,1
+"AVE0298","Galpón 1","Vacuna","Macho","Sí",10.9,0,3.41,2395,30.6,4.02,9.1,231,41.2,"No","Sin lesiones",0,,,
+"AVE0164","Galpón 2","Ionóforo","Hembra","No",12.1,1,3.68,1971,27.2,3.18,6.9,236,41.1,"No","Sin lesiones",1,,,
+"AVE0075","Galpón 3","Ionóforo","Macho","No",10.5,3,3.13,2006,29.4,,9.3,254,41.1,"No","Sin lesiones",3,,,
+"AVE0267","Galpón 4","Ninguno","Hembra","Sí",11.8,3,3.33,,31.7,3.37,9.4,240,41.8,"No","Sin lesiones",0,,,
+"AVE0017","Galpón 4","Ionóforo","Macho","Sí",13.3,2,3.57,2106,35.4,,8.8,213,40.6,"No","Sin lesiones",2,,,
+"AVE0262","Galpón 2","Ninguno","Hembra","No",10.8,4,3.87,1664,,2.88,7.7,217,41.3,"Sí","Leve",1,"Amprolio",13,1
+"AVE0182","Galpón 2","Ionóforo","Hembra","Sí",9.4,0,3.53,2084,28.4,3.58,8.6,250,40.9,"No","Sin lesiones",1,,,
+"AVE0222","Galpón 1","Vacuna","Macho","Sí",12.7,3,3.16,2289,31.3,3.43,8.2,207,42,"No","Sin lesiones",1,,,
+"AVE0043","Galpón 1","Ninguno","Macho","Sí",12.3,2,3.23,2189,32.5,3.34,8.8,244,41.2,"No","Sin lesiones",1,,,
+"AVE0110","Galpón 1","Vacuna","Hembra","No",14.7,3,3.67,2145,32.1,3.31,9.6,,41.1,"No","Sin lesiones",1,,,
+"AVE0294","Galpón 3","Ninguno","Hembra","No",12.2,0,3.77,2439,29.2,3.25,6.6,257,40.9,"No","Sin lesiones",1,,,
+"AVE0140","Galpón 4","Ninguno","Macho","Sí",14.8,3,3.59,2112,,2.88,8.7,197,41.8,"No","Sin lesiones",1,,,
+"AVE0319","Galpón 2","Ninguno","Macho","Sí",10.1,2,3.5,2032,27.3,2.76,9.6,207,41.4,"Sí","Moderada",1,"Toltrazuril",2,1
+"AVE0283","Galpón 1","Ninguno","Macho","Sí",9,0,3.1,1727,25.9,3.54,9.5,229,41.1,"No","Sin lesiones",0,,,
+"AVE0035","Galpón 3","Ninguno","Macho",,15.4,4,3.4,2035,26.8,2.83,7.2,217,41.9,"Sí","Moderada",2,"Toltrazuril",13,1
+"AVE0052","Galpón 2","Ionóforo","Hembra","No",15.4,4,3.47,2073,28.5,2.94,6.3,227,41.4,"Sí","Grave",0,"Amprolio",14,0
+"AVE0118","Galpón 3","Vacuna","Hembra","Sí",13,2,3.32,1571,31,3.06,10.9,224,41.4,"No","Sin lesiones",0,,,
+"AVE0335","Galpón 4","Ionóforo","Hembra","Sí",11.9,3,3.62,1828,24.9,3,6.8,164,41.4,"Sí","Leve",2,"Toltrazuril",10,1
+"AVE0263","Galpón 4","Ionóforo","Hembra","Sí",12.1,0,3.7,2279,37.2,4.2,10.6,254,41.4,"No","Sin lesiones",0,,,
+"AVE0063","Galpón 2","Ninguno","Macho","Sí",10.6,0,3.58,2165,31,,10.8,245,41.2,"No","Sin lesiones",0,,,
+"AVE0082","Galpón 1","Vacuna","Hembra","Sí",14.5,0,4.02,2458,,3.04,5.8,249,41.6,"No","Sin lesiones",0,,,
+"AVE0046","Galpón 1","Ionóforo","Hembra","No",10.2,3,3.52,2136,28.3,3.34,9.4,215,41.5,"No","Sin lesiones",2,,,
+"AVE0251","Galpón 3","Ninguno","Macho","Sí",9.6,1,3.89,2067,29.2,3.27,6.4,230,,"Sí","Leve",2,"Toltrazuril",5,1
+"AVE0259","Galpón 1","Ionóforo","Macho","No",12.9,4,2.77,1920,29.7,3.19,7.9,264,41.4,"No","Sin lesiones",0,,,
+"AVE0120","galpón 1","Ninguno","Hembra","Sí",12.2,2,3.46,1831,,2.94,6.5,227,41,"No","Sin lesiones",0,,,
+"AVE0231","Galpón 2","Ionóforo","Hembra","Sí",12.6,1,3.63,2039,33.1,3.81,10.3,314,41.4,"No","Sin lesiones",0,,,
+"AVE0015","Galpón 1","Vacuna","Hembra","Sí",12.3,1,3.44,2028,29.5,3.62,8,219,41.4,"No","Sin lesiones",0,,,
+"AVE0034","Galpón 3","Ninguno","Hembra","Sí",11.9,2,3.17,1949,30.2,2.98,5.8,209,41.5,"No","Sin lesiones",2,,,
+"AVE0280","Galpón 4","Vacuna","Hembra","Sí",12.4,3,3.46,1966,26.4,3.15,6.4,248,41.8,"No","Sin lesiones",2,,,
+"AVE0273","Galpón 3","Ionóforo","Hembra","Sí",14.2,1,4.01,2176,28.8,3.04,9.1,250,,"No","Sin lesiones",0,,,
+"AVE0193","Galpón 4","Ninguno","Hembra","Sí",12.5,2,3.44,1755,32.6,3.28,6.1,220,41.6,"No","Sin lesiones",1,,,
+"AVE0141","Galpón 3","Ninguno","Macho","Sí",13.1,1,,2729,32.1,3.23,8.8,228,41.6,"No","Sin lesiones",0,,,
+"AVE0216","Galpón 4","Ionóforo","Macho","Sí",11.8,2,3.47,2456,31.1,3.89,11.5,236,41.2,"No","Sin lesiones",0,,,
+"AVE0103","Galpón 1","Ionóforo","Macho","Sí",11.9,0,3.6,2272,24.9,2.9,,243,41.9,"Sí","Leve",1,"Amprolio",6,1
+"AVE0133","Galpón 1","Ninguno","Macho","No",10.2,2,3.56,2047,25.3,2.89,7.3,212,41.6,"Sí","Moderada",6,"Amprolio",6,1
+"AVE0171","Galpón 2","Ionóforo","Macho","Sí",13.3,1,3.86,2256,26.4,2.39,6.2,244,41.4,"Sí","Leve",0,"Amprolio",12,1
+"AVE0264","Galpón 4","Ionóforo","Hembra","No",12.5,1,3.11,1841,34.3,3.28,8.4,292,41.7,"No","Sin lesiones",1,,,
+"AVE0309","Galpón 2","Ninguno","Hembra","No",9.9,0,3.97,2437,30.4,3.36,9.1,250,41.1,"No","Sin lesiones",1,,,
+"AVE0342","Galpón 3","Ionóforo","Hembra","No",12,1,3.75,2072,33.1,3.27,9.1,198,41.2,"No","Sin lesiones",0,,,
+"AVE0169","Galpón 3","Ninguno","Macho","No",11.5,0,3.4,1978,27.4,,8.8,254,41.8,"No","Sin lesiones",1,,,
+"AVE0247","Galpón 4","Ninguno","Hembra","Sí",13.1,1,3.62,1873,32.3,3.32,7.7,201,41.2,"No","Sin lesiones",0,,,
+"AVE0021","Galpón 3","Ionóforo","Hembra","Sí",10.3,1,3.27,1960,33.5,3.19,10.5,239,41,"No","Sin lesiones",0,,,
+"AVE0138","Galpón 4","Ninguno","Hembra","No",13.4,2,3.45,1773,33.3,3.32,8.6,231,41.6,"No","Sin lesiones",0,,,
+"AVE0181","Galpón 1","Vacuna","Hembra","No",11.2,4,3.39,1797,28.6,2.87,6.4,,41.7,"Sí","Moderada",6,"Toltrazuril",11,1
+"AVE0158","Galpón 3","Ninguno","Hembra","No",11.9,1,3.41,,29.5,3.4,8.8,252,41.5,"No","Sin lesiones",1,,,
+"AVE0293","Galpón 1","Ionóforo","Macho","Sí",8.7,5,3.03,2170,32.1,3.29,4.9,224,41,"No","Sin lesiones",0,,,
+"AVE0176","Galpón 3"," Vacuna ","Macho","Sí",13.8,3,3.98,2204,24.7,2.59,4.5,224,41.5,"Sí","Grave",2,"Amprolio",8,1
+"AVE0095","Galpón 4","Vacuna","Hembra","No",10.2,0,3.57,2121,32.6,4.01,7.9,238,41.6,"No","Sin lesiones",1,,,
+"AVE0305","Galpón 3","Ionóforo","Hembra","No",10.2,3,3.52,1760,28.4,3.13,9,229,41,"Sí","Leve",0,"Toltrazuril",4,1
+"AVE0322","Galpón 1","Ionóforo","Macho","No",14.3,1,3.84,2404,28.1,3.08,5.6,184,41,"Sí","Leve",5,"Toltrazuril",1,1
+"AVE0242","Galpón 4","Ionóforo","Hembra","No",9.8,4,3.48,1787,29.6,2.79,6.9,232,41.4,"No","Sin lesiones",5,,,
+"AVE0113","Galpón 2","Ionóforo","Macho","Sí",9.6,3,3.91,,28.9,3.07,8.8,237,,"No","Sin lesiones",5,,,
+"AVE0199","Galpón 4","Ionóforo","Hembra","No",14.8,1,4.3,2274,,3.18,8,203,41.5,"Sí","Grave",1,"Toltrazuril",2,1
+"AVE0310","Galpón 4","Ionóforo","Macho","No",13.3,1,3.47,2508,33.5,3.44,7.4,236,41.4,"No","Sin lesiones",0,,,
+"AVE0225","Galpón 4","Ninguno","Macho","Sí",13.5,6,3.38,2151,,3.42,9.6,233,40.9,"No","Sin lesiones",1,,,
+"AVE0136","Galpón 1","Vacuna","Hembra","No",13.1,1,3.45,2440,32.2,3.41,8.1,238,41.2,"No","Sin lesiones",3,,,
+"AVE0224","Galpón 2","Vacuna","Hembra","Sí",13.5,3,3.6,1922,26.9,3.25,7.5,209,41.9,"Sí","Leve",1,"Amprolio",4,1
+"AVE0079","Galpón 1","Ionóforo","Macho","No",14.8,2,3.89,2294,29,3.05,10.2,241,41.1,"No","Sin lesiones",0,,,
+"AVE0135","Galpón 4","Ionóforo","Macho","Sí",11,2,3.53,2066,27.8,2.97,,212,41.7,"Sí","Leve",4,"Toltrazuril",3,1
+"AVE0201","Galpón 2","Ionóforo","Hembra","si",15.5,,3.26,1988,33.8,3.4,8.6,161,41,"No","Sin lesiones",1,,,
+"AVE0072","Galpón 3","Ninguno","Macho","Sí",10.2,1,3.48,2098,31.5,3.11,12.7,244,41.2,"No","Sin lesiones",2,,,
+"AVE0067","Galpón 3","Ninguno","Macho","Sí",12.7,3,3.34,2021,31.3,,9.5,210,41.1,"No","Sin lesiones",1,,,
+"AVE0218","Galpón 3","Ionóforo","Hembra","Sí",11.3,3,3.84,2292,29.2,3.74,10.6,229,41.6,"No","Sin lesiones",0,,,
+"AVE0233","Galpón 4","Vacuna","Hembra","No",13.4,1,3.58,1964,34.8,3.34,9.4,237,41.3,"No","Sin lesiones",8,,,
+"AVE0097","Galpón 1","Ionóforo","Hembra","No",12.1,3,3.13,1472,,2.78,5.3,235,41.3,"Sí","Leve",3,"Toltrazuril",1,1
+"AVE0074","Galpón 3","Ninguno","Macho","No",9.3,3,3.67,2076,23.2,2.29,5.6,204,41.9,"Sí","Moderada",2,"Amprolio",4,0
+"AVE0177","Galpón 2","Ionóforo","Macho","Sí",11.1,2,3.76,,33.1,3.22,8.2,230,41.3,"No","Sin lesiones",2,,,
+"AVE0128","Galpón 1","Ninguno","Macho","Sí",12.5,4,2.81,1953,25.2,3.03,5.1,240,41.3,"Sí","Grave",7,"Toltrazuril",7,1
+"AVE0296","Galpón 3","Ninguno","Hembra","Sí",13.1,0,3.22,1681,28.7,,6.3,251,41.3,"Sí","Leve",2,"Amprolio",6,1
+"AVE0194","Galpón 1","Vacuna","Macho","No",11.4,1,3.59,2164,28.9,3.43,5.6,209,41.4,"Sí","Moderada",0,"Toltrazuril",4,1
+"AVE0241","Galpón 3","Ionóforo","Macho","No",10.7,0,3.37,2279,31.3,3.04,5.7,237,41.3,"No","Sin lesiones",1,,,
+"AVE0023","Galpón 2"," Ninguno ","Macho","Sí",14.1,1,3.74,2251,30.4,2.9,8.5,260,41.1,"No","Sin lesiones",1,,,
+"AVE0210","Galpón 1","Vacuna","Hembra","No",11.5,1,3.95,2227,34.6,3.66,10.8,211,41.3,"No","Sin lesiones",0,,,
+"AVE0124","Galpón 1","Ionóforo","Hembra","No",12,2,3.43,2108,,3.36,7.6,171,41.5,"No","Sin lesiones",2,,,
+"AVE0092","Galpón 2","Vacuna","Macho","No",13.7,0,3.49,1994,26.6,2.33,4.4,223,41.4,"Sí","Moderada",0,"Toltrazuril",14,0
+"AVE0010","Galpón 4","Ninguno","Macho","Sí",13.8,1,3.49,2042,31.9,3.63,9.3,255,40.9,"No","Sin lesiones",0,,,
+"AVE0153","Galpón 3","Vacuna","Hembra","Sí",11.4,0,3.58,1957,37.9,3.14,9.6,251,41.5,"No","Sin lesiones",0,,,
+"AVE0053","Galpón 3","Vacuna","Macho","Sí",12.5,2,3.9,2247,30.3,3.58,7.6,280,41.9,"Sí","Leve",0,"Toltrazuril",6,1
+"AVE0100","Galpón 3","Vacuna","Hembra","Sí",10.9,1,3.38,2155,28.7,3.14,9.2,210,41.5,"No","Sin lesiones",0,,,
+"AVE0279","Galpón 4","Ionóforo","Hembra","No",12,2,3.54,2074,32.2,2.92,8.8,183,41.3,"No","Sin lesiones",1,,,
+"AVE0297","Galpón 2","Ionóforo","Hembra","Sí",11.1,3,3.24,,,3.27,10,239,41.4,"No","Sin lesiones",0,,,
+"AVE0341","Galpón 1","Vacuna","Hembra","Sí",12.3,2,3.82,2518,35.5,3.89,11,288,41.2,"No","Sin lesiones",4,,,
+"AVE0004","Galpón 2","Ionóforo","Macho","Sí",10.6,1,3.99,,28.6,3.45,10.6,229,41.1,"No","Sin lesiones",1,,,
+"AVE0073","Galpón  1  ","Vacuna","Macho","Sí",9.5,4,3.6,2586,29.1,,8.8,220,41.4,"No","Sin lesiones",0,,,
+"AVE0209","Galpón 3","Ionóforo","Macho","No",12.7,1,3.39,2132,21.6,2.78,5.5,190,41.4,"Sí","Moderada",0,"Toltrazuril",6,1
+"AVE0102","Galpón 4","Ionóforo","Macho","Sí",11.8,0,3.36,2186,28.9,2.62,6.7,233,41.6,"No","Sin lesiones",0,,,
+"AVE0261","Galpón 2","Ninguno","Macho","No",14.1,3,3.03,2067,28.2,2.85,7.8,174,41.5,"Sí","Grave",1,"Toltrazuril",2,1
+"AVE0204","Galpón 1","Vacuna","Macho","Sí",14.9,3,3.33,,17.5,2.31,5.2,199,,"Sí","Grave",0,"Toltrazuril",12,1
+"AVE0060","Galpón 4","Ionóforo","Hembra","Sí",8.2,0,3.93,2296,27.8,2.8,9.2,230,41.5,"No","Sin lesiones",1,,,
+"AVE0151","Galpón 3","Vacuna","Hembra","No",12.5,2,2.96,1928,28.7,3.63,10,225,41.3,"No","Sin lesiones",3,,,

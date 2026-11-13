@@ -1,0 +1,326 @@
+﻿"id_perro","zona","control_garrapatas","tamano_raza","vive_dentro_casa","edad_anios","perros_en_hogar","hematocrito_pct","plaquetas_10_3_ul","temperatura_c","leucocitos_10_9_l","proteinas_totales_g_dl","globulinas_g_dl","alt_u_l","ehrlichiosis","severidad_ehrlichiosis","garrapatas_observadas","tratamiento","dias_hasta_normalizar_plaquetas","plaquetas_normalizadas"
+"CAN0183","Lima Sur","Ninguno","Grande","Sí",8.4,2,38.9,112,38.2,9.6,6.5,3.5,71,"No","Sin ehrlichiosis",0,,,
+"CAN0281","Lima Norte","Ninguno","Grande","Sí",0.7,1,38.3,326,38.9,11.5,5.8,3.2,81,"No","Sin ehrlichiosis",7,,,
+"CAN0032","Lima Sur","Ninguno","Mediana","Si",9.7,1,30.2,101,39.7,6.5,8,4.9,61,"Sí","Grave",9,"Doxiciclina + Imidocarb",34,1
+"CAN0224","Lima Sur","Tópico","Mediana","No",0.5,1,33.5,217,38.6,9.6,6,2.7,85,"No","Sin ehrlichiosis",2,,,
+"CAN0003","Lima Este","Tópico","Grande","Sí",7.6,1,38.7,204,37.8,6.7,6.8,2.7,96,"No","Sin ehrlichiosis",3,,,
+"CAN0252","Lima Norte","Ninguno","Grande","Sí",4.6,1,37.5,114,38.4,7,7.6,3.9,42,"Sí","Leve",0,"Doxiciclina + Imidocarb",9,1
+"CAN0139","Lima Norte","Oral","Grande","Sí",8.1,1,40.4,230,39.3,8.1,7,4.3,81,"Sí","Moderada",11,"Doxiciclina + Imidocarb",3,1
+"CAN0018","Lima Norte","Ninguno","Mediana","Sí",6.1,1,44.3,,38,10,7.2,2.6,41,"No","Sin ehrlichiosis",2,,,
+"CAN0125","lima sur","Oral","Grande","No",5.3,1,46.5,260,38.8,13.4,6.3,2.5,64,"No","Sin ehrlichiosis",8,,,
+"CAN0243","Lima Sur","Tópico","Grande","Sí",8.6,1,46.8,286,38.9,9.9,5.8,4,38,"No","Sin ehrlichiosis",2,,,
+"CAN0181","callao","Ninguno","Grande","Sí",4.6,2,43,314,38.9,8.5,7,3.8,34,"No","Sin ehrlichiosis",7,,,
+"CAN0127","Lima Norte","Oral","Grande","Sí",5.5,4,28.1,161,39.1,13,7.1,3.1,49,"No","Sin ehrlichiosis",3,,,
+"CAN0151","Lima Este","Ninguno","Pequeña","No",3.7,3,33,278,38.5,6.8,6.4,4,40,"No","Sin ehrlichiosis",6,,,
+"CAN0020","Lima Este","Oral","Pequeña","si",7.9,1,45.7,286,39.1,17.1,6.9,3.3,61,"No","Sin ehrlichiosis",4,,,
+"CAN0229","Lima Este","Oral","Grande","Sí",9.9,1,47.9,353,39,11.8,6.6,3.1,41,"No","Sin ehrlichiosis",2,,,
+"CAN0061","Lima Norte","Oral","Mediana","No",4.5,2,,302,38.3,14.8,6.1,3.8,20,"No","Sin ehrlichiosis",7,,,
+"CAN0058","Lima Norte","Ninguno","Mediana","Sí",2.1,2,33.4,143,39.4,14.1,7.3,4.5,48,"Sí","Moderada",0,"Doxiciclina",29,0
+"CAN0271","Lima Sur","Ninguno","Pequeña","No",3.8,3,45.7,259,38.8,4.6,7.5,3.9,76,"No","Sin ehrlichiosis",5,,,
+"CAN0110","Lima Norte","Tópico","Mediana","No",6.5,2,42.6,188,38.9,8.7,6.5,4.9,94,"Sí","Grave",3,"Doxiciclina + Imidocarb",5,1
+"CAN0134","Lima Sur","Tópico","Mediana","No",7.1,6,51.3,124,,12.6,6.7,2.8,60,"No","Sin ehrlichiosis",13,,,
+"CAN0207","Lima Este","Ninguno","Mediana","No",5.3,1,29.4,69,39.8,6.3,7.2,4,84,"Sí","Moderada",1,"Doxiciclina + Imidocarb",9,1
+"CAN0079","Lima Este","Oral","Pequeña","Sí",5.2,1,38.1,237,38.6,9.7,7.7,3.6,37,"No","Sin ehrlichiosis",0,,,
+"CAN0191","Lima Este","Tópico","Pequeña","Sí",2.2,2,31.2,223,40.3,8.7,,4.6,73,"Sí","Grave",2,"Doxiciclina + Imidocarb",26,1
+"CAN0213","Callao","Ninguno","Mediana","no",10.5,1,38,195,38.9,15.4,6.3,2.7,47,"No","Sin ehrlichiosis",8,,,
+"CAN0216","Lima Sur","Ninguno","Pequeña","No",1.8,3,40.9,333,,16.5,6.1,2.5,,"No","Sin ehrlichiosis",1,,,
+"CAN0028","Lima Sur","Tópico","Mediana","Sí",4.6,4,44.9,164,38.7,,6.5,3.5,56,"No","Sin ehrlichiosis",0,,,
+"CAN0200","Lima Norte","Ninguno","Mediana","No",8.8,1,41.2,172,39.3,9.1,6.9,4.6,49,"Sí","Moderada",5,"Doxiciclina",21,1
+"CAN0067","Lima Sur","Ninguno","Mediana","Sí",6.7,4,36.5,118,38.8,11.8,5.8,3.2,58,"No","Sin ehrlichiosis",6,,,
+"CAN0045","Callao","Tópico","Grande","Sí",6.9,2,37.1,249,38.2,16.3,6.5,2.8,49,"No","Sin ehrlichiosis",4,,,
+"CAN0287","Lima Sur","Tópico","Grande","No",7.7,2,34.9,139,39.3,18.3,8.3,4.3,73,"Sí","Leve",7,"Doxiciclina",14,1
+"CAN0163","Callao","Oral","Mediana","Sí",5,1,30.9,261,38.3,12.3,5.7,2.4,67,"No","Sin ehrlichiosis",5,,,
+"CAN0263","Lima Este","Tópico","Mediana","No",7.1,1,33.4,328,38.6,14.7,6.3,2.6,57,"No","Sin ehrlichiosis",2,,,
+"CAN0202","Callao","Oral","Mediana","No",1.4,1,51.5,282,38.6,,,4.2,46,"No","Sin ehrlichiosis",10,,,
+"CAN0237","Lima Sur","Oral","Mediana","No",7.5,3,38.9,175,39.5,2.7,6.7,3.1,25,"Sí","Leve",2,"Doxiciclina",31,1
+"CAN0012","Lima Sur","Oral","Mediana","Sí",0.9,2,48.5,294,,11.4,6.2,3,72,"No","Sin ehrlichiosis",1,,,
+"CAN0059","Lima Norte","Tópico","Pequeña","Sí",1.8,1,57,356,38.7,9.4,5.6,3.1,82,"No","Sin ehrlichiosis",1,,,
+"CAN0097","Lima Este","Tópico","Grande","Sí",7.5,3,50.2,196,37.4,8.9,6.8,3.1,41,"No","Sin ehrlichiosis",1,,,
+"CAN0054","Lima Norte","Oral","Pequeña","No",4.9,1,39.6,164,38.4,14.5,5.6,3.3,29,"No","Sin ehrlichiosis",6,,,
+"CAN0065","Lima Este","Ninguno","Pequeña","Sí",2.7,1,22.5,203,38.1,10.5,5.6,3.8,69,"No","Sin ehrlichiosis",4,,,
+"CAN0019","Lima Norte","Oral","Grande","No",4.9,1,36.9,298,38.1,10.8,6.7,3.9,44,"No","Sin ehrlichiosis",2,,,
+"CAN0179","Callao","Tópico","Mediana","Sí",7.2,2,42.6,242,38.8,10.7,8.5,4.1,10,"No","Sin ehrlichiosis",5,,,
+"CAN0113","Lima Norte","Ninguno","Grande","No",3.5,1,32.7,87,,8.7,,5,62,"Sí","Moderada",25,"Doxiciclina + Imidocarb",8,1
+"CAN0050","Lima Sur","Oral","Pequeña","Sí",2.9,3,35.4,169,39,,6.4,3.4,31,"No","Sin ehrlichiosis",0,,,
+"CAN0290","Lima Norte","Tópico","Mediana","No",4.2,3,40.4,209,39.7,9.4,8.1,3.4,63,"Sí","Moderada",4,"Doxiciclina + Imidocarb",18,1
+"CAN0077","Lima Norte","Oral","Mediana","No",3.6,4,35.9,104,39.5,10.3,7.2,4.5,40,"Sí","Leve",0,"Doxiciclina + Imidocarb",3,1
+"CAN0042","Callao","Ninguno","Mediana","No",7.9,1,49.4,154,39.5,,6.8,4.6,93,"Sí","Moderada",2,"Doxiciclina + Imidocarb",2,1
+"CAN0010","LIMA ESTE","Tópico","Pequeña","Sí",1.8,1,35.8,273,38.5,7.5,7.1,3.1,37,"No","Sin ehrlichiosis",3,,,
+"CAN0135","Lima Sur","Oral","Grande","Sí",6,1,35.7,178,39.1,12.4,6,4.3,65,"No","Sin ehrlichiosis",0,,,
+"CAN0167","Lima Norte","Tópico","Mediana","Sí",8.4,1,44.6,336,38.4,11.6,6.5,2.7,56,"No","Sin ehrlichiosis",3,,,
+"CAN0299","Lima Este","Ninguno","Mediana","No",8.6,2,30.1,119,38.2,12.7,6.7,4.4,70,"Sí","Leve",36,"Doxiciclina + Imidocarb",15,1
+"CAN0076","Lima Norte","Ninguno","Grande","Sí",3,1,51.1,269,38.4,18.2,6.8,3.2,51,"No","Sin ehrlichiosis",3,,,
+"CAN0215","Lima Este","Tópico","Mediana","No",1.4,3,43.9,232,39.4,10.8,8.6,4.7,62,"Sí","Moderada",5,"Doxiciclina",42,0
+"CAN0231","Lima Este","Ninguno","Grande","No",5.8,3,43.5,163,39.3,8.5,6.5,3.6,38,"Sí","Moderada",16,"Doxiciclina + Imidocarb",1,1
+"CAN0155","Lima Este","Oral","Pequeña","Sí",1.9,4,47,269,38.6,16.2,5.7,1.4,31,"No","Sin ehrlichiosis",1,,,
+"CAN0091","Lima Este","Ninguno","Grande","Sí",6,3,43.5,248,39.1,11.9,6.1,3.7,68,"No","Sin ehrlichiosis",3,,,
+"CAN0203","Lima Este","Ninguno","Grande","No",5.2,1,34.1,163,40,9.8,7.2,4.8,59,"Sí","Grave",18,"Doxiciclina",29,1
+"CAN0072","Lima Este","Oral","Pequeña","No",8.6,2,48.8,211,38.8,11.4,6.7,3.9,56,"No","Sin ehrlichiosis",6,,,
+"CAN0030","Lima Norte","Oral","Mediana","Sí",0.5,4,43.7,322,39.7,8.1,7.3,4.1,66,"Sí","Moderada",9,"Doxiciclina + Imidocarb",26,1
+"CAN0293","Lima Sur","Oral","Grande","Sí",3.1,2,32.3,252,38.7,14.7,6.7,2.9,46,"No","Sin ehrlichiosis",2,,,
+"CAN0081","Lima Sur","Tópico","Grande","Sí",7.6,2,36.2,164,38.8,10.5,6.2,3.2,69,"No","Sin ehrlichiosis",1,,,
+"CAN0062","Lima Norte","Ninguno","Pequeña","Sí",11.3,1,,101,39.2,12.4,6.2,4,74,"Sí","Leve",4,"Doxiciclina",17,1
+"CAN0209","Callao","Ninguno","Pequeña","Sí",0.5,2,47.8,248,,11.3,7.3,3.5,71,"No","Sin ehrlichiosis",0,,,
+"CAN0044","Lima Sur","Oral","Grande","Sí",5.2,4,43.4,328,38,9.7,6.5,2.9,53,"No","Sin ehrlichiosis",11,,,
+"CAN0255","Lima Este","Tópico","Grande","Sí",3.8,2,40.1,84,39.1,8.9,,4.1,73,"Sí","Moderada",9,"Doxiciclina",10,1
+"CAN0177","Lima Este","Tópico","Mediana",,7,1,42.9,382,38.9,9.1,6.1,3.2,55,"No","Sin ehrlichiosis",0,,,
+"CAN0142","Lima Norte","Oral","Mediana","Sí",9.1,3,33.6,313,38.1,13.3,,3.9,60,"No","Sin ehrlichiosis",0,,,
+"CAN0307","Lima Sur","Tópico","Mediana","Sí",6.8,2,47.8,337,39.2,13.3,7.9,3.7,55,"No","Sin ehrlichiosis",0,,,
+"CAN0242","Lima Este","Oral","Mediana","Sí",0.5,3,32.6,120,,10.7,6.3,2.9,62,"No","Sin ehrlichiosis",1,,,
+"CAN0164","Lima Norte","Oral","Pequeña","No",7.4,2,30.8,132,38.8,7.5,6.8,4.4,42,"Sí","Leve",1,"Doxiciclina + Imidocarb",11,1
+"CAN0119","Lima Este","Tópico","Mediana","Sí",6.3,3,28.8,183,38.6,9.6,6.5,3.1,24,"No","Sin ehrlichiosis",21,,,
+"CAN0319","Lima Este","Tópico","Mediana","Sí",9.5,3,43.7,272,38.3,14.9,6.7,3.8,40,"No","Sin ehrlichiosis",3,,,
+"CAN0037","Lima Norte","Tópico","Mediana","Sí",6.2,3,34.5,276,38.3,12.4,7.5,2.5,38,"No","Sin ehrlichiosis",1,,,
+"CAN0025","Lima Sur","Ninguno","Grande","No",3.1,2,46.3,182,39.5,10.2,8.3,,67,"Sí","Moderada",7,"Doxiciclina",42,0
+"CAN0292","Lima Sur","Tópico","Mediana","Sí",4.3,3,36.6,65,39.2,9.4,6.8,4,78,"Sí","Moderada",1,"Doxiciclina + Imidocarb",17,1
+"CAN0039","Lima Sur","Tópico","Grande","Sí",9.2,4,55.2,335,38.6,13.9,5.2,2,48,"No","Sin ehrlichiosis",10,,,
+"CAN0225","Lima Este","Tópico","Pequeña","Sí",0.5,1,45.6,246,38.1,,5.9,2.3,54,"No","Sin ehrlichiosis",2,,,
+"CAN0165","Lima Este","Ninguno","Mediana","Sí",1.8,1,50.8,176,37.8,11.3,6.7,3.4,43,"No","Sin ehrlichiosis",0,,,
+"CAN0236","Callao","Oral","Grande","No",6.5,4,43,215,39.2,13,7,4.2,,"Sí","Moderada",0,"Doxiciclina + Imidocarb",42,0
+"CAN0239","Callao","Oral","Pequeña","Sí",0.5,1,45.5,265,38.4,12.4,5.9,2.1,82,"No","Sin ehrlichiosis",3,,,
+"CAN0101","Callao","Oral","Pequeña","Sí",5,2,38.7,269,38.4,11.2,7.4,2.8,74,"No","Sin ehrlichiosis",3,,,
+"CAN0008","Lima Norte","Tópico","Pequeña","Sí",2.8,2,33.7,242,38.6,8.4,5.5,3.4,59,"No","Sin ehrlichiosis",0,,,
+"CAN0297","Lima Este","Ninguno","Pequeña","Sí",2.3,2,37.8,,38.2,12.9,7.4,3.7,45,"No","Sin ehrlichiosis",4,,,
+"CAN0233","Lima Norte","Ninguno","Mediana","Sí",2.3,5,40.5,,39.7,12.5,7.6,4.4,17,"Sí","Moderada",0,"Doxiciclina",6,0
+"CAN0121","Lima Sur","Ninguno","Pequeña","Sí",0.9,3,50.3,305,38.8,,7.2,2.6,51,"No","Sin ehrlichiosis",0,,,
+"CAN0087","Lima Sur","Oral","Grande","Sí",7.3,2,43.8,320,38.3,10.2,5.3,3.5,18,"No","Sin ehrlichiosis",2,,,
+"CAN0248","Lima Sur","Oral","Mediana","No",5.6,4,46.7,297,39.7,9,7.8,3.5,58,"Sí","Moderada",2,"Doxiciclina + Imidocarb",4,0
+"CAN0147","Lima Norte","Oral","Grande",,4.3,5,37.1,,38.6,11.1,5.9,4.1,50,"No","Sin ehrlichiosis",6,,,
+"CAN0175","Lima Norte","Oral","Grande","Sí",8.4,1,39.7,,38.5,9.7,,3,28,"No","Sin ehrlichiosis",0,,,
+"CAN0166","Lima Norte","Tópico","Mediana","No",1.8,1,33.2,172,38.3,8.1,6.9,3,39,"No","Sin ehrlichiosis",1,,,
+"CAN0306","Lima Este","Ninguno","Pequeña","Sí",7.7,6,37.7,185,,,8.1,4.1,74,"Sí","Leve",6,"Doxiciclina + Imidocarb",12,1
+"CAN0013","Lima Este","Tópico","Pequeña","Sí",3.8,3,33.6,312,38.3,8.3,,3.8,29,"No","Sin ehrlichiosis",0,,,
+"CAN0194","Lima Este","Tópico","Grande","Sí",6.7,2,45.7,213,38.1,,6.6,3.2,34,"No","Sin ehrlichiosis",1,,,
+"CAN0114","Lima Norte","Tópico","Mediana","Sí",4.2,2,30.3,211,38.2,14.6,6.5,3.6,30,"No","Sin ehrlichiosis",2,,,
+"CAN0041","Lima Este","Oral","Pequeña","No",8.8,4,50.7,,38.7,11,6.2,3.9,41,"No","Sin ehrlichiosis",3,,,
+"CAN0205","Lima Sur","Tópico","Pequeña","Sí",4.5,1,47,301,39.4,12.5,4.9,4.5,54,"No","Sin ehrlichiosis",0,,,
+"CAN0240","Lima Sur","Tópico","Mediana","No",5.9,1,40.3,264,39.1,11.2,7.3,3.7,27,"No","Sin ehrlichiosis",13,,,
+"CAN0143","Lima Norte","Ninguno","Grande","No",8.1,3,33.5,170,39.3,11.9,8.1,4.2,36,"Sí","Grave",7,"Doxiciclina",32,1
+"CAN0298","Lima Sur","Tópico","Pequeña","Sí",4.4,4,,154,39.3,5.6,7.4,4.3,74,"Sí","Leve",14,"Doxiciclina",15,1
+"CAN0024","Lima Este","Ninguno","Mediana","Sí",2.6,1,54.1,346,38.9,10.6,,3.3,77,"No","Sin ehrlichiosis",2,,,
+"CAN0235","Lima Norte","Ninguno","Grande","Sí",6.1,1,45,281,39.3,10.1,6.1,3.1,41,"No","Sin ehrlichiosis",3,,,
+"CAN0204","Callao","Tópico","Mediana","No",6,2,41.4,228,39.4,6.5,7.2,4.8,93,"Sí","Leve",0,"Doxiciclina + Imidocarb",1,1
+"CAN0320","Lima Norte","Tópico","Mediana","Sí",6.6,2,45.5,266,38.1,15.7,7,3.2,53,"No","Sin ehrlichiosis",0,,,
+"CAN0262","Lima Norte","Oral","Pequeña","Sí",8.7,1,36.1,279,38.6,14.6,5.7,3.4,76,"No","Sin ehrlichiosis",0,,,
+"CAN0302","Lima Sur","Ninguno","Grande","Sí",6.9,3,47,183,38.2,11.7,6.4,2.9,58,"No","Sin ehrlichiosis",7,,,
+"CAN0193","Lima Este","Ninguno","Mediana","No",7.1,2,52.9,302,,,,4.3,33,"No","Sin ehrlichiosis",3,,,
+"CAN0063","Callao","Tópico","Grande","Sí",2.5,4,48.8,336,38.1,6.7,5.5,2.9,62,"No","Sin ehrlichiosis",16,,,
+"CAN0193","Lima Este","Ninguno","Mediana","No",7.1,2,52.9,302,,,,4.3,33,"No","Sin ehrlichiosis",3,,,
+"CAN0220","Lima Norte","Tópico","Pequeña","No",5.9,2,36.2,293,38.9,8.3,7.4,4,57,"No","Sin ehrlichiosis",0,,,
+"CAN0226","Lima Sur","Tópico","Mediana","No",7.2,3,36.4,95,39,5.7,6.8,4,72,"Sí","Moderada",5,"Doxiciclina",12,1
+"CAN0222","Lima Este","Tópico","Pequeña","Sí",3.7,1,37.2,244,38.9,15.7,7.4,3.7,78,"No","Sin ehrlichiosis",2,,,
+"CAN0190","Lima Norte","Tópico","Grande","No",0.5,4,46.7,,38.9,9.1,7.4,3.2,71,"No","Sin ehrlichiosis",3,,,
+"CAN0082","Lima Norte","Tópico","Mediana","No",10.2,5,42.6,162,38.8,9.3,6.8,4.3,75,"Sí","Moderada",9,"Doxiciclina",17,1
+"CAN0182","Lima Norte","Tópico","Pequeña","Sí",14.1,2,41.5,170,39.2,10.5,7.4,3.2,57,"Sí","Leve",2,"Doxiciclina",42,0
+"CAN0171","Lima Este","Ninguno","Pequeña","Sí",9,1,33.4,155,39.2,16.9,7.1,3.8,53,"No","Sin ehrlichiosis",2,,,
+"CAN0095","Lima Sur","Oral","Mediana","Sí",6.5,1,41.5,303,38.4,7,5.8,2.9,43,"No","Sin ehrlichiosis",1,,,
+"CAN0052","Lima Norte","Oral","Pequeña","No",7.2,2,27.7,283,39.6,12.1,7,3.4,45,"No","Sin ehrlichiosis",0,,,
+"CAN0185","Lima Sur","Oral","Mediana","No",3.7,3,31.3,175,38.5,9.9,6.9,3.3,72,"No","Sin ehrlichiosis",5,,,
+"CAN0227","Callao","Ninguno  ","Pequeña","No",1.4,1,42,240,38.8,,6.6,3.7,85,"No","Sin ehrlichiosis",7,,,
+"CAN0212","Lima Norte","Ninguno","Mediana","Sí",8.4,2,,182,39.6,11.8,7,4.5,78,"Sí","Grave",9,"Doxiciclina",11,1
+"CAN0192","Lima Este","Oral","Mediana","Sí",5.9,3,35.4,98,38.7,15.3,6.3,3.5,74,"No","Sin ehrlichiosis",7,,,
+"CAN0214","Lima Sur","Tópico","Pequeña","No",4.4,3,51.3,,38.4,9.3,6.5,3.1,44,"No","Sin ehrlichiosis",0,,,
+"CAN0187","Lima Norte","Oral","Pequeña","Sí",4.9,2,41.8,256,38.6,17,7.1,3.8,61,"No","Sin ehrlichiosis",2,,,
+"CAN0027","Lima Este","Oral","Pequeña","Sí",12,2,,357,38.3,8.9,6.1,4,37,"No","Sin ehrlichiosis",2,,,
+"CAN0260","Lima Sur","Oral","Pequeña","Sí",6.7,1,,297,38.6,11.8,6.7,3.7,68,"No","Sin ehrlichiosis",1,,,
+"CAN0219","Callao","Tópico","Pequeña","Sí",4.6,1,33,196,39.3,9.6,6.4,3.9,87,"Sí","Leve",2,"Doxiciclina + Imidocarb",24,1
+"CAN0268","Callao","Oral","Grande","Sí",0.5,4,48,348,38.7,14.7,6.8,3.3,31,"No","Sin ehrlichiosis",4,,,
+"CAN0266","Callao","Tópico","Mediana","No",4.7,,44,185,38.9,10.1,7.2,4.1,66,"No","Sin ehrlichiosis",0,,,
+"CAN0056","Lima Sur","Ninguno","Grande","No",10.6,6,43.3,178,39.9,3.3,6.9,4.8,27,"Sí","Grave",7,"Doxiciclina",19,1
+"CAN0234","Lima Sur","Ninguno","Grande","Sí",4.7,1,40.4,225,38.7,10.6,6.2,3.2,55,"No","Sin ehrlichiosis",0,,,
+"CAN0051","Lima Sur","Oral","Grande","Sí",6.5,1,49.3,254,38.9,5.6,4.7,3.2,45,"No","Sin ehrlichiosis",1,,,
+"CAN0162","Lima Este","Oral","Mediana","Sí",2.6,2,36.1,151,38.5,12.6,5.5,,55,"No","Sin ehrlichiosis",0,,,
+"CAN0140","Callao","Tópico","Pequeña","Sí",5.6,1,41.3,167,38.5,11.4,5.7,2.5,45,"No","Sin ehrlichiosis",7,,,
+"CAN0189","Lima Este","Ninguno","Pequeña","Sí",3.5,1,47.8,265,39,11.5,5.8,3.8,68,"No","Sin ehrlichiosis",1,,,
+"CAN0280","Lima Norte","Tópico","Mediana","No",0.5,1,45.7,,38.8,13.6,7,3.6,43,"No","Sin ehrlichiosis",1,,,
+"CAN0160","Callao","Oral","Mediana","Sí",3.2,2,40.7,302,39,12.9,6.2,2.8,70,"No","Sin ehrlichiosis",0,,,
+"CAN0038","Callao","Ninguno","Mediana","No",4.4,1,,192,38.8,10.6,7.3,4.4,68,"Sí","Grave",6,"Doxiciclina",42,0
+"CAN0053","Callao","Ninguno","Pequeña","NO",7,1,38,174,39.4,14.2,,5,86,"Sí","Grave",1,"Doxiciclina + Imidocarb",42,0
+"CAN0196","Lima Este","Oral","Mediana","Sí",5.2,2,45.1,179,39,12.7,6.3,3.9,34,"No","Sin ehrlichiosis",1,,,
+"CAN0009"," Lima Sur ","Ninguno","Grande","No",4.5,1,46.1,131,,9.1,7.2,3.6,83,"Sí","Moderada",9,"Doxiciclina + Imidocarb",2,1
+"CAN0310","Lima Este","tópico","Grande","No",6.4,3,38.1,189,38.9,9.4,7.6,4,65,"Sí","Leve",11,"Doxiciclina + Imidocarb",12,1
+"CAN0199","Lima Sur","Tópico","Pequeña","No",6,1,21.9,174,38.7,,5.5,3.7,42,"No","Sin ehrlichiosis",11,,,
+"CAN0094","Lima Norte","Oral","Mediana","Sí",1,1,43.7,295,38.8,15.6,6.5,3.6,35,"No","Sin ehrlichiosis",3,,,
+"CAN0011","Lima Este","Oral","Mediana","Sí",4.3,4,56.3,493,38.3,10.5,5.9,2.8,74,"No","Sin ehrlichiosis",0,,,
+"CAN0270","Callao","Tópico","Grande","No",4.6,1,43.3,270,37.7,16.9,6.1,2.4,52,"No","Sin ehrlichiosis",5,,,
+"CAN0283","Lima Este","Ninguno","Pequeña","Sí",5.3,1,34.1,190,39.1,12.9,6.1,4.2,48,"No","Sin ehrlichiosis",4,,,
+"CAN0258","Lima Norte","Tópico","Grande","No",8.5,6,38.8,147,39.5,17.1,6.8,3.1,75,"No","Sin ehrlichiosis",4,,,
+"CAN0312","Lima Sur","Tópico","Grande","No",8.2,3,38.8,126,39.3,5.7,7.8,4.6,59,"Sí","Grave",3,"Doxiciclina",42,0
+"CAN0014","Lima Sur","Oral","Grande","Sí",4,1,47.7,296,38.6,16.2,7.3,3.7,66,"No","Sin ehrlichiosis",4,,,
+"CAN0036","Lima Sur","Oral","Grande","Sí",8,1,35.4,290,38.8,13.5,7.4,2.9,79,"No","Sin ehrlichiosis",1,,,
+"CAN0157","Lima Norte","Oral","Pequeña","Sí",5.2,1,49.6,330,38.5,12.4,6.1,3.7,33,"No","Sin ehrlichiosis",11,,,
+"CAN0295","Lima Sur","Ninguno","Pequeña","No",3.1,1,36.9,249,39.8,9.7,7.9,3.4,69,"Sí","Grave",1,"Doxiciclina",33,1
+"CAN0120","Lima Norte","Ninguno","Mediana","No",8.6,4,39.1,189,39.5,8.4,7.9,4.5,,"Sí","Grave",18,"Doxiciclina + Imidocarb",32,1
+"CAN0116","Lima Este","Ninguno","Mediana","No",5.8,1,37.4,,39,12.3,8.4,3.5,,"Sí","Leve",9,"Doxiciclina",34,1
+"CAN0078","Lima Norte","Oral","Mediana","Sí",2.5,3,38.6,250,38.5,9.5,6.8,,27,"No","Sin ehrlichiosis",5,,,
+"CAN0257","Lima Norte","Tópico","Mediana","No",0.5,1,34.8,254,38.5,17.1,6.4,2.8,81,"No","Sin ehrlichiosis",0,,,
+"CAN0211","Callao","Tópico","Pequeña","No",0.5,1,29,112,39.2,10.6,7.4,4.4,83,"Sí","Moderada",10,"Doxiciclina + Imidocarb",39,1
+"CAN0084","Lima Este","Ninguno","Mediana","Sí",4.6,1,44.5,175,38.2,11.2,6.2,4.3,31,"Sí","Leve",11,"Doxiciclina",9,1
+"CAN0060","Lima Norte","Oral","Grande","Sí",4.4,1,47,262,38.6,12.2,6.8,2.2,49,"No","Sin ehrlichiosis",6,,,
+"CAN0102","Lima Sur","Tópico","Mediana","No",0.5,1,37.9,211,39.4,12.7,6.8,4.4,68,"Sí","Leve",8,"Doxiciclina + Imidocarb",3,1
+"CAN0085","Lima Norte","Ninguno","Pequeña","Sí",6.7,2,41.7,273,38.5,10.4,6.1,3.4,21,"No","Sin ehrlichiosis",0,,,
+"CAN0195","Lima Este","Ninguno","Grande","No",2.6,2,45.6,49,39.4,7.7,8.3,4.5,35,"Sí","Leve",2,"Doxiciclina",18,1
+"CAN0090","Lima Norte","Ninguno","Pequeña","Sí",9.4,3,40.7,164,,5.9,7.7,5,55,"Sí","Moderada",1,"Doxiciclina + Imidocarb",35,1
+"CAN0186","Lima Sur","Tópico","Mediana","No",6.6,1,38.8,67,39,8.4,7,3.7,41,"Sí","Leve",4,"Doxiciclina",38,1
+"CAN0137","Lima Este","Tópico","Grande","No",6,3,31.3,150,39,7.7,5.5,2.3,36,"No","Sin ehrlichiosis",0,,,
+"CAN0206","Lima Sur","Tópico","Mediana","No",2.2,1,35.2,287,38,13.5,5.9,3.3,57,"No","Sin ehrlichiosis",3,,,
+"CAN0273","Lima Sur","Oral","Pequeña","Sí",9.9,2,36.6,359,38.9,11,7.4,3.7,34,"No","Sin ehrlichiosis",10,,,
+"CAN0080","Lima Norte","Ninguno","Mediana","Sí",7,2,43.1,212,39.6,8.6,,3.2,87,"Sí","Moderada",3,"Doxiciclina + Imidocarb",33,1
+"CAN0245","lima norte","Oral","Mediana","Sí",2.9,2,49.6,279,39.9,10.2,8.2,3.6,71,"Sí","Leve",2,"Doxiciclina",13,1
+"CAN0126","Lima Sur","Ninguno","Grande","Sí",4.6,2,42.2,,,,8.3,3.6,90,"No","Sin ehrlichiosis",2,,,
+"CAN0088","Lima Norte","Ninguno","Mediana","Sí",14.4,3,36.9,129,39.9,,7.6,4.9,57,"Sí","Moderada",7,"Doxiciclina + Imidocarb",12,1
+"CAN0316","Lima Norte","Tópico","Grande","Sí",8.5,4,39.3,49,38.9,13.3,6.7,3.7,58,"Sí","Moderada",0,"Doxiciclina + Imidocarb",42,0
+"CAN0133","Lima Sur","Tópico","Mediana","Sí",2.2,2,49.4,361,38.4,16.1,6.7,3.8,20,"No","Sin ehrlichiosis",5,,,
+"CAN0259","Lima Norte","Ninguno","Mediana","Sí",8.3,1,41.3,138,39.1,7.2,7.8,5.1,,"Sí","Grave",3,"Doxiciclina + Imidocarb",42,0
+"CAN0272","Lima Este","Oral","Grande",,6.7,1,35.5,88,38.9,7.4,6.5,3.4,45,"Sí","Moderada",8,"Doxiciclina + Imidocarb",10,1
+"CAN0161","Lima Norte","Tópico","Mediana","No",3.7,1,,109,38.7,9.4,6.1,2.8,62,"Sí","Leve",7,"Doxiciclina",19,0
+"CAN0064","Lima Sur","Tópico","Grande","Sí",,1,42.5,226,38.5,11.3,7.3,3.1,49,"No","Sin ehrlichiosis",0,,,
+"CAN0250","Lima Norte","Tópico","Grande","Sí",5.5,1,28.8,206,38.7,13.9,4.9,3.3,67,"No","Sin ehrlichiosis",6,,,
+"CAN0148","Lima Este","Oral","Mediana","Sí",6.4,1,37.9,,38.4,9.1,6.9,3.7,67,"No","Sin ehrlichiosis",1,,,
+"CAN0006","Callao","Ninguno","Mediana","No",8.3,1,43,128,39.1,14.8,7.3,4,67,"Sí","Leve",4,"Doxiciclina + Imidocarb",19,1
+"CAN0001","Lima Sur","Ninguno","Mediana","No",6.9,3,47.3,237,,6.6,6.1,3.2,49,"No","Sin ehrlichiosis",1,,,
+"CAN0047","Lima Norte","Tópico","Grande","No",7,5,25.9,102,38.5,10.5,7.1,3.7,71,"Sí","Moderada",34,"Doxiciclina + Imidocarb",4,1
+"CAN0303","Lima Este","Oral","Grande","Sí",11.2,1,39.7,289,39,13,7.1,4.9,69,"Sí","Leve",12,"Doxiciclina + Imidocarb",30,1
+"CAN0129","Lima Este","Oral","Grande","No",0.8,1,48.8,356,38.3,11,7,3.5,36,"No","Sin ehrlichiosis",0,,,
+"CAN0184","Lima Sur","Ninguno","Mediana","No",4.3,3,39.8,204,38.4,14.6,6.3,2.9,56,"No","Sin ehrlichiosis",3,,,
+"CAN0218","Lima Este","Oral","Pequeña","Sí",1.6,3,46.9,297,38.2,13.1,8,4,96,"No","Sin ehrlichiosis",1,,,
+"CAN0254","Callao","Ninguno","Pequeña","No",5.5,1,44,202,38.2,11.8,7.8,3.3,41,"No","Sin ehrlichiosis",1,,,
+"CAN0241","Callao","Oral","Grande","No",5.1,1,42.6,250,39.4,9.2,6.7,4.2,70,"Sí","Leve",0,"Doxiciclina",19,1
+"CAN0188","Lima Norte","NINGUNO","Mediana","No",6.5,6,36.1,196,,5.7,8.3,4.8,76,"Sí","Grave",29,"Doxiciclina + Imidocarb",41,1
+"CAN0131","Lima Este","Oral","Mediana","No",4.3,2,36.2,135,39,4.7,7.1,,80,"Sí","Leve",4,"Doxiciclina + Imidocarb",10,1
+"CAN0023","Lima Este","Tópico","Pequeña",,9.9,1,35.5,235,38.4,10.4,6.7,3.3,29,"No","Sin ehrlichiosis",5,,,
+"CAN0246","Lima Este","Tópico","Pequeña","No",7.2,2,29.9,131,38.6,11.6,6.9,4.7,76,"Sí","Leve",2,"Doxiciclina",11,1
+"CAN0311","Callao","Oral","Grande","No",1.7,1,42.3,234,38.3,12.5,6.7,2.3,13,"No","Sin ehrlichiosis",12,,,
+"CAN0223","Callao","Oral","Mediana","Sí",7.4,2,47.3,220,38.5,11.6,6.1,3.4,43,"No","Sin ehrlichiosis",0,,,
+"CAN0274","Callao","Tópico","Pequeña","Sí",5.3,1,36.4,89,39.9,9.8,7.3,4.5,52,"Sí","Leve",1,"Doxiciclina + Imidocarb",13,1
+"CAN0100","Lima Este","Ninguno","Pequeña","No",3.6,3,37.1,,39.6,5.9,9.3,4,82,"Sí","Grave",0,"Doxiciclina + Imidocarb",19,1
+"CAN0154","Callao","Tópico","Pequeña","Sí",7.7,4,44.5,309,38.6,17.8,6.4,3.8,38,"No","Sin ehrlichiosis",0,,,
+"CAN0276","Lima Norte","Ninguno","Pequeña","Sí",3,1,36.2,311,38.3,,6.3,3.7,,"No","Sin ehrlichiosis",0,,,
+"CAN0314","Lima Norte","Tópico","Mediana","Sí",9.4,1,,343,38.6,,6.5,3.6,68,"No","Sin ehrlichiosis",4,,,
+"CAN0035","Lima Sur","Ninguno","Grande","NO",7.7,1,4.59,250,38.9,,6.8,3.8,56,"No","Sin ehrlichiosis",0,,,
+"CAN0261","Lima Sur","Tópico","Pequeña","No",8.6,1,42.9,184,38.9,11.2,7,3.7,49,"Sí","Leve",22,"Doxiciclina",2,1
+"CAN0098","Lima Sur","Ninguno","Mediana","Sí",7.2,3,38.2,210,39.4,11.2,,3.7,61,"Sí","Grave",4,"Doxiciclina",8,1
+"CAN0074","Lima Sur","Oral","Grande","Sí",2.7,3,30,77,39.3,6.4,7.2,4.4,53,"Sí","Leve",0,"Doxiciclina + Imidocarb",8,1
+"CAN0300","Lima Norte","Ninguno","Mediana","Sí",0.5,1,43.3,170,39.1,6.1,7.8,4.6,,"Sí","Moderada",1,"Doxiciclina",24,1
+"CAN0105","Callao","Tópico","Pequeña","No",5.4,1,41.3,219,38.1,13.7,6.9,3.5,78,"No","Sin ehrlichiosis",6,,,
+"CAN0289","Callao","Ninguno","Pequeña",,4.8,4,47.9,197,38.5,7.6,7.8,4.6,87,"Sí","Leve",2,"Doxiciclina + Imidocarb",6,1
+"CAN0104","Lima Norte","Tópico","Mediana","Sí",6.6,3,32.4,251,37.8,12.1,6.9,3.2,47,"No","Sin ehrlichiosis",1,,,
+"CAN0049","Lima Sur","Tópico","Grande","Sí",4.4,1,39.1,290,38.7,9.2,6.4,4.2,66,"No","Sin ehrlichiosis",0,,,
+"CAN0251","Lima Norte","Ninguno","Grande","No",5.1,1,46.1,154,39.7,7.4,8,3.3,,"Sí","Grave",7,"Doxiciclina + Imidocarb",13,1
+"CAN0198","Callao","Oral","Mediana","Sí",4.5,2,37.9,334,38.1,13,6,3.3,40,"No","Sin ehrlichiosis",0,,,
+"CAN0117","Callao","Tópico","Mediana","Sí",0.5,1,40.5,350,38.8,8.9,5.2,3.3,52,"No","Sin ehrlichiosis",4,,,
+"CAN0249","Lima Norte"," Ninguno ","Mediana","No",5.2,2,38.4,130,39.6,8.1,9.4,4.8,82,"Sí","Grave",12,"Doxiciclina",37,1
+"CAN0007","Lima Sur","Ninguno","Grande","Sí",13.8,1,36.9,112,38.9,8.6,7.3,3.6,58,"Sí","Leve",3,"Doxiciclina + Imidocarb",13,1
+"CAN0256","Lima Sur","Tópico","Pequeña","Sí",9.9,1,43,300,39.5,12.1,7.4,3.2,60,"No","Sin ehrlichiosis",3,,,
+"CAN0034","Lima Norte","Oral","Grande","No",2.3,1,30.1,205,38.6,15,6.3,2.9,42,"No","Sin ehrlichiosis",5,,,
+"CAN0247","Lima Este","Oral","Pequeña","No",6.1,3,37.2,373,38.3,11.1,7,3.8,64,"No","Sin ehrlichiosis",5,,,
+"CAN0055","Lima Este","Ninguno","Mediana","Sí",4.6,2,,222,38.8,16.3,6.2,2.9,39,"No","Sin ehrlichiosis",0,,,
+"CAN0040","Lima Este","Tópico","Mediana","Sí",12.6,2,38.5,214,38.8,10.9,6.8,4.2,24,"No","Sin ehrlichiosis",2,,,
+"CAN0112","Lima Este","Tópico","Grande","Sí",8.4,3,27.6,,39.1,14,7.6,3.8,51,"Sí","Moderada",21,"Doxiciclina",19,0
+"CAN0174","Lima Este","Oral","Mediana","No",1.5,2,29.3,179,38.2,9.2,5.9,3.4,28,"No","Sin ehrlichiosis",5,,,
+"CAN0172","Callao","Oral","Pequeña","Sí",7.4,1,35.9,180,39,16.8,5.7,2.8,20,"No","Sin ehrlichiosis",8,,,
+"CAN0195","Lima Este","Ninguno","Grande","No",2.6,2,45.6,49,39.4,7.7,8.3,4.5,35,"Sí","Leve",2,"Doxiciclina",18,1
+"CAN0168","Lima Este","Oral","Grande","No",10.6,2,29,143,38.8,9.1,7.7,3.7,77,"Sí","Leve",8,"Doxiciclina",35,1
+"CAN0146","Callao","Ninguno","Mediana","No",12.2,1,46.3,137,39,7.8,7.1,4.1,77,"Sí","Leve",5,"Doxiciclina + Imidocarb",13,1
+"CAN0048","Lima Este","Oral","Pequeña","Sí",7.3,3,25.2,162,38.6,,5.5,3,63,"No","Sin ehrlichiosis",1,,,
+"CAN0109","Lima Sur","Ninguno","Pequeña","Sí",10.8,,37.3,147,39.2,12.4,7.6,3.7,81,"No","Sin ehrlichiosis",0,,,
+"CAN0122","Lima Norte","Ninguno","Grande","Sí",9.4,3,,126,39.1,8.7,,3.9,50,"Sí","Leve",12,"Doxiciclina",20,1
+"CAN0066","Lima Norte","Tópico","Pequeña","Sí",2.9,1,42.5,290,,10.7,6.4,4,43,"No","Sin ehrlichiosis",6,,,
+"CAN0089","Lima Norte","Ninguno","Grande","Sí",5.9,4,34.7,173,,11.7,4.7,3.4,34,"No","Sin ehrlichiosis",2,,,
+"CAN0232","Callao","Tópico","Mediana","No",4.1,1,34.3,250,38.3,16,,3.4,59,"No","Sin ehrlichiosis",1,,,
+"CAN0017","Lima Este","Ninguno","Pequeña","No",10.4,1,30.1,104,39.2,14.3,6.8,4.5,44,"Sí","Leve",0,"Doxiciclina",29,1
+"CAN0136","Lima Norte","Tópico","Pequeña","Sí",7.2,1,27.4,315,38,13.7,5.7,2.9,60,"No","Sin ehrlichiosis",2,,,
+"CAN0294","Lima Sur","Ninguno","Pequeña","Sí",4.8,1,48.2,231,,10.1,7.4,3.3,61,"Sí","Leve",4,"Doxiciclina + Imidocarb",37,1
+"CAN0107","Lima Norte","Oral","Mediana","No",6.8,1,52.6,279,38.1,,6.3,3.6,27,"No","Sin ehrlichiosis",2,,,
+"CAN0170","Lima Norte","Ninguno","Mediana","No",0.5,3,39.1,162,39.9,3.6,7.5,4.9,80,"Sí","Moderada",2,"Doxiciclina",27,1
+"CAN0309","Callao","Tópico","Grande","Sí",3.9,1,34.2,246,38.5,10.3,7.7,3.5,61,"No","Sin ehrlichiosis",4,,,
+"CAN0073","Lima Este","Oral","Mediana","No",,1,30.5,234,38.8,11.4,6.9,3.6,57,"No","Sin ehrlichiosis",1,,,
+"CAN0046","Callao","Ninguno","Pequeña","Sí",3.3,1,48.7,309,38.3,4.4,6.1,2.6,48,"No","Sin ehrlichiosis",6,,,
+"CAN0093","Lima Norte","Tópico","Grande","No",4.4,2,39.9,101,39.6,7.5,8.2,5.3,72,"Sí","Moderada",6,"Doxiciclina",31,1
+"CAN0197","Lima Sur","Ninguno","Pequeña","No",5,3,42.9,242,39.1,14.2,6.3,4.4,67,"Sí","Leve",7,"Doxiciclina + Imidocarb",20,0
+"CAN0029","Lima Este","Tópico","Mediana","si",4.5,1,42.3,250,38.6,13.6,6.6,3.4,37,"No","Sin ehrlichiosis",0,,,
+"CAN0022","Lima Norte","Ninguno","Grande","Sí",10.5,3,40.1,289,37.8,13.7,7.9,3.9,31,"No","Sin ehrlichiosis",5,,,
+"CAN0315","Lima Sur","Ninguno","Mediana","Sí",11.5,1,43.1,186,38.3,,6.3,2.8,27,"No","Sin ehrlichiosis",4,,,
+"CAN0150","Lima Este","Oral","Mediana","Sí",1.5,1,36.1,325,38.3,13.4,,3,52,"No","Sin ehrlichiosis",0,,,
+"CAN0115","Lima Norte","Ninguno","Grande","Sí",6.8,1,37,152,39,12.6,7.3,3.3,78,"Sí","Moderada",4,"Doxiciclina",27,1
+"CAN0149","Callao","Tópico","Mediana","Sí",8.7,4,44.5,,38.7,13.3,7.4,3.5,57,"No","Sin ehrlichiosis",3,,,
+"CAN0118","Lima Este","Ninguno","Grande","Sí",5.1,2,38.8,166,38.8,12.1,6.5,3.6,48,"No","Sin ehrlichiosis",1,,,
+"CAN0278","Lima Norte","Tópico","Pequeña","Si",9.5,6,40.5,229,39.2,11,6.2,4.1,57,"Sí","Grave",13,"Doxiciclina + Imidocarb",14,1
+"CAN0281","Lima Norte","Ninguno","Grande","Sí",0.7,1,38.3,326,38.9,11.5,5.8,3.2,81,"No","Sin ehrlichiosis",7,,,
+"CAN0244","Lima Norte","Tópico","Mediana","No",3.5,2,41.5,,38.8,13.2,6.7,2.7,35,"No","Sin ehrlichiosis",5,,,
+"CAN0004","Lima Norte","Oral","Mediana",,8.2,2,27.4,74,38.8,7.8,7.7,4,63,"Sí","Leve",5,"Doxiciclina",6,1
+"CAN0275","Lima Norte","NINGUNO","Mediana","No",7.4,1,39.4,96,39.7,8.3,6.4,2.3,77,"Sí","Leve",7,"Doxiciclina",1,1
+"CAN0296","Lima Norte","Tópico","Pequeña","No",3.4,3,35.3,275,39.4,15.8,7.7,4.1,79,"Sí","Moderada",1,"Doxiciclina + Imidocarb",12,1
+"CAN0031","Lima Sur","Tópico","Grande","No",3.9,2,41.8,271,38.4,14.3,7.3,2.7,29,"No","Sin ehrlichiosis",1,,,
+"CAN0130","Lima Sur","Tópico","Pequeña","No",0.7,2,41.6,291,38.9,11.9,6.5,2.5,75,"No","Sin ehrlichiosis",3,,,
+"CAN0021","Lima Este","Tópico","Mediana","Sí",6.1,1,53,259,39.6,11.1,7.4,4.5,58,"Sí","Moderada",9,"Doxiciclina",42,0
+"CAN0092","Lima Norte","Ninguno","Grande","Sí",2.3,2,37.7,,38.3,13.4,5.7,3,50,"No","Sin ehrlichiosis",0,,,
+"CAN0278","Lima Norte","Tópico","Pequeña","Si",9.5,6,40.5,229,39.2,11,6.2,4.1,57,"Sí","Grave",13,"Doxiciclina + Imidocarb",14,1
+"CAN0141","Lima Sur","Ninguno","Pequeña","Sí",8.4,1,45.4,,38.4,8.5,6.4,3.6,,"Sí","Leve",8,"Doxiciclina",14,1
+"CAN0158","Lima Este","Ninguno","Pequeña","No",1.6,2,41.8,236,39,10.1,6,3.9,42,"Sí","Leve",6,"Doxiciclina + Imidocarb",11,1
+"CAN0069","lima sur","Oral","Mediana","No",12.9,1,43.3,305,38.6,16.9,6.8,3.2,59,"No","Sin ehrlichiosis",8,,,
+"CAN0282","Lima Sur","Ninguno","Pequeña","Sí",5.7,1,38.4,315,,10.4,5.7,3.6,,"No","Sin ehrlichiosis",4,,,
+"CAN0096","Lima  Norte  ","Tópico","Grande","Sí",8.8,4,26.4,98,39.2,8.3,7.6,4.7,86,"Sí","Grave",16,"Doxiciclina + Imidocarb",15,1
+"CAN0111","Lima Este","Ninguno","Grande","Sí",7.1,1,3.27,124,39.1,11.8,6.1,2.7,,"Sí","Leve",4,"Doxiciclina + Imidocarb",5,1
+"CAN0217","Lima Norte","Tópico","Pequeña","No",5.3,2,31.9,188,38.6,16.5,5.4,2.7,51,"No","Sin ehrlichiosis",0,,,
+"CAN0123","Lima Norte","Ninguno","Pequeña","Sí",6.1,2,34.1,79,38.6,5.9,7.9,5.2,57,"Sí","Moderada",7,"Doxiciclina + Imidocarb",13,1
+"CAN0015","Lima Norte","Oral","Pequeña","Sí",4.4,2,36.9,277,38.6,,6.6,2.8,48,"No","Sin ehrlichiosis",3,,,
+"CAN0043","Lima Sur","Ninguno","Mediana","No",5,3,36.5,115,39.5,10.6,7.4,3.9,64,"Sí","Leve",5,"Doxiciclina",5,1
+"CAN0317","Lima Sur","Ninguno","Grande","Sí",8.8,3,40.1,126,39.1,9.7,7.3,3.5,75,"No","Sin ehrlichiosis",9,,,
+"CAN0016","Callao","Ninguno","Pequeña","Sí",9.8,1,,307,,17.6,6.2,3.5,34,"No","Sin ehrlichiosis",2,,,
+"CAN0208","Lima Norte","Oral","Grande","Sí",6.2,3,35.3,195,38.7,12.6,7.1,2.8,53,"No","Sin ehrlichiosis",1,,,
+"CAN0169","Lima Sur","Oral","Grande","Sí",8.5,2,37.3,243,38.2,11.8,7.1,4.3,80,"No","Sin ehrlichiosis",0,,,
+"CAN0291","Lima Sur","Oral","Pequeña","No",9.7,1,34.6,333,39,13.7,6,3.4,47,"No","Sin ehrlichiosis",1,,,
+"CAN0132","Lima Norte","Ninguno","Mediana","Sí",6.3,1,4.72,181,38.6,11,6.5,3.4,45,"No","Sin ehrlichiosis",11,,,
+"CAN0075","Lima Sur","Tópico","Mediana","No",3.3,3,42.4,187,37.9,10,6.4,3.6,31,"No","Sin ehrlichiosis",4,,,
+"CAN0138","Lima Norte","Tópico","Mediana","No",2.9,1,39.3,183,37.8,10.3,6.5,3.7,51,"Sí","Leve",0,"Doxiciclina",23,1
+"CAN0124","Lima Norte","Tópico","Grande","Sí",11,2,36,162,39.5,10.3,7,4.9,80,"Sí","Moderada",5,"Doxiciclina",42,0
+"CAN0103","Lima Este","Tópico  ","Mediana","No",7.7,1,31,134,39.6,9.4,7,4.1,52,"Sí","Moderada",7,"Doxiciclina",27,1
+"CAN0221","Lima Sur","Ninguno","Mediana","Sí",9.9,2,45.6,133,38.7,12.1,6.2,3.3,57,"No","Sin ehrlichiosis",0,,,
+"CAN0128","Lima Este","Tópico","Grande","Sí",1,1,35.8,266,38.6,11.6,7.3,3.5,58,"No","Sin ehrlichiosis",3,,,
+"CAN0083","Lima Sur","Oral","Mediana","Sí",13.6,1,33.7,281,38.9,8.7,7.2,3.7,41,"No","Sin ehrlichiosis",0,,,
+"CAN0178","Lima Sur","Oral","Grande","No",6.6,3,46.3,352,,13.7,5.9,3.4,37,"No","Sin ehrlichiosis",1,,,
+"CAN0099","lima norte","Ninguno","Grande","Sí",3.6,2,46.7,237,38.4,8.9,6.9,3.2,77,"No","Sin ehrlichiosis",1,,,
+"CAN0264","Lima Norte","Oral","Grande","No",2.5,,38.4,235,38.7,14.3,6.3,4,53,"No","Sin ehrlichiosis",11,,,
+"CAN0230","Lima Norte","Tópico","Grande","No",2,4,30,83,39.4,6.8,8.1,4.3,87,"Sí","Leve",0,"Doxiciclina",33,1
+"CAN0152","Lima Norte","Ninguno","Grande","Sí",3.8,3,28.6,244,37.8,12,5.9,2.6,39,"No","Sin ehrlichiosis",0,,,
+"CAN0108","Lima Norte","Oral","Pequeña",,4.8,1,41.9,296,39,7.2,6.8,4,57,"No","Sin ehrlichiosis",1,,,
+"CAN0005","Lima Norte","Ninguno","Mediana","Sí",7,1,47.5,131,38.2,13,6,3.8,27,"No","Sin ehrlichiosis",5,,,
+"CAN0269","Callao","Tópico","Mediana","No",7.6,1,38.4,294,38.7,11.1,5.7,2.4,35,"No","Sin ehrlichiosis",0,,,
+"CAN0001","Lima Sur","Ninguno","Mediana","No",6.9,3,47.3,237,,6.6,6.1,3.2,49,"No","Sin ehrlichiosis",1,,,
+"CAN0308","Lima Norte","Tópico","Mediana","Sí",7.4,3,37.9,195,39,8.3,8,4.7,74,"Sí","Leve",0,"Doxiciclina + Imidocarb",5,1
+"CAN0057","Lima Sur","Oral","Mediana","Sí",4.9,4,41,266,38.3,7.7,6.1,2.8,44,"No","Sin ehrlichiosis",0,,,
+"CAN0210","Lima Sur","Tópico","Grande","Sí",1,2,39.6,245,40.1,,7.9,4.9,57,"Sí","Moderada",7,"Doxiciclina",11,1
+"CAN0305"," Lima Norte ","Tópico","Pequeña","No",2,1,45.3,297,38.8,7.5,6.2,4.3,79,"No","Sin ehrlichiosis",13,,,
+"CAN0253","Lima Sur","Oral","Grande","No",0.9,2,41.8,340,38.3,12.9,6.4,3.1,62,"No","Sin ehrlichiosis",2,,,
+"CAN0267","Lima Norte","Tópico","Grande","Sí",4.9,1,40.6,329,38.1,14,6.6,3.7,48,"No","Sin ehrlichiosis",3,,,
+"CAN0277","Lima Norte","Tópico","Pequeña","Sí",8,1,48.6,234,39.4,12.3,7.9,,34,"Sí","Leve",8,"Doxiciclina + Imidocarb",4,1
+"CAN0173","Lima Norte","Oral","Mediana","Sí",2.8,1,46.3,301,38.6,10.9,7,,48,"No","Sin ehrlichiosis",0,,,
+"CAN0180","Lima Norte","Tópico","Grande","No",9.4,1,37,304,38.6,8.7,5.2,3.9,65,"No","Sin ehrlichiosis",0,,,
+"CAN0068","Lima Este","Ninguno","Grande","No",4.1,1,46.4,280,,11.3,7,4,61,"No","Sin ehrlichiosis",5,,,
+"CAN0284","Lima Sur","Tópico","Mediana","Sí",9.1,2,39.1,248,38.1,13.8,6.3,3.3,61,"No","Sin ehrlichiosis",2,,,
+"CAN0145","Lima Este","Oral","Mediana","No",2.5,2,40.4,244,38.8,,,3.7,59,"No","Sin ehrlichiosis",6,,,
+"CAN0086","Callao","Ninguno","Pequeña","Sí",5.4,2,44.7,398,,9.9,7.4,3.6,45,"No","Sin ehrlichiosis",0,,,
+"CAN0285","Lima Norte","Ninguno","Grande","No",6.1,1,30.8,174,38.4,15.2,6.9,3.5,64,"No","Sin ehrlichiosis",19,,,
+"CAN0228","Lima Norte","Tópico","Mediana","No",4.8,1,54.8,346,38.9,12.5,7.3,3.8,78,"No","Sin ehrlichiosis",8,,,
+"CAN0318","Lima Norte","Ninguno","Mediana","No",9.9,3,46.7,313,38.1,14.1,7,2.5,39,"No","Sin ehrlichiosis",13,,,
+"CAN0071","Callao","Tópico","Mediana","Sí",6.4,1,42.1,286,38.9,5.6,,2.9,51,"No","Sin ehrlichiosis",1,,,
+"CAN0288","Lima Este","Tópico","Mediana","No",8.8,2,37.9,367,39,11.1,6.3,2.6,57,"No","Sin ehrlichiosis",2,,,
+"CAN0026","Lima Sur","Ninguno","Grande","Sí",0.5,2,39.5,328,,12.6,6.8,3.5,44,"No","Sin ehrlichiosis",0,,,
+"CAN0144","Lima Norte","Tópico","Mediana","Sí",3,3,39.2,242,37.8,11.2,6.4,4,65,"No","Sin ehrlichiosis",0,,,
+"CAN0279","Lima Este","Tópico","Pequeña","Sí",12,2,42.6,271,38.9,12.2,6.1,2.7,29,"No","Sin ehrlichiosis",1,,,
+"CAN0176","Lima Norte","Oral","Pequeña","No",6.4,2,35.8,129,,10.5,8.6,5.2,53,"Sí","Grave",7,"Doxiciclina",27,0
+"CAN0301","Lima Norte","Ninguno","Pequeña","Sí",3.6,1,37.6,,38,14.3,,3.8,,"No","Sin ehrlichiosis",8,,,
+"CAN0070","Callao","Tópico","Pequeña","Sí",4.8,1,37.9,238,38.4,12.4,7.5,3,58,"No","Sin ehrlichiosis",1,,,
+"CAN0238","Lima Este","Ninguno","Grande","Sí",7.7,1,53.7,308,38.5,12.7,5.2,2.7,36,"No","Sin ehrlichiosis",1,,,
+"CAN0201","Lima Norte","Tópico","Pequeña","Sí",7.7,1,46,225,39.3,9.7,6.3,3.8,66,"Sí","Leve",3,"Doxiciclina",18,1
+"CAN0156","Lima Este","Oral","Mediana","No",5.1,1,42.6,191,38.5,13.9,6.8,3.8,35,"No","Sin ehrlichiosis",3,,,
+"CAN0002","Lima Norte","Ninguno","Mediana","No",9.8,1,35.8,105,,5.3,7.4,4,49,"Sí","Leve",2,"Doxiciclina",15,1
+"CAN0106","Lima Este","Ninguno","Mediana","Sí",7.6,2,51.2,361,38.4,16.3,7.1,3.5,53,"No","Sin ehrlichiosis",2,,,
+"CAN0265","Lima Norte","Tópico","Grande"," Sí",9.8,1,44.1,276,38.9,9.3,6.2,3.3,43,"No","Sin ehrlichiosis",1,,,
+"CAN0153","Lima Sur","Tópico","Mediana","No",2.7,1,32.6,173,38.8,8.7,6.8,3.3,60,"No","Sin ehrlichiosis",2,,,
+"CAN0159","Lima Sur","Tópico","Mediana","Sí",5.7,1,29.8,254,37.6,12.9,7.2,3.6,67,"No","Sin ehrlichiosis",2,,,
+"CAN0304","Lima Norte","Oral","Mediana","No",3.4,1,45.5,392,38.5,13.4,6.5,3.6,49,"No","Sin ehrlichiosis",3,,,
+"CAN0313","Lima Sur","Oral","Pequeña","No",8.6,1,30.6,204,38.1,12.3,7.1,2.8,48,"No","Sin ehrlichiosis",1,,,
+"CAN0286","Lima Este","Tópico","Grande","Sí",6.2,3,38.8,199,38.8,10.7,5.9,3.7,22,"No","Sin ehrlichiosis",0,,,
+"CAN0033","Lima Sur","Tópico","Mediana","No",1.8,1,39.8,278,39.2,9.5,6.3,3.9,62,"No","Sin ehrlichiosis",4,,,

@@ -1,0 +1,306 @@
+﻿"id_cria","comunidad","sistema_crianza","sexo","encalostramiento_adecuado","edad_madre_anios","crias_previas_madre","peso_nacimiento_kg","peso_30d_kg","igg_serica_g_l","hematocrito_pct","proteinas_totales_g_dl","glucosa_mg_dl","temperatura_c","diarrea_neonatal","severidad_diarrea","episodios_diarrea","tratamiento","dias_hasta_recuperacion","recuperada"
+"ALP0288","Lucanas","Mejorado","Macho","Sí",8,3,6.2,14.4,13.4,25,7.7,151,38.9,"No","Sin diarrea",0,,,
+"ALP0141","Puquio","Semi-intensivo","Hembra","No",2,0,8.3,17.3,18.1,32.8,6.3,104,39,"Sí","Leve",0,"Sulfa-trimetoprim",11,1
+"ALP0253","Negromayo","Semi-intensivo","Hembra","Sí",7,2,7.6,12.4,5.2,38.4,5.3,142,39,"Sí","Grave",2,"Enrofloxacino",12,1
+"ALP0020","Puquio","Semi-intensivo","Hembra","No",4,1,7.1,14.2,13,32.8,4.7,94,39,"Sí","Moderada",4,"Sulfa-trimetoprim",9,1
+"ALP0008","Lucanas","Semi-intensivo","Macho","Sí",6,3,8,15.5,18,32.2,6.6,131,38.5,"No","Sin diarrea",0,,,
+"ALP0129","Pampa Galeras","Mejorado","Hembra","No",5,2,6.4,13,13,32.5,4.4,163,38.3,"Sí","Leve",2,"Sulfa-trimetoprim",4,1
+"ALP0061","Puquio","Tradicional","Macho","Sí",6,1,5.5,10.5,,28.7,5.4,101,,"Sí","Leve",3,"Enrofloxacino",12,1
+"ALP0161","Lucanas","Tradicional","Macho","Sí",8,4,7.1,16.3,12.1,27.2,5.6,105,38.2,"No","Sin diarrea",2,,,
+"ALP0147","Puquio","Tradicional","Macho","No",7,5,9.3,11.3,10.1,,4.5,110,38.9,"Sí","Grave",5,"Sulfa-trimetoprim",2,1
+"ALP0217","Pampa Galeras","Tradicional","Macho","Sí",4,4,5.6,9,,39.3,5.5,,38.5,"Sí","Moderada",5,"Enrofloxacino",5,1
+"ALP0198","Puquio","Semi-intensivo","Macho","No",6,1,6.5,,13.9,27,5.8,140,38.1,"No","Sin diarrea",2,,,
+"ALP0093","Pampa Galeras","Tradicional","Hembra","Sí",7,2,7.2,14.4,,34.5,,123,38.6,"No","Sin diarrea",0,,,
+"ALP0184","Lucanas","Mejorado","Macho","Sí",6,4,7.5,14.5,,26.9,6.3,163,38.7,"No","Sin diarrea",1,,,
+"ALP0040","Lucanas","Semi-intensivo","Macho","No",11,5,6.6,13.8,15.1,32.9,4.5,95,38.9,"No","Sin diarrea",0,,,
+"ALP0140","Pampa Galeras","Tradicional","Macho","Sí",2,0,7.8,13.3,,29.6,5.5,130,38.6,"No","Sin diarrea",0,,,
+"ALP0022","Lucanas","Mejorado","Hembra","Sí",6,2,6.4,14.2,3,32.7,5.7,118,39.2,"Sí","Leve",0,"Sulfa-trimetoprim",5,1
+"ALP0200","Puquio  ","Tradicional","Macho","Sí",4,1,4.6,10.7,10.5,,4.9,130,39.6,"Sí","Moderada",0,"Sulfa-trimetoprim",14,1
+"ALP0174","Negromayo","Semi-intensivo","Hembra","No ",6,2,6.6,14,14.4,,5.5,109,38.5,"No","Sin diarrea",1,,,
+"ALP0171","Lucanas","Mejorado","Hembra","si",5,1,6.7,15.3,19.4,33.9,,115,38.7,"No","Sin diarrea",0,,,
+"ALP0280","Puquio","Semi-intensivo","Macho","No",8,3,7.2,15,9.2,27.8,6.3,113,38.6,"No","Sin diarrea",2,,,
+"ALP0169","Negromayo","Tradicional","Macho","Sí",6,4,7.6,14.9,11.7,29.7,6.4,120,38.6,"No","Sin diarrea",0,,,
+"ALP0004","Puquio","Semi-intensivo","Hembra","Sí",7,2,7.1,15.4,9.4,34,5.6,113,38.8,"No","Sin diarrea",0,,,
+"ALP0118","Negromayo","Tradicional","Macho","No",8,4,9.6,13.2,6.7,34.5,4.9,86,38.6,"Sí","Moderada",6,"Sulfa-trimetoprim",21,0
+"ALP0245","Lucanas","Semi-intensivo","Hembra","Sí",9,5,5.4,11.5,12.6,29.9,5.9,152,38.2,"No","Sin diarrea",0,,,
+"ALP0289","Lucanas","Semi-intensivo","Macho","Sí",5,1,6.8,15.1,12.3,28.2,5.9,118,38.5,"No","Sin diarrea",0,,,
+"ALP0148","Puquio","Mejorado","Macho","No",4,0,9,17.9,14.5,41.9,4.8,102,39.9,"Sí","Moderada",0,"Enrofloxacino",20,1
+"ALP0015","Lucanas","Mejorado","Macho","Sí",9,5,5.4,13.3,13.3,26.9,7.3,171,37.6,"No","Sin diarrea",0,,,
+"ALP0026","Lucanas","Mejorado","Hembra","Sí",3,1,7,,10.6,29.8,6.9,123,39.1,"Sí","Moderada",3,"Enrofloxacino",5,1
+"ALP0182","Pampa Galeras","Mejorado","Macho","No",6,4,6.7,12.6,1,35.7,4.6,132,39.1,"Sí","Moderada",4,"Sulfa-trimetoprim",7,1
+"ALP0238","Lucanas","Tradicional","Macho",,9,1,8.2,,13,31.4,8.3,126,37.8,"No","Sin diarrea",0,,,
+"ALP0087","Lucanas","Tradicional","Hembra","Sí",3,1,9,19.5,12.3,31.6,6.5,115,38.3,"No","Sin diarrea",3,,,
+"ALP0242","Pampa Galeras","Tradicional","Macho","Sí",5,4,9.8,15,12.1,33.7,,110,39,"Sí","Grave",0,"Sulfa-trimetoprim",5,1
+"ALP0072","Puquio","Tradicional","Hembra","Sí",4,2,4.5,9.9,10.6,,5.9,102,38.7,"Sí","Leve",2,"Enrofloxacino",3,1
+"ALP0029","Puquio","Semi-intensivo","Macho","Sí",4,2,8.7,16.2,11.7,31.6,5.5,86,39.2,"Sí","Leve",1,"Sulfa-trimetoprim",5,1
+"ALP0166","Negromayo","Tradicional","Macho","Sí",7,3,7.6,16.3,14.8,36,6.1,92,38.7,"Sí","Leve",2,"Enrofloxacino",11,1
+"ALP0274","Pampa Galeras","Semi-intensivo","Hembra","Sí",5,3,9.7,15.7,3.8,34.9,3.8,93,39,"Sí","Moderada",2,"Sulfa-trimetoprim",21,1
+"ALP0152","Pampa Galeras","Mejorado","Macho",,6,0,6.8,15.3,13.8,26.5,,135,38.2,"No","Sin diarrea",2,,,
+"ALP0177","Lucanas","Mejorado","Macho","No",7,5,6,15.7,10.8,28.7,5.5,160,37.9,"No","Sin diarrea",2,,,
+"ALP0189","Pampa Galeras","Tradicional","Macho","Sí",2,0,9.2,16.1,,34.7,4.3,85,39,"Sí","Moderada",0,"Sulfa-trimetoprim",3,1
+"ALP0045","Pampa Galeras","Tradicional","Macho","No",,1,6,13.2,6.8,,5.4,88,38.7,"Sí","Moderada",1,"Sulfa-trimetoprim",13,1
+"ALP0165","Pampa Galeras","Tradicional","Hembra","Sí",9,,7.6,13.3,9.3,33.7,4.8,151,38.3,"Sí","Moderada",0,"Enrofloxacino",9,0
+"ALP0203","LUCANAS","Tradicional","Macho","No",7,1,8.3,16.9,14.7,24.9,,112,38.5,"No","Sin diarrea",0,,,
+"ALP0154","Pampa Galeras","Tradicional","Hembra","No",8,3,6.6,10.7,10.4,32.5,5.3,124,38.5,"Sí","Grave",0,"Sulfa-trimetoprim",6,1
+"ALP0127","Puquio","Semi-intensivo","Hembra","No",3,0,5.5,10,15.6,33.8,,91,39.4,"Sí","Leve",4,"Enrofloxacino",7,1
+"ALP0108","Puquio","Semi-intensivo","Hembra","Sí",9,4,7.1,13.9,15.9,25.9,6.3,129,38.5,"No","Sin diarrea",1,,,
+"ALP0299","Lucanas","Tradicional","Macho","Sí",6,2,7.4,,12,34.6,5.3,116,38.3,"No","Sin diarrea",1,,,
+"ALP0158","Lucanas","Tradicional","Hembra","Sí",3,2,9.3,15.1,12.5,31.7,6.1,136,38.7,"No","Sin diarrea",2,,,
+"ALP0211","Lucanas","Tradicional","Macho","No",6,3,8.2,13.9,8.6,38.2,5,117,39.9,"Sí","Grave",1,"Enrofloxacino",5,1
+"ALP0073","Puquio","Tradicional","Macho","No",8,3,5.9,15.8,14.8,29.6,6.3,102,38.1,"No","Sin diarrea",1,,,
+"ALP0130","Puquio","Mejorado","Hembra","Sí",6,1,7.6,15.2,,23,5.7,98,38.7,"No","Sin diarrea",0,,,
+"ALP0120","lucanas","Tradicional","Macho","No",7,4,7.3,13.7,13,33.7,5.3,147,39,"No","Sin diarrea",0,,,
+"ALP0194","Lucanas","Mejorado","Hembra","No",9,3,7.6,12.4,8.6,26.2,5.2,150,38.6,"No","Sin diarrea",0,,,
+"ALP0186","Pampa Galeras","Tradicional","Macho","No",6,2,9,15.1,7.6,33.3,5.4,103,38.7,"Sí","Moderada",0,"Sulfa-trimetoprim",14,1
+"ALP0103","Pampa Galeras","Tradicional","Hembra","Sí",6,2,7.2,,6.6,,4.8,132,38.4,"Sí","Moderada",1,"Enrofloxacino",6,1
+"ALP0156","Lucanas","Mejorado","Hembra","Sí",11,1,8.3,17.9,10.6,31,7.1,151,37.5,"No","Sin diarrea",0,,,
+"ALP0070","Negromayo","Tradicional","Hembra","Sí",7,3,6,10.7,,,6.1,122,38.6,"No","Sin diarrea",0,,,
+"ALP0010","Lucanas","Mejorado","Hembra","Sí",7,3,9.5,16.7,10.6,27.9,5.6,121,37.8,"No","Sin diarrea",3,,,
+"ALP0293","Lucanas","Semi-intensivo","Macho",,4,0,7.3,13.7,11.2,29.1,8,158,37.9,"No","Sin diarrea",0,,,
+"ALP0212","Lucanas","Tradicional","Hembra","No",4,0,7.5,13.7,10.6,37.4,5.6,101,39.6,"Sí","Grave",0,"Enrofloxacino",6,1
+"ALP0119","Puquio","Tradicional","Hembra","Sí",6,1,6,12.3,16.8,,6.4,126,38.1,"No","Sin diarrea",0,,,
+"ALP0278","Pampa Galeras","Mejorado","Hembra","No",7,0,8.5,16,18.1,30.6,5.9,149,38.1,"No","Sin diarrea",0,,,
+"ALP0208","Pampa Galeras","Tradicional","Macho","No",5,1,7.4,13.4,14.4,25.5,6.8,131,38.7,"No","Sin diarrea",1,,,
+"ALP0014","Negromayo","Tradicional","Macho","No",8,4,6.7,12.8,,23.7,6.8,,38.5,"No","Sin diarrea",0,,,
+"ALP0113","Negromayo","Semi-intensivo","Macho","Sí",8,5,5.9,9.7,14.7,22.5,6.5,120,38.9,"No","Sin diarrea",1,,,
+"ALP0233","Lucanas","Semi-intensivo","Hembra","Sí",2,0,7.7,16.1,18.3,35.6,5.8,115,38.8,"No","Sin diarrea",1,,,
+"ALP0134","Negromayo","Semi-intensivo","Macho","Sí",10,1,8.5,15.5,5.2,34.1,6.2,96,39.2,"No","Sin diarrea",0,,,
+"ALP0247","Lucanas","Mejorado","Hembra","Sí",10,6,8.4,18.7,18.2,36.4,5.8,142,38.6,"No","Sin diarrea",0,,,
+"ALP0068","Negromayo","Semi-intensivo","Macho","Sí",6,3,6.6,9.8,10.6,24.9,6.7,121,37.6,"No","Sin diarrea",0,,,
+"ALP0027","Pampa Galeras","Mejorado","Macho","No",7,4,8.3,13.6,13.2,38,5.6,105,38.7,"Sí","Grave",2,"Sulfa-trimetoprim",13,1
+"ALP0216","Lucanas","Tradicional","Hembra","Sí",8,2,8.1,15.7,10.8,37.4,5.4,113,38.5,"Sí","Leve",1,"Enrofloxacino",10,0
+"ALP0213","Pampa Galeras","Semi-intensivo","Hembra","No",8,2,9.4,16.6,14.9,32.6,6.8,93,38.4,"No","Sin diarrea",0,,,
+"ALP0292","Puquio","Semi-intensivo","Hembra","Sí",10,5,7.8,14.2,11.3,,5.3,128,39.4,"No","Sin diarrea",1,,,
+"ALP0078","Pampa Galeras","Mejorado","Macho","Sí",2,0,8.4,13.9,13.7,37.6,4.9,130,,"Sí","Leve",2,"Sulfa-trimetoprim",18,1
+"ALP0088","Puquio","Tradicional","Macho","No",5,3,6.6,10.3,13.8,34.4,6.4,130,38.2,"No","Sin diarrea",0,,,
+"ALP0168","Puquio","Mejorado","Hembra","No",8,4,9.9,17.1,11.5,31.7,6.8,101,39.6,"Sí","Grave",2,"Enrofloxacino",8,1
+"ALP0265","Pampa Galeras","Tradicional","Hembra","No",8,2,7.3,11.8,0.4,35.4,4.9,93,39.2,"Sí","Grave",0,"Sulfa-trimetoprim",16,1
+"ALP0095","Puquio","Tradicional","Macho","No",2,0,6.7,10.9,12,34.5,5.1,99,38.7,"Sí","Moderada",2,"Sulfa-trimetoprim",8,1
+"ALP0299","Lucanas","Tradicional","Macho","Sí",6,2,7.4,,12,34.6,5.3,116,38.3,"No","Sin diarrea",1,,,
+"ALP0111","Puquio","Tradicional","Macho","Sí",8,3,7.8,17.5,18,35.4,7,120,38.4,"No","Sin diarrea",0,,,
+"ALP0060","Lucanas","Tradicional","Hembra","Sí",7,2,6.7,11.8,9,33.2,5.5,110,38.5,"Sí","Leve",0,"Enrofloxacino",8,1
+"ALP0021","Puquio","Semi-intensivo","Macho","Sí",7,0,7.7,16.5,8.9,25.2,5.7,126,38.5,"No","Sin diarrea",1,,,
+"ALP0283","Lucanas","Tradicional","Macho","No",5,2,7.6,,,38.2,4.5,110,38.5,"Sí","Moderada",1,"Sulfa-trimetoprim",7,1
+"ALP0058","Pampa Galeras","Semi-intensivo","Hembra","No",4,3,7.2,10.4,8.4,39,5.7,104,38.8,"Sí","Leve",0,"Enrofloxacino",8,1
+"ALP0032","Pampa Galeras","Tradicional","Hembra","No",9,1,7.3,13.9,11.8,41,5.7,130,38.6,"Sí","Leve",0,"Enrofloxacino",6,1
+"ALP0050","Lucanas","Semi-intensivo","Hembra","No",8,2,6.3,12.9,12.2,35.7,7.1,127,38.5,"Sí","Moderada",4,"Enrofloxacino",17,1
+"ALP0018","Pampa Galeras","Semi-intensivo","Macho","No",7,4,8.2,,8.3,34.4,5.1,136,38.7,"No","Sin diarrea",0,,,
+"ALP0102","Puquio","Mejorado","Macho","Sí",7,1,7.4,15.7,18.4,25.9,5.8,160,37.9,"No","Sin diarrea",0,,,
+"ALP0246","Puquio","Tradicional","Hembra","Sí",9,8,5.7,13.3,11.9,30.1,5.3,149,38.3,"No","Sin diarrea",1,,,
+"ALP0124","Lucanas","Mejorado","Hembra","Sí",8,5,7.4,17,14.3,33,6.9,119,38.6,"No","Sin diarrea",3,,,
+"ALP0222","Puquio","Tradicional","Hembra","Sí",10,3,7.5,13.8,13,27.8,6.6,109,38.6,"No","Sin diarrea",0,,,
+"ALP0122","Pampa Galeras","Semi-intensivo","Hembra","Sí",6,4,7.8,16.9,,28.9,7,118,38.8,"No","Sin diarrea",0,,,
+"ALP0110","Negromayo","Tradicional","Macho","Sí",8,6,7.2,14.6,12.6,28.4,6.4,134,38.2,"No","Sin diarrea",0,,,
+"ALP0254","Pampa Galeras","Semi-intensivo","Hembra","No",3,1,6.8,12.5,11.2,35.9,5.6,126,38.8,"Sí","Leve",1,"Enrofloxacino",4,1
+"ALP0005","Puquio"," Tradicional ","Macho","Sí",6,2,6.4,13.3,19.4,,6.9,132,38.7,"No","Sin diarrea",0,,,
+"ALP0202","Negromayo","Mejorado","Macho","Sí",7,1,7.8,15.7,14.6,33.7,5.9,109,38.9,"No","Sin diarrea",1,,,
+"ALP0104","Lucanas","Mejorado","Hembra","No",3,1,7.2,15.5,12.2,32.3,6.5,118,,"Sí","Moderada",3,"Sulfa-trimetoprim",4,1
+"ALP0146","Pampa Galeras","Tradicional","Macho","No",5,0,,14.8,13,32.6,5.8,132,38.1,"Sí","Leve",0,"Sulfa-trimetoprim",1,1
+"ALP0143","Pampa Galeras","Tradicional","Hembra","Sí",4,1,6.9,12.8,8.8,26.7,6.3,112,39.1,"Sí","Leve",0,"Enrofloxacino",6,1
+"ALP0272","Puquio","Semi-intensivo","Macho","No",6,2,7,14.6,15.9,30,6.6,130,37.5,"No","Sin diarrea",0,,,
+"ALP0181","Pampa Galeras","Mejorado","Hembra","Sí",6,4,8,15.8,11.8,32,5.9,124,38,"No","Sin diarrea",0,,,
+"ALP0162","Pampa Galeras","Tradicional","Macho","No",,0,7.9,15.5,11.8,36.2,5.8,93,38.4,"No","Sin diarrea",0,,,
+"ALP0273","Pampa Galeras","Semi-intensivo","Macho","Sí",7,1,6.3,14.4,19.9,28.5,6.2,164,37.9,"No","Sin diarrea",1,,,
+"ALP0069","Lucanas","Tradicional","Hembra","No",7,1,7.6,13.7,9.3,33.8,4.9,125,38.5,"Sí","Leve",0,"Sulfa-trimetoprim",8,1
+"ALP0192","Negromayo","Tradicional","Hembra","No",7,4,6.8,10.8,14.4,29.6,6.7,110,38.5,"No","Sin diarrea",1,,,
+"ALP0048","Lucanas","Mejorado","Hembra","Sí",,1,6.8,13.3,12.1,26.4,4.7,129,38.3,"Sí","Leve",0,"Enrofloxacino",4,1
+"ALP0038","Negromayo","Semi-intensivo","Hembra","No",5,7,4.8,10.2,6.9,27.2,,102,38.8,"Sí","Leve",2,"Enrofloxacino",3,1
+"ALP0176","Pampa Galeras","Tradicional","Macho","No",7,6,6.4,13.4,14.5,26.4,6.6,151,38,"No","Sin diarrea",0,,,
+"ALP0002","Negromayo","Semi-intensivo","Macho","Sí",4,3,6.8,13.6,13.7,29.1,,123,38.1,"No","Sin diarrea",1,,,
+"ALP0125","Puquio","Mejorado","Hembra","No",9,3,8.8,17.7,18.2,30.9,6.1,147,39.5,"No","Sin diarrea",1,,,
+"ALP0042","Pampa Galeras","Mejorado","Hembra","Sí",5,3,7.8,15.4,12.4,32.7,6,147,37.6,"No","Sin diarrea",0,,,
+"ALP0151","Pampa Galeras","Semi-intensivo","Hembra","Sí",3,0,5.9,13.2,9.6,33,4,130,38.8,"Sí","Leve",0,"Enrofloxacino",4,1
+"ALP0063","Puquio","Mejorado","Macho","No",2,0,8.2,,14.4,28.6,5.8,148,38.2,"No","Sin diarrea",0,,,
+"ALP0011","Pampa Galeras","Mejorado","Hembra",,4,3,9,17.5,11.9,29.7,6.9,122,38.1,"No","Sin diarrea",0,,,
+"ALP0240","Lucanas","Tradicional","Macho","No",4,1,7.5,15.1,12.1,32.2,6.1,113,39,"No","Sin diarrea",1,,,
+"ALP0221","Lucanas","Semi-intensivo","Hembra","Sí",2,0,7.2,15.2,16.3,29.3,6,143,38.3,"No","Sin diarrea",0,,,
+"ALP0220","Lucanas","Mejorado","Macho","Sí",9,8,7.2,19.2,14.5,36.9,4.9,151,37.6,"No","Sin diarrea",1,,,
+"ALP0187","Pampa Galeras","Mejorado","Hembra","Sí",2,2,8,17.1,19.6,31.3,6.9,145,37.6,"No","Sin diarrea",0,,,
+"ALP0199","Lucanas","Mejorado","Hembra","No ",7,3,8.5,14.7,12.6,35.4,5.9,153,39.2,"No","Sin diarrea",1,,,
+"ALP0092","Lucanas","Semi-intensivo","Macho","Sí",,3,6.9,,15.2,26.8,4.6,113,38.4,"No","Sin diarrea",3,,,
+"ALP0144","Puquio","Tradicional","Hembra","Sí",7,4,8.7,17.7,13.7,35.2,7.1,145,37.7,"No","Sin diarrea",4,,,
+"ALP0291","Puquio","Mejorado","Hembra","No",4,3,7.1,15.7,16.3,33,5.4,121,38.2,"No","Sin diarrea",1,,,
+"ALP0128","Pampa Galeras","Tradicional","Macho","Sí",11,4,8.1,13.3,12.3,35,5.7,94,38.4,"Sí","Leve",1,"Sulfa-trimetoprim",3,1
+"ALP0044","Pampa Galeras","Tradicional","Macho","No",8,4,6.8,14.3,9.4,31.3,6.8,91,,"No","Sin diarrea",1,,,
+"ALP0276","Lucanas","Semi-intensivo","Macho","No",4,2,6.8,12.5,8.8,35.8,6.7,153,37.8,"No","Sin diarrea",2,,,
+"ALP0053","Puquio","Tradicional","Macho","No",5,2,7.4,10.6,8.6,31.7,4.6,104,38.6,"Sí","Leve",0,"Sulfa-trimetoprim",13,1
+"ALP0012","Pampa Galeras","Tradicional","Hembra","Sí",7,5,5.5,12.4,4.2,30.7,5.5,,38.7,"Sí","Grave",2,"Sulfa-trimetoprim",21,0
+"ALP0075","Puquio","Tradicional","Hembra","No",6,1,7.8,,11,31.4,4.5,110,38.3,"No","Sin diarrea",1,,,
+"ALP0269","Lucanas","Semi-intensivo","Hembra","No",7,4,7,13.1,14,29.1,6.2,,38.5,"No","Sin diarrea",0,,,
+"ALP0106","Pampa Galeras","Mejorado","Hembra","Sí",7,2,7.2,15.3,,32.8,6.1,112,39.1,"Sí","Leve",0,"Enrofloxacino",8,1
+"ALP0024","Lucanas","Tradicional","Hembra","No",5,1,6.5,15.2,13.5,32.6,,142,38.4,"Sí","Leve",3,"Sulfa-trimetoprim",12,1
+"ALP0017","Lucanas","Semi-intensivo","Macho",,2,0,8.6,15.7,5.7,29.6,6.3,118,38,"No","Sin diarrea",0,,,
+"ALP0034","Negromayo"," Tradicional ","Hembra","Sí",6,5,8.5,12.3,13,33.6,5.8,87,39.3,"Sí","Leve",3,"Enrofloxacino",10,1
+"ALP0086","Puquio","Tradicional","Hembra","No",13,7,6.3,11.9,9.6,38.5,4.2,69,39.2,"Sí","Grave",6,"Sulfa-trimetoprim",21,0
+"ALP0116","Pampa Galeras","Mejorado","Macho","No",6,3,6.6,13,11.8,25.4,4.5,105,38.1,"Sí","Leve",0,"Enrofloxacino",12,1
+"ALP0193","Lucanas","TRADICIONAL","Hembra","Sí",5,1,8.9,13.8,19.2,24,7.2,119,38.2,"No","Sin diarrea",0,,,
+"ALP0047","Puquio","Semi-intensivo","Hembra","Sí",7,4,7.6,12.3,10.2,30.8,5.9,140,38.7,"No","Sin diarrea",1,,,
+"ALP0204","Pampa Galeras","Tradicional","Hembra","Sí",6,3,8.7,13.8,14.4,25.5,6.9,125,37.6,"No","Sin diarrea",0,,,
+"ALP0300","Pampa Galeras","Mejorado","Macho","No",5,0,9.6,17,10.1,36,5.4,107,38.5,"Sí","Moderada",1,"Enrofloxacino",2,1
+"ALP0279","Puquio","Tradicional","Hembra","No",7,2,7.3,15.2,,,4.8,128,39,"Sí","Leve",6,"Enrofloxacino",6,1
+"ALP0175","Pampa Galeras","Mejorado","Macho","Sí",4,3,8.6,19.8,21,28.2,6.7,107,37.7,"No","Sin diarrea",1,,,
+"ALP0159","Lucanas","Mejorado","Macho","No",3,3,5.9,16.2,12.3,32,5.6,128,38.6,"No","Sin diarrea",1,,,
+"ALP0090","Lucanas","Tradicional","Hembra","No",7,4,8.3,15.4,14.5,,6.7,,38.6,"No","Sin diarrea",0,,,
+"ALP0135","Lucanas","Tradicional","Hembra","Sí",5,5,7,12.2,6.2,,5,136,38.3,"No","Sin diarrea",0,,,
+"ALP0227","Pampa Galeras","Semi-intensivo","Macho","No",4,1,7.9,14.5,13.7,29.8,6,131,38.2,"Sí","Leve",0,"Enrofloxacino",3,1
+"ALP0198","Puquio","Semi-intensivo","Macho","No",6,1,6.5,,13.9,27,5.8,140,38.1,"No","Sin diarrea",2,,,
+"ALP0096","Lucanas","Tradicional","Macho","Sí",8,5,5.6,11.7,13.6,36.9,6.5,105,38.3,"No","Sin diarrea",0,,,
+"ALP0287","Pampa Galeras","Semi-intensivo","Hembra","No",2,0,7.6,11.3,11.5,28.8,5.7,125,38.5,"Sí","Moderada",0,"Sulfa-trimetoprim",21,1
+"ALP0281","Pampa Galeras","Tradicional","Macho","Sí",9,4,7.1,13.1,13.6,26.9,7,138,38.5,"No","Sin diarrea",0,,,
+"ALP0121","Pampa Galeras","Semi-intensivo","Macho","No",6,1,5.8,11.8,13.2,32.3,6.1,118,39.2,"Sí","Leve",0,"Sulfa-trimetoprim",4,1
+"ALP0107","Lucanas","Tradicional","Hembra","No",4,2,8.1,15.5,6.8,31.8,5,119,39.1,"Sí","Moderada",2,"Sulfa-trimetoprim",11,1
+"ALP0057","Puquio","Mejorado","Hembra","Sí",4,0,5.9,14.7,15.5,36.2,4.6,112,37.9,"Sí","Leve",1,"Enrofloxacino",3,1
+"ALP0249","Negromayo","Tradicional","Macho","Sí",6,6,8.6,12.3,7.5,37,6.3,121,38.8,"Sí","Moderada",2,"Enrofloxacino",5,1
+"ALP0294","Pampa Galeras","Mejorado","Hembra","Sí",9,4,6,13.2,20,29.2,5.7,115,38.9,"No","Sin diarrea",0,,,
+"ALP0236","Pampa Galeras","Mejorado","Hembra","No",10,4,7.4,12,11.4,35.4,6,109,39.2,"Sí","Moderada",3,"Sulfa-trimetoprim",11,1
+"ALP0268","Lucanas","Semi-intensivo","Hembra","Sí",10,4,5.6,11.6,11.1,32.7,6.3,132,38.9,"No","Sin diarrea",0,,,
+"ALP0115","Puquio","Mejorado","Hembra","Sí",7,0,8.2,14.4,11.5,31.2,5.6,122,39.2,"No","Sin diarrea",0,,,
+"ALP0085","Pampa Galeras","Semi-intensivo","Macho","Sí",6,5,8,16.5,13.6,33.9,6,106,38.4,"No","Sin diarrea",2,,,
+"ALP0037","Pampa Galeras","Mejorado","Hembra","Sí",4,3,9,18.7,11.4,28.5,7.2,138,,"No","Sin diarrea",1,,,
+"ALP0180","Pampa Galeras","Mejorado","Hembra","No",4,3,6.2,12,15.6,38.8,6.4,111,38.5,"No","Sin diarrea",0,,,
+"ALP0206","Negromayo","Semi-intensivo","Hembra","Sí",7,5,6.9,13.4,18,32,5.6,131,38.1,"No","Sin diarrea",1,,,
+"ALP0043","Pampa Galeras","Tradicional","Macho",,9,1,7.7,16,7,32.9,5.6,156,39.2,"Sí","Moderada",1,"Sulfa-trimetoprim",11,1
+"ALP0091","Lucanas","Semi-intensivo","Macho","No",8,4,8.8,16,8.9,33.9,5.8,150,39.3,"No","Sin diarrea",1,,,
+"ALP0084","Pampa Galeras","Tradicional","Macho","No",10,3,9.2,,15.3,32.5,7,114,38.3,"No","Sin diarrea",1,,,
+"ALP0255","Pampa Galeras","Tradicional","Macho","Sí",3,4,7.8,,12.8,33.9,6,116,38.1,"No","Sin diarrea",1,,,
+"ALP0081","Pampa Galeras","Mejorado","Hembra","Sí",5,3,9,13.7,4.4,36.5,5.1,83,39.3,"Sí","Grave",0,"Enrofloxacino",13,1
+"ALP0195","Puquio","Tradicional","Macho","Sí",8,3,9.4,18.3,13.3,30.1,6,163,38.2,"No","Sin diarrea",0,,,
+"ALP0150","Puquio","Tradicional","Macho","Sí",7,0,8.5,,,29.1,5.5,117,37.8,"No","Sin diarrea",1,,,
+"ALP0295","Pampa Galeras","Mejorado","Hembra","Sí",5,2,7.9,18.4,2.1,28.8,5.9,130,39.4,"Sí","Moderada",1,"Enrofloxacino",21,0
+"ALP0244","Pampa Galeras","Semi-intensivo","Macho","Sí",10,4,7.6,18.4,12.7,28,5.6,95,39.3,"No","Sin diarrea",0,,,
+"ALP0179","Puquio","Tradicional","Hembra","Sí",7,4,8.4,11.1,15.2,25.9,6.8,113,38.1,"No","Sin diarrea",1,,,
+"ALP0056","Lucanas","Mejorado","Macho","No",3,0,8.9,16.7,15.8,33.4,6.7,138,37.5,"No","Sin diarrea",0,,,
+"ALP0031","Puquio","Tradicional","Hembra","Sí",9,4,7.9,17,15.8,,6.2,145,38.7,"No","Sin diarrea",1,,,
+"ALP0030","PAMPA GALERAS","Mejorado","Macho","Sí",7,4,7.8,14.5,14.2,34.2,6.2,,38,"No","Sin diarrea",1,,,
+"ALP0071","Puquio","Tradicional","Macho","No",7,2,7.6,13.4,,28.6,5.3,129,38.8,"No","Sin diarrea",0,,,
+"ALP0219","Lucanas","Tradicional","Macho","Sí",5,0,7.2,,17.1,27.3,7,135,38.4,"No","Sin diarrea",5,,,
+"ALP0074","Pampa Galeras","Tradicional","Macho","No",8,4,6.9,15.2,9.2,,,158,38,"No","Sin diarrea",0,,,
+"ALP0145","Negromayo","Tradicional","Macho","Sí",7,3,6.2,12.7,10.2,31.6,5.4,145,38.7,"No","Sin diarrea",0,,,
+"ALP0036","Pampa Galeras","Mejorado","Hembra","No",6,3,7.1,15.7,9,34.6,5,81,39.1,"Sí","Moderada",0,"Sulfa-trimetoprim",13,0
+"ALP0285","Negromayo","Mejorado","Macho","Sí",6,2,8.5,16.6,14.1,27.6,6.3,104,38.2,"No","Sin diarrea",1,,,
+"ALP0155","Pampa Galeras","SEMI-INTENSIVO","Macho","No",9,2,8.8,14.2,12.9,26.1,6.8,137,,"No","Sin diarrea",0,,,
+"ALP0290","PUQUIO","Mejorado","Hembra","Sí",6,2,,18.1,15,34.1,6,191,38.7,"No","Sin diarrea",0,,,
+"ALP0277","Pampa Galeras","Mejorado","Macho","No",9,3,9.3,19.1,15.8,,6.6,140,38.7,"No","Sin diarrea",0,,,
+"ALP0163","Puquio","Semi-intensivo","Macho","No",2,1,8,16.1,7.1,33.6,5.8,105,38.5,"Sí","Moderada",0,"Sulfa-trimetoprim",2,1
+"ALP0041","Negromayo","Tradicional","Hembra","No",3,2,7.8,15,13.3,30.5,6.5,125,38.7,"No","Sin diarrea",0,,,
+"ALP0083","Pampa Galeras","Semi-intensivo","Macho","No",5,2,6.8,10.3,3.4,29.6,5.3,119,38.8,"Sí","Moderada",4,"Enrofloxacino",21,0
+"ALP0256","lucanas","Semi-intensivo","Hembra","Sí",5,0,8.3,16,17.6,23.6,6.9,133,,"No","Sin diarrea",0,,,
+"ALP0190","Lucanas","Tradicional","Hembra","No",7,3,8.3,16.2,10.7,29.7,,151,38.6,"No","Sin diarrea",1,,,
+"ALP0207","Negromayo","Tradicional","Hembra","Sí",10,7,7.6,16.2,17.5,28.8,5.3,140,38.5,"No","Sin diarrea",2,,,
+"ALP0100","Puquio  ","Tradicional","Hembra","No",7,4,6.5,12.9,1.9,36,4.6,96,39.4,"Sí","Grave",0,"Sulfa-trimetoprim",21,0
+"ALP0067","Negromayo","Semi-intensivo","Macho","Sí",7,4,8.9,13.6,15.7,29.2,4.7,154,38.5,"No","Sin diarrea",0,,,
+"ALP0286","Lucanas","Tradicional","Macho","No",8,2,6.6,11.2,11.1,37.3,4.9,121,38.9,"Sí","Moderada",0,"Sulfa-trimetoprim",16,1
+"ALP0099","Pampa Galeras","Tradicional","Hembra","No",8,8,7,10.1,12,26.5,5,105,37.8,"No","Sin diarrea",3,,,
+"ALP0080","Puquio","Tradicional","Macho","No",7,2,5.1,9.7,15.7,32.2,,121,38.8,"Sí","Leve",3,"Sulfa-trimetoprim",21,0
+"ALP0270","Puquio","Mejorado","Hembra","Sí",5,3,6.6,15.6,14.5,32.4,5,144,38.7,"No","Sin diarrea",0,,,
+"ALP0077","Lucanas","Mejorado","Macho","Sí",6,1,8.2,17.6,15.6,,6.8,120,38.8,"No","Sin diarrea",1,,,
+"ALP0258","Pampa Galeras","Tradicional","Hembra","Sí",9,3,7.6,14.8,13.7,,5.7,112,38.8,"Sí","Leve",5,"Sulfa-trimetoprim",3,1
+"ALP0266","Puquio","Tradicional","Hembra","Sí",4,2,8.2,13.5,16.9,38,5.9,120,38.1,"No","Sin diarrea",0,,,
+"ALP0196","Pampa Galeras","Tradicional","Hembra","Sí",5,3,7.2,14.8,6.2,34.8,4.6,106,39.9,"Sí","Grave",5,"Enrofloxacino",3,0
+"ALP0178","Negromayo","Tradicional","Macho","Sí",2,1,7.6,14.3,12.2,29.1,6.5,123,,"Sí","Leve",1,"Sulfa-trimetoprim",14,1
+"ALP0059","Lucanas","Mejorado","Hembra","Sí",2,0,7.3,16.6,10.3,32.8,5,129,38.6,"No","Sin diarrea",2,,,
+"ALP0132","Lucanas","Semi-intensivo","Hembra","No",8,4,7.4,14.9,8.1,36.2,5.1,125,38.3,"Sí","Leve",2,"Enrofloxacino",2,1
+"ALP0009","Negromayo","Tradicional","Hembra","Sí",7,2,5.4,9.6,4.2,29.1,6.3,123,38.8,"Sí","Leve",6,"Sulfa-trimetoprim",15,1
+"ALP0259","Pampa Galeras","Semi-intensivo","Macho","No",3,,9.1,17.8,6.1,31,7,105,39.3,"No","Sin diarrea",0,,,
+"ALP0098","Pampa Galeras","Tradicional","Macho","No",8,2,6.1,9.6,13.2,30.5,5.9,120,37.2,"Sí","Moderada",1,"Enrofloxacino",11,1
+"ALP0297","Pampa Galeras","Tradicional","Macho","No",6,3,6.1,10.7,,35,4.3,100,38.8,"Sí","Moderada",0,"Enrofloxacino",9,1
+"ALP0183","Lucanas","Mejorado","Macho","Sí",4,2,5.6,14.5,10.4,33.8,4.2,104,38.8,"Sí","Grave",0,"Sulfa-trimetoprim",21,1
+"ALP0019","Lucanas","Tradicional","Macho","Sí",5,1,,14.4,14.7,33.1,6.3,140,37.8,"No","Sin diarrea",0,,,
+"ALP0038","Negromayo","Semi-intensivo","Hembra","No",5,7,4.8,10.2,6.9,27.2,,102,38.8,"Sí","Leve",2,"Enrofloxacino",3,1
+"ALP0191","Lucanas","Tradicional","Hembra","Sí",4,1,7,10.7,8.5,40.5,5.3,126,39.2,"Sí","Leve",4,"Enrofloxacino",11,1
+"ALP0275","Puquio","Tradicional","Hembra","No",7,8,7.2,11.3,,40.2,5.2,91,39,"Sí","Grave",1,"Enrofloxacino",10,1
+"ALP0006","Negromayo","Semi-intensivo","Macho","No",6,1,8.6,16.7,18,27.8,5.9,96,38,"No","Sin diarrea",0,,,
+"ALP0123","Pampa Galeras","Tradicional","Hembra","No",5,0,6.7,12,7.5,35.9,5.9,84,39,"Sí","Leve",4,"Sulfa-trimetoprim",5,1
+"ALP0054","Pampa Galeras","Tradicional","Hembra","No",7,1,7.5,13.4,1.9,33,5.1,100,38.1,"No","Sin diarrea",0,,,
+"ALP0262","Lucanas","Semi-intensivo","Macho","No",4,3,7,15.2,13.9,29.8,5.7,106,38.5,"No","Sin diarrea",0,,,
+"ALP0117","Lucanas","Mejorado","Hembra","No",5,1,7.9,18.5,11,35,8,113,38.7,"No","Sin diarrea",0,,,
+"ALP0237","Pampa Galeras","Tradicional","Hembra","Sí",5,1,8.7,16,16.1,29.3,5.6,155,,"No","Sin diarrea",1,,,
+"ALP0157","Lucanas","Tradicional","Hembra","Sí",5,3,7.1,15.1,15,,6.8,123,38.9,"No","Sin diarrea",0,,,
+"ALP0173","Pampa Galeras","Semi-intensivo","Hembra","No",6,1,5.7,12.5,9.2,36.8,5.6,146,39.2,"Sí","Moderada",2,"Enrofloxacino",6,1
+"ALP0271","Puquio","Mejorado","Hembra","No",9,5,8.2,13.6,,26.4,5.6,114,39,"Sí","Moderada",0,"Sulfa-trimetoprim",12,0
+"ALP0114","Lucanas","Semi-intensivo","Hembra","Sí",5,2,8.3,15.1,15.2,34.4,4.9,116,38,"No","Sin diarrea",0,,,
+"ALP0137","Lucanas","Tradicional","Macho","Sí",4,0,6.9,13,9.9,27.6,5.3,151,37.4,"No","Sin diarrea",0,,,
+"ALP0284","Pampa Galeras","Semi-intensivo","Macho","No",8,2,7.8,16.4,16.5,29.8,5.3,102,38.4,"No","Sin diarrea",0,,,
+"ALP0016","Lucanas","Mejorado","Macho","Sí",10,1,6.8,13.2,14.8,31.3,6.1,116,38.1,"No","Sin diarrea",1,,,
+"ALP0276","Lucanas","Semi-intensivo","Macho","No",4,2,6.8,12.5,8.8,35.8,6.7,153,37.8,"No","Sin diarrea",2,,,
+"ALP0172","Lucanas","Tradicional","Hembra","No",,2,7.6,14.3,12.4,36.4,5.6,135,39,"Sí","Grave",1,"Enrofloxacino",4,1
+"ALP0298","Lucanas","Mejorado","Macho","No",11,4,0.58,15.6,8.1,37.3,5.3,105,39.2,"Sí","Grave",1,"Sulfa-trimetoprim",11,1
+"ALP0055","Lucanas","Tradicional","Hembra","Sí",7,5,8.7,17.9,17.5,31,5.8,146,39.3,"No","Sin diarrea",0,,,
+"ALP0224","Lucanas","Semi-intensivo","Macho","NO",5,1,7.2,14.1,10.6,35.4,,92,39.2,"Sí","Moderada",0,"Enrofloxacino",3,1
+"ALP0223","Pampa Galeras","Semi-intensivo","Macho","Sí",6,4,8.5,16.3,10.2,33.2,5.8,121,38.9,"No","Sin diarrea",2,,,
+"ALP0051","Lucanas","Semi-intensivo","Hembra","No",6,2,8.4,14.3,19.9,30.4,7.1,114,38.4,"No","Sin diarrea",0,,,
+"ALP0136","Pampa Galeras","Mejorado","Macho","Sí",7,6,6.8,14.7,21.6,34.2,6.2,142,38.3,"No","Sin diarrea",2,,,
+"ALP0210","Negromayo","Tradicional","Hembra","Sí",3,0,6.2,9.5,6.4,31.3,,143,37.9,"No","Sin diarrea",0,,,
+"ALP0039","Negromayo","Semi-intensivo","Macho","No",7,4,10.2,18.7,9.4,26.4,5.2,139,38.2,"No","Sin diarrea",2,,,
+"ALP0076","Lucanas","Semi-intensivo","Hembra","No",8,3,7.3,14.9,5.4,35.8,5.3,112,39.2,"Sí","Leve",0,"Enrofloxacino",8,1
+"ALP0205","Negromayo","Mejorado","Macho","Sí",10,7,6.4,13.8,13.8,38.2,5.3,117,38.3,"No","Sin diarrea",0,,,
+"ALP0230","Lucanas","Mejorado","Hembra","No",,4,5.7,15.6,6.8,29.3,5.6,,38.1,"No","Sin diarrea",1,,,
+"ALP0235","Negromayo","Mejorado","Macho","No",4,2,5.2,12.9,,32.8,5.1,107,38.8,"No","Sin diarrea",0,,,
+"ALP0239","Puquio","Tradicional","Hembra","Sí",6,2,6.7,11.3,10.7,40.7,4.4,,39.2,"Sí","Grave",1,"Sulfa-trimetoprim",15,1
+"ALP0066","LUCANAS","TRADICIONAL","Macho","Sí",5,1,7.5,15.8,,,5.3,102,39.3,"Sí","Leve",3,"Sulfa-trimetoprim",5,1
+"ALP0126","Lucanas","Semi-intensivo","Hembra","Sí",5,3,5.5,,13.3,30.7,6.4,145,38,"No","Sin diarrea",0,,,
+"ALP0089","Negromayo","Semi-intensivo","Hembra","Sí",6,1,7.5,15.9,13.7,37.1,6.4,111,38.9,"No","Sin diarrea",0,,,
+"ALP0003","Pampa Galeras","Semi-intensivo","Hembra","Sí",7,6,6.5,10.8,9.7,33.4,5.6,104,39,"No","Sin diarrea",0,,,
+"ALP0133","Negromayo","Mejorado","Hembra","Sí",9,3,7.5,15.1,9.2,34,6.1,160,37.5,"No","Sin diarrea",0,,,
+"ALP0252","Lucanas","Tradicional","Macho","Sí",6,3,6.9,12.2,15.5,26.9,6.3,135,38.8,"No","Sin diarrea",0,,,
+"ALP0094","Negromayo","Mejorado","Macho","Sí",6,4,8.7,19.3,13.2,27,6.3,118,38.3,"No","Sin diarrea",0,,,
+"ALP0201","Puquio","Tradicional","Hembra","No",7,5,6.3,15.2,18.7,27.9,6.2,125,38.4,"No","Sin diarrea",0,,,
+"ALP0001","Lucanas","Tradicional","Hembra","Sí",6,2,7.3,15.1,11.7,35.1,6.6,97,,"No","Sin diarrea",1,,,
+"ALP0296","Pampa Galeras","Mejorado","Macho","Sí",7,4,8.5,15.5,9.1,29.6,5.6,133,38.8,"No","Sin diarrea",0,,,
+"ALP0218","Puquio","Tradicional","Macho","Sí",5,2,8.2,16.9,,24.2,5.8,110,39.1,"No","Sin diarrea",2,,,
+"ALP0033","Lucanas","Tradicional","Macho","No",6,5,,15.8,8,32.1,5.2,115,,"Sí","Moderada",3,"Sulfa-trimetoprim",10,1
+"ALP0153","Pampa Galeras","Tradicional","Macho","Sí",6,4,8.7,17.8,14.1,29.7,,117,,"No","Sin diarrea",0,,,
+"ALP0035","Lucanas","Semi-intensivo","Macho","Sí",8,4,6.1,13.3,21.3,27.9,5.6,123,38.6,"No","Sin diarrea",3,,,
+"ALP0215","Lucanas","Tradicional","Hembra","Si",3,0,6.5,10.9,9.3,31.2,5.4,121,38.9,"Sí","Leve",0,"Sulfa-trimetoprim",5,1
+"ALP0149","Negromayo","Semi-intensivo","Hembra","No",4,1,,13.8,10.1,35.8,6,87,,"Sí","Leve",4,"Enrofloxacino",19,1
+"ALP0231","Negromayo","Tradicional","Macho","Sí",6,5,7.4,12.1,0.8,35.9,5.1,129,39.7,"Sí","Moderada",0,"Sulfa-trimetoprim",12,1
+"ALP0188","Pampa Galeras","Mejorado","Macho","No",7,4,8.2,18.7,11.6,31,6.9,133,37.8,"No","Sin diarrea",1,,,
+"ALP0112","Negromayo","Mejorado","Hembra","No",3,0,9.3,13.8,8.8,41.3,5.1,89,39.7,"Sí","Moderada",0,"Sulfa-trimetoprim",5,1
+"ALP0243","Lucanas","Mejorado","Hembra","No",9,2,7.6,14.5,9.7,28.7,5.3,95,,"No","Sin diarrea",0,,,
+"ALP0046","Lucanas","Tradicional","Macho","No",6,3,7,13.2,9,32.1,,98,38.3,"No","Sin diarrea",0,,,
+"ALP0251","Puquio","Tradicional","Macho","Sí",2,0,7.7,15.4,14.3,38.6,5.9,137,38.4,"Sí","Leve",1,"Enrofloxacino",13,1
+"ALP0225","Pampa Galeras","Tradicional","Hembra","Sí",7,3,8.2,11.3,12.2,23.2,6.4,121,37.9,"No","Sin diarrea",0,,,
+"ALP0139","Pampa Galeras","Semi-intensivo","Macho","No",7,2,0.7,12.1,7.8,30.6,4.8,97,39.3,"Sí","Grave",1,"Sulfa-trimetoprim",20,1
+"ALP0261","Pampa Galeras","Mejorado","Macho","Sí",8,5,10.5,19.1,13.5,28.8,5.4,118,38.5,"No","Sin diarrea",0,,,
+"ALP0052","Pampa Galeras","Semi-intensivo","Hembra"," Sí",5,1,6.8,14,12.6,36.4,5.1,103,38.7,"Sí","Moderada",1,"Sulfa-trimetoprim",13,1
+"ALP0263","Pampa Galeras","Semi-intensivo","Hembra","Sí",7,2,6.5,13.5,11.9,26.6,5.2,117,38.9,"No","Sin diarrea",2,,,
+"ALP0082","Pampa Galeras","Mejorado","Macho","Sí",6,4,7.6,14.6,7.6,34,4.8,123,39.1,"Sí","Leve",0,"Enrofloxacino",4,0
+"ALP0023","Lucanas","Tradicional","Macho","No",6,4,8.8,15.7,9,38.1,4.8,126,,"Sí","Leve",1,"Enrofloxacino",5,1
+"ALP0160","Puquio","Tradicional","Macho","Sí",5,2,6.8,12.3,10.5,34.3,7.4,127,38.9,"Sí","Leve",0,"Enrofloxacino",13,1
+"ALP0264","Pampa Galeras","Tradicional","Macho","Sí",4,1,8.4,16.1,17.5,35.9,6.2,131,39.4,"No","Sin diarrea",0,,,
+"ALP0131","Puquio","Tradicional","Macho",,7,3,8.1,14.1,8.4,,4.9,107,39.1,"Sí","Grave",2,"Sulfa-trimetoprim",2,0
+"ALP0062","Puquio","Tradicional","Macho","No",7,2,7.7,,9.9,40.5,,108,39.7,"Sí","Grave",2,"Enrofloxacino",21,0
+"ALP0007","Puquio","Tradicional","Hembra","No",4,1,7,10.9,,33.3,5.9,88,38.9,"Sí","Grave",2,"Sulfa-trimetoprim",5,1
+"ALP0267","Pampa Galeras","Mejorado","Hembra","No",7,5,6,14.1,20.6,29.5,6.5,130,38.1,"No","Sin diarrea",3,,,
+"ALP0260","Negromayo","Semi-intensivo","Macho","No",4,2,8.2,13.5,13.1,31.8,5,119,38.5,"No","Sin diarrea",1,,,
+"ALP0229","Puquio","Semi-intensivo","Macho","No",5,2,7,13.3,15.6,22.9,6.4,144,37.8,"No","Sin diarrea",0,,,
+"ALP0241","Negromayo","Semi-intensivo","Hembra","No",6,0,5.6,12.3,11.6,30.4,6.3,126,38.1,"No","Sin diarrea",0,,,
+"ALP0197","Pampa Galeras","Tradicional","Hembra","no",5,0,8,15.7,13.1,31,6.4,97,38.3,"No","Sin diarrea",2,,,
+"ALP0109","Pampa Galeras","Mejorado","Macho","No",9,7,9.6,16.5,15.1,31.9,6.8,116,38.3,"No","Sin diarrea",1,,,
+"ALP0064","Puquio","Semi-intensivo","Hembra","Sí",8,3,6.5,12.7,11.2,31,5.8,135,38.1,"No","Sin diarrea",1,,,
+"ALP0025","Pampa Galeras","Mejorado","Hembra","Sí",6,2,7.6,15.7,11.3,30.6,5.4,114,38.5,"Sí","Leve",0,"Sulfa-trimetoprim",2,1
+"ALP0101","Puquio","Mejorado","Hembra","No",9,7,8.3,15,12.4,38.1,6.3,156,38.2,"No","Sin diarrea",0,,,
+"ALP0234","Puquio","Tradicional","Hembra","Sí",5,1,7.2,14.4,9.2,29.8,4.5,129,38.8,"No","Sin diarrea",0,,,
+"ALP0282","Lucanas","Semi-intensivo","Macho","Sí",10,6,8.5,14.2,10.4,35.7,,121,38.8,"No","Sin diarrea",5,,,
+"ALP0142","Lucanas","Tradicional","Macho","No",4,2,6.6,12.2,12,34,6.3,110,39.1,"Sí","Leve",0,"Enrofloxacino",7,1
+"ALP0250","Pampa Galeras","Tradicional","Macho","No",5,2,9.2,15.4,16.5,35.8,7.1,119,38.6,"No","Sin diarrea",0,,,
+"ALP0170","Negromayo","Semi-intensivo","Hembra","No ",6,2,6.6,12.7,17.1,,6.1,85,38.6,"No","Sin diarrea",0,,,
+"ALP0049","Negromayo","Tradicional","Macho","No",5,1,7.8,15.7,15.8,27.8,5.7,97,39.1,"No","Sin diarrea",1,,,
+"ALP0138","Lucanas","Mejorado","Macho","Sí",7,1,7.4,14.3,13.4,38.3,5.6,106,38.7,"No","Sin diarrea",0,,,
+"ALP0013","Pampa Galeras","Tradicional","Hembra","No",7,3,7.3,13.5,9.1,37,6.2,143,38,"No","Sin diarrea",0,,,
+"ALP0228","Lucanas  ","Tradicional","Macho","Sí",7,4,8.3,15,,29.2,5.9,141,39.4,"No","Sin diarrea",4,,,
+"ALP0257","Lucanas","Mejorado","Hembra","No",8,2,0.63,,10.7,35.2,5.2,123,38.5,"Sí","Leve",2,"Enrofloxacino",6,1
+"ALP0164","Puquio"," Tradicional ","Macho","No",9,4,10.5,16.6,17.7,21,,137,38.1,"No","Sin diarrea",0,,,
+"ALP0185","Pampa Galeras","Tradicional","Macho","Sí",5,,5.6,10.3,5.6,,4.7,121,38.7,"Sí","Leve",1,"Sulfa-trimetoprim",8,1
+"ALP0248","Puquio","Tradicional","Macho","Sí",5,2,7.1,14.8,14.4,39.3,6.2,147,38.7,"No","Sin diarrea",6,,,
+"ALP0214","Puquio","Mejorado","Hembra","Sí",9,2,7.6,15.3,14.4,29.9,6.2,128,,"No","Sin diarrea",0,,,
+"ALP0079","Puquio","Tradicional","Macho","No",3,1,7.4,15,12.3,27.8,4.9,125,38.3,"Sí","Leve",1,"Sulfa-trimetoprim",2,1
+"ALP0209","Negromayo","Tradicional","Hembra","No",6,2,8.5,14.2,18.2,26.4,5.5,103,39.1,"No","Sin diarrea",0,,,
+"ALP0126","Lucanas","Semi-intensivo","Hembra","Sí",5,3,5.5,,13.3,30.7,6.4,145,38,"No","Sin diarrea",0,,,
+"ALP0167","Pampa Galeras","Tradicional","Hembra","No",4,3,6.4,11.3,4.5,31.8,5.8,83,38.7,"Sí","Moderada",6,"Sulfa-trimetoprim",4,1
+"ALP0232","Lucanas","Tradicional","Macho","Sí",8,5,8.2,18.5,15.9,25.3,6.5,149,39,"No","Sin diarrea",5,,,
+"ALP0105","Pampa Galeras","Semi-intensivo","Macho","Sí",6,3,6.4,12,5.4,31.5,5.2,101,38.5,"Sí","Moderada",4,"Sulfa-trimetoprim",5,1
+"ALP0097","Pampa Galeras","Semi-intensivo","Macho","Sí",2,0,6.8,15.8,16.4,27.5,6.2,144,38.1,"No","Sin diarrea",0,,,
+"ALP0226","Lucanas","Semi-intensivo","Macho","Sí",7,4,8.8,21.7,18.3,32.7,7.6,142,37.6,"No","Sin diarrea",0,,,
+"ALP0028","Puquio","Tradicional","Macho","No",7,10,7.5,,11,36,,80,39.1,"No","Sin diarrea",0,,,
+"ALP0065","Negromayo","Mejorado","Macho","No",5,1,8.5,14,16.9,36.3,6.1,131,38.6,"No","Sin diarrea",1,,,

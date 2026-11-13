@@ -1,0 +1,336 @@
+﻿"id_ovino","provincia","raza","sexo","pediluvio_regular","edad_anios","numero_esquilas","peso_vivo_kg","produccion_lana_kg","temperatura_c","leucocitos_10_9_l","fibrinogeno_g_l","hematocrito_pct","proteinas_totales_g_dl","pododermatitis","severidad_lesion","episodios_cojera","tratamiento","dias_hasta_curacion","curado"
+"OVI0099","Jauja","Junín","Macho","No",6,2,37.3,3.64,39.7,8.7,2.6,28.2,5.1,"Sí","Leve",2,"Oxitetraciclina LA",13,1
+"OVI0109","Jauja","Junín","Macho","No",7.6,7,54.6,4.93,,,2.2,39,6.5,"No","Sin lesión",0,,,
+"OVI0250","Jauja","Corriedale","Hembra","No",1.2,1,36.8,3.82,39.6,8.9,,37.1,7.5,"No","Sin lesión",3,,,
+"OVI0244","Huancayo","Criollo","Hembra","Sí",3.1,2,34.3,1.49,39.3,10.7,5.2,34.3,5.7,"Sí","Leve",3,"Oxitetraciclina LA",16,1
+"OVI0071","Chupaca","Junín","Hembra",,4.6,4,53.1,3.8,39.4,8.1,4.4,34,6,"No","Sin lesión",2,,,
+"OVI0292","Huancayo","Criollo","Macho","No",2.8,1,45.1,3.01,38.7,7.2,,34.1,6.3,"No","Sin lesión",1,,,
+"OVI0220","Concepción","Criollo","Hembra","Sí",2,1,45.4,2.42,39.3,8.6,2.8,34.4,6.5,"No","Sin lesión",2,,,
+"OVI0018","Concepción","Corriedale","Hembra","Sí",7.2,3,40.5,4.61,39.5,7.5,3.4,33.4,6.9,"No","Sin lesión",1,,,
+"OVI0097","Concepción","Junín","Hembra","Sí",3.9,0,45.8,3.04,39.6,5.6,3.7,35.1,6.1,"No","Sin lesión",0,,,
+"OVI0014","Jauja","Criollo","Hembra","No",2.2,0,46.2,3.44,39.6,9.4,3.3,26.1,5.6,"Sí","Leve",2,"Baño de sulfato de zinc",12,1
+"OVI0290","Chupaca","Junín","Hembra","No",1,0,49.6,4.12,39.8,7.8,3.3,30.9,6.8,"No","Sin lesión",0,,,
+"OVI0048","Chupaca","Junín","Hembra","Sí",1,0,42.6,3.42,39.1,5.2,3.2,33.3,7,"No","Sin lesión",0,,,
+"OVI0277","Huancayo","Criollo","Hembra","No",5.5,4,48.3,3.49,39.2,8.4,3.8,25.8,7.2,"Sí","Grave",1,"Oxitetraciclina LA",6,1
+"OVI0283","Concepción","Corriedale","Hembra","No",3.2,3,43.4,,39.1,8.5,2.2,32.2,7.1,"No","Sin lesión",1,,,
+"OVI0192","Jauja","Junín","Hembra","Sí",4.8,3,37.2,3.09,39.3,10.5,3.3,32.3,,"Sí","Leve",0,"Oxitetraciclina LA",6,1
+"OVI0122","Jauja","Corriedale","Hembra","No",6.9,3,38.5,2.88,39.7,10.1,5.2,32.5,7.1,"Sí","Grave",2,"Oxitetraciclina LA",2,1
+"OVI0119","Jauja","Criollo","Macho","No",5.8,,46.1,2.95,39.1,8.8,3.4,,6.5,"Sí","Leve",2,"Oxitetraciclina LA",6,0
+"OVI0140","Huancayo","Junín","Hembra","No",2.6,0,45.2,2.45,39.9,10.6,4.4,27.2,7.7,"Sí","Moderada",0,"Oxitetraciclina LA",14,1
+"OVI0172","Huancayo","Criollo","Hembra","Sí",1.6,0,44.8,2.84,39.9,5.3,3.3,34.2,,"No","Sin lesión",1,,,
+"OVI0072","Chupaca","Junín","Hembra","Sí",6.2,3,36.8,3.82,,4.9,4.3,38.8,5.5,"No","Sin lesión",0,,,
+"OVI0301","Chupaca","Junín","Hembra","No",6.3,5,4.28,4.38,38.8,5.8,2.4,42.9,5.8,"No","Sin lesión",1,,,
+"OVI0076","Huancayo","Criollo","Macho","Sí",3.3,3,47.6,3.79,39.3,9.5,2.5,38,6.2,"No","Sin lesión",2,,,
+"OVI0177","Chupaca","Junín","Hembra","No",5.6,5,47.4,,39.4,9.5,4,31.7,6,"Sí","Grave",3,"Oxitetraciclina LA",18,1
+"OVI0219","Concepción","Junín","Macho","No",,5,39.5,,39.5,10.9,4.5,34.5,7,"Sí","Grave",0,"Oxitetraciclina LA",7,1
+"OVI0032","Jauja","Criollo","Hembra","Sí",2.8,3,41.3,3.64,,9.5,4.1,34.3,6.7,"No","Sin lesión",1,,,
+"OVI0221","Jauja","Junín","Macho","No",4.1,2,48.6,3.78,39.2,,3.2,33.6,5.6,"No","Sin lesión",1,,,
+"OVI0100","huancayo","Junín","Hembra","No",5.3,6,40.7,3.84,39.5,6.3,3,33.5,6.6,"No","Sin lesión",2,,,
+"OVI0288","Huancayo","Junín","Macho","No",2.7,1,41.1,3.89,38.8,9.4,2.3,29.3,6.6,"No","Sin lesión",1,,,
+"OVI0116","Huancayo","Corriedale","Hembra","No",1.3,1,47.7,3.92,40.5,10.3,4.5,36.7,6.4,"Sí","Leve",4,"Baño de sulfato de zinc",3,1
+"OVI0095","Concepción","Junín","Macho","No",5.1,2,41.3,3.37,39.3,9.8,3,29.6,6.8,"No","Sin lesión",1,,,
+"OVI0064","Huancayo","Junín","Hembra","No",4.5,6,39.9,4.23,38.8,7.6,2.8,33.6,7,"No","Sin lesión",4,,,
+"OVI0233","Chupaca","Criollo","Hembra","No",4.7,5,38.1,2.09,39.8,9.6,2.9,27.8,7.5,"No","Sin lesión",4,,,
+"OVI0085","Huancayo","Junín","Macho","No",1.5,0,42.4,3.34,,,3.3,31.7,6.4,"No","Sin lesión",0,,,
+"OVI0080","Chupaca","Corriedale","Hembra","Sí",2.4,2,52.3,3.94,39.9,9,4,33,6.6,"No","Sin lesión",1,,,
+"OVI0268","Concepción","Junín","Hembra","Sí",5.8,6,52.6,3.27,38.7,5.2,2.5,35.1,6.9,"No","Sin lesión",0,,,
+"OVI0284","Chupaca","Corriedale","Macho","No",4.3,3,38.3,3.81,40,10.2,4.5,26.1,7.1,"Sí","Moderada",3,"Baño de sulfato de zinc",28,0
+"OVI0113","Huancayo","Junín","Macho","No",1,0,49.2,4.26,39.5,10,3,32,7.2,"No","Sin lesión",0,,,
+"OVI0327","Jauja","Corriedale","Hembra","No",2.4,0,37.8,3.16,39.3,8.4,4.4,34.8,6.2,"No","Sin lesión",2,,,
+"OVI0262","Huancayo","Junín","Macho","Sí",2.8,3,,4.05,38.8,5.8,3,29.1,6.4,"No","Sin lesión",0,,,
+"OVI0178","Concepción","Criollo","Macho","No",4.8,3,44.1,3.22,38.8,8.4,3,34.1,5.9,"No","Sin lesión",3,,,
+"OVI0218","Huancayo","Corriedale","Hembra","Sí",5.8,7,47.4,3.5,39,,1.9,34.1,4.7,"No","Sin lesión",1,,,
+"OVI0236","Concepción","Corriedale","Hembra","No",3.4,5,33.8,3.85,39.4,8.5,3,33,6.7,"No","Sin lesión",1,,,
+"OVI0187","Concepción  ","Junín","Hembra","No",2.2,0,40.1,3.96,38.8,4.3,3.3,36.3,7.3,"No","Sin lesión",1,,,
+"OVI0068","Huancayo","Junín","Hembra",,1.6,1,45.9,3.71,38.8,4.7,3.7,33.3,5.8,"No","Sin lesión",1,,,
+"OVI0045","huancayo","Corriedale","Macho","No",1.5,1,37.4,4.72,39.3,8.5,3.6,34.6,6.5,"No","Sin lesión",1,,,
+"OVI0119","Jauja","Criollo","Macho","No",5.8,,46.1,2.95,39.1,8.8,3.4,,6.5,"Sí","Leve",2,"Oxitetraciclina LA",6,0
+"OVI0270","Chupaca","Criollo","Hembra","No",1,1,38.8,2.84,39.3,4.8,3.9,35.9,5.7,"No","Sin lesión",0,,,
+"OVI0151","Jauja","Corriedale","Hembra","No",2.6,2,46.4,3.61,39.7,8.9,4.5,38.1,6.6,"Sí","Moderada",0,"Oxitetraciclina LA",19,1
+"OVI0017","Huancayo","Junín","Macho","no",4.4,3,49.5,4.93,38.5,6.9,3.8,33.5,6.8,"No","Sin lesión",1,,,
+"OVI0273","Concepción","Junín","Hembra","No",5.4,3,46.3,3.7,39.2,9.7,4,31.4,6.6,"No","Sin lesión",1,,,
+"OVI0312","Jauja","Corriedale","Hembra","No",4.1,4,38.5,3.13,40,13.1,5.5,23.9,6.5,"Sí","Leve",2,"Oxitetraciclina LA",13,1
+"OVI0309","Huancayo","Criollo","Hembra","Sí",5.5,4,45.4,3.62,39,6.9,3.6,29.8,7.2,"No","Sin lesión",0,,,
+"OVI0296","Jauja","Criollo","Hembra","No",3.6,4,40.1,2.21,39.2,10.7,4.5,31.7,6.3,"Sí","Moderada",3,"Baño de sulfato de zinc",28,0
+"OVI0311","Chupaca","Criollo","Hembra","No",5.6,7,45.9,2.83,39.2,9,3.3,37.3,6.7,"No","Sin lesión",1,,,
+"OVI0148","Chupaca","Criollo","Hembra","Sí",4.2,4,3.86,3.55,39.5,5.4,3.1,36.6,6.7,"No","Sin lesión",0,,,
+"OVI0197","Jauja","Corriedale","Hembra","No",4.1,3,39.4,3.64,38.7,9.9,4.4,24.5,6.8,"Sí","Moderada",2,"Oxitetraciclina LA",9,1
+"OVI0320","Jauja","Junín","Hembra","Sí",3.3,2,39.5,,39.1,7.8,3.7,34.2,5.3,"No","Sin lesión",1,,,
+"OVI0266","Concepción","Junín","Hembra","No",4,0,41.6,3.58,38.8,4.4,3.2,38.1,5.9,"No","Sin lesión",1,,,
+"OVI0094","Jauja","Corriedale","Hembra","No",2.8,3,42.3,3.76,38.9,2.8,2.3,29.6,6.6,"No","Sin lesión",1,,,
+"OVI0181","Chupaca","Corriedale","Hembra","No",4.1,7,47.1,3.63,39.4,,4.4,26.1,7,"Sí","Moderada",2,"Oxitetraciclina LA",6,1
+"OVI0019","Concepción","Corriedale","Hembra","si",5.8,5,36.9,2.65,39.2,8.3,2.9,37.4,7.4,"No","Sin lesión",1,,,
+"OVI0022","Chupaca","Junín","Hembra","Sí",2.2,0,39.2,2.82,39.5,12.5,2.9,30.3,6.3,"No","Sin lesión",0,,,
+"OVI0314","Huancayo","Junín","Hembra","Sí",4.5,1,28.3,2.06,39.1,8.9,2.7,33.5,6.3,"No","Sin lesión",0,,,
+"OVI0326","Chupaca","Criollo","Macho","No",2.2,3,36,3.34,39.8,8.8,4.9,21.2,6.6,"Sí","Grave",5,"Baño de sulfato de zinc",28,0
+"OVI0317","Concepción","Junín","Hembra","Sí",4.2,4,42,3.49,39.2,8.7,3.7,25,6.6,"Sí","Moderada",1,"Oxitetraciclina LA",19,1
+"OVI0213","Concepción","Junín","Macho","No",5.4,2,29.7,3.37,39.7,13,3.7,28.4,6.8,"Sí","Grave",0,"Oxitetraciclina LA",12,1
+"OVI0282","Huancayo","Junín","Hembra","Sí",4.6,2,25.6,1.64,39.2,6.6,,36.6,6.6,"No","Sin lesión",1,,,
+"OVI0303","Huancayo","Corriedale","Hembra","Sí",3.6,2,46.1,3.76,39.1,,3.1,37.4,7.4,"No","Sin lesión",1,,,
+"OVI0011","Concepción","Junín","Hembra","No",3.1,2,39,3.59,39.4,10.6,3.7,25.8,7.2,"Sí","Moderada",2,"Baño de sulfato de zinc",18,1
+"OVI0149","Huancayo","Corriedale","Hembra",,5.9,2,35.3,3.21,39.7,10.2,4.1,28.5,7.3,"Sí","Leve",3,"Oxitetraciclina LA",6,1
+"OVI0055","Chupaca","Junín","Macho","Sí",9,8,37.8,3.4,39,10.4,2.9,28.2,5.2,"No","Sin lesión",1,,,
+"OVI0328","Huancayo","Junín","Hembra","No",2.3,2,32.7,3.76,39.2,8.5,3.3,29.2,5,"No","Sin lesión",1,,,
+"OVI0204","Huancayo","Criollo","Macho","No",3.5,4,53.4,4.33,39.8,13.1,6,33.9,6.5,"Sí","Grave",4,"Oxitetraciclina LA",28,0
+"OVI0274","Jauja","Corriedale","Hembra","Sí",2.3,0,46.8,3.25,39.1,4.6,2.1,29.4,6.2,"No","Sin lesión",1,,,
+"OVI0300","Huancayo","Corriedale","Hembra","No",3.9,2,50,5.07,39.2,9.9,4,32.1,7.8,"No","Sin lesión",1,,,
+"OVI0305","Chupaca","Corriedale","Hembra","No",2.8,3,47.4,3.49,39.8,8.2,3.4,26.7,6.4,"Sí","Moderada",1,"Baño de sulfato de zinc",28,0
+"OVI0240","jauja","Corriedale","Macho","No",3.2,0,36.7,3.41,39.3,8.5,5.5,28.9,6.1,"Sí","Leve",1,"Oxitetraciclina LA",8,1
+"OVI0276","Chupaca","Corriedale","Hembra","No ",5.9,3,43.9,3.43,39.4,7.7,3.2,33.1,6.4,"No","Sin lesión",0,,,
+"OVI0035","Huancayo","Corriedale","Hembra","No",1.6,2,42,3.01,39.9,,4.1,33.7,6.9,"No","Sin lesión",3,,,
+"OVI0114","Concepción","Junín","Hembra","No",2,0,39.2,3.67,38.8,6.1,2.4,30,5.9,"No","Sin lesión",0,,,
+"OVI0324","Chupaca","Criollo","Hembra","No",1.2,1,46,3.25,38.8,7.3,3.5,32.8,6.9,"No","Sin lesión",1,,,
+"OVI0078","Huancayo","Criollo","Hembra","No",6.3,9,42.3,2.23,39.2,10.1,3.5,35,6.9,"Sí","Grave",3,"Baño de sulfato de zinc",7,1
+"OVI0115","Chupaca","Criollo","Macho","No",5.8,9,48.9,3.58,39.2,8.6,3.2,36.4,6.4,"No","Sin lesión",1,,,
+"OVI0129","Concepción","Criollo","Macho","Sí",4.8,2,51.9,4.59,39.3,6,3.2,28.1,6.5,"No","Sin lesión",0,,,
+"OVI0062","Huancayo","Criollo","Hembra","No",5.5,2,37.2,2.55,38.8,8.1,3.2,32.1,6.1,"No","Sin lesión",1,,,
+"OVI0235","Huancayo","Corriedale","Macho","No",2.4,0,46.8,3.83,39.4,8,4.4,35.9,6.3,"Sí","Leve",2,"Oxitetraciclina LA",3,1
+"OVI0057","Chupaca","Criollo","Hembra","No",6.6,4,43.6,2.35,38.6,6.6,2.2,30.3,6.4,"No","Sin lesión",1,,,
+"OVI0232","Huancayo","Criollo","Macho","Sí",6.4,2,32.5,3.51,39.7,7.4,,28.3,6.7,"Sí","Leve",3,"Oxitetraciclina LA",20,1
+"OVI0038","Chupaca","Corriedale","Hembra","No",4.2,3,42.5,3.95,38.9,8.6,3,32.3,6.1,"No","Sin lesión",0,,,
+"OVI0058","Concepción","Criollo","Macho","Sí",1.8,0,,3.27,38.9,7.7,2.4,37.4,6.2,"No","Sin lesión",1,,,
+"OVI0056","Concepción","Junín","Macho","Sí",2.5,0,36.2,2.37,38.8,8.5,2.4,32.2,6.1,"No","Sin lesión",1,,,
+"OVI0229","Jauja","Corriedale","Hembra","Sí",2,3,45,4.28,39.6,,2.8,26.9,7.1,"No","Sin lesión",0,,,
+"OVI0275","Huancayo","Junín","Hembra","No",6.1,8,37.8,3.04,39.1,9.5,2.4,25.5,6.1,"No","Sin lesión",0,,,
+"OVI0141","Concepción","Criollo","Hembra","No",5.3,4,44,2.76,,,,26.4,6.9,"Sí","Moderada",1,"Baño de sulfato de zinc",9,1
+"OVI0264","Huancayo","Corriedale","Hembra","No",1.9,4,43.7,4.15,39.6,9.2,4.9,34.4,7.2,"Sí","Moderada",7,"Oxitetraciclina LA",28,0
+"OVI0269","Huancayo","Corriedale","Hembra","Sí",1,2,55.4,4.4,39.2,,2.3,38.5,5.5,"No","Sin lesión",0,,,
+"OVI0012","Chupaca","Criollo","Hembra","Sí",5.4,3,36.5,2.85,39.7,8.9,3.5,43.7,6.4,"Sí","Leve",0,"Baño de sulfato de zinc",1,1
+"OVI0001","Concepción","Criollo","Hembra","Sí",4.8,4,35.2,2.79,39.1,8.9,,38.2,7.1,"Sí","Leve",2,"Baño de sulfato de zinc",6,1
+"OVI0256","Huancayo","Criollo","Hembra","Sí",6.1,4,55.8,3.78,39.1,6.5,3.5,37.3,5.8,"No","Sin lesión",1,,,
+"OVI0191"," Jauja ","Corriedale","Macho","No",7.4,6,32.3,2.82,39.6,8.9,3.8,35.7,7,"Sí","Moderada",3,"Baño de sulfato de zinc",19,1
+"OVI0330","Huancayo","Criollo","Hembra","No",4.8,,31.5,2.51,38.7,5.5,2.3,38.3,6.6,"No","Sin lesión",0,,,
+"OVI0147","Huancayo","Criollo","Macho","No",3.2,2,53.1,3.81,39.1,8.4,2.4,28.9,7.4,"No","Sin lesión",0,,,
+"OVI0304","Jauja","Criollo","Hembra","No",2.7,4,48.4,3.52,39.3,6.8,4.1,36.9,7.3,"No","Sin lesión",0,,,
+"OVI0215","Concepción","Criollo","Hembra","Sí",3.1,3,49.4,3.69,39.2,11,,33.1,6.2,"Sí","Leve",3,"Baño de sulfato de zinc",2,1
+"OVI0193","Chupaca"," Corriedale ","Hembra","No",4.5,3,42,2.92,39.9,10.7,4.7,,6.6,"Sí","Moderada",2,"Oxitetraciclina LA",28,0
+"OVI0202","Jauja","Corriedale","Macho","Sí",6.6,3,45.8,4.05,39.7,9.2,2.1,32.8,6.7,"No","Sin lesión",0,,,
+"OVI0186","Huancayo","Corriedale","Hembra","Sí",1,0,42.1,2.8,40,11.5,5.7,39.8,6.5,"Sí","Moderada",2,"Baño de sulfato de zinc",5,1
+"OVI0046","Jauja","Corriedale","Hembra","Sí",2.6,2,34.5,2.94,39.3,7.8,3.2,34.4,5.8,"No","Sin lesión",1,,,
+"OVI0015","Concepción","Corriedale","Macho","Sí",4.5,1,39.6,3.16,39.6,9.9,4,27.9,5.9,"Sí","Leve",1,"Oxitetraciclina LA",17,1
+"OVI0160","Jauja","Corriedale","Macho","No",3.7,5,31.3,3.49,39.1,8.6,3.4,28.9,,"No","Sin lesión",0,,,
+"OVI0087","Jauja","Criollo","Macho","Sí",4.4,4,36.6,3.29,39,5.6,,28,6.7,"No","Sin lesión",2,,,
+"OVI0298","Chupaca","Criollo","Macho","No",6.4,2,42.8,3.18,39.7,6.4,2.3,33.6,5.6,"No","Sin lesión",3,,,
+"OVI0156","Huancayo","Junín","Hembra","Sí",4.3,4,32,2.93,39.3,7.9,3.6,41,7.6,"No","Sin lesión",0,,,
+"OVI0188","Huancayo","Corriedale","Macho","Sí",5,4,31.1,3.05,38.9,5.4,1.7,31.9,7.7,"No","Sin lesión",1,,,
+"OVI0118","Concepción","Junín","Hembra","Sí",3.1,5,38,2.48,39.2,7.8,3,34.3,6.1,"No","Sin lesión",1,,,
+"OVI0024","Huancayo","Corriedale","Hembra","No",4.3,4,45.8,3.08,39.6,9.8,4.7,28.6,7.1,"Sí","Moderada",1,"Baño de sulfato de zinc",28,0
+"OVI0279","Huancayo","Junín","Hembra","No",3.9,3,34.8,,39.6,8.9,4.9,31.2,6.7,"Sí","Leve",0,"Oxitetraciclina LA",18,1
+"OVI0008","Concepción","Junín","Hembra","Sí",3.9,1,37.8,3.11,39.2,10.3,2.5,32.4,7.2,"No","Sin lesión",1,,,
+"OVI0238","Huancayo","Junín","Hembra","No",1.2,1,35.5,3.79,39.6,8.8,4.1,33,7,"Sí","Leve",3,"Baño de sulfato de zinc",27,1
+"OVI0039","Huancayo","Criollo","Hembra","No",3.9,4,32.5,2.41,39.7,10.8,,31.1,6.6,"Sí","Moderada",2,"Oxitetraciclina LA",14,1
+"OVI0289","Jauja","Criollo","Hembra","No",3.1,1,59.8,4.43,39.3,8.7,2.8,34.6,6.5,"No","Sin lesión",0,,,
+"OVI0123","Chupaca","Corriedale","Macho","No",4.8,7,43.3,4.64,38.7,9,3.6,30.7,6.7,"No","Sin lesión",1,,,
+"OVI0053","Jauja","Junín","Hembra","Sí",4.9,6,38.6,,38.9,11.5,1.7,33.2,6.3,"No","Sin lesión",0,,,
+"OVI0016","Chupaca","Corriedale","Hembra","No",3.3,3,38.4,3.46,39.4,12,4.8,25.7,7.5,"Sí","Grave",2,"Baño de sulfato de zinc",28,0
+"OVI0260","Jauja","Junín","Hembra","No",5.5,1,47.3,3.74,39.7,9,4.4,30,6.9,"Sí","Leve",3,"Oxitetraciclina LA",2,1
+"OVI0117","Huancayo","Junín","Hembra","No",2,0,52.1,3.83,39.7,9.4,,30.6,7.6,"Sí","Leve",1,"Baño de sulfato de zinc",16,1
+"OVI0065","Huancayo","Junín","Hembra","Sí",1,0,44.7,3.42,39.2,6,2.5,34.1,6.5,"No","Sin lesión",0,,,
+"OVI0009","Huancayo","Criollo","Hembra","No",6,5,36,2.67,,,4.6,27.2,6.9,"Sí","Moderada",1,"Oxitetraciclina LA",22,1
+"OVI0196","Jauja","Corriedale","Hembra","Sí",5.2,5,44.5,3.39,39.2,9.1,3.3,32,6.7,"No","Sin lesión",0,,,
+"OVI0127","Concepción","Junín","Hembra","Sí",5.7,3,47.1,3.7,38.9,7.8,4.1,39.4,7.3,"No","Sin lesión",0,,,
+"OVI0084","Jauja","Junín","Hembra",,4.2,8,45.3,3.92,39,11.8,2.6,40.4,6.9,"No","Sin lesión",0,,,
+"OVI0209","Huancayo","Criollo","Macho","No",2.9,5,46.9,3.86,38.7,6.8,1.5,38.6,5.5,"No","Sin lesión",2,,,
+"OVI0237","Jauja","Criollo","Hembra","No",4.1,6,43.1,2.17,39.2,10.4,3.9,28.9,7,"Sí","Moderada",3,"Baño de sulfato de zinc",25,1
+"OVI0201","Huancayo","Criollo","Hembra","No",6.1,8,44.3,,38.6,4.7,2.3,34.5,5.9,"No","Sin lesión",0,,,
+"OVI0161","Huancayo","Criollo","Hembra","No",3.8,2,48,2.32,40.6,9.7,4.4,25.6,7.3,"Sí","Moderada",1,"Baño de sulfato de zinc",3,1
+"OVI0010","Concepción","Corriedale","Hembra","NO",4.6,2,32.7,3.08,40.2,11.6,3.8,32.7,6.2,"Sí","Moderada",1,"Oxitetraciclina LA",16,1
+"OVI0226","Huancayo","Corriedale","Hembra","No",3.4,3,42.8,2.89,38.9,,3.1,35.2,7,"No","Sin lesión",0,,,
+"OVI0180","Huancayo","Corriedale","Hembra","Sí",2,0,43.5,4.13,39.5,9.3,2.9,29.3,7,"Sí","Leve",1,"Oxitetraciclina LA",15,1
+"OVI0136","Jauja","Corriedale","Macho","Sí",6.4,3,45.6,5.4,39.7,8.5,3.4,27.5,6.6,"Sí","Leve",3,"Baño de sulfato de zinc",12,1
+"OVI0169","Huancayo","Junín","Hembra","Sí",7.4,8,39.9,3.8,39.6,4,2.7,27.7,5.9,"No","Sin lesión",1,,,
+"OVI0081","Chupaca","Criollo","Hembra","No",2.9,2,35.8,2.76,39.3,,2.9,29.1,5.4,"No","Sin lesión",0,,,
+"OVI0199","Huancayo","Criollo","Hembra","Sí",3.5,0,,3.82,39.2,,4,38.2,5.4,"No","Sin lesión",0,,,
+"OVI0143","Concepción","Junín","Hembra","No",4.9,3,39.3,2.51,39.8,9.3,3.5,32.1,5.8,"Sí","Leve",1,"Baño de sulfato de zinc",19,1
+"OVI0101","Concepción","Junín","Hembra","No",4.9,2,28.8,3.2,39.6,5.9,,31.6,6.5,"No","Sin lesión",1,,,
+"OVI0239","Jauja","Junín","Hembra","No",6.1,7,52.1,3.51,39.1,,4.4,26.5,6.8,"Sí","Leve",1,"Oxitetraciclina LA",20,1
+"OVI0175","Concepción","Criollo","Hembra","No",4.5,4,53.4,,39.7,5.8,,33.4,7.6,"No","Sin lesión",2,,,
+"OVI0002","Chupaca","Criollo","Hembra",,5.7,5,33.8,2.28,40,,5,27.2,7.8,"Sí","Grave",1,"Oxitetraciclina LA",28,0
+"OVI0227","Jauja","Corriedale","Hembra","No",6.2,2,35.9,,40.4,10.8,6.2,29.7,6.8,"Sí","Moderada",1,"Oxitetraciclina LA",28,0
+"OVI0003","Jauja","Junín","Macho","No",4.3,2,42.6,4.03,40,9.9,5.1,31.7,6.4,"Sí","Grave",1,"Oxitetraciclina LA",28,0
+"OVI0246","Concepción","Junín","Hembra","No",5,4,38.6,3.23,39.4,,3.8,30,6.2,"No","Sin lesión",1,,,
+"OVI0063","Jauja","Corriedale","Hembra","No",3.5,2,40,3.19,38.8,7.2,2.7,34.9,6.3,"No","Sin lesión",3,,,
+"OVI0329","Huancayo","Junín","Macho","Sí",6.5,6,47.2,3.43,39.3,9.1,3.3,36.5,6.2,"No","Sin lesión",1,,,
+"OVI0021","HUANCAYO","Criollo","Hembra","Sí",5,5,34,2.73,38.6,7.6,3.3,25.9,6.2,"No","Sin lesión",0,,,
+"OVI0086","Concepción","Junín","Macho","Sí",6.3,5,36,3.27,39.1,6.8,3.8,33.9,6.9,"No","Sin lesión",4,,,
+"OVI0209","Huancayo","Criollo","Macho","No",2.9,5,46.9,3.86,38.7,6.8,1.5,38.6,5.5,"No","Sin lesión",2,,,
+"OVI0044","Concepción","Corriedale","Macho","Sí",2.7,6,34.7,4.07,39.1,8.3,4.7,33.4,7.2,"No","Sin lesión",1,,,
+"OVI0166","Concepción","Junín","Macho","No",5.6,3,43.1,3.52,39.4,10.3,3.6,23.4,6.1,"No","Sin lesión",2,,,
+"OVI0263","Concepción","Junín","Hembra","No",5.8,8,40.7,3.02,39.5,11.5,4.3,33.2,7.1,"Sí","Grave",2,"Oxitetraciclina LA",28,0
+"OVI0052","Huancayo","Criollo","Hembra","No",3.2,1,46.4,2.26,39.5,6.3,2.2,31.6,6.6,"Sí","Leve",2,"Oxitetraciclina LA",9,1
+"OVI0074","Chupaca","Criollo","Hembra","No",4.9,5,50.8,3.15,39.4,9,4.1,23.9,6,"No","Sin lesión",2,,,
+"OVI0164","Huancayo","Junín","Hembra","No",2.8,2,43.2,3.44,39.3,7.9,3.9,35,6,"No","Sin lesión",0,,,
+"OVI0224","Huancayo","Criollo","Macho","Sí",6.2,7,43.5,2.93,39.4,10.5,2.6,30.2,7.9,"Sí","Leve",2,"Baño de sulfato de zinc",11,1
+"OVI0041","Jauja","Corriedale","Hembra","Sí",4.5,4,44.3,4.47,39.3,7.5,3.1,24,6,"No","Sin lesión",0,,,
+"OVI0026","Huancayo","Junín","Macho","No",4.1,4,43.6,3.62,39.8,10,4,30.1,6.6,"Sí","Moderada",2,"Baño de sulfato de zinc",16,1
+"OVI0245","Chupaca","Corriedale","Hembra","Sí",4.7,3,54,3.64,39.3,7.8,3.3,33,6.1,"No","Sin lesión",1,,,
+"OVI0091","Chupaca","Junín","Hembra","No",,2,40.1,3.44,38.5,6.5,2.6,34.6,6.6,"No","Sin lesión",1,,,
+"OVI0194","Huancayo","Criollo","Macho","No",3.7,7,58.1,3.91,,5.2,3.1,38.3,6.3,"No","Sin lesión",2,,,
+"OVI0313","Concepción","Corriedale","Hembra","No",5.6,3,45,3.05,38.6,4,3,28.8,6.1,"No","Sin lesión",1,,,
+"OVI0259","Jauja","Junín  ","Hembra","No",4.3,6,37.3,,39.4,8,4.7,25,6.6,"Sí","Grave",2,"Baño de sulfato de zinc",28,0
+"OVI0025","Jauja","Corriedale","Hembra","No",2.4,3,39.4,3.2,39.1,10.2,4.1,36,6.6,"Sí","Leve",0,"Baño de sulfato de zinc",4,1
+"OVI0027","Concepción","Criollo","Hembra","No",5.3,5,51.7,3.83,38.8,6.9,3.3,29,,"No","Sin lesión",0,,,
+"OVI0170","Jauja","Criollo","Hembra","No",3.7,1,39.7,2.36,39.1,10.7,4.6,33.9,6.3,"Sí","Leve",3,"Baño de sulfato de zinc",5,1
+"OVI0297","Huancayo","Junín","Hembra","Sí",8.3,4,45.1,3.46,38.7,8.1,3.1,31.2,7,"No","Sin lesión",1,,,
+"OVI0158","Huancayo","Corriedale","Macho","Sí",4.6,3,45.2,3.72,39.8,8.4,5.4,24.8,6.8,"Sí","Grave",0,"Baño de sulfato de zinc",28,0
+"OVI0124","Concepción","Criollo","Hembra","Sí",1.1,1,39.7,2.58,39.6,8.4,4.7,32,5.6,"No","Sin lesión",1,,,
+"OVI0247","Concepción","Criollo","Hembra","Sí",4.8,1,34.1,1.87,39.9,8.4,4.2,28.3,5.8,"Sí","Leve",1,"Baño de sulfato de zinc",15,1
+"OVI0184","Huancayo","Corriedale","Hembra","Sí",2.1,,40.8,3.57,39.1,7.1,3.5,35.1,7.5,"No","Sin lesión",1,,,
+"OVI0251","Jauja","Junín","Hembra","Sí",3.6,3,39.1,,40.2,8.7,2.9,34.1,6.6,"No","Sin lesión",0,,,
+"OVI0208","Chupaca","Criollo","Macho","No",2.5,1,37.9,3.03,39.3,,3.6,,7.4,"Sí","Leve",2,"Baño de sulfato de zinc",21,1
+"OVI0089","Huancayo","Corriedale","Hembra","Sí",3.8,3,35.9,3.93,39.2,8.5,2.5,34.9,5.6,"No","Sin lesión",0,,,
+"OVI0253","Jauja","Corriedale","Macho","NO",4.1,1,47.3,4.71,39.6,7.2,3,35.6,7.4,"No","Sin lesión",2,,,
+"OVI0286","Jauja","Criollo","Hembra","Sí",3.6,2,27.3,1.35,39.5,12.8,5,31.8,6.8,"Sí","Moderada",1,"Baño de sulfato de zinc",12,1
+"OVI0272","Concepción","Criollo","Macho","No",2.1,0,36.1,3.19,39.4,7.2,3.9,24.5,6,"Sí","Leve",2,"Oxitetraciclina LA",1,1
+"OVI0257","Jauja","Criollo","Hembra","Sí",2.9,5,23.8,2.63,39,6.3,2.9,36.3,5.2,"No","Sin lesión",0,,,
+"OVI0176","CONCEPCIÓN","Corriedale","Hembra","No ",5.5,3,33.5,3.34,38.9,4.4,3.4,35.3,6,"No","Sin lesión",2,,,
+"OVI0049","Huancayo","Criollo","Hembra","No",3.7,1,45.2,3.77,39.2,6.6,4.3,33.8,6.6,"No","Sin lesión",0,,,
+"OVI0134","Chupaca","Corriedale","Macho","NO",3.9,5,44.4,3.19,39,9.7,4.4,26.1,,"Sí","Moderada",1,"Oxitetraciclina LA",9,1
+"OVI0128","Concepción","Criollo","Hembra","Sí",3,4,42.4,3.44,39.5,5.7,,35.8,6.6,"No","Sin lesión",1,,,
+"OVI0130","Jauja","Corriedale","Macho","No",1.5,1,41.6,3.86,39.1,7.8,3,37.6,6.9,"No","Sin lesión",2,,,
+"OVI0168","Concepción","CRIOLLO","Hembra","Sí",3.6,5,41.1,2.66,39.7,11.3,4.7,29.1,6.9,"Sí","Leve",3,"Baño de sulfato de zinc",9,0
+"OVI0217","Concepción","Junín","Macho","Sí",1,0,41.6,,39.3,8.4,2.7,32.1,6.3,"No","Sin lesión",1,,,
+"OVI0222","Jauja","Criollo","Hembra","No",6.3,7,43.8,2.03,39,4.7,4.9,33.8,6.9,"No","Sin lesión",2,,,
+"OVI0258","Jauja","Corriedale","Macho","No",2.7,1,43.7,3.79,39.7,11.4,5.1,31.5,6.7,"Sí","Moderada",6,"Oxitetraciclina LA",2,1
+"OVI0066","Jauja","Junín","Macho","No",4.6,1,47.6,3.86,39.5,5.3,2.8,32.9,7.4,"No","Sin lesión",0,,,
+"OVI0131","Chupaca","Corriedale","Hembra","Sí",5.7,6,37.7,3.48,40,12.5,6.4,22.9,7.4,"Sí","Grave",4,"Baño de sulfato de zinc",15,1
+"OVI0243","Huancayo","Criollo","Hembra","Sí",6.7,6,41.8,3.1,38.8,9.1,2.8,31.8,6.3,"No","Sin lesión",0,,,
+"OVI0211","Chupaca","Corriedale","Hembra","No",6.9,3,3.38,2.62,39.9,9.5,3.1,29.6,7.2,"No","Sin lesión",0,,,
+"OVI0031","Concepción","Junín","Hembra","No",4.1,1,51.8,3.74,39.7,11.2,4.9,25.9,6.1,"Sí","Grave",1,"Oxitetraciclina LA",4,1
+"OVI0267","Jauja","Criollo","Hembra","No",,5,36.9,2.91,38.8,6.1,2.7,27.3,7.2,"No","Sin lesión",3,,,
+"OVI0230","Concepción","Junín","Macho","Sí",3.7,3,42.1,4.06,39.4,12,4.5,30,6.7,"No","Sin lesión",0,,,
+"OVI0241","Concepción","Junín","Hembra","No",2.6,3,42.6,3.16,39.7,10.6,4,24.1,7.4,"Sí","Grave",2,"Oxitetraciclina LA",28,0
+"OVI0088","Concepción","Junín","Macho","No",5.5,3,41,3.93,40.3,10.9,5.2,25.7,7.4,"Sí","Moderada",3,"Baño de sulfato de zinc",24,1
+"OVI0030","Huancayo","Criollo","Hembra","Sí",4.4,7,30.1,2.68,39.2,8,2.7,34.4,7.1,"No","Sin lesión",5,,,
+"OVI0200","Concepción","Corriedale","Hembra","Sí",5.7,2,46.8,4.29,38.7,7.3,1.8,31,6.4,"No","Sin lesión",2,,,
+"OVI0108","Chupaca","Criollo","Macho","No",4.2,1,48.7,3.95,39.8,10.5,4.7,30.8,6.3,"Sí","Moderada",1,"Oxitetraciclina LA",27,1
+"OVI0033","Jauja","Corriedale","Macho","Sí",4,6,27.6,2.48,39.2,7.8,1.8,27.7,7.4,"No","Sin lesión",1,,,
+"OVI0121","Chupaca","JUNÍN","Hembra","No",2.8,1,42.9,3.94,,9.3,3.8,29.5,6.1,"No","Sin lesión",0,,,
+"OVI0287","Concepción","Corriedale","Macho","Sí",1.9,2,39.8,4.02,39.2,8.4,3.6,35.5,6.9,"No","Sin lesión",2,,,
+"OVI0028","Chupaca","Corriedale","Hembra","Sí",4.1,1,37.1,3.53,39.3,5.8,4.3,33.3,7.2,"No","Sin lesión",0,,,
+"OVI0185","Huancayo","Corriedale","Macho","Sí",3.5,2,,5.09,38.9,6.4,3,36.3,6.3,"No","Sin lesión",0,,,
+"OVI0234","Jauja"," Junín ","Macho","No",8.2,,43.3,3.37,39.7,8.5,3.5,,6.8,"Sí","Leve",4,"Oxitetraciclina LA",3,0
+"OVI0254","Jauja","Corriedale","Hembra","No",4.7,4,44.3,3.65,39.1,8.5,4.1,31.8,7.3,"No","Sin lesión",3,,,
+"OVI0159","Concepción","Criollo","Hembra","No",3.9,3,52,,39.1,6.1,3.6,26,6.7,"No","Sin lesión",0,,,
+"OVI0047","Concepción","Corriedale","Hembra","Sí",5.6,6,30.7,3.44,39.1,7.5,2.9,37.6,6,"No","Sin lesión",1,,,
+"OVI0223","Huancayo","Criollo","Hembra","Sí",2.9,2,51.1,3.79,39.2,7.7,2.1,31,7.6,"No","Sin lesión",0,,,
+"OVI0306","Jauja","Corriedale","Hembra","Sí",4.6,2,39.8,3.62,38.9,7.5,2.5,38.4,5.9,"No","Sin lesión",0,,,
+"OVI0173","Jauja","Criollo","Hembra","No",5.4,3,31.9,2.68,39.1,3.8,3.4,28.7,5.5,"No","Sin lesión",1,,,
+"OVI0291","Concepción","Criollo","Macho","No",1,1,36.5,3.21,38.5,6.7,3.1,30.7,8.2,"No","Sin lesión",0,,,
+"OVI0135","Huancayo","Junín","Hembra","No",6.2,5,41.8,2.81,40.1,10.3,3.9,22.1,6.7,"Sí","Leve",3,"Baño de sulfato de zinc",28,0
+"OVI0107","Concepción","Junín","Macho","Sí",5.3,5,38.3,2.65,40.3,9.7,4.6,28.5,6.9,"Sí","Moderada",1,"Oxitetraciclina LA",2,1
+"OVI0105","Huancayo","Corriedale","Hembra","No",1.2,2,43.8,3.69,38.8,8.6,3.7,32.3,6.8,"No","Sin lesión",1,,,
+"OVI0146","Chupaca","Junín","Hembra","No",5.2,6,52.2,4.42,39,5.6,4.1,33,6.6,"No","Sin lesión",0,,,
+"OVI0198","Chupaca","Corriedale","Hembra","Sí",6.3,5,43.3,2.7,39.6,8.4,4.5,32.4,6.9,"Sí","Moderada",2,"Baño de sulfato de zinc",28,0
+"OVI0067","Jauja","Junín","Hembra","No",3.1,1,37,3.08,39.3,9.6,4.8,29.8,6.5,"Sí","Moderada",3,"Oxitetraciclina LA",10,1
+"OVI0120","Jauja","Corriedale","Hembra","Sí",3.5,4,45.8,4.34,38.7,8.2,2.7,33.6,6.8,"No","Sin lesión",1,,,
+"OVI0293","Concepción","Criollo","Hembra","No",1.4,0,49,3.29,39.5,9,3.9,28.8,6.1,"Sí","Leve",0,"Oxitetraciclina LA",2,1
+"OVI0106","Concepción","JUNÍN","Macho","Sí",4.3,8,36.4,3.83,39.1,,4.1,38.8,5.3,"No","Sin lesión",0,,,
+"OVI0206","Huancayo","Corriedale","Hembra","No",,2,46.2,4.25,38.8,6.6,,39.2,6.2,"No","Sin lesión",0,,,
+"OVI0228","Jauja","Corriedale","Hembra","No",4.6,4,54,4.41,39.1,9.2,3.1,30.3,7,"No","Sin lesión",2,,,
+"OVI0210","Concepción","Corriedale","Macho","Sí",7.2,12,66.2,5.46,39.6,6.6,3.7,26,6.7,"No","Sin lesión",0,,,
+"OVI0059","Huancayo","Junín","Hembra","Sí",4.1,2,40.5,3.5,39.4,6.9,1.5,32.1,6.2,"No","Sin lesión",1,,,
+"OVI0242","Concepción","Criollo","Hembra","No",2.2,1,32,2.75,,4,,29.8,7.2,"No","Sin lesión",2,,,
+"OVI0261","Chupaca","Criollo","Hembra","No",4.1,1,48.7,3.75,39,6,3.8,,5.7,"No","Sin lesión",1,,,
+"OVI0112","Huancayo","Corriedale","Hembra","Sí",2.8,6,50.8,4.36,,8.1,4.4,26.5,6.1,"Sí","Moderada",2,"Oxitetraciclina LA",8,1
+"OVI0231","Concepción","Corriedale","Hembra","Sí",3,2,39.2,3.52,39.8,8.9,3.7,33.9,6.4,"No","Sin lesión",1,,,
+"OVI0308","Chupaca","Junín","Hembra","Sí",4.7,4,41.6,4.12,39.5,9.6,2.7,41.4,6.6,"No","Sin lesión",1,,,
+"OVI0110","Huancayo","Corriedale","Macho","No",2.3,0,47.2,4.32,40,10.5,4.3,34.1,5.8,"Sí","Leve",2,"Oxitetraciclina LA",8,1
+"OVI0278","Chupaca","Corriedale","Hembra","Sí",2.9,4,45.4,3.8,39.3,7.7,4.2,31.4,6.6,"No","Sin lesión",0,,,
+"OVI0054","Jauja","Junín","Macho","No",3.2,3,34.8,3.48,40.2,11.2,4.6,27,6.4,"Sí","Grave",0,"Oxitetraciclina LA",14,1
+"OVI0316","Huancayo","Corriedale","Hembra","Sí",4.3,3,38.9,3.21,39.3,6.7,4.7,31.1,6.6,"Sí","Leve",0,"Oxitetraciclina LA",5,1
+"OVI0322","Concepción","Junín","Macho","No",2.4,1,48.8,4.43,39.6,7.9,2.7,29.1,5.8,"No","Sin lesión",0,,,
+"OVI0295","Chupaca","Junín","Macho","No",5.8,2,41.5,3.03,39,6.5,3.7,35,5.7,"No","Sin lesión",0,,,
+"OVI0153","Chupaca","Criollo","Hembra","Sí",4.9,4,34.3,2.93,39.7,6.2,,35,5.7,"No","Sin lesión",0,,,
+"OVI0255","Huancayo","Junín","Hembra","No",3.5,3,52.7,4.17,39.5,9.3,3.3,33.4,7.2,"No","Sin lesión",0,,,
+"OVI0265","Jauja","Corriedale","Hembra","Sí",3.1,2,37.3,3.79,38.6,4.7,2.9,33.4,7.1,"No","Sin lesión",1,,,
+"OVI0280","Chupaca","Corriedale","Hembra","Sí",2.3,1,37.7,3.53,39.6,8.9,3,33.5,7,"No","Sin lesión",0,,,
+"OVI0212","Chupaca","Criollo","Hembra","No",6.4,5,35,3.59,39,7.3,2.1,29.6,6.3,"No","Sin lesión",0,,,
+"OVI0102","Huancayo","Junín","Hembra","Sí",7.3,9,23.4,2.09,39.7,10.8,5.3,31.3,,"Sí","Grave",1,"Oxitetraciclina LA",3,1
+"OVI0063","Jauja","Corriedale","Hembra","No",3.5,2,40,3.19,38.8,7.2,2.7,34.9,6.3,"No","Sin lesión",3,,,
+"OVI0098","Jauja","Junín","Macho","Sí",5.2,6,32.1,3.39,39.3,11.8,4.8,30.8,6.7,"Sí","Moderada",1,"Oxitetraciclina LA",25,1
+"OVI0050","Huancayo","Corriedale","Hembra","Sí",1.7,1,56.7,4.44,39.2,,3.6,29.4,6.2,"No","Sin lesión",1,,,
+"OVI0299","Jauja","Junín","Hembra","No",3.1,3,25.9,2.16,39.8,8.6,4.9,29.1,7.3,"Sí","Leve",3,"Oxitetraciclina LA",3,0
+"OVI0020","Huancayo","Corriedale","Hembra","No",3.9,3,50,3.6,39.8,12.3,3,26,4.9,"No","Sin lesión",2,,,
+"OVI0040","Huancayo","Corriedale","Hembra","No",7.1,4,44.9,2.52,39.9,9.6,3.2,28.3,7.1,"Sí","Moderada",1,"Oxitetraciclina LA",13,1
+"OVI0207","Huancayo","Corriedale","Hembra","Sí",3.3,2,51.7,3.9,38.9,9.1,2.6,25.1,5.9,"No","Sin lesión",1,,,
+"OVI0150","Concepción","Junín","Hembra","No",1.4,2,45.3,3.49,39.2,7.8,4.4,33,7,"Sí","Moderada",0,"Baño de sulfato de zinc",16,1
+"OVI0133","Jauja","Corriedale","Hembra","Sí",5.2,3,35.9,3.59,39.2,5.8,2.7,35,6.4,"No","Sin lesión",0,,,
+"OVI0171","Jauja","Criollo","Hembra","No",6.4,6,34.4,2.42,39.4,9.8,5.8,32.6,7.2,"Sí","Leve",9,"Oxitetraciclina LA",3,1
+"OVI0061","Concepción","Junín","Hembra","Sí",5.3,8,52.3,4.13,39.2,8,2.6,32.8,5.4,"No","Sin lesión",1,,,
+"OVI0104","Jauja","Junín","Macho","No",5,3,38.9,3.49,39.4,9.4,3.6,26.7,6.8,"No","Sin lesión",1,,,
+"OVI0249","Chupaca","Criollo","Hembra","Sí",5.3,,40.4,2.34,39.7,7.2,4.2,28.7,5.2,"No","Sin lesión",2,,,
+"OVI0069","Chupaca","Junín","Hembra","Sí",3.4,1,51.2,4.36,39.3,6.8,2.7,33.5,6.4,"No","Sin lesión",1,,,
+"OVI0005","Concepción","Criollo","Macho","Sí",3.2,3,38.6,2.87,39.5,9.4,,27.2,5.4,"No","Sin lesión",0,,,
+"OVI0321","Chupaca","Criollo","Macho","No",6.7,5,42.3,3.65,39,9.2,3,32.3,5.8,"Sí","Moderada",2,"Baño de sulfato de zinc",2,1
+"OVI0139","Concepción","Junín","Hembra","No",4.7,2,29.1,2.85,39.7,,3.9,34.6,7.5,"Sí","Leve",1,"Baño de sulfato de zinc",7,1
+"OVI0183","Jauja","Junín","Macho","No",3.7,2,29.6,2.65,39,6.6,2.6,31.7,6.5,"No","Sin lesión",1,,,
+"OVI0079","Huancayo","Corriedale","Macho","No",1,0,34.5,3.17,38.9,7.2,3.2,26.5,5.7,"No","Sin lesión",1,,,
+"OVI0155","Huancayo","Junín","Hembra","No",4.2,3,47.9,4.22,39.7,10,3.2,35.3,6.7,"No","Sin lesión",1,,,
+"OVI0195","Jauja","Criollo","Hembra","No",1,0,50.6,3.74,39.1,7.9,3.2,,6.7,"No","Sin lesión",2,,,
+"OVI0323","Concepción","Criollo","Macho","Sí",2.3,0,28.3,2.61,38.7,7.1,3.8,31.4,5.3,"No","Sin lesión",0,,,
+"OVI0302","Huancayo","Criollo","Hembra","Sí",7.1,3,39.5,3.73,,7,,,6.3,"No","Sin lesión",0,,,
+"OVI0075","Jauja","Junín","Hembra","Sí",6.2,4,44.6,2.78,39.3,6.1,3.3,35.3,6.5,"Sí","Leve",0,"Oxitetraciclina LA",10,1
+"OVI0051","Huancayo","Junín","Hembra","No",2.8,4,41.8,3.56,,6,3.6,24,7.1,"No","Sin lesión",1,,,
+"OVI0315","Huancayo","Corriedale","Hembra","Sí",2.2,2,41.3,2.91,39.8,9,3.1,33.1,7.4,"No","Sin lesión",1,,,
+"OVI0126","Jauja","Junín","Macho","Sí",5.1,4,46.3,3.76,39.5,11,3.9,30.9,6.7,"No","Sin lesión",0,,,
+"OVI0103","Huancayo","Corriedale","Macho","No",2.7,0,46.4,4.27,39.6,8.4,3.7,34,6.4,"Sí","Moderada",2,"Oxitetraciclina LA",10,1
+"OVI0093","Huancayo","Criollo","Hembra","No",4.6,0,60.2,3.97,39.7,,,46.4,6.7,"No","Sin lesión",1,,,
+"OVI0205","Jauja","Junín","Macho","No",1,0,32.6,3.74,,7.3,2.5,31,5.9,"No","Sin lesión",0,,,
+"OVI0182","Chupaca","Corriedale","Hembra","Sí",5,2,57.4,3.99,39.2,9.4,4.6,28.9,6.5,"Sí","Leve",1,"Baño de sulfato de zinc",13,1
+"OVI0036","Jauja","Junín","Hembra","No",4.2,5,29.5,2.82,38.6,9.7,4.3,27.9,6.1,"Sí","Moderada",0,"Baño de sulfato de zinc",10,1
+"OVI0111","Jauja","Junín","Hembra","Sí",3.9,5,50.5,3.94,39.1,7.3,2.5,31.1,6.6,"No","Sin lesión",1,,,
+"OVI0073","Concepción","Corriedale","Hembra","No",7.3,7,35.4,3.29,39.8,8.6,4.4,23.5,7.5,"Sí","Leve",5,"Baño de sulfato de zinc",21,1
+"OVI0174","Concepción","Junín","Hembra","No",3,1,41,3.76,39.1,8.1,1.9,31,6.8,"No","Sin lesión",0,,,
+"OVI0189","Huancayo","Criollo","Hembra","Sí",2.8,1,44.4,3.11,39.4,8.1,2.6,35.7,6.5,"No","Sin lesión",1,,,
+"OVI0325","Concepción","Junín","Hembra","No",3.4,3,31.7,2.46,38.7,8.8,4,32.6,7.7,"No","Sin lesión",0,,,
+"OVI0214","Huancayo","Junín","Hembra","No",4.6,4,25,2.15,39.5,8.4,3,25.6,6.5,"No","Sin lesión",3,,,
+"OVI0066","Jauja","Junín","Macho","No",4.6,1,47.6,3.86,39.5,5.3,2.8,32.9,7.4,"No","Sin lesión",0,,,
+"OVI0307","Chupaca","Junín","Macho","Sí",4.5,0,37.7,3.3,38.9,10.5,2.4,41.4,5.4,"No","Sin lesión",1,,,
+"OVI0310","Concepción","Corriedale","Hembra","No",4.6,2,30.9,2.39,39.3,5.9,4.1,27,5.8,"No","Sin lesión",1,,,
+"OVI0132","Huancayo","Criollo","Hembra","Sí",3.6,4,42.9,3.27,39,7.7,3.4,34.4,6.9,"No","Sin lesión",3,,,
+"OVI0070","Jauja","Criollo","Hembra","No",,0,39.1,3.28,39.9,10.7,4.9,39.2,6.9,"Sí","Leve",5,"Oxitetraciclina LA",2,1
+"OVI0034","Jauja","Criollo","Hembra","No",4.9,8,49.2,4.22,38.7,7.8,2.7,33.1,7,"No","Sin lesión",3,,,
+"OVI0281","Jauja","Criollo","Hembra","No",3.5,0,39.7,2.6,39,5.8,3.1,34.2,,"No","Sin lesión",0,,,
+"OVI0154","Huancayo","Criollo","Hembra","No",4.9,3,54.3,3,38.8,8.9,3.5,33.7,5.8,"No","Sin lesión",0,,,
+"OVI0271","Chupaca","Criollo","Macho","Sí",3.8,3,42.3,3.02,,5.7,4.3,32.4,7.5,"No","Sin lesión",1,,,
+"OVI0083","Huancayo","Criollo","Hembra","Sí",3.6,2,42.7,2.76,40.1,8.8,,25.2,7.1,"Sí","Grave",1,"Baño de sulfato de zinc",27,1
+"OVI0203","Huancayo","Corriedale","Hembra","Sí",4.1,1,46.1,4.48,39.5,10,1.7,37.5,6.3,"No","Sin lesión",0,,,
+"OVI0082","Jauja","Junín","Hembra","No",4.8,3,34.9,2.68,39,7,2.9,30.5,6.3,"No","Sin lesión",1,,,
+"OVI0152","Concepción","Corriedale","Macho","Sí",2,1,32.5,3.58,39.6,9.6,3.1,38.3,7.3,"No","Sin lesión",0,,,
+"OVI0252","Concepción","Criollo","Hembra","No",5.1,3,41.1,3.12,38.7,10.6,,,6.3,"No","Sin lesión",2,,,
+"OVI0190","Jauja","Corriedale","Hembra","Sí",4,2,46.8,4.79,39.1,7.6,3.2,36.5,5.8,"No","Sin lesión",0,,,
+"OVI0092","Huancayo","Junín","Hembra","No",3.2,4,49.4,4.06,38.8,9.2,3.7,38.4,5.9,"No","Sin lesión",1,,,
+"OVI0179","Huancayo","Criollo","Hembra","Sí",5.4,4,36.4,1.79,39.5,8.1,3.5,31.6,7.1,"No","Sin lesión",1,,,
+"OVI0043","Chupaca","Criollo","Hembra","No",3.7,4,32,2.46,39.3,5.7,,40.4,6.2,"No","Sin lesión",0,,,
+"OVI0125","Jauja","Corriedale","Hembra","Sí",2.8,2,41.4,3.11,38.8,7.4,,32.7,7.2,"No","Sin lesión",0,,,
+"OVI0319","Huancayo  ","Criollo","Hembra","NO",2.7,2,53.9,4.77,39.1,,2.6,31.2,6.9,"No","Sin lesión",2,,,
+"OVI0162","Jauja","Criollo","Macho","Sí",7.6,6,43.8,3.39,39,8.4,3.7,33.5,6.1,"No","Sin lesión",2,,,
+"OVI0004","Huancayo","Criollo","Hembra","No",3.8,1,39.7,2.81,39.2,7.8,2.9,30.4,6.4,"Sí","Leve",4,"Baño de sulfato de zinc",28,0
+"OVI0294","HUANCAYO","Criollo","Hembra","No",3.7,4,45,3.16,39.8,9.3,4.4,36.3,7.1,"Sí","Grave",9,"Baño de sulfato de zinc",12,1
+"OVI0318","Chupaca","Criollo","Hembra","No",6.4,5,46.9,3.91,,13.2,4.5,,7.6,"Sí","Leve",2,"Baño de sulfato de zinc",11,0
+"OVI0013","Huancayo","Criollo","Macho","No",3.3,3,42.7,3.12,38.5,7.7,4.4,31.8,6.3,"No","Sin lesión",1,,,
+"OVI0145","Concepción","Criollo","Hembra","Sí",6.9,11,44.3,4.14,39,8.7,3.5,37.3,6.1,"No","Sin lesión",1,,,
+"OVI0157","Concepción","Criollo","Macho","Sí",5.5,3,39.3,3.41,39.2,10.3,3.7,30.7,7,"No","Sin lesión",1,,,
+"OVI0037","Chupaca","Criollo","Macho","Sí",3,1,47.1,3.77,,8,4.7,30.8,6.7,"No","Sin lesión",2,,,
+"OVI0023","Huancayo","Corriedale","Hembra","Sí",5.3,6,42.4,3.51,39.6,12.3,4.6,32,6.6,"Sí","Leve",4,"Oxitetraciclina LA",27,1
+"OVI0096","Huancayo","Corriedale","Hembra","No",4.9,10,40.7,2.61,39,8.1,3.5,29.9,5.7,"No","Sin lesión",3,,,
+"OVI0165","Chupaca","Junín","Hembra","No",1,1,44.8,3.16,38.6,7.7,3.3,33,6.3,"No","Sin lesión",1,,,
+"OVI0006","Concepción","Junín","Hembra","Sí",2.2,1,33,2.57,39.4,7.7,3.8,29,7.3,"No","Sin lesión",1,,,
+"OVI0167","Huancayo","Corriedale","Hembra","No",5.2,7,46.6,3.42,39,10.9,3.4,25.8,5.9,"Sí","Leve",1,"Baño de sulfato de zinc",28,0
+"OVI0144","Huancayo","Junín","Hembra","No",2.8,5,31.9,3.78,39,9.4,2.9,35.8,6.3,"No","Sin lesión",1,,,
+"OVI0142","Huancayo","Criollo","Hembra","Sí",5.6,3,32.1,3.07,39.4,9.7,,23.4,6.3,"No","Sin lesión",1,,,
+"OVI0248","Huancayo","Criollo","Macho","No",3.3,2,32.6,2.16,38.8,6.2,2.1,28.8,7.2,"No","Sin lesión",1,,,
+"OVI0216","Jauja","Corriedale","Hembra","Sí",2.9,1,51.4,3.26,39,6.4,4.3,30.2,7.1,"Sí","Leve",1,"Baño de sulfato de zinc",8,1
+"OVI0029","Chupaca","Corriedale","Hembra","Sí",5.4,2,38.2,3.59,39.4,,3.3,26.7,6.6,"No","Sin lesión",1,,,
+"OVI0163","Chupaca","Criollo","Hembra","No",5,1,44.5,3.27,39.7,10.6,4.3,33.2,5.8,"Sí","Leve",1,"Baño de sulfato de zinc",28,0
+"OVI0060","Huancayo","Criollo","Macho","Sí",2.4,3,38.9,4.33,38.4,,3.3,30,5.8,"No","Sin lesión",1,,,
+"OVI0138","Concepción","Criollo","Macho","No",2.3,2,40.8,3.04,,7.4,3.6,38.3,6.8,"No","Sin lesión",3,,,
+"OVI0010","Concepción","Corriedale","Hembra","NO",4.6,2,32.7,3.08,40.2,11.6,3.8,32.7,6.2,"Sí","Moderada",1,"Oxitetraciclina LA",16,1
+"OVI0285","Concepción","Junín","Hembra","Sí",8.7,13,33.7,3.28,39.2,11.2,4.7,24.4,8,"Sí","Moderada",4,"Oxitetraciclina LA",15,1
+"OVI0137","Chupaca","Corriedale","Hembra","No",2.9,0,29.7,3.13,38.8,5.6,2.8,28.3,5.8,"No","Sin lesión",1,,,
+"OVI0042","Concepción","Criollo","Macho","No",3.2,3,32.5,2.05,39.4,10,5.8,27.5,,"Sí","Grave",3,"Baño de sulfato de zinc",15,1
+"OVI0007","Huancayo","Corriedale","Hembra","No",4.4,4,47.8,3.73,39.2,6.3,2.1,24,5.7,"No","Sin lesión",1,,,
+"OVI0090","Jauja","Corriedale","Hembra","Sí",4.9,1,,3.76,38.5,6.1,4.8,34,7.6,"No","Sin lesión",1,,,
+"OVI0225","Jauja","Criollo","Hembra","No",7,3,43.5,3.83,38.9,5.7,3.7,38.9,6.4,"No","Sin lesión",1,,,
+"OVI0077","Concepción","Criollo","Macho","Sí",2.4,2,42.6,3.22,39.7,9.1,4.4,28.4,7.3,"Sí","Leve",1,"Oxitetraciclina LA",8,1
