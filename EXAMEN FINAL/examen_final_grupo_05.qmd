@@ -1,0 +1,654 @@
+---
+title: "Examen final · Grupo 05"
+subtitle: "Coccidiosis en pollos de engorde"
+author: "Integrantes: (escriban aquí sus nombres)"
+lang: es
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-title: "Contenido"
+    number-sections: true
+    embed-resources: true
+    df-print: kable
+execute:
+  warning: false
+  message: false
+---
+
+# Bienvenidos {.unnumbered}
+
+Este documento es su examen final. **Todo el código ya está listo**: ustedes
+no tienen que programar. Su trabajo es ejecutar el documento, entender cada
+resultado y explicarlo en su exposición de la Semana 15.
+
+## Su caso
+
+La coccidiosis (*Eimeria* spp.) es una de las enfermedades de mayor impacto económico en la avicultura, porque reduce el peso final y empeora la conversión alimenticia. En una empresa avícola se muestrearon pollos de cuatro galpones a los 35 días. Se registró el programa anticoccidial, el sexo, si el agua de bebida estaba clorada, la densidad de aves, el número de reutilizaciones de la cama, el consumo acumulado de alimento, el peso a los 35 días, el diagnóstico de coccidiosis clínica y, en los casos, la severidad, el tratamiento y los días hasta la negativización de ooquistes.
+
+**La pregunta que ustedes deben responder:** ¿Qué factores de manejo se asocian con la coccidiosis clínica y con el peso a los 35 días, y qué tratamiento negativiza antes a las aves?
+
+Cada fila de la base es un(a) pollo.
+
+| Variable | Descripción | Valores |
+|---|---|---|
+| `id_ave` | Identificador del animal | Texto |
+| `galpon` | Galpón | Galpón 1 / Galpón 2 / Galpón 3 / Galpón 4 |
+| `programa_anticoccidial` | Programa anticoccidial | Ninguno / Ionóforo / Vacuna |
+| `sexo` | Sexo | Macho / Hembra |
+| `agua_clorada` | Agua de bebida clorada | Sí / No |
+| `densidad_aves_m2` | Densidad (aves/m²) | Numérica |
+| `reutilizaciones_cama` | Reutilizaciones de la cama | Conteo |
+| `consumo_acumulado_kg` | Consumo acumulado de alimento (kg) | Numérica |
+| `peso_35d_g` | Peso a los 35 días (g) | Numérica (variable principal) |
+| `hematocrito_pct` | Hematocrito (%) | Numérica |
+| `proteinas_totales_g_dl` | Proteínas totales (g/dL) | Numérica |
+| `carotenoides_ug_ml` | Carotenoides plasmáticos (µg/mL) | Numérica |
+| `glucosa_mg_dl` | Glucosa (mg/dL) | Numérica |
+| `temperatura_c` | Temperatura (°C) | Numérica |
+| `coccidiosis_clinica` | Coccidiosis clínica | Sí / No (resultado principal) |
+| `severidad_lesiones` | Severidad de lesiones intestinales | Sin lesiones / Leve / Moderada / Grave |
+| `segmentos_con_lesion` | Segmentos intestinales con lesión | Conteo |
+| `tratamiento` | Tratamiento (solo casos) | Amprolio / Toltrazuril |
+| `dias_hasta_negativizacion` | Días hasta negativización de ooquistes o censura (solo casos) | 1 a 14 |
+| `negativizado` | Ocurrió la negativización de ooquistes (solo casos) | 1 = sí, 0 = censura |
+
+## Cómo trabajar con este documento
+
+1. Abran el proyecto del curso con **`estadistica-2026-2.Rproj`** (no abran
+   este archivo suelto).
+2. Verifiquen que su base esté en
+   `datos/examen_final_semana_15/grupo_05/base_grupo_05_coccidiosis_pollos_engorde.csv`.
+3. Presionen **Render**. Si falta algún paquete, el primer bloque les dirá
+   qué instalar desde la Consola.
+4. Lean cada sección y respondan los recuadros **"Para su exposición"**.
+   Esas respuestas son el contenido de sus diapositivas.
+
+::: {.callout-note}
+## ¿Qué se evalúa?
+Los temas hasta la Semana 7 ya fueron evaluados en el parcial, así que la
+**Sección 1** solo prepara la base: ejecútenla, pero no la expongan en
+detalle. La exposición se centra en las **Secciones 2 a 7** (Semanas 9 a 14).
+:::
+
+# Preparación de la base (Semanas 3 a 7, solo ejecutar)
+
+Este bloque carga los paquetes, importa la base y la limpia: elimina
+duplicados, corrige categorías mal escritas y un error de escala en
+`peso_35d_g`, y define los factores. Es lo mismo que hicieron en la
+Semana 3.
+
+```{r}
+#| label: preparacion
+#| code-fold: true
+#| code-summary: "Ver el código de preparación"
+
+paquetes <- c(
+  "here", "readr", "dplyr", "tidyr", "stringr", "ggplot2", "gtsummary",
+  "car", "broom", "emmeans", "MASS", "performance", "survival",
+  "survminer", "FactoMineR", "factoextra", "mice", "knitr"
+)
+faltantes <- paquetes[!sapply(paquetes, requireNamespace, quietly = TRUE)]
+if (length(faltantes) > 0) {
+  stop(
+    "Instalen estos paquetes desde la Consola y vuelvan a intentar:\n",
+    "install.packages(c(", paste0('"', faltantes, '"', collapse = ", "), "))",
+    call. = FALSE
+  )
+}
+
+suppressPackageStartupMessages({
+  library(here); library(readr); library(dplyr); library(tidyr)
+  library(stringr); library(ggplot2); library(gtsummary); library(car)
+  library(broom); library(emmeans); library(performance); library(survival)
+  library(survminer); library(FactoMineR); library(factoextra)
+  library(mice); library(knitr)
+})
+select <- dplyr::select
+filter <- dplyr::filter
+
+ruta_base <- here("datos", "examen_final_semana_15", "grupo_05", "base_grupo_05_coccidiosis_pollos_engorde.csv")
+if (!file.exists(ruta_base)) {
+  stop("No se encontró la base en: ", ruta_base,
+       "\nAbran el proyecto con estadistica-2026-2.Rproj.", call. = FALSE)
+}
+datos_originales <- read_csv(ruta_base, show_col_types = FALSE)
+
+uniformizar <- function(x, niveles) {
+  niveles[match(str_to_lower(str_squish(x)), str_to_lower(niveles))]
+}
+
+datos <- datos_originales |>
+  distinct() |>
+  mutate(
+    galpon = factor(uniformizar(galpon, c("Galpón 1", "Galpón 2", "Galpón 3", "Galpón 4")), levels = c("Galpón 1", "Galpón 2", "Galpón 3", "Galpón 4")),
+    programa_anticoccidial = factor(uniformizar(programa_anticoccidial, c("Ninguno", "Ionóforo", "Vacuna")), levels = c("Ninguno", "Ionóforo", "Vacuna")),
+    sexo = factor(sexo, levels = c("Macho", "Hembra")),
+    agua_clorada = case_when(
+      str_to_upper(str_squish(agua_clorada)) %in% c("SI", "SÍ") ~ "Sí",
+      str_to_upper(str_squish(agua_clorada)) == "NO" ~ "No"
+    ),
+    agua_clorada = factor(agua_clorada, levels = c("Sí", "No")),
+    peso_35d_g = if_else(peso_35d_g < 1000, peso_35d_g * 10, peso_35d_g),
+    coccidiosis_clinica = factor(coccidiosis_clinica, levels = c("No", "Sí")),
+    severidad_lesiones = factor(severidad_lesiones, levels = c("Sin lesiones", "Leve", "Moderada", "Grave"), ordered = TRUE),
+    tratamiento = factor(tratamiento, levels = c("Amprolio", "Toltrazuril"))
+  )
+
+stopifnot(n_distinct(datos$id_ave) == nrow(datos))
+
+cat("Registros originales:", nrow(datos_originales),
+    "| después de la limpieza:", nrow(datos), "\n")
+```
+
+Para contextualizar su exposición, esta tabla describe a los animales
+estudiados según la presencia de coccidiosis clínica. Úsenla en la diapositiva de
+presentación de la población.
+
+```{r}
+#| label: tbl-poblacion
+#| tbl-cap: "Características de los animales según presencia de coccidiosis clínica."
+
+theme_gtsummary_language("es", big.mark = "")
+
+datos |>
+  select(galpon, programa_anticoccidial, sexo, agua_clorada, densidad_aves_m2, reutilizaciones_cama, consumo_acumulado_kg, peso_35d_g, coccidiosis_clinica) |>
+  tbl_summary(
+    by = coccidiosis_clinica,
+    missing = "no",
+    statistic = list(all_continuous() ~ "{mean} ({sd})"),
+    label = list(
+      galpon ~ "Galpón",
+      programa_anticoccidial ~ "Programa anticoccidial",
+      sexo ~ "Sexo",
+      agua_clorada ~ "Agua de bebida clorada",
+      densidad_aves_m2 ~ "Densidad (aves/m²)",
+      reutilizaciones_cama ~ "Reutilizaciones de la cama",
+      consumo_acumulado_kg ~ "Consumo acumulado de alimento (kg)",
+      peso_35d_g ~ "Peso a los 35 días (g)"
+    )
+  ) |>
+  add_overall() |>
+  bold_labels() |>
+  as_kable()
+```
+
+# Comparación de medias y regresión lineal (Semana 9)
+
+En esta sección ustedes comparan la variable principal, **peso a los 35 días**,
+entre grupos, y evalúan si se relaciona linealmente con
+consumo acumulado de alimento (kg).
+
+## Prueba t de Welch
+
+¿El promedio de peso a los 35 días es diferente entre animales con y sin
+coccidiosis clínica? Usamos Welch (`var.equal = FALSE`) porque no exige que las
+varianzas sean iguales.
+
+```{r}
+#| label: prueba-t
+
+prueba_t <- t.test(peso_35d_g ~ coccidiosis_clinica, data = datos, var.equal = FALSE)
+prueba_t
+```
+
+## ANOVA y comparaciones de Tukey
+
+¿El promedio de peso a los 35 días difiere según programa anticoccidial? El ANOVA responde
+si **hay** diferencias; Tukey les dice **entre qué grupos**.
+
+```{r}
+#| label: anova
+
+modelo_anova <- aov(peso_35d_g ~ programa_anticoccidial, data = datos)
+summary(modelo_anova)
+
+emmeans(modelo_anova, pairwise ~ programa_anticoccidial, adjust = "tukey")$contrasts
+```
+
+Ahora se agrega sexo y su **interacción** con programa anticoccidial. Si la
+interacción es significativa, el efecto de programa anticoccidial depende de
+sexo.
+
+```{r}
+#| label: anova-dos-vias
+
+modelo_anova_2 <- aov(peso_35d_g ~ programa_anticoccidial * sexo, data = datos)
+summary(modelo_anova_2)
+```
+
+## Correlación y regresión lineal simple
+
+`cor.test()` mide la fuerza de la relación (r). `lm()` estima cuánto cambia
+peso a los 35 días por cada unidad de `consumo_acumulado_kg` (la pendiente β1).
+
+```{r}
+#| label: regresion-lineal
+
+cor.test(datos$consumo_acumulado_kg, datos$peso_35d_g, method = "pearson")
+
+modelo_lineal <- lm(peso_35d_g ~ consumo_acumulado_kg, data = datos)
+kable(tidy(modelo_lineal, conf.int = TRUE), digits = 3)
+cat("R² =", round(summary(modelo_lineal)$r.squared, 3), "\n")
+```
+
+```{r}
+#| label: fig-diagnostico
+#| fig-cap: "Diagnóstico de residuos de la regresión lineal."
+#| fig-width: 9
+#| fig-height: 7
+
+par(mfrow = c(2, 2))
+plot(modelo_lineal)
+par(mfrow = c(1, 1))
+```
+
+::: {.callout-tip}
+## Para su exposición
+- Prueba t: ¿cuánto difieren las medias (en g), con qué IC 95 % y
+  qué valor p? ¿Es una diferencia importante en la práctica?
+- ANOVA: ¿qué pares de programa anticoccidial difieren según Tukey? ¿Hay interacción
+  con sexo?
+- Regresión: interpreten β1 con su IC 95 % y el R². ¿Ven algún problema en
+  los gráficos de residuos?
+:::
+
+# Asociación y modelos lineales generalizados (Semana 10)
+
+Aquí ustedes pasan de comparar medias a estudiar **qué factores se asocian
+con coccidiosis clínica**, con la severidad y con un conteo.
+
+## Chi-cuadrado de independencia
+
+¿Coccidiosis clínica está asociada con agua de bebida clorada? Si alguna frecuencia
+esperada fuera menor que 5, el código usa Fisher automáticamente.
+
+```{r}
+#| label: chi-cuadrado
+
+tabla <- table(agua_clorada = datos$agua_clorada, coccidiosis_clinica = datos$coccidiosis_clinica)
+tabla
+round(prop.table(tabla, margin = 1), 3)
+
+prueba_chi <- chisq.test(tabla)
+if (any(prueba_chi$expected < 5)) fisher.test(tabla) else prueba_chi
+```
+
+## Regresión logística binaria
+
+El resultado es coccidiosis clínica (Sí/No). Los coeficientes se presentan como
+**Odds Ratios (OR)**: OR > 1 aumenta las odds de enfermar, OR < 1 las reduce,
+y si el IC 95 % incluye el 1 no hay evidencia suficiente de asociación.
+
+```{r}
+#| label: logistica
+
+modelo_logistico <- glm(
+  coccidiosis_clinica ~ reutilizaciones_cama + agua_clorada + consumo_acumulado_kg + programa_anticoccidial,
+  data = datos, family = binomial
+)
+tabla_logistica <- tidy(modelo_logistico, exponentiate = TRUE, conf.int = TRUE)
+kable(tabla_logistica, digits = 3)
+```
+
+## Regresión logística ordinal
+
+Solo con los animales enfermos. La severidad tiene orden (Leve < Moderada <
+Grave), por eso se usa `polr()`. Un OR > 1 indica mayor probabilidad de estar
+en una categoría **más grave**.
+
+```{r}
+#| label: ordinal
+
+casos <- datos |>
+  filter(coccidiosis_clinica == "Sí") |>
+  mutate(severidad_lesiones = factor(as.character(severidad_lesiones), levels = c("Leve", "Moderada", "Grave"), ordered = TRUE)) |>
+  drop_na(severidad_lesiones, reutilizaciones_cama, agua_clorada)
+
+modelo_ordinal <- MASS::polr(severidad_lesiones ~ reutilizaciones_cama + agua_clorada, data = casos, Hess = TRUE)
+kable(tidy(modelo_ordinal, exponentiate = TRUE, conf.int = TRUE), digits = 3)
+```
+
+## Regresión de Poisson
+
+El resultado es un conteo: número de segmentos intestinales con lesión. Los coeficientes son **razones
+de tasas (RT)**: RT = 1.30 significa 30 % más eventos. Revisen además si hay
+**sobredispersión** (varianza mayor que la media), porque si la hay, los
+valores p de Poisson son demasiado optimistas.
+
+```{r}
+#| label: poisson
+
+modelo_poisson <- glm(
+  segmentos_con_lesion ~ reutilizaciones_cama + agua_clorada + programa_anticoccidial,
+  data = datos, family = poisson
+)
+kable(tidy(modelo_poisson, exponentiate = TRUE, conf.int = TRUE), digits = 3)
+
+check_overdispersion(modelo_poisson)
+```
+
+## Correlaciones no paramétricas
+
+Spearman evalúa una relación monotónica entre `consumo_acumulado_kg` y `peso_35d_g`. Kendall
+relaciona la severidad (ordinal) con `hematocrito_pct` en los enfermos.
+
+```{r}
+#| label: no-parametricas
+
+spearman <- cor.test(datos$consumo_acumulado_kg, datos$peso_35d_g, method = "spearman", exact = FALSE)
+kendall <- cor.test(as.numeric(casos$severidad_lesiones), casos$hematocrito_pct, method = "kendall", exact = FALSE)
+
+tibble(
+  metodo = c("Spearman", "Kendall"),
+  variables = c("consumo_acumulado_kg y peso_35d_g", "severidad y hematocrito_pct"),
+  coeficiente = c(spearman$estimate, kendall$estimate),
+  valor_p = c(spearman$p.value, kendall$p.value)
+) |> kable(digits = 4)
+```
+
+::: {.callout-tip}
+## Para su exposición
+- ¿Hay asociación entre agua de bebida clorada y coccidiosis clínica? Comparen los
+  porcentajes de enfermos en cada grupo.
+- Interpreten el OR de `agua_cloradaNo` y el de `consumo_acumulado_kg` (por cada unidad).
+- ¿Qué factores se asocian con mayor severidad?
+- Interpreten una razón de tasas del modelo de Poisson. ¿Hubo
+  sobredispersión? ¿Qué implica para sus conclusiones?
+:::
+
+# Análisis de supervivencia (Semana 11)
+
+Solo los animales enfermos recibieron tratamiento y fueron seguidos hasta la
+**negativización de ooquistes** (máximo 14 días). Si el seguimiento terminó
+sin que ocurriera el evento, el animal está **censurado** (`negativizado = 0`).
+
+::: {.callout-warning}
+## Cuidado con la dirección del efecto
+En su caso el evento es **favorable** (negativización de ooquistes). Un Hazard Ratio
+**mayor que 1** significa que el evento ocurre **más rápido**: recuperación
+más rápida.
+:::
+
+```{r}
+#| label: supervivencia
+
+datos_surv <- datos |>
+  filter(coccidiosis_clinica == "Sí") |>
+  mutate(severidad_lesiones = factor(as.character(severidad_lesiones), levels = c("Leve", "Moderada", "Grave"))) |>
+  drop_na(dias_hasta_negativizacion, negativizado, tratamiento)
+
+table(Tratamiento = datos_surv$tratamiento, Evento = datos_surv$negativizado)
+
+km <- survfit(Surv(dias_hasta_negativizacion, negativizado) ~ tratamiento, data = datos_surv)
+km
+```
+
+La curva muestra la probabilidad de **seguir sin** negativización de ooquistes a lo largo
+del tiempo. La curva que baja más rápido corresponde al tratamiento con el que
+los animales se recuperan antes. El valor p del gráfico es el de la prueba
+Log-Rank.
+
+```{r}
+#| label: fig-km
+#| fig-cap: "Curvas de Kaplan-Meier según tratamiento."
+#| fig-width: 9
+#| fig-height: 7
+
+grafico_km <- ggsurvplot(
+  km, data = datos_surv, conf.int = TRUE, risk.table = TRUE, pval = TRUE,
+  xlab = "Días de seguimiento",
+  ylab = "Probabilidad de continuar sin negativización de ooquistes",
+  legend.title = "Tratamiento", legend.labs = c("Amprolio", "Toltrazuril"),
+  ggtheme = theme_minimal()
+)
+print(grafico_km)
+```
+
+```{r}
+#| label: logrank-cox
+
+survdiff(Surv(dias_hasta_negativizacion, negativizado) ~ tratamiento, data = datos_surv)
+
+modelo_cox <- coxph(Surv(dias_hasta_negativizacion, negativizado) ~ tratamiento + severidad_lesiones + reutilizaciones_cama, data = datos_surv)
+kable(tidy(modelo_cox, exponentiate = TRUE, conf.int = TRUE), digits = 3)
+
+# Supuesto de riesgos proporcionales: p < 0.05 indica que no se cumple
+cox.zph(modelo_cox)
+```
+
+::: {.callout-tip}
+## Para su exposición
+- ¿Cuántos animales tuvieron el evento y cuántos fueron censurados?
+- ¿Cuál es la mediana de días hasta la negativización de ooquistes con cada tratamiento?
+- ¿Las curvas difieren según Log-Rank? ¿Qué dice el HR del tratamiento en
+  Cox, ajustado por severidad? Si Log-Rank y Cox no coinciden, expliquen por
+  qué puede ocurrir.
+- ¿Se cumple el supuesto de riesgos proporcionales?
+:::
+
+# Modelo multivariado (Semana 12)
+
+Ustedes van a comparar el efecto de cada variable **sola** (OR crudo) con su
+efecto **ajustado** por las demás. Todos los modelos usan los mismos registros
+completos para que la comparación sea justa.
+
+```{r}
+#| label: multivariado
+
+datos_modelo <- datos |>
+  select(coccidiosis_clinica, reutilizaciones_cama, agua_clorada, consumo_acumulado_kg, programa_anticoccidial, sexo, densidad_aves_m2) |>
+  drop_na()
+cat("Registros completos:", nrow(datos_modelo), "de", nrow(datos), "\n")
+
+predictores <- c("reutilizaciones_cama", "agua_clorada", "consumo_acumulado_kg", "programa_anticoccidial", "sexo", "densidad_aves_m2")
+
+or_crudos <- lapply(predictores, function(v) {
+  glm(reformulate(v, "coccidiosis_clinica"), data = datos_modelo, family = binomial) |>
+    tidy(exponentiate = TRUE) |>
+    filter(term != "(Intercept)")
+}) |> bind_rows()
+
+modelo_multivariado <- glm(
+  coccidiosis_clinica ~ reutilizaciones_cama + agua_clorada + consumo_acumulado_kg + programa_anticoccidial + sexo + densidad_aves_m2,
+  data = datos_modelo, family = binomial
+)
+tabla_multivariada <- tidy(modelo_multivariado, exponentiate = TRUE, conf.int = TRUE)
+
+or_crudos |>
+  select(term, or_crudo = estimate) |>
+  left_join(
+    tabla_multivariada |> select(term, or_ajustado = estimate, ic_inf = conf.low, ic_sup = conf.high, p = p.value),
+    by = "term"
+  ) |>
+  kable(digits = 3)
+```
+
+Diagnóstico: VIF cercano a 1 indica que no hay colinealidad (mayor que 5
+merece revisión). Hosmer-Lemeshow compara casos observados y esperados; un
+p > 0.05 indica que **no se detectó** mal ajuste (no "demuestra" buen ajuste).
+
+```{r}
+#| label: diagnostico-multivariado
+
+check_collinearity(modelo_multivariado)
+performance_hosmer(modelo_multivariado, n_bins = 10)
+```
+
+Esta es la tabla que usarían en un artículo científico:
+
+```{r}
+#| label: tbl-publicable
+#| tbl-cap: "Factores asociados a coccidiosis clínica: modelo logístico multivariado."
+
+tbl_regression(
+  modelo_multivariado,
+  exponentiate = TRUE,
+  label = list(
+      reutilizaciones_cama ~ "Reutilizaciones de la cama",
+      agua_clorada ~ "Agua de bebida clorada",
+      consumo_acumulado_kg ~ "Consumo acumulado de alimento (kg)",
+      programa_anticoccidial ~ "Programa anticoccidial",
+      sexo ~ "Sexo",
+      densidad_aves_m2 ~ "Densidad (aves/m²)"
+  )
+) |>
+  bold_labels() |>
+  as_kable()
+```
+
+::: {.callout-tip}
+## Para su exposición
+- ¿Qué variables siguen asociadas a coccidiosis clínica después de ajustar?
+  Interpreten al menos dos OR ajustados con su IC 95 %.
+- ¿Algún OR cambió mucho entre crudo y ajustado? ¿Qué podría explicarlo
+  (confusión)?
+- ¿Hay colinealidad? ¿Qué dice Hosmer-Lemeshow?
+:::
+
+# Componentes principales y K-means (Semana 13)
+
+Estos métodos **exploran** patrones entre muchas variables numéricas a la
+vez. No prueban hipótesis ni causalidad.
+
+```{r}
+#| label: pca
+
+datos_pca <- datos |>
+  select(coccidiosis_clinica, all_of(c("peso_35d_g", "consumo_acumulado_kg", "densidad_aves_m2", "hematocrito_pct", "proteinas_totales_g_dl", "carotenoides_ug_ml", "glucosa_mg_dl", "temperatura_c"))) |>
+  drop_na()
+variables_pca <- datos_pca |> select(-coccidiosis_clinica)
+
+resultado_pca <- PCA(variables_pca, scale.unit = TRUE, graph = FALSE)
+round(resultado_pca$eig[1:4, ], 2)
+```
+
+En el círculo de correlaciones, las flechas largas y cercanas a un eje son las
+variables que más definen esa componente. Flechas que apuntan en la misma
+dirección indican variables correlacionadas.
+
+```{r}
+#| label: fig-pca
+#| fig-cap: "Círculo de correlaciones del PCA."
+#| fig-width: 8
+#| fig-height: 6
+
+fviz_pca_var(resultado_pca, col.var = "contrib",
+             gradient.cols = c("#2563EB", "#F59E0B", "#DC2626"), repel = TRUE)
+```
+
+K-means agrupa a los animales en 3 grupos parecidos entre sí. Luego se
+describe el perfil promedio de cada grupo y se cruza con coccidiosis clínica
+(variable que K-means **no** usó).
+
+```{r}
+#| label: kmeans
+
+set.seed(2026)
+modelo_kmeans <- kmeans(scale(variables_pca), centers = 3, nstart = 50)
+
+variables_pca |>
+  mutate(cluster = factor(modelo_kmeans$cluster)) |>
+  group_by(cluster) |>
+  summarise(n = n(), across(everything(), \(x) round(mean(x), 2))) |>
+  kable()
+
+round(prop.table(table(cluster = modelo_kmeans$cluster, coccidiosis_clinica = datos_pca$coccidiosis_clinica), 1), 2)
+```
+
+::: {.callout-tip}
+## Para su exposición
+- ¿Qué porcentaje de la varianza explican las dos primeras componentes?
+- ¿Qué variables definen la Dim 1? ¿Qué representa en términos veterinarios?
+- Describan el perfil de cada cluster. ¿Alguno concentra más animales con
+  coccidiosis clínica?
+:::
+
+# Datos perdidos e imputación múltiple (Semana 14)
+
+Su base tiene datos perdidos. Eliminar los registros incompletos reduce la
+muestra; reemplazar por la media subestima la variabilidad. La imputación
+múltiple crea 5 bases plausibles, ajusta el modelo en cada una y combina los
+resultados (reglas de Rubin).
+
+```{r}
+#| label: faltantes
+
+datos_imputacion <- datos |>
+  select(coccidiosis_clinica, reutilizaciones_cama, agua_clorada, consumo_acumulado_kg, programa_anticoccidial, sexo, densidad_aves_m2, peso_35d_g, all_of(c("hematocrito_pct", "proteinas_totales_g_dl", "carotenoides_ug_ml", "glucosa_mg_dl", "temperatura_c")))
+
+tibble(
+  variable = names(datos_imputacion),
+  porcentaje_faltante = round(100 * colMeans(is.na(datos_imputacion)), 1)
+) |>
+  filter(porcentaje_faltante > 0) |>
+  arrange(desc(porcentaje_faltante)) |>
+  kable()
+
+cat("Registros completos:", sum(complete.cases(datos_imputacion)), "de", nrow(datos_imputacion), "\n")
+```
+
+```{r}
+#| label: mice
+
+imputacion <- mice(datos_imputacion, m = 5, maxit = 10, seed = 2026, printFlag = FALSE)
+
+modelo_combinado <- with(
+  imputacion,
+  glm(coccidiosis_clinica ~ reutilizaciones_cama + agua_clorada + consumo_acumulado_kg + programa_anticoccidial, family = binomial)
+) |> pool()
+
+tabla_imputada <- summary(modelo_combinado, conf.int = TRUE, exponentiate = TRUE) |>
+  as_tibble() |>
+  mutate(term = as.character(term))
+
+# Comparación con el mismo modelo de la Sección 3 (solo casos completos)
+tabla_logistica |>
+  select(term, or_casos_completos = estimate) |>
+  left_join(tabla_imputada |> select(term, or_imputado = estimate, p_imputado = p.value), by = "term") |>
+  kable(digits = 3)
+
+cat("Animales usados: casos completos =", nobs(modelo_logistico),
+    "| imputación =", nrow(datos_imputacion), "\n")
+```
+
+::: {.callout-tip}
+## Para su exposición
+- ¿Qué variables tenían más datos perdidos y cuántos registros se perderían
+  usando solo casos completos?
+- ¿Cambiaron los OR al imputar? ¿Por qué la imputación múltiple es mejor que
+  eliminar registros o usar la media?
+:::
+
+# Guía para su exposición {.unnumbered}
+
+**Tiempo:** 10 minutos de exposición + 5 de preguntas. Todos los integrantes
+exponen una parte y deben poder responder sobre cualquier sección.
+
+**Diapositivas sugeridas (8 a 10):**
+
+1. Título: tema, especie e integrantes.
+2. Contexto, pregunta del estudio y población (tabla del inicio).
+3. Prueba t, ANOVA y regresión lineal (Semana 9).
+4. Chi-cuadrado y regresión logística (Semana 10).
+5. Severidad (ordinal) y conteo (Poisson) (Semana 10).
+6. Curvas de Kaplan-Meier y HR de Cox (Semana 11).
+7. Modelo multivariado: OR crudos frente a ajustados (Semana 12).
+8. PCA y perfiles de K-means (Semana 13).
+9. Imputación múltiple (Semana 14).
+10. Conclusiones: respondan la pregunta del estudio y den recomendaciones
+    prácticas.
+
+**Cada resultado se reporta así:** estimación + IC 95 % + valor p +
+significado práctico. Por ejemplo (valores ficticios): *"Los animales sin la
+medida preventiva tuvieron 2.1 veces más odds de enfermar (OR ajustado = 2.10;
+IC 95 %: 1.30 a 3.40; p = 0.002)."*
+
+**Eviten estos errores:**
+
+- Afirmar causalidad: los OR, HR, correlaciones y clusters muestran
+  **asociación**.
+- Decir que p > 0.05 "demuestra" que no hay diferencia.
+- Reportar solo el valor p, sin la magnitud del efecto ni el IC.
+- Olvidar que en su análisis de supervivencia el evento es favorable: HR > 1
+  significa recuperación más rápida.

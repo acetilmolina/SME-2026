@@ -1,0 +1,654 @@
+---
+title: "Examen final · Grupo 02"
+subtitle: "Ehrlichiosis canina en perros atendidos en clínicas de Lima"
+author: "Integrantes: (escriban aquí sus nombres)"
+lang: es
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-title: "Contenido"
+    number-sections: true
+    embed-resources: true
+    df-print: kable
+execute:
+  warning: false
+  message: false
+---
+
+# Bienvenidos {.unnumbered}
+
+Este documento es su examen final. **Todo el código ya está listo**: ustedes
+no tienen que programar. Su trabajo es ejecutar el documento, entender cada
+resultado y explicarlo en su exposición de la Semana 15.
+
+## Su caso
+
+La ehrlichiosis canina, transmitida por la garrapata marrón del perro (*Rhipicephalus sanguineus*), es frecuente en zonas urbanas cálidas y produce trombocitopenia, anemia y fiebre. Se evaluaron perros atendidos en clínicas veterinarias de cuatro zonas de Lima y Callao. Se registró el control de garrapatas usado, el tamaño de la raza, si el perro vive dentro de la casa, el recuento de plaquetas, el diagnóstico por PCR y, en los positivos, la severidad, el tratamiento y los días hasta normalizar las plaquetas.
+
+**La pregunta que ustedes deben responder:** ¿Qué factores se asocian con la ehrlichiosis y con el recuento de plaquetas, y qué protocolo terapéutico normaliza antes las plaquetas?
+
+Cada fila de la base es un(a) perro.
+
+| Variable | Descripción | Valores |
+|---|---|---|
+| `id_perro` | Identificador del animal | Texto |
+| `zona` | Zona | Lima Norte / Lima Sur / Lima Este / Callao |
+| `control_garrapatas` | Control de garrapatas | Ninguno / Tópico / Oral |
+| `tamano_raza` | Tamaño de raza | Pequeña / Mediana / Grande |
+| `vive_dentro_casa` | Vive dentro de la casa | Sí / No |
+| `edad_anios` | Edad (años) | Numérica |
+| `perros_en_hogar` | Número de perros en el hogar | Conteo |
+| `hematocrito_pct` | Hematocrito (%) | Numérica |
+| `plaquetas_10_3_ul` | Plaquetas (10^3/µL) | Numérica (variable principal) |
+| `temperatura_c` | Temperatura (°C) | Numérica |
+| `leucocitos_10_9_l` | Leucocitos (10^9/L) | Numérica |
+| `proteinas_totales_g_dl` | Proteínas totales (g/dL) | Numérica |
+| `globulinas_g_dl` | Globulinas (g/dL) | Numérica |
+| `alt_u_l` | ALT (U/L) | Numérica |
+| `ehrlichiosis` | Ehrlichiosis (PCR) | Sí / No (resultado principal) |
+| `severidad_ehrlichiosis` | Severidad clínica | Sin ehrlichiosis / Leve / Moderada / Grave |
+| `garrapatas_observadas` | Garrapatas observadas en la consulta | Conteo |
+| `tratamiento` | Tratamiento (solo casos) | Doxiciclina / Doxiciclina + Imidocarb |
+| `dias_hasta_normalizar_plaquetas` | Días hasta normalización de plaquetas o censura (solo casos) | 1 a 42 |
+| `plaquetas_normalizadas` | Ocurrió la normalización de plaquetas (solo casos) | 1 = sí, 0 = censura |
+
+## Cómo trabajar con este documento
+
+1. Abran el proyecto del curso con **`estadistica-2026-2.Rproj`** (no abran
+   este archivo suelto).
+2. Verifiquen que su base esté en
+   `datos/examen_final_semana_15/grupo_02/base_grupo_02_ehrlichiosis_canina.csv`.
+3. Presionen **Render**. Si falta algún paquete, el primer bloque les dirá
+   qué instalar desde la Consola.
+4. Lean cada sección y respondan los recuadros **"Para su exposición"**.
+   Esas respuestas son el contenido de sus diapositivas.
+
+::: {.callout-note}
+## ¿Qué se evalúa?
+Los temas hasta la Semana 7 ya fueron evaluados en el parcial, así que la
+**Sección 1** solo prepara la base: ejecútenla, pero no la expongan en
+detalle. La exposición se centra en las **Secciones 2 a 7** (Semanas 9 a 14).
+:::
+
+# Preparación de la base (Semanas 3 a 7, solo ejecutar)
+
+Este bloque carga los paquetes, importa la base y la limpia: elimina
+duplicados, corrige categorías mal escritas y un error de escala en
+`hematocrito_pct`, y define los factores. Es lo mismo que hicieron en la
+Semana 3.
+
+```{r}
+#| label: preparacion
+#| code-fold: true
+#| code-summary: "Ver el código de preparación"
+
+paquetes <- c(
+  "here", "readr", "dplyr", "tidyr", "stringr", "ggplot2", "gtsummary",
+  "car", "broom", "emmeans", "MASS", "performance", "survival",
+  "survminer", "FactoMineR", "factoextra", "mice", "knitr"
+)
+faltantes <- paquetes[!sapply(paquetes, requireNamespace, quietly = TRUE)]
+if (length(faltantes) > 0) {
+  stop(
+    "Instalen estos paquetes desde la Consola y vuelvan a intentar:\n",
+    "install.packages(c(", paste0('"', faltantes, '"', collapse = ", "), "))",
+    call. = FALSE
+  )
+}
+
+suppressPackageStartupMessages({
+  library(here); library(readr); library(dplyr); library(tidyr)
+  library(stringr); library(ggplot2); library(gtsummary); library(car)
+  library(broom); library(emmeans); library(performance); library(survival)
+  library(survminer); library(FactoMineR); library(factoextra)
+  library(mice); library(knitr)
+})
+select <- dplyr::select
+filter <- dplyr::filter
+
+ruta_base <- here("datos", "examen_final_semana_15", "grupo_02", "base_grupo_02_ehrlichiosis_canina.csv")
+if (!file.exists(ruta_base)) {
+  stop("No se encontró la base en: ", ruta_base,
+       "\nAbran el proyecto con estadistica-2026-2.Rproj.", call. = FALSE)
+}
+datos_originales <- read_csv(ruta_base, show_col_types = FALSE)
+
+uniformizar <- function(x, niveles) {
+  niveles[match(str_to_lower(str_squish(x)), str_to_lower(niveles))]
+}
+
+datos <- datos_originales |>
+  distinct() |>
+  mutate(
+    zona = factor(uniformizar(zona, c("Lima Norte", "Lima Sur", "Lima Este", "Callao")), levels = c("Lima Norte", "Lima Sur", "Lima Este", "Callao")),
+    control_garrapatas = factor(uniformizar(control_garrapatas, c("Ninguno", "Tópico", "Oral")), levels = c("Ninguno", "Tópico", "Oral")),
+    tamano_raza = factor(tamano_raza, levels = c("Pequeña", "Mediana", "Grande")),
+    vive_dentro_casa = case_when(
+      str_to_upper(str_squish(vive_dentro_casa)) %in% c("SI", "SÍ") ~ "Sí",
+      str_to_upper(str_squish(vive_dentro_casa)) == "NO" ~ "No"
+    ),
+    vive_dentro_casa = factor(vive_dentro_casa, levels = c("Sí", "No")),
+    hematocrito_pct = if_else(hematocrito_pct < 12, hematocrito_pct * 10, hematocrito_pct),
+    ehrlichiosis = factor(ehrlichiosis, levels = c("No", "Sí")),
+    severidad_ehrlichiosis = factor(severidad_ehrlichiosis, levels = c("Sin ehrlichiosis", "Leve", "Moderada", "Grave"), ordered = TRUE),
+    tratamiento = factor(tratamiento, levels = c("Doxiciclina", "Doxiciclina + Imidocarb"))
+  )
+
+stopifnot(n_distinct(datos$id_perro) == nrow(datos))
+
+cat("Registros originales:", nrow(datos_originales),
+    "| después de la limpieza:", nrow(datos), "\n")
+```
+
+Para contextualizar su exposición, esta tabla describe a los animales
+estudiados según la presencia de ehrlichiosis. Úsenla en la diapositiva de
+presentación de la población.
+
+```{r}
+#| label: tbl-poblacion
+#| tbl-cap: "Características de los animales según presencia de ehrlichiosis."
+
+theme_gtsummary_language("es", big.mark = "")
+
+datos |>
+  select(zona, control_garrapatas, tamano_raza, vive_dentro_casa, edad_anios, perros_en_hogar, hematocrito_pct, plaquetas_10_3_ul, ehrlichiosis) |>
+  tbl_summary(
+    by = ehrlichiosis,
+    missing = "no",
+    statistic = list(all_continuous() ~ "{mean} ({sd})"),
+    label = list(
+      zona ~ "Zona",
+      control_garrapatas ~ "Control de garrapatas",
+      tamano_raza ~ "Tamaño de raza",
+      vive_dentro_casa ~ "Vive dentro de la casa",
+      edad_anios ~ "Edad (años)",
+      perros_en_hogar ~ "Número de perros en el hogar",
+      hematocrito_pct ~ "Hematocrito (%)",
+      plaquetas_10_3_ul ~ "Plaquetas (10^3/µL)"
+    )
+  ) |>
+  add_overall() |>
+  bold_labels() |>
+  as_kable()
+```
+
+# Comparación de medias y regresión lineal (Semana 9)
+
+En esta sección ustedes comparan la variable principal, **recuento de plaquetas**,
+entre grupos, y evalúan si se relaciona linealmente con
+hematocrito (%).
+
+## Prueba t de Welch
+
+¿El promedio de recuento de plaquetas es diferente entre animales con y sin
+ehrlichiosis? Usamos Welch (`var.equal = FALSE`) porque no exige que las
+varianzas sean iguales.
+
+```{r}
+#| label: prueba-t
+
+prueba_t <- t.test(plaquetas_10_3_ul ~ ehrlichiosis, data = datos, var.equal = FALSE)
+prueba_t
+```
+
+## ANOVA y comparaciones de Tukey
+
+¿El promedio de recuento de plaquetas difiere según control de garrapatas? El ANOVA responde
+si **hay** diferencias; Tukey les dice **entre qué grupos**.
+
+```{r}
+#| label: anova
+
+modelo_anova <- aov(plaquetas_10_3_ul ~ control_garrapatas, data = datos)
+summary(modelo_anova)
+
+emmeans(modelo_anova, pairwise ~ control_garrapatas, adjust = "tukey")$contrasts
+```
+
+Ahora se agrega tamaño de raza y su **interacción** con control de garrapatas. Si la
+interacción es significativa, el efecto de control de garrapatas depende de
+tamaño de raza.
+
+```{r}
+#| label: anova-dos-vias
+
+modelo_anova_2 <- aov(plaquetas_10_3_ul ~ control_garrapatas * tamano_raza, data = datos)
+summary(modelo_anova_2)
+```
+
+## Correlación y regresión lineal simple
+
+`cor.test()` mide la fuerza de la relación (r). `lm()` estima cuánto cambia
+recuento de plaquetas por cada unidad de `hematocrito_pct` (la pendiente β1).
+
+```{r}
+#| label: regresion-lineal
+
+cor.test(datos$hematocrito_pct, datos$plaquetas_10_3_ul, method = "pearson")
+
+modelo_lineal <- lm(plaquetas_10_3_ul ~ hematocrito_pct, data = datos)
+kable(tidy(modelo_lineal, conf.int = TRUE), digits = 3)
+cat("R² =", round(summary(modelo_lineal)$r.squared, 3), "\n")
+```
+
+```{r}
+#| label: fig-diagnostico
+#| fig-cap: "Diagnóstico de residuos de la regresión lineal."
+#| fig-width: 9
+#| fig-height: 7
+
+par(mfrow = c(2, 2))
+plot(modelo_lineal)
+par(mfrow = c(1, 1))
+```
+
+::: {.callout-tip}
+## Para su exposición
+- Prueba t: ¿cuánto difieren las medias (en 10^3/µL), con qué IC 95 % y
+  qué valor p? ¿Es una diferencia importante en la práctica?
+- ANOVA: ¿qué pares de control de garrapatas difieren según Tukey? ¿Hay interacción
+  con tamaño de raza?
+- Regresión: interpreten β1 con su IC 95 % y el R². ¿Ven algún problema en
+  los gráficos de residuos?
+:::
+
+# Asociación y modelos lineales generalizados (Semana 10)
+
+Aquí ustedes pasan de comparar medias a estudiar **qué factores se asocian
+con ehrlichiosis**, con la severidad y con un conteo.
+
+## Chi-cuadrado de independencia
+
+¿Ehrlichiosis (PCR) está asociada con vive dentro de la casa? Si alguna frecuencia
+esperada fuera menor que 5, el código usa Fisher automáticamente.
+
+```{r}
+#| label: chi-cuadrado
+
+tabla <- table(vive_dentro_casa = datos$vive_dentro_casa, ehrlichiosis = datos$ehrlichiosis)
+tabla
+round(prop.table(tabla, margin = 1), 3)
+
+prueba_chi <- chisq.test(tabla)
+if (any(prueba_chi$expected < 5)) fisher.test(tabla) else prueba_chi
+```
+
+## Regresión logística binaria
+
+El resultado es ehrlichiosis (Sí/No). Los coeficientes se presentan como
+**Odds Ratios (OR)**: OR > 1 aumenta las odds de enfermar, OR < 1 las reduce,
+y si el IC 95 % incluye el 1 no hay evidencia suficiente de asociación.
+
+```{r}
+#| label: logistica
+
+modelo_logistico <- glm(
+  ehrlichiosis ~ perros_en_hogar + vive_dentro_casa + hematocrito_pct + control_garrapatas,
+  data = datos, family = binomial
+)
+tabla_logistica <- tidy(modelo_logistico, exponentiate = TRUE, conf.int = TRUE)
+kable(tabla_logistica, digits = 3)
+```
+
+## Regresión logística ordinal
+
+Solo con los animales enfermos. La severidad tiene orden (Leve < Moderada <
+Grave), por eso se usa `polr()`. Un OR > 1 indica mayor probabilidad de estar
+en una categoría **más grave**.
+
+```{r}
+#| label: ordinal
+
+casos <- datos |>
+  filter(ehrlichiosis == "Sí") |>
+  mutate(severidad_ehrlichiosis = factor(as.character(severidad_ehrlichiosis), levels = c("Leve", "Moderada", "Grave"), ordered = TRUE)) |>
+  drop_na(severidad_ehrlichiosis, perros_en_hogar, vive_dentro_casa)
+
+modelo_ordinal <- MASS::polr(severidad_ehrlichiosis ~ perros_en_hogar + vive_dentro_casa, data = casos, Hess = TRUE)
+kable(tidy(modelo_ordinal, exponentiate = TRUE, conf.int = TRUE), digits = 3)
+```
+
+## Regresión de Poisson
+
+El resultado es un conteo: número de garrapatas observadas. Los coeficientes son **razones
+de tasas (RT)**: RT = 1.30 significa 30 % más eventos. Revisen además si hay
+**sobredispersión** (varianza mayor que la media), porque si la hay, los
+valores p de Poisson son demasiado optimistas.
+
+```{r}
+#| label: poisson
+
+modelo_poisson <- glm(
+  garrapatas_observadas ~ perros_en_hogar + vive_dentro_casa + control_garrapatas,
+  data = datos, family = poisson
+)
+kable(tidy(modelo_poisson, exponentiate = TRUE, conf.int = TRUE), digits = 3)
+
+check_overdispersion(modelo_poisson)
+```
+
+## Correlaciones no paramétricas
+
+Spearman evalúa una relación monotónica entre `hematocrito_pct` y `plaquetas_10_3_ul`. Kendall
+relaciona la severidad (ordinal) con `temperatura_c` en los enfermos.
+
+```{r}
+#| label: no-parametricas
+
+spearman <- cor.test(datos$hematocrito_pct, datos$plaquetas_10_3_ul, method = "spearman", exact = FALSE)
+kendall <- cor.test(as.numeric(casos$severidad_ehrlichiosis), casos$temperatura_c, method = "kendall", exact = FALSE)
+
+tibble(
+  metodo = c("Spearman", "Kendall"),
+  variables = c("hematocrito_pct y plaquetas_10_3_ul", "severidad y temperatura_c"),
+  coeficiente = c(spearman$estimate, kendall$estimate),
+  valor_p = c(spearman$p.value, kendall$p.value)
+) |> kable(digits = 4)
+```
+
+::: {.callout-tip}
+## Para su exposición
+- ¿Hay asociación entre vive dentro de la casa y ehrlichiosis? Comparen los
+  porcentajes de enfermos en cada grupo.
+- Interpreten el OR de `vive_dentro_casaNo` y el de `hematocrito_pct` (por cada unidad).
+- ¿Qué factores se asocian con mayor severidad?
+- Interpreten una razón de tasas del modelo de Poisson. ¿Hubo
+  sobredispersión? ¿Qué implica para sus conclusiones?
+:::
+
+# Análisis de supervivencia (Semana 11)
+
+Solo los animales enfermos recibieron tratamiento y fueron seguidos hasta la
+**normalización de plaquetas** (máximo 42 días). Si el seguimiento terminó
+sin que ocurriera el evento, el animal está **censurado** (`plaquetas_normalizadas = 0`).
+
+::: {.callout-warning}
+## Cuidado con la dirección del efecto
+En su caso el evento es **favorable** (normalización de plaquetas). Un Hazard Ratio
+**mayor que 1** significa que el evento ocurre **más rápido**: recuperación
+más rápida.
+:::
+
+```{r}
+#| label: supervivencia
+
+datos_surv <- datos |>
+  filter(ehrlichiosis == "Sí") |>
+  mutate(severidad_ehrlichiosis = factor(as.character(severidad_ehrlichiosis), levels = c("Leve", "Moderada", "Grave"))) |>
+  drop_na(dias_hasta_normalizar_plaquetas, plaquetas_normalizadas, tratamiento)
+
+table(Tratamiento = datos_surv$tratamiento, Evento = datos_surv$plaquetas_normalizadas)
+
+km <- survfit(Surv(dias_hasta_normalizar_plaquetas, plaquetas_normalizadas) ~ tratamiento, data = datos_surv)
+km
+```
+
+La curva muestra la probabilidad de **seguir sin** normalización de plaquetas a lo largo
+del tiempo. La curva que baja más rápido corresponde al tratamiento con el que
+los animales se recuperan antes. El valor p del gráfico es el de la prueba
+Log-Rank.
+
+```{r}
+#| label: fig-km
+#| fig-cap: "Curvas de Kaplan-Meier según tratamiento."
+#| fig-width: 9
+#| fig-height: 7
+
+grafico_km <- ggsurvplot(
+  km, data = datos_surv, conf.int = TRUE, risk.table = TRUE, pval = TRUE,
+  xlab = "Días de seguimiento",
+  ylab = "Probabilidad de continuar sin normalización de plaquetas",
+  legend.title = "Tratamiento", legend.labs = c("Doxiciclina", "Doxiciclina + Imidocarb"),
+  ggtheme = theme_minimal()
+)
+print(grafico_km)
+```
+
+```{r}
+#| label: logrank-cox
+
+survdiff(Surv(dias_hasta_normalizar_plaquetas, plaquetas_normalizadas) ~ tratamiento, data = datos_surv)
+
+modelo_cox <- coxph(Surv(dias_hasta_normalizar_plaquetas, plaquetas_normalizadas) ~ tratamiento + severidad_ehrlichiosis + perros_en_hogar, data = datos_surv)
+kable(tidy(modelo_cox, exponentiate = TRUE, conf.int = TRUE), digits = 3)
+
+# Supuesto de riesgos proporcionales: p < 0.05 indica que no se cumple
+cox.zph(modelo_cox)
+```
+
+::: {.callout-tip}
+## Para su exposición
+- ¿Cuántos animales tuvieron el evento y cuántos fueron censurados?
+- ¿Cuál es la mediana de días hasta la normalización de plaquetas con cada tratamiento?
+- ¿Las curvas difieren según Log-Rank? ¿Qué dice el HR del tratamiento en
+  Cox, ajustado por severidad? Si Log-Rank y Cox no coinciden, expliquen por
+  qué puede ocurrir.
+- ¿Se cumple el supuesto de riesgos proporcionales?
+:::
+
+# Modelo multivariado (Semana 12)
+
+Ustedes van a comparar el efecto de cada variable **sola** (OR crudo) con su
+efecto **ajustado** por las demás. Todos los modelos usan los mismos registros
+completos para que la comparación sea justa.
+
+```{r}
+#| label: multivariado
+
+datos_modelo <- datos |>
+  select(ehrlichiosis, perros_en_hogar, vive_dentro_casa, hematocrito_pct, control_garrapatas, tamano_raza, edad_anios) |>
+  drop_na()
+cat("Registros completos:", nrow(datos_modelo), "de", nrow(datos), "\n")
+
+predictores <- c("perros_en_hogar", "vive_dentro_casa", "hematocrito_pct", "control_garrapatas", "tamano_raza", "edad_anios")
+
+or_crudos <- lapply(predictores, function(v) {
+  glm(reformulate(v, "ehrlichiosis"), data = datos_modelo, family = binomial) |>
+    tidy(exponentiate = TRUE) |>
+    filter(term != "(Intercept)")
+}) |> bind_rows()
+
+modelo_multivariado <- glm(
+  ehrlichiosis ~ perros_en_hogar + vive_dentro_casa + hematocrito_pct + control_garrapatas + tamano_raza + edad_anios,
+  data = datos_modelo, family = binomial
+)
+tabla_multivariada <- tidy(modelo_multivariado, exponentiate = TRUE, conf.int = TRUE)
+
+or_crudos |>
+  select(term, or_crudo = estimate) |>
+  left_join(
+    tabla_multivariada |> select(term, or_ajustado = estimate, ic_inf = conf.low, ic_sup = conf.high, p = p.value),
+    by = "term"
+  ) |>
+  kable(digits = 3)
+```
+
+Diagnóstico: VIF cercano a 1 indica que no hay colinealidad (mayor que 5
+merece revisión). Hosmer-Lemeshow compara casos observados y esperados; un
+p > 0.05 indica que **no se detectó** mal ajuste (no "demuestra" buen ajuste).
+
+```{r}
+#| label: diagnostico-multivariado
+
+check_collinearity(modelo_multivariado)
+performance_hosmer(modelo_multivariado, n_bins = 10)
+```
+
+Esta es la tabla que usarían en un artículo científico:
+
+```{r}
+#| label: tbl-publicable
+#| tbl-cap: "Factores asociados a ehrlichiosis: modelo logístico multivariado."
+
+tbl_regression(
+  modelo_multivariado,
+  exponentiate = TRUE,
+  label = list(
+      perros_en_hogar ~ "Número de perros en el hogar",
+      vive_dentro_casa ~ "Vive dentro de la casa",
+      hematocrito_pct ~ "Hematocrito (%)",
+      control_garrapatas ~ "Control de garrapatas",
+      tamano_raza ~ "Tamaño de raza",
+      edad_anios ~ "Edad (años)"
+  )
+) |>
+  bold_labels() |>
+  as_kable()
+```
+
+::: {.callout-tip}
+## Para su exposición
+- ¿Qué variables siguen asociadas a ehrlichiosis después de ajustar?
+  Interpreten al menos dos OR ajustados con su IC 95 %.
+- ¿Algún OR cambió mucho entre crudo y ajustado? ¿Qué podría explicarlo
+  (confusión)?
+- ¿Hay colinealidad? ¿Qué dice Hosmer-Lemeshow?
+:::
+
+# Componentes principales y K-means (Semana 13)
+
+Estos métodos **exploran** patrones entre muchas variables numéricas a la
+vez. No prueban hipótesis ni causalidad.
+
+```{r}
+#| label: pca
+
+datos_pca <- datos |>
+  select(ehrlichiosis, all_of(c("plaquetas_10_3_ul", "hematocrito_pct", "edad_anios", "temperatura_c", "leucocitos_10_9_l", "proteinas_totales_g_dl", "globulinas_g_dl", "alt_u_l"))) |>
+  drop_na()
+variables_pca <- datos_pca |> select(-ehrlichiosis)
+
+resultado_pca <- PCA(variables_pca, scale.unit = TRUE, graph = FALSE)
+round(resultado_pca$eig[1:4, ], 2)
+```
+
+En el círculo de correlaciones, las flechas largas y cercanas a un eje son las
+variables que más definen esa componente. Flechas que apuntan en la misma
+dirección indican variables correlacionadas.
+
+```{r}
+#| label: fig-pca
+#| fig-cap: "Círculo de correlaciones del PCA."
+#| fig-width: 8
+#| fig-height: 6
+
+fviz_pca_var(resultado_pca, col.var = "contrib",
+             gradient.cols = c("#2563EB", "#F59E0B", "#DC2626"), repel = TRUE)
+```
+
+K-means agrupa a los animales en 3 grupos parecidos entre sí. Luego se
+describe el perfil promedio de cada grupo y se cruza con ehrlichiosis
+(variable que K-means **no** usó).
+
+```{r}
+#| label: kmeans
+
+set.seed(2026)
+modelo_kmeans <- kmeans(scale(variables_pca), centers = 3, nstart = 50)
+
+variables_pca |>
+  mutate(cluster = factor(modelo_kmeans$cluster)) |>
+  group_by(cluster) |>
+  summarise(n = n(), across(everything(), \(x) round(mean(x), 2))) |>
+  kable()
+
+round(prop.table(table(cluster = modelo_kmeans$cluster, ehrlichiosis = datos_pca$ehrlichiosis), 1), 2)
+```
+
+::: {.callout-tip}
+## Para su exposición
+- ¿Qué porcentaje de la varianza explican las dos primeras componentes?
+- ¿Qué variables definen la Dim 1? ¿Qué representa en términos veterinarios?
+- Describan el perfil de cada cluster. ¿Alguno concentra más animales con
+  ehrlichiosis?
+:::
+
+# Datos perdidos e imputación múltiple (Semana 14)
+
+Su base tiene datos perdidos. Eliminar los registros incompletos reduce la
+muestra; reemplazar por la media subestima la variabilidad. La imputación
+múltiple crea 5 bases plausibles, ajusta el modelo en cada una y combina los
+resultados (reglas de Rubin).
+
+```{r}
+#| label: faltantes
+
+datos_imputacion <- datos |>
+  select(ehrlichiosis, perros_en_hogar, vive_dentro_casa, hematocrito_pct, control_garrapatas, tamano_raza, edad_anios, plaquetas_10_3_ul, all_of(c("temperatura_c", "leucocitos_10_9_l", "proteinas_totales_g_dl", "globulinas_g_dl", "alt_u_l")))
+
+tibble(
+  variable = names(datos_imputacion),
+  porcentaje_faltante = round(100 * colMeans(is.na(datos_imputacion)), 1)
+) |>
+  filter(porcentaje_faltante > 0) |>
+  arrange(desc(porcentaje_faltante)) |>
+  kable()
+
+cat("Registros completos:", sum(complete.cases(datos_imputacion)), "de", nrow(datos_imputacion), "\n")
+```
+
+```{r}
+#| label: mice
+
+imputacion <- mice(datos_imputacion, m = 5, maxit = 10, seed = 2026, printFlag = FALSE)
+
+modelo_combinado <- with(
+  imputacion,
+  glm(ehrlichiosis ~ perros_en_hogar + vive_dentro_casa + hematocrito_pct + control_garrapatas, family = binomial)
+) |> pool()
+
+tabla_imputada <- summary(modelo_combinado, conf.int = TRUE, exponentiate = TRUE) |>
+  as_tibble() |>
+  mutate(term = as.character(term))
+
+# Comparación con el mismo modelo de la Sección 3 (solo casos completos)
+tabla_logistica |>
+  select(term, or_casos_completos = estimate) |>
+  left_join(tabla_imputada |> select(term, or_imputado = estimate, p_imputado = p.value), by = "term") |>
+  kable(digits = 3)
+
+cat("Animales usados: casos completos =", nobs(modelo_logistico),
+    "| imputación =", nrow(datos_imputacion), "\n")
+```
+
+::: {.callout-tip}
+## Para su exposición
+- ¿Qué variables tenían más datos perdidos y cuántos registros se perderían
+  usando solo casos completos?
+- ¿Cambiaron los OR al imputar? ¿Por qué la imputación múltiple es mejor que
+  eliminar registros o usar la media?
+:::
+
+# Guía para su exposición {.unnumbered}
+
+**Tiempo:** 10 minutos de exposición + 5 de preguntas. Todos los integrantes
+exponen una parte y deben poder responder sobre cualquier sección.
+
+**Diapositivas sugeridas (8 a 10):**
+
+1. Título: tema, especie e integrantes.
+2. Contexto, pregunta del estudio y población (tabla del inicio).
+3. Prueba t, ANOVA y regresión lineal (Semana 9).
+4. Chi-cuadrado y regresión logística (Semana 10).
+5. Severidad (ordinal) y conteo (Poisson) (Semana 10).
+6. Curvas de Kaplan-Meier y HR de Cox (Semana 11).
+7. Modelo multivariado: OR crudos frente a ajustados (Semana 12).
+8. PCA y perfiles de K-means (Semana 13).
+9. Imputación múltiple (Semana 14).
+10. Conclusiones: respondan la pregunta del estudio y den recomendaciones
+    prácticas.
+
+**Cada resultado se reporta así:** estimación + IC 95 % + valor p +
+significado práctico. Por ejemplo (valores ficticios): *"Los animales sin la
+medida preventiva tuvieron 2.1 veces más odds de enfermar (OR ajustado = 2.10;
+IC 95 %: 1.30 a 3.40; p = 0.002)."*
+
+**Eviten estos errores:**
+
+- Afirmar causalidad: los OR, HR, correlaciones y clusters muestran
+  **asociación**.
+- Decir que p > 0.05 "demuestra" que no hay diferencia.
+- Reportar solo el valor p, sin la magnitud del efecto ni el IC.
+- Olvidar que en su análisis de supervivencia el evento es favorable: HR > 1
+  significa recuperación más rápida.
