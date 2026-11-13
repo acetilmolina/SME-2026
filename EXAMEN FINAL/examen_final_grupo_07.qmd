@@ -1,27 +1,3 @@
----
-title: "Examen final · Grupo 07"
-subtitle: "Piroplasmosis equina en caballos de la costa norte"
-author: "Integrantes: (escriban aquí sus nombres)"
-lang: es
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    toc-title: "Contenido"
-    number-sections: true
-    embed-resources: true
-    df-print: kable
-execute:
-  warning: false
-  message: false
----
-
-# Bienvenidos {.unnumbered}
-
-Este documento es su examen final. **Todo el código ya está listo**: ustedes
-no tienen que programar. Su trabajo es ejecutar el documento, entender cada
-resultado y explicarlo en su exposición de la Semana 15.
-
 ## Su caso
 
 La piroplasmosis equina (*Theileria equi* y *Babesia caballi*) es una enfermedad transmitida por garrapatas que causa anemia, fiebre y pérdida de rendimiento, y restringe el movimiento internacional de caballos. Se evaluaron caballos de cuatro regiones de la costa norte. Se registró el tipo de alimentación, el sexo, el control regular de garrapatas, la edad, el número de traslados en el último año, el perímetro torácico, el peso vivo, el diagnóstico por PCR y, en los positivos, la severidad, el esquema de tratamiento y los días hasta normalizar el hematocrito.
