@@ -1,27 +1,3 @@
----
-title: "Examen final · Grupo 08"
-subtitle: "Pododermatitis infecciosa en ovinos del valle del Mantaro"
-author: "Integrantes: (escriban aquí sus nombres)"
-lang: es
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    toc-title: "Contenido"
-    number-sections: true
-    embed-resources: true
-    df-print: kable
-execute:
-  warning: false
-  message: false
----
-
-# Bienvenidos {.unnumbered}
-
-Este documento es su examen final. **Todo el código ya está listo**: ustedes
-no tienen que programar. Su trabajo es ejecutar el documento, entender cada
-resultado y explicarlo en su exposición de la Semana 15.
-
 ## Su caso
 
 La pododermatitis infecciosa (*foot rot*), causada por *Dichelobacter nodosus*, produce cojera, pérdida de peso y menor producción de lana, sobre todo en épocas húmedas. En cuatro provincias del valle del Mantaro (Junín) se evaluaron ovinos de majadas comunales. Se registró la raza, el sexo, el uso regular de pediluvio, la edad, el número de esquilas, el peso vivo, la producción de lana, el diagnóstico de pododermatitis y, en los casos, la severidad, el tratamiento y los días hasta la curación.
