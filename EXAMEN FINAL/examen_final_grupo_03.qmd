@@ -1,27 +1,3 @@
----
-title: "Examen final · Grupo 03"
-subtitle: "Complejo respiratorio felino en gatos de albergues"
-author: "Integrantes: (escriban aquí sus nombres)"
-lang: es
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    toc-title: "Contenido"
-    number-sections: true
-    embed-resources: true
-    df-print: kable
-execute:
-  warning: false
-  message: false
----
-
-# Bienvenidos {.unnumbered}
-
-Este documento es su examen final. **Todo el código ya está listo**: ustedes
-no tienen que programar. Su trabajo es ejecutar el documento, entender cada
-resultado y explicarlo en su exposición de la Semana 15.
-
 ## Su caso
 
 El complejo respiratorio felino (herpesvirus, calicivirus y bacterias secundarias) es la enfermedad más frecuente en albergues, donde el hacinamiento y el estrés favorecen el contagio. Se evaluaron gatos de cuatro albergues. Se registró la dieta, el sexo, la vacunación triple felina, el número de gatos por recinto, la condición corporal, el peso, la presencia de signos respiratorios y, en los enfermos, la severidad, el antibiótico usado y los días hasta la remisión de los signos.
