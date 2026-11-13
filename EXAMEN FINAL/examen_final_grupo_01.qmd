@@ -1,27 +1,3 @@
----
-title: "Examen final · Grupo 01"
-subtitle: "Complejo respiratorio bovino en terneros de engorde"
-author: "Integrantes: (escriban aquí sus nombres)"
-lang: es
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    toc-title: "Contenido"
-    number-sections: true
-    embed-resources: true
-    df-print: kable
-execute:
-  warning: false
-  message: false
----
-
-# Bienvenidos {.unnumbered}
-
-Este documento es su examen final. **Todo el código ya está listo**: ustedes
-no tienen que programar. Su trabajo es ejecutar el documento, entender cada
-resultado y explicarlo en su exposición de la Semana 15.
-
 ## Su caso
 
 El complejo respiratorio bovino (CRB) es la principal causa de enfermedad y de uso de antibióticos en los engordaderos. Un engordadero de la costa sur recibe terneros de distintas procedencias, que llegan tras varios traslados y con o sin vacunación respiratoria. Durante una campaña de engorde se registró, para cada ternero, su peso y edad al ingreso, el tipo de dieta, la ganancia diaria de peso, la presencia de neumonía y, en los terneros enfermos, la severidad, el tratamiento antibiótico recibido y los días hasta la recuperación clínica.
