@@ -1,27 +1,3 @@
----
-title: "Examen final · Grupo 02"
-subtitle: "Ehrlichiosis canina en perros atendidos en clínicas de Lima"
-author: "Integrantes: (escriban aquí sus nombres)"
-lang: es
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    toc-title: "Contenido"
-    number-sections: true
-    embed-resources: true
-    df-print: kable
-execute:
-  warning: false
-  message: false
----
-
-# Bienvenidos {.unnumbered}
-
-Este documento es su examen final. **Todo el código ya está listo**: ustedes
-no tienen que programar. Su trabajo es ejecutar el documento, entender cada
-resultado y explicarlo en su exposición de la Semana 15.
-
 ## Su caso
 
 La ehrlichiosis canina, transmitida por la garrapata marrón del perro (*Rhipicephalus sanguineus*), es frecuente en zonas urbanas cálidas y produce trombocitopenia, anemia y fiebre. Se evaluaron perros atendidos en clínicas veterinarias de cuatro zonas de Lima y Callao. Se registró el control de garrapatas usado, el tamaño de la raza, si el perro vive dentro de la casa, el recuento de plaquetas, el diagnóstico por PCR y, en los positivos, la severidad, el tratamiento y los días hasta normalizar las plaquetas.
