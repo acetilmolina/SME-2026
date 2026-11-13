@@ -1,27 +1,3 @@
----
-title: "Examen final · Grupo 09"
-subtitle: "Salmonelosis en cuyes de granjas familiares-comerciales"
-author: "Integrantes: (escriban aquí sus nombres)"
-lang: es
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    toc-title: "Contenido"
-    number-sections: true
-    embed-resources: true
-    df-print: kable
-execute:
-  warning: false
-  message: false
----
-
-# Bienvenidos {.unnumbered}
-
-Este documento es su examen final. **Todo el código ya está listo**: ustedes
-no tienen que programar. Su trabajo es ejecutar el documento, entender cada
-resultado y explicarlo en su exposición de la Semana 15.
-
 ## Su caso
 
 La salmonelosis (*Salmonella* Typhimurium) es la enfermedad más importante en la crianza de cuyes en el Perú: causa alta mortalidad en gazapos y reduce la ganancia de peso. En granjas de cuatro regiones se evaluaron cuyes desde el nacimiento hasta las 8 semanas. Se registró la línea genética, el sexo, la suplementación con vitamina C, la densidad de animales, el tamaño de camada, el peso al nacimiento y a las 8 semanas, el diagnóstico de salmonelosis y, en los casos, la severidad, el antibiótico y los días hasta la recuperación.
