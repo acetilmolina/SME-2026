@@ -1,27 +1,3 @@
----
-title: "Examen final · Grupo 06"
-subtitle: "Diarrea neonatal en crías de alpaca"
-author: "Integrantes: (escriban aquí sus nombres)"
-lang: es
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    toc-title: "Contenido"
-    number-sections: true
-    embed-resources: true
-    df-print: kable
-execute:
-  warning: false
-  message: false
----
-
-# Bienvenidos {.unnumbered}
-
-Este documento es su examen final. **Todo el código ya está listo**: ustedes
-no tienen que programar. Su trabajo es ejecutar el documento, entender cada
-resultado y explicarlo en su exposición de la Semana 15.
-
 ## Su caso
 
 La diarrea neonatal es una de las principales causas de mortalidad de crías de alpaca en la puna, asociada a la transferencia deficiente de inmunidad pasiva (encalostramiento) y al frío. En cuatro comunidades alpaqueras de Ayacucho se evaluaron crías durante su primer mes de vida. Se registró el sistema de crianza, el sexo, si el encalostramiento fue adecuado, la edad de la madre, el número de crías previas de la madre, el peso al nacimiento y a los 30 días, la presencia de diarrea y, en los casos, la severidad, el tratamiento y los días hasta la recuperación.
