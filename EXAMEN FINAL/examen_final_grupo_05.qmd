@@ -1,27 +1,3 @@
----
-title: "Examen final · Grupo 05"
-subtitle: "Coccidiosis en pollos de engorde"
-author: "Integrantes: (escriban aquí sus nombres)"
-lang: es
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    toc-title: "Contenido"
-    number-sections: true
-    embed-resources: true
-    df-print: kable
-execute:
-  warning: false
-  message: false
----
-
-# Bienvenidos {.unnumbered}
-
-Este documento es su examen final. **Todo el código ya está listo**: ustedes
-no tienen que programar. Su trabajo es ejecutar el documento, entender cada
-resultado y explicarlo en su exposición de la Semana 15.
-
 ## Su caso
 
 La coccidiosis (*Eimeria* spp.) es una de las enfermedades de mayor impacto económico en la avicultura, porque reduce el peso final y empeora la conversión alimenticia. En una empresa avícola se muestrearon pollos de cuatro galpones a los 35 días. Se registró el programa anticoccidial, el sexo, si el agua de bebida estaba clorada, la densidad de aves, el número de reutilizaciones de la cama, el consumo acumulado de alimento, el peso a los 35 días, el diagnóstico de coccidiosis clínica y, en los casos, la severidad, el tratamiento y los días hasta la negativización de ooquistes.
